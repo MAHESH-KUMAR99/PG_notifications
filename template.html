@@ -38,7 +38,8 @@ header select{padding:7px 8px;border:1px solid var(--line);border-radius:6px;bac
 .bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .bar button,.n .cp{background:none;border:0;color:var(--accent);font:inherit;font-size:13px;cursor:pointer;padding:0}
 .bar button:hover,.n .cp:hover{text-decoration:underline}
-.n .m span{margin-right:12px}.n .tag{color:var(--mute)}
+.n .m span{margin-right:12px}.manual{display:none;margin:12px 0 0;padding-left:12px;border-left:3px solid var(--warn);color:var(--ink);font-size:14px}.manual a{color:var(--accent);text-decoration:none;white-space:nowrap}.manual a:hover{text-decoration:underline}
+.n .tag{color:var(--mute)}
 *{scrollbar-width:thin;scrollbar-color:var(--line) transparent}
 ::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}::-webkit-scrollbar-thumb:hover{background:var(--mute)}::-webkit-scrollbar-track{background:transparent}
 h2.day.new{color:var(--new)}h2.day.today{color:var(--accent)}h2.day{font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);margin:22px 0 4px;font-weight:600}
@@ -69,7 +70,7 @@ h2.day.new{color:var(--new)}h2.day.today{color:var(--accent)}h2.day{font-size:12
 </header>
 <div class="wrap">
   <aside id="side"></aside>
-  <main><div class="status bar" id="statusbar"><span id="status"></span><button id="copyall" title="Copies the list below as a WhatsApp-ready message">Copy for WhatsApp</button><a id="feed" href="feed.xml" style="color:var(--accent);font-size:13px">RSS feed</a></div><div id="list"></div></main>
+  <main><div class="status bar" id="statusbar"><span id="status"></span><button id="copyall" title="Copies the list below as a WhatsApp-ready message">Copy for WhatsApp</button><a id="feed" href="feed.xml" style="color:var(--accent);font-size:13px">RSS feed</a></div><div id="manual" class="manual"></div><div id="list"></div></main>
 </div>
 <script>
 const DATA=/*__DATA__*/null;
@@ -85,7 +86,8 @@ const isNew=n=>!n.baseline&&(now-P(n.first_seen).getTime())<H24;
 const fmt=d=>{const x=new Date(d+"T00:00:00");return x.toLocaleDateString("en-IN",{day:"2-digit",month:"short",year:"numeric",weekday:"short"})};
 const ago=iso=>{if(!iso)return"never";const m=Math.round((now-P(iso).getTime())/6e4);return m<1?"just now":m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" d ago"};
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-function srcHealth(id){const s=srcs[id];if(!s||!s.last_ok)return"bad";if(s.error)return"warn";const age=now-P(s.last_ok).getTime();return age>6*3600e3?"warn":"ok"}
+const needsManual=id=>{const s=srcs[id];return !!s&&(s.manual||!s.last_ok||(s.fails||0)>=3||(now-P(s.last_ok).getTime())>6*3600e3)};
+function srcHealth(id){const s=srcs[id];if(!s||!s.last_ok)return"bad";if(needsManual(id)||s.error)return"warn";const age=now-P(s.last_ok).getTime();return age>6*3600e3?"warn":"ok"}
 function side(){
   const ids=Object.keys(srcs).sort((a,b)=>(srcs[a].order??99)-(srcs[b].order??99));
   const newBy={};all.forEach(n=>{if(isNew(n))newBy[n.source]=(newBy[n.source]||0)+1});
@@ -133,7 +135,12 @@ function render(){
   const bad=Object.keys(srcs).filter(i=>srcHealth(i)=="bad");
   let st=cur=="ALL"?`${items.length} notices from ${ids.length} sources.`:`${esc(srcs[cur].name)} · checked ${ago(srcs[cur].last_checked)} · <a href="${esc(srcs[cur].url)}" target="_blank" rel="noopener" style="color:var(--accent)">open site</a>`;
   if(cur!="ALL"&&srcs[cur].error)st+=` · <span class="err">${esc(srcs[cur].error)}</span>`;
-  if(cur=="ALL"&&bad.length)st+=` <span class="err">Not reachable: ${bad.map(esc).join(", ")}</span>`;
+  const link=id=>`<a href="${esc(srcs[id].url)}" target="_blank" rel="noopener">${esc(srcs[id].name)} ↗</a>`;
+  const man=Object.keys(srcs).sort((a,b)=>(srcs[a].order??99)-(srcs[b].order??99)).filter(needsManual);
+  let warn="";
+  if(cur=="ALL"&&man.length)warn=`Auto-update is not available for ${man.length} site${man.length>1?"s":""}. Please check the official website for the latest notices: ${man.map(link).join(" · ")}`;
+  if(cur!="ALL"&&needsManual(cur))warn=`Auto-update is not available for this site right now. Please check the official website for the latest notices: ${link(cur)}. The notices below are the last ones saved and may be outdated.`;
+  $("#manual").innerHTML=warn;$("#manual").style.display=warn?"block":"none";
   $("#status").innerHTML=st;
   const tg=$("#tag"),tags=[...new Set(all.map(n=>n.tag).filter(Boolean))].sort();
   if(tg.options.length!=tags.length+1){tg.innerHTML='<option value="">All types</option>'+tags.map(x=>`<option>${esc(x)}</option>`).join("");}

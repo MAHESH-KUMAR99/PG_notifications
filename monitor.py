@@ -327,6 +327,14 @@ def load_merged():
     for k, v in b["sources"].items():
         a["sources"][k] = v
     a["last_run_pc_utc"] = b.get("last_run_utc")
+    try:
+        with open(SRC_FILE, encoding="utf-8") as f:
+            for s in json.load(f)["sources"]:
+                if s["id"] in a["sources"]:
+                    a["sources"][s["id"]]["manual"] = bool(s.get("manual"))
+                    a["sources"][s["id"]]["url"] = s.get("view_url") or s["urls"][0]
+    except (OSError, ValueError, KeyError):
+        pass
     return a
 
 
