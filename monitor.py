@@ -396,7 +396,8 @@ def run(only):
             if st.get("fails", 0) >= 3:
                 notify(cfg, f"RECOVERED: {s['name']} is reachable again")
             st["fails"] = 0
-            first_run = not st.get("initialized")
+            first_run = not st.get("initialized") or "seen" not in st  # one-time baseline
+            seen = set(st.get("seen", []))
             new = 0
             seen_ids = set()
             head_budget = 12
@@ -409,6 +410,8 @@ def run(only):
                 if n["date"] and n["date"] < min_date:
                     continue
                 old = known.get(n["id"])
+                if not old and n["id"] in seen:
+                    continue  # already seen on the page before (was filtered as old)
                 if not old and not n["date"] and head_budget > 0 and (not first_run or n["rank"] < 25):
                     docs = [l["url"] for l in n["links"] if DOC_HREF.search(l["url"])]
                     if docs:
@@ -430,6 +433,7 @@ def run(only):
                     d = n["date"] or "date n/a"
                     notify(cfg, f"NEW | {s['name']} | {tag_of(n['title'])}\n{n['title']}\n{d}\n{n['links'][0]['url']}")
             st["initialized"] = True
+            st["seen"] = list(seen | seen_ids)[:5000]
             st["count"] = len(seen_ids)
             print(f"[{s['id']}] ok: {len(seen_ids)} notices, {new} new" + (" (baseline)" if first_run else ""))
         except Exception as e:  # noqa: BLE001  one broken source must never stop the others
