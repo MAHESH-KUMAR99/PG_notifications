@@ -1,0 +1,646 @@
+{
+ "sources": {
+  "J&K": {
+   "name": "Jammu & Kashmir",
+   "url": "https://www.jkbopee.gov.in/Notifications.aspx",
+   "last_checked": "2026-10-20T11:02:15+00:00",
+   "order": 3,
+   "error": null,
+   "last_ok": "2026-10-20T11:02:15+00:00",
+   "fails": 0,
+   "initialized": true,
+   "seen": [
+    "J&K:5b63727e0bfb",
+    "J&K:6817fd106a79",
+    "J&K:50f8d0d8d667",
+    "J&K:e97ef47bf750",
+    "J&K:4f33d071580b",
+    "J&K:fd4c36602c10",
+    "J&K:f20d37a4b74c",
+    "J&K:7118f368e456",
+    "J&K:3c46e278fc84",
+    "J&K:691c880ef081",
+    "J&K:95093cb8a3a9",
+    "J&K:e48eae77b4fd",
+    "J&K:b93c0a66ed06",
+    "J&K:16229068c891",
+    "J&K:0b79f27feacb",
+    "J&K:60447c691137",
+    "J&K:92a8a6c0f4ce",
+    "J&K:a57c864191dc",
+    "J&K:d5840820500d",
+    "J&K:dde89747badc",
+    "J&K:2eb4a5b3ceb8",
+    "J&K:7e62a3690a1f",
+    "J&K:0f351ebab76c",
+    "J&K:c5666054270a",
+    "J&K:4288c0735873",
+    "J&K:723741e67241",
+    "J&K:7c21beedc801",
+    "J&K:43ac219b86a0",
+    "J&K:64ea83b7b7b1",
+    "J&K:a3f05bbb65a9",
+    "J&K:6cc3e11210b0",
+    "J&K:eebaeaaf64af",
+    "J&K:0fbe1b2b6ffd",
+    "J&K:97a27b8524ec",
+    "J&K:33868b6edb70",
+    "J&K:78aef4b51855",
+    "J&K:b7344bbd6918",
+    "J&K:1d16d3a0833a",
+    "J&K:85bfc89fb5e2",
+    "J&K:c26a1d682792",
+    "J&K:36c5c3addd47",
+    "J&K:5155a74e9256",
+    "J&K:8ca930f569e5",
+    "J&K:b188d0d9f5f5",
+    "J&K:c73171c3e3b4",
+    "J&K:ac6366923693",
+    "J&K:3a583a8209f1",
+    "J&K:b865c2e1ba69",
+    "J&K:e0cf18b54fd2",
+    "J&K:03c07c02db46",
+    "J&K:5aa4ca48ce91",
+    "J&K:b07f5ec2b3ba",
+    "J&K:2a318e6bf6e5",
+    "J&K:124e7e0f77ad",
+    "J&K:8fdb02ee72a7",
+    "J&K:d8eb6b449724",
+    "J&K:05f4303ef0d9",
+    "J&K:b01fbdff3167",
+    "J&K:b6fbff33dc13",
+    "J&K:78296ecea42d",
+    "J&K:011b18c14b0f",
+    "J&K:fe98e9548966",
+    "J&K:b63a9b0fb0d2",
+    "J&K:397104b2cb1f",
+    "J&K:6bf7834bd7ed",
+    "J&K:eecb164921d4",
+    "J&K:87855c0d814b",
+    "J&K:ad6b02c6bb15",
+    "J&K:78f2f19cfeb0",
+    "J&K:6eeeec472945",
+    "J&K:7553369c9083",
+    "J&K:333b5b5988ce",
+    "J&K:7c3c7ad377d6",
+    "J&K:1dcc7f48e86e",
+    "J&K:07faf30adcbf",
+    "J&K:ea0cf5f3c1e2",
+    "J&K:9ab44bf03bee",
+    "J&K:a69210c6c290",
+    "J&K:a8fa0a3fb167",
+    "J&K:7a28b7f65b41",
+    "J&K:8688f70544a7",
+    "J&K:0e66850fb9df",
+    "J&K:778ed911cdcf",
+    "J&K:da3d274f7b4a",
+    "J&K:71c902f3295c",
+    "J&K:5825dd40c577",
+    "J&K:fcb66d63eb9e",
+    "J&K:dd0b245306cb",
+    "J&K:c89ab7194cda",
+    "J&K:6dfa469e0171",
+    "J&K:a5007a52e61b",
+    "J&K:dffaad78cfc0",
+    "J&K:4963e6ca353c",
+    "J&K:802f27ed15b1",
+    "J&K:3ffad776c79c",
+    "J&K:12f4a4c144e9",
+    "J&K:25a9364384a7",
+    "J&K:6e2e28c7d054",
+    "J&K:661f19271908",
+    "J&K:8c8e1ffd2e08",
+    "J&K:a85f9b64c8af",
+    "J&K:83dc5bbc272d",
+    "J&K:5c17b1516d08",
+    "J&K:3444ba29f302",
+    "J&K:92a8757e75e1",
+    "J&K:c2b7f3c24610",
+    "J&K:fbd85541a0ad",
+    "J&K:3691f70f1f65",
+    "J&K:dbae66ee344a"
+   ],
+   "count": 109
+  },
+  "KEA": {
+   "name": "Karnataka (KEA)",
+   "url": "https://cetonline.karnataka.gov.in/kea/pgetmed2026",
+   "last_checked": "2026-10-20T11:02:15+00:00",
+   "order": 2,
+   "error": null,
+   "last_ok": "2026-10-20T11:02:15+00:00",
+   "fails": 0,
+   "initialized": true,
+   "seen": [
+    "KEA:c5ab725d0d39",
+    "KEA:b75d39abf9d5",
+    "KEA:ecab78ed7646",
+    "KEA:abc22382c29d",
+    "KEA:edfce80b28c0",
+    "KEA:b0ef33da3c9b",
+    "KEA:df4778b4ffee"
+   ],
+   "count": 7
+  },
+  "AR": {
+   "name": "Arunachal",
+   "url": "https://dmetrap.in/",
+   "last_checked": "2026-10-20T11:02:15+00:00",
+   "order": 16,
+   "error": null,
+   "last_ok": "2026-10-20T11:02:15+00:00",
+   "fails": 0,
+   "initialized": true,
+   "seen": [
+    "AR:94bf5189e2dd",
+    "AR:d584d50f611d",
+    "AR:1327008cfef2",
+    "AR:533c92006a82",
+    "AR:8d43d62cc6d2",
+    "AR:e7cff5f6670b",
+    "AR:bb4296d91ebb"
+   ],
+   "count": 7
+  }
+ },
+ "notices": [
+  {
+   "title": "NEET-PG 2026 (MD/MS/PGD) online registration of eligible candidates of J&K/Ladakh for preparation of Provisional Merit List (PML)-2026. [NEET-PG-NN-228 Dt. 13-10-2026]",
+   "links": [
+    {
+     "label": "NEET-PG 2026 (MD/MS/PGD) online registration of eligible candidates of J&K/Ladakh for preparation of Provisional Merit List (PML)-2026. [NEET-PG-NN-228 Dt. 13-10-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19266&type=n"
+    }
+   ],
+   "date": "2026-10-13",
+   "date_src": "page",
+   "rank": 8,
+   "source": "J&K",
+   "id": "J&K:ad6b02c6bb15",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Candidates of UT of J&K /Ladakh who have appeared in NEET PG-2026, conducted by the National Board of Examinations in Medical Sciences (NBEMS) Issuance of roll number-wise list thereof. [NEET-PG-NN-225 Dt. 09-10-2026]",
+   "links": [
+    {
+     "label": "Candidates of UT of J&K /Ladakh who have appeared in NEET PG-2026, conducted by the National Board of Examinations in Medical Sciences (NBEMS) Issuance of roll number-wise list thereof. [NEET-PG-NN-225 Dt. 09-10-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19250&type=n"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "page",
+   "rank": 12,
+   "source": "J&K",
+   "id": "J&K:a5007a52e61b",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "4th Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar. [PGDRP-NN-220 Dt. 05-10-2026]",
+   "links": [
+    {
+     "label": "4th Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar. [PGDRP-NN-220 Dt. 05-10-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19230&type=n"
+    }
+   ],
+   "date": "2026-10-05",
+   "date_src": "page",
+   "rank": 17,
+   "source": "J&K",
+   "id": "J&K:a3f05bbb65a9",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "3rd Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar.[PGD-RP-217 Dt. 28-09-2026]",
+   "links": [
+    {
+     "label": "3rd Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar.[PGD-RP-217 Dt. 28-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19224&type=n"
+    }
+   ],
+   "date": "2026-09-28",
+   "date_src": "page",
+   "rank": 20,
+   "source": "J&K",
+   "id": "J&K:0e66850fb9df",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Provisional Selection List of candidates of UT of J&K/Ladakh for NEET MDS Courses 2026 after conduct of 2nd/Mop up round of online counselling. [NEET-MDS-NN-209 Dt. 22-09-2026]",
+   "links": [
+    {
+     "label": "Provisional Selection List of candidates of UT of J&K/Ladakh for NEET MDS Courses 2026 after conduct of 2nd/Mop up round of online counselling. [NEET-MDS-NN-209 Dt. 22-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19188&type=n"
+    }
+   ],
+   "date": "2026-09-22",
+   "date_src": "page",
+   "rank": 30,
+   "source": "J&K",
+   "id": "J&K:ea0cf5f3c1e2",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "2nd Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar. [PGDRP-NN-207 Dt. 21-09-2026]",
+   "links": [
+    {
+     "label": "2nd Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar. [PGDRP-NN-207 Dt. 21-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19182&type=n"
+    }
+   ],
+   "date": "2026-09-21",
+   "date_src": "page",
+   "rank": 32,
+   "source": "J&K",
+   "id": "J&K:c89ab7194cda",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Provisional Selection List of candidates for admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar [PGDRP-NN-199 Dt. 15-09-2026]",
+   "links": [
+    {
+     "label": "Provisional Selection List of candidates for admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar [PGDRP-NN-199 Dt. 15-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19156&type=n"
+    }
+   ],
+   "date": "2026-09-15",
+   "date_src": "page",
+   "rank": 41,
+   "source": "J&K",
+   "id": "J&K:92a8a6c0f4ce",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Conduct Of 2nd / Mop up Round of Counselling / Submission of Online Preferences by the eligible candidates for admission to NEET MDS Courses-2026. [NEET-MDS-NN-198 Dt. 15-09-2026]",
+   "links": [
+    {
+     "label": "Conduct Of 2nd / Mop up Round of Counselling / Submission of Online Preferences by the eligible candidates for admission to NEET MDS Courses-2026. [NEET-MDS-NN-198 Dt. 15-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19151&type=n"
+    }
+   ],
+   "date": "2026-09-15",
+   "date_src": "page",
+   "rank": 42,
+   "source": "J&K",
+   "id": "J&K:2eb4a5b3ceb8",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Provisional Merit List of candidates who have applied for admission to PG Diploma in Rehabilitation Psychology course 2026 at CRC, Srinagar- Inviting of the objections/Removal of deficiencies thereof.[PGDRP-NN-192, Dt. 11.09.2026]",
+   "links": [
+    {
+     "label": "Provisional Merit List of candidates who have applied for admission to PG Diploma in Rehabilitation Psychology course 2026 at CRC, Srinagar- Inviting of the objections/Removal of deficiencies thereof.[PGDRP-NN-192, Dt. 11.09.2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19136&type=n"
+    }
+   ],
+   "date": "2026-09-11",
+   "date_src": "page",
+   "rank": 48,
+   "source": "J&K",
+   "id": "J&K:eebaeaaf64af",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Revised Provisional Selection List of UT of J&K/Ladakh candidates for NEET MDS Courses 2026 after the 1st round of online counselling. [NEET-MDS-NN-182 Dt. 08-09-2026]",
+   "links": [
+    {
+     "label": "Revised Provisional Selection List of UT of J&K/Ladakh candidates for NEET MDS Courses 2026 after the 1st round of online counselling. [NEET-MDS-NN-182 Dt. 08-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19110&type=n"
+    }
+   ],
+   "date": "2026-09-08",
+   "date_src": "page",
+   "rank": 58,
+   "source": "J&K",
+   "id": "J&K:e48eae77b4fd",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Provisional Selection List of candidates of UT of J&K / Ladakh for NEET MDS Courses 2026 after the conduct of the 1st round of online counselling. [NEET-MDS-NN-181 Dt. 07-09-2026]",
+   "links": [
+    {
+     "label": "Provisional Selection List of candidates of UT of J&K / Ladakh for NEET MDS Courses 2026 after the conduct of the 1st round of online counselling. [NEET-MDS-NN-181 Dt. 07-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19106&type=n"
+    }
+   ],
+   "date": "2026-09-07",
+   "date_src": "page",
+   "rank": 59,
+   "source": "J&K",
+   "id": "J&K:7553369c9083",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Cancellation of provisional allotment of seat of Ms. Mahjabeena Noor under SC category in 3rd round and OM in Mop-up round and allotment of resultant seat to the next eligible SC candidate in the 3rd/Mop-Up Round of Counselling for GNM Lateral Entry course-2026 – regarding. [GNM-LE-NN-177 Dt. 02-09-",
+   "links": [
+    {
+     "label": "Cancellation of provisional allotment of seat of Ms. Mahjabeena Noor under SC category in 3rd round and OM in Mop-up round and allotment of resultant seat to the next eligible SC candidate in the 3rd/Mop-Up Round of Counselling for GNM Lateral Entry course-2026 – regarding. [GNM-LE-NN-177 Dt. 02-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19087&type=n"
+    }
+   ],
+   "date": "2026-09-02",
+   "date_src": "page",
+   "rank": 63,
+   "source": "J&K",
+   "id": "J&K:64ea83b7b7b1",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Admission to the NEET MDS for the Session 2026: Online choice filling/Counselling schedule thereof. [NEET-MDS-NN-176 Dt. 02-09-2026]",
+   "links": [
+    {
+     "label": "Admission to the NEET MDS for the Session 2026: Online choice filling/Counselling schedule thereof. [NEET-MDS-NN-176 Dt. 02-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19085&type=n"
+    }
+   ],
+   "date": "2026-09-02",
+   "date_src": "page",
+   "rank": 64,
+   "source": "J&K",
+   "id": "J&K:397104b2cb1f",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Inviting of Online Application(s) for Admission to PG Diploma in Rehabilitation Psychology Course-2026 in Composite Regional Centre (CRC) Srinagar. [PG-RP-NN-171 Dt. 28-08-2026]",
+   "links": [
+    {
+     "label": "Inviting of Online Application(s) for Admission to PG Diploma in Rehabilitation Psychology Course-2026 in Composite Regional Centre (CRC) Srinagar. [PG-RP-NN-171 Dt. 28-08-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19067&type=n"
+    }
+   ],
+   "date": "2026-08-28",
+   "date_src": "page",
+   "rank": 70,
+   "source": "J&K",
+   "id": "J&K:4963e6ca353c",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "Provisional Merit List (PML) of NEET MDS Courses-2026 for candidates belonging to the UT of J&K/Ladakh: Inviting of Objections thereof. [NEET-MDS-NN-169 Dt. 27-08-2026]",
+   "links": [
+    {
+     "label": "Provisional Merit List (PML) of NEET MDS Courses-2026 for candidates belonging to the UT of J&K/Ladakh: Inviting of Objections thereof. [NEET-MDS-NN-169 Dt. 27-08-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19054&type=n"
+    }
+   ],
+   "date": "2026-08-27",
+   "date_src": "page",
+   "rank": 72,
+   "source": "J&K",
+   "id": "J&K:6dfa469e0171",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Online registration of eligible candidates for NEET MDS-2026 of J&K/Ladakh for preparation of Provisional Merit List (PML)-2026. [NEET-PG-MDS-NN-155 Dt. 18-08-2026]",
+   "links": [
+    {
+     "label": "Online registration of eligible candidates for NEET MDS-2026 of J&K/Ladakh for preparation of Provisional Merit List (PML)-2026. [NEET-PG-MDS-NN-155 Dt. 18-08-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19011&type=n"
+    }
+   ],
+   "date": "2026-08-18",
+   "date_src": "page",
+   "rank": 86,
+   "source": "J&K",
+   "id": "J&K:802f27ed15b1",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Candidates of UT of J&K /Ladakh who have appeared in the NEET MDS-2026, conducted by the National Board of Examinations—Issuance of Roll Number wise list thereof.[MDS-NN-126, Dt. 29.07.2026]",
+   "links": [
+    {
+     "label": "Candidates of UT of J&K /Ladakh who have appeared in the NEET MDS-2026, conducted by the National Board of Examinations—Issuance of Roll Number wise list thereof.[MDS-NN-126, Dt. 29.07.2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=18926&type=n"
+    }
+   ],
+   "date": "2026-07-29",
+   "date_src": "page",
+   "rank": 115,
+   "source": "J&K",
+   "id": "J&K:7e62a3690a1f",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Filling up of unfilled seats in GMC, Jammu and ASCOMS, Jammu [PG-NN-24]",
+   "links": [
+    {
+     "label": "Filling up of unfilled seats in GMC, Jammu and ASCOMS, Jammu [PG-NN-24]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=12706&type=n"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1201,
+   "source": "J&K",
+   "id": "J&K:a69210c6c290",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Filling up of unfilled seats in ASCOMS and one seat of Pediatrics in GMC, Jammu, which became available due to resignation of a candidate. [PG-NN-22]",
+   "links": [
+    {
+     "label": "Filling up of unfilled seats in ASCOMS and one seat of Pediatrics in GMC, Jammu, which became available due to resignation of a candidate. [PG-NN-22]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=12698&type=n"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1203,
+   "source": "J&K",
+   "id": "J&K:e97ef47bf750",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Admission to MD/MS /PG Diploma-filling up of unfilled NRI Seat in ASCOMS, Jammu.[PG-NN-32]",
+   "links": [
+    {
+     "label": "Admission to MD/MS /PG Diploma-filling up of unfilled NRI Seat in ASCOMS, Jammu.[PG-NN-32]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=4396&type=n"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1321,
+   "source": "J&K",
+   "id": "J&K:0b79f27feacb",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "ಪಿಜಿ ಮೆಡಿಕಲ್ – 2026 ದೈಹಿಕ ಅಂಗವೈಕಲ್ಯ ಪರಿಶೀಲನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಸೂಚನೆ. 14-10-2026",
+   "links": [
+    {
+     "label": "ಪಿಜಿ ಮೆಡಿಕಲ್ – 2026 ದೈಹಿಕ ಅಂಗವೈಕಲ್ಯ ಪರಿಶೀಲನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಸೂಚನೆ. 14-10-2026",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/20261014180552kannada.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "page",
+   "rank": 2,
+   "source": "KEA",
+   "id": "KEA:df4778b4ffee",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Documents / Verification"
+  },
+  {
+   "title": "PG ವೈದ್ಯಕೀಯ 2026: ಕ್ಲೈಮ್ ಮಾಡದ 'A' ಮತ್ತು 'Y' ವರ್ಗಗಳು (NRI/LM/RM) - ಕ್ಲೈಮ್ ಸ್ಲಿಪ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್. 12/10/2026",
+   "links": [
+    {
+     "label": "PG ವೈದ್ಯಕೀಯ 2026: ಕ್ಲೈಮ್ ಮಾಡದ 'A' ಮತ್ತು 'Y' ವರ್ಗಗಳು (NRI/LM/RM) - ಕ್ಲೈಮ್ ಸ್ಲಿಪ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್. 12/10/2026",
+     "url": "https://cetonline.karnataka.gov.in/PGET2026VS//FORMS/LOGIN_APPOINT.ASPX"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "page",
+   "rank": 3,
+   "source": "KEA",
+   "id": "KEA:b75d39abf9d5",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "ಪಿಜಿ ಮೆಡಿಕಲ್ – 2026 ದೈಹಿಕ ಅಂಗವೈಕಲ್ಯ ಪರಿಶೀಲನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಸೂಚನೆ",
+   "links": [
+    {
+     "label": "ಪಿಜಿ ಮೆಡಿಕಲ್ – 2026 ದೈಹಿಕ ಅಂಗವೈಕಲ್ಯ ಪರಿಶೀಲನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಸೂಚನೆ",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/PGMED_PH_2026_NOTIkannada.pdf"
+    }
+   ],
+   "date": "2026-10-08",
+   "date_src": "file",
+   "rank": 4,
+   "source": "KEA",
+   "id": "KEA:edfce80b28c0",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Documents / Verification"
+  },
+  {
+   "title": "ಸೇಂಟ್ ಜಾನ್ಸ್ ಮೆಡಿಕಲ್ ಕಾಲೇಜು ದಾಖಲೆ ಪರಿಶೀಲನಾ ಟಿಪ್ಪಣಿ. 07/10/2026",
+   "links": [
+    {
+     "label": "ಸೇಂಟ್ ಜಾನ್ಸ್ ಮೆಡಿಕಲ್ ಕಾಲೇಜು ದಾಖಲೆ ಪರಿಶೀಲನಾ ಟಿಪ್ಪಣಿ. 07/10/2026",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/20261007121159kannada.pdf"
+    }
+   ],
+   "date": "2026-10-07",
+   "date_src": "page",
+   "rank": 6,
+   "source": "KEA",
+   "id": "KEA:abc22382c29d",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Documents / Verification"
+  },
+  {
+   "title": "ಸೇಂಟ್ ಜಾನ್ಸ್ ವೈದ್ಯಕೀಯ ಕಾಲೇಜು PG ಪ್ರವೇಶ ಮಾಹಿತಿ ಕೈಪಿಡಿ 2026-2027. 07/10/2026",
+   "links": [
+    {
+     "label": "ಸೇಂಟ್ ಜಾನ್ಸ್ ವೈದ್ಯಕೀಯ ಕಾಲೇಜು PG ಪ್ರವೇಶ ಮಾಹಿತಿ ಕೈಪಿಡಿ 2026-2027. 07/10/2026",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/Submission%20of%20details%20of%20sanctioned%20seats,%20seat%20matrix%20and%20fees%20for%20PG%20courses-2026-27kannada.pdf"
+    }
+   ],
+   "date": "2026-10-07",
+   "date_src": "page",
+   "rank": 7,
+   "source": "KEA",
+   "id": "KEA:c5ab725d0d39",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "PG ವೈದ್ಯಕೀಯ 2026 ಪರಿಶೀಲನಾ ಅಧಿಸೂಚನೆ. 06-10-2026",
+   "links": [
+    {
+     "label": "PG ವೈದ್ಯಕೀಯ 2026 ಪರಿಶೀಲನಾ ಅಧಿಸೂಚನೆ. 06-10-2026",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/ANN20261006172206kannada.pdf"
+    }
+   ],
+   "date": "2026-10-06",
+   "date_src": "page",
+   "rank": 8,
+   "source": "KEA",
+   "id": "KEA:b0ef33da3c9b",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Documents / Verification"
+  },
+  {
+   "title": "ಪಿಜಿ ವೈದ್ಯಕೀಯ 2026 ಅಧಿಸೂಚನೆ.06-10-2026",
+   "links": [
+    {
+     "label": "ಪಿಜಿ ವೈದ್ಯಕೀಯ 2026 ಅಧಿಸೂಚನೆ.06-10-2026",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/PGK20261006172220kannada.pdf"
+    }
+   ],
+   "date": "2026-10-06",
+   "date_src": "page",
+   "rank": 9,
+   "source": "KEA",
+   "id": "KEA:ecab78ed7646",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "NEET PG-2026 State Quota Counselling Seats (DNB/Diploma and MD/MS – TRIHMS) for Academic Session 2026‑27",
+   "links": [
+    {
+     "label": "NEET PG-2026 State Quota Counselling Seats (DNB/Diploma and MD/MS – TRIHMS) for Academic Session 2026‑27",
+     "url": "https://dmetrap.in/2026/10/16/neet-pg-2026-state-quota-counselling-seats-dnb-diploma-and-md-ms-trihms-for-academic-session-2026-27/"
+    }
+   ],
+   "date": "2026-10-16",
+   "date_src": "page",
+   "rank": 14,
+   "source": "AR",
+   "id": "AR:e7cff5f6670b",
+   "first_seen": "2026-10-20T11:02:15+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  }
+ ],
+ "last_run": "2026-10-20T11:02:15+00:00",
+ "last_run_utc": "2026-10-20T11:02:18"
+}

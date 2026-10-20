@@ -38,12 +38,13 @@ jobs:
           git config user.name "notices-bot"
           git config user.email "notices-bot@users.noreply.github.com"
           git add notices.json
-          git diff --cached --quiet || (git commit -m "update notices" && git push)
+          git diff --cached --quiet || (git commit -m "update notices" && git pull --rebase -X theirs && git push)
       - name: Build site
         run: |
           mkdir -p site
+          python monitor.py --html-only
           cp pg_notices.html site/index.html
-          cp notices.json site/notices.json
+          cp notices_merged.json site/notices.json
           cp feed.xml site/feed.xml
       - uses: actions/upload-pages-artifact@v3
         with:

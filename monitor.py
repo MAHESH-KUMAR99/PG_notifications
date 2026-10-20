@@ -26,7 +26,9 @@ from bs4 import BeautifulSoup
 urllib3.disable_warnings()
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC_FILE = os.path.join(HERE, "sources.json")
-DATA_FILE = os.path.join(HERE, "notices.json")
+PC_MODE = "--pc" in sys.argv
+DATA_FILE = os.path.join(HERE, "notices_pc.json" if PC_MODE else "notices.json")
+MERGED_FILE = os.path.join(HERE, "notices_merged.json")
 HTML_FILE = os.path.join(HERE, "pg_notices.html")
 CFG_FILE = os.path.join(HERE, "config.json")
 
@@ -311,6 +313,23 @@ def load():
     return {"sources": {}, "notices": []}
 
 
+def load_merged():
+    """notices.json (GitHub) + notices_pc.json (this PC, for sites that block GitHub's servers)."""
+    def read(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                return json.load(f)
+        except (OSError, ValueError):
+            return {"sources": {}, "notices": []}
+    a, b = read(os.path.join(HERE, "notices.json")), read(os.path.join(HERE, "notices_pc.json"))
+    pc_ids = set(b["sources"])
+    a["notices"] = [n for n in a["notices"] if n["source"] not in pc_ids] + b["notices"]
+    for k, v in b["sources"].items():
+        a["sources"][k] = v
+    a["last_run_pc_utc"] = b.get("last_run_utc")
+    return a
+
+
 def save(data):
     tmp = DATA_FILE + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
@@ -349,7 +368,8 @@ def run(only):
     data = load()
     known = {n["id"]: n for n in data["notices"]}
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")  # always UTC; the page converts to local time
-    srcs = [s for s in conf["sources"] if not only or s["id"] in only]
+    srcs = [s for s in conf["sources"]
+            if (not only or s["id"] in only) and (bool(s.get("via") == "pc") == PC_MODE or only)]
     random.shuffle(srcs)
     order = {x["id"]: i for i, x in enumerate(conf["sources"])}
     deadline = time.time() + 12 * 60  # never let one run hang the whole job
@@ -485,6 +505,11 @@ def build_html(data):
 if __name__ == "__main__":
     args = sys.argv[1:]
     if "--html-only" in args:
-        build_html(load())
+        merged = load_merged()
+        build_html(merged)
+        with open(MERGED_FILE, "w", encoding="utf-8") as f:
+            json.dump(merged, f, ensure_ascii=False)
+    elif PC_MODE:
+        run([a for a in args if not a.startswith("-")])
     else:
         build_html(run([a for a in args if not a.startswith("-")]))
