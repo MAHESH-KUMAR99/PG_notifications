@@ -3,19 +3,20 @@
   "BR HOME": {
    "name": "Bihar (BCECEB Home)",
    "url": "https://bceceboard.bihar.gov.in/index.php/",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
-   "count": 33,
-   "order": 12
+   "count": 25,
+   "order": 12,
+   "fails": 0
   },
   "KL": {
    "name": "Kerala (CEE)",
    "url": "https://cee.kerala.gov.in/pgm2026/notification",
-   "last_checked": "2026-10-20T15:47:43",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T15:47:43",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 4,
    "order": 19,
@@ -24,89 +25,97 @@
   "KEA": {
    "name": "Karnataka (KEA)",
    "url": "https://cetonline.karnataka.gov.in/kea/pgetmed2026",
-   "last_checked": "2026-10-20T11:49:04",
-   "error": null,
+   "last_checked": "2026-10-20T10:44:54",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='cetonline.karnataka.gov.in', port=443): Max retries ex",
    "last_ok": "2026-10-20T11:49:04",
    "initialized": true,
    "count": 7,
-   "order": 2
+   "order": 2,
+   "fails": 1
   },
   "MP": {
    "name": "Madhya Pradesh",
    "url": "https://dme.mponline.gov.in/portal/services/dmemp/DMEPG/Profile/ProfileLoginHome.aspx?Counstype=rfZR9zLVYzySY17sU9L9gA%3d%3d",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 14,
-   "order": 5
+   "order": 5,
+   "fails": 0
   },
   "MH": {
    "name": "Maharashtra",
    "url": "https://medical2026.mahacet.org/NEET-PGM-2026/login",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 3,
-   "order": 9
+   "order": 9,
+   "fails": 0
   },
   "TR": {
    "name": "Tripura",
    "url": "https://trmcc.admissions.nic.in/pg-counselling/",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 2,
-   "order": 6
+   "order": 6,
+   "fails": 0
   },
   "TG": {
    "name": "Telangana (KNRUHS)",
    "url": "https://www.knruhs.telangana.gov.in/all-notifications/",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 5,
-   "order": 4
+   "order": 4,
+   "fails": 0
   },
   "GJ": {
    "name": "Gujarat",
    "url": "https://www.medadmgujarat.org/pg/home.aspx",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
-   "count": 38,
-   "order": 7
+   "count": 37,
+   "order": 7,
+   "fails": 0
   },
   "PB": {
    "name": "Punjab (BFUHS)",
    "url": "https://admission.bfuhsonline.ac.in/mdms/mdms.asp",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 23,
-   "order": 8
+   "order": 8,
+   "fails": 0
   },
   "BR": {
    "name": "Bihar (PGMAC)",
    "url": "https://bceceboard.bihar.gov.in/PGMACIndex.php",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
-   "count": 6,
-   "order": 11
+   "count": 5,
+   "order": 11,
+   "fails": 0
   },
   "UP": {
    "name": "Uttar Pradesh",
    "url": "https://upneet.gov.in/NewandNotification.aspx",
-   "last_checked": "2026-10-20T15:47:03",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T15:47:03",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 21,
    "order": 10,
@@ -115,59 +124,64 @@
   "J&K": {
    "name": "Jammu & Kashmir",
    "url": "https://www.jkbopee.gov.in/Notifications.aspx",
-   "last_checked": "2026-10-20T11:49:04",
-   "error": null,
+   "last_checked": "2026-10-20T10:44:54",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.jkbopee.gov.in', port=443): Max retries exceeded w",
    "last_ok": "2026-10-20T11:49:04",
    "initialized": true,
    "count": 110,
-   "order": 3
+   "order": 3,
+   "fails": 1
   },
   "AR": {
    "name": "Arunachal",
    "url": "https://dmetrap.in/",
-   "last_checked": "2026-10-20T11:49:04",
-   "error": null,
+   "last_checked": "2026-10-20T10:44:54",
+   "error": "HTTP 403",
    "last_ok": "2026-10-20T11:49:04",
    "initialized": true,
    "count": 7,
-   "order": 16
+   "order": 16,
+   "fails": 1
   },
   "SK": {
    "name": "Sikkim (SMU)",
    "url": "https://www.smu.edu.in/",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 2,
-   "order": 14
+   "order": 14,
+   "fails": 0
   },
   "PY": {
    "name": "Puducherry (CENTAC)",
    "url": "https://www.centacpuducherry.in/",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 31,
-   "order": 15
+   "order": 15,
+   "fails": 0
   },
   "AP": {
    "name": "Andhra Pradesh",
    "url": "https://drntr.uhsap.in/index/",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
-   "count": 23,
-   "order": 17
+   "count": 22,
+   "order": 17,
+   "fails": 0
   },
   "MCC": {
    "name": "MCC (All India)",
    "url": "https://mcc.nic.in/pg-medical-counselling/",
-   "last_checked": "2026-10-20T15:47:03",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T15:47:03",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 16,
    "order": 0,
@@ -176,32 +190,35 @@
   "WB": {
    "name": "West Bengal",
    "url": "https://wbmcc.nic.in/pg-medical-counselling/",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
    "count": 5,
-   "order": 1
+   "order": 1,
+   "fails": 0
   },
   "TN": {
    "name": "Tamil Nadu",
    "url": "https://tnmedicalselection.net/",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
-   "count": 68,
-   "order": 13
+   "count": 64,
+   "order": 13,
+   "fails": 0
   },
   "AS": {
    "name": "Assam",
    "url": "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew",
-   "last_checked": "2026-10-20T11:49:04",
+   "last_checked": "2026-10-20T10:44:54",
    "error": null,
-   "last_ok": "2026-10-20T11:49:04",
+   "last_ok": "2026-10-20T10:44:54",
    "initialized": true,
-   "count": 48,
-   "order": 18
+   "count": 29,
+   "order": 18,
+   "fails": 0
   }
  },
  "notices": [
@@ -219,7 +236,8 @@
    "source": "BR HOME",
    "id": "BR HOME:10a5f24ef723",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "Check Slip & Biometric Form of PGPAC-2026",
@@ -235,7 +253,8 @@
    "source": "BR HOME",
    "id": "BR HOME:a0aae240e44a",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Seat Matrix for PGDAC-2026 Round-3",
@@ -251,7 +270,8 @@
    "source": "BR HOME",
    "id": "BR HOME:efdff8f1c3f0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "Round-2 Seat Allotment Result of PGDAC-2026",
@@ -267,7 +287,8 @@
    "source": "BR HOME",
    "id": "BR HOME:538d61eb683d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Round-2 Opening and Closing Rank of PGDAC-2026",
@@ -283,7 +304,8 @@
    "source": "BR HOME",
    "id": "BR HOME:0a6bf9a94759",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Second Round Seat Matrix for PGDAC-2026",
@@ -299,7 +321,8 @@
    "source": "BR HOME",
    "id": "BR HOME:fd142f66bca1",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "First Round Seat Allotment Result of PGDAC-2026",
@@ -315,7 +338,8 @@
    "source": "BR HOME",
    "id": "BR HOME:19dfdc4c2aa7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "First Round Opening and Closing Rank of PGDAC-2026",
@@ -331,7 +355,8 @@
    "source": "BR HOME",
    "id": "BR HOME:b4532cbf8da1",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Check Slip & Biometric Form of PGDAC-2026",
@@ -347,7 +372,8 @@
    "source": "BR HOME",
    "id": "BR HOME:7d2db4aade1d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Fee Structure of PGDAC-2026",
@@ -363,7 +389,8 @@
    "source": "BR HOME",
    "id": "BR HOME:45505b4058a0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "Seat Matrix for PGDAC-2026",
@@ -379,7 +406,8 @@
    "source": "BR HOME",
    "id": "BR HOME:f9d89e84cd39",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "Notice for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/02 Dated 18.10.2026)",
@@ -395,7 +423,8 @@
    "source": "BR HOME",
    "id": "BR HOME:79cde03f154f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
@@ -411,7 +440,8 @@
    "source": "BR HOME",
    "id": "BR HOME:ff0b8cf4d998",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Important Notice for of Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/05 Dated 02.10.2026)",
@@ -427,7 +457,8 @@
    "source": "BR HOME",
    "id": "BR HOME:9073d0e8dec7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Details of Registration-cum-Choice Filling for Admission in Round-3 of Post Graduate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/04 Dated 02.10.2026)",
@@ -443,7 +474,8 @@
    "source": "BR HOME",
    "id": "BR HOME:e365ba1c3111",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Revised Schedule of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/03 Dated 14.09.2026)",
@@ -459,7 +491,8 @@
    "source": "BR HOME",
    "id": "BR HOME:a81f4d602e7c",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Important Notice for Registration-cum-Choice Filling for Admission in Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/02 Dated 18.08.2026)",
@@ -475,7 +508,8 @@
    "source": "BR HOME",
    "id": "BR HOME:1db910ae044b",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Details for Registration-cum-Choice Filling for Admission in Post Graduate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/01 Dated 18.08.2026)",
@@ -491,7 +525,8 @@
    "source": "BR HOME",
    "id": "BR HOME:43cf67cd0938",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Notice for First Counselling of Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified(Adv. No. BCECEB(PGEAC)-2026/04 Dated 22.07.2026)",
@@ -507,7 +542,8 @@
    "source": "BR HOME",
    "id": "BR HOME:b31934ae4ada",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Details of First Counselling of Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified(Adv. No. BCECEB(PGEAC)-2026/03 Dated 22.07.2026)",
@@ -523,7 +559,8 @@
    "source": "BR HOME",
    "id": "BR HOME:991de576d1ba",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Important Notice for Filling up Online Application Form for Admission to Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified(Adv. No. BCECEB(PGEAC)-2026/02 Dated 07.07.2026)",
@@ -539,7 +576,8 @@
    "source": "BR HOME",
    "id": "BR HOME:31b145e7d22e",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Details for Filling up Online Application Form for Admission to Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified (Adv. No. BCECEB(PGEAC)-2026/01 Dated 07.07.2026)",
@@ -555,7 +593,8 @@
    "source": "BR HOME",
    "id": "BR HOME:eb4bf8483ee9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Stray Vacancy Round Seat Allotment Result of PGMAC-2025",
@@ -571,7 +610,8 @@
    "source": "BR HOME",
    "id": "BR HOME:8bf0ce043159",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Re-Revised Third Round Seat Allotment Result of PGMAC-2025",
@@ -587,7 +627,8 @@
    "source": "BR HOME",
    "id": "BR HOME:38f104137b75",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Revised Second Round Seat Allotment Result of PGMAC-2025",
@@ -603,7 +644,8 @@
    "source": "BR HOME",
    "id": "BR HOME:a1a88e1d0681",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Revised First Round Seat Allotment Result of PGMAC-2025",
@@ -619,7 +661,8 @@
    "source": "BR HOME",
    "id": "BR HOME:5d36d1ce9106",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Stray Vacancy Round Seat Allotment Result of PGDAC-2025",
@@ -635,7 +678,8 @@
    "source": "BR HOME",
    "id": "BR HOME:e88ea48eee2f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Third Round Seat Allotment Result of PGDAC-2025",
@@ -651,7 +695,8 @@
    "source": "BR HOME",
    "id": "BR HOME:fdfc484e89db",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Second Round Seat Allotment result of PGDAC-2025",
@@ -667,7 +712,8 @@
    "source": "BR HOME",
    "id": "BR HOME:94266526b557",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "First Round Final Seat Allotment result of PGDAC-2025",
@@ -683,7 +729,8 @@
    "source": "BR HOME",
    "id": "BR HOME:79bb93542c23",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Provision For Verification Of Profile Details Enabled",
@@ -703,7 +750,8 @@
    "source": "KL",
    "id": "KL:29747b8e690d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Application Invited- Date Extended",
@@ -723,7 +771,8 @@
    "source": "KL",
    "id": "KL:d5614ba9a20b",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Internship date correction regarding",
@@ -739,7 +788,8 @@
    "source": "KL",
    "id": "KL:be94125a1138",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Allotment/Admission To Post Graduate Medical (Degree) Courses- Online Applications Invited",
@@ -755,7 +805,8 @@
    "source": "KL",
    "id": "KL:200e5a9a88cf",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "ಪಿಜಿ ಮೆಡಿಕಲ್ – 2026 ದೈಹಿಕ ಅಂಗವೈಕಲ್ಯ ಪರಿಶೀಲನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಸೂಚನೆ. 14-10-2026",
@@ -771,7 +822,8 @@
    "source": "KEA",
    "id": "KEA:df4778b4ffee",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "PG ವೈದ್ಯಕೀಯ 2026: ಕ್ಲೈಮ್ ಮಾಡದ 'A' ಮತ್ತು 'Y' ವರ್ಗಗಳು (NRI/LM/RM) - ಕ್ಲೈಮ್ ಸ್ಲಿಪ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್. 12/10/2026",
@@ -787,7 +839,8 @@
    "source": "KEA",
    "id": "KEA:b75d39abf9d5",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "ಪಿಜಿ ಮೆಡಿಕಲ್ – 2026 ದೈಹಿಕ ಅಂಗವೈಕಲ್ಯ ಪರಿಶೀಲನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಸೂಚನೆ",
@@ -803,7 +856,8 @@
    "source": "KEA",
    "id": "KEA:edfce80b28c0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "ಸೇಂಟ್ ಜಾನ್ಸ್ ಮೆಡಿಕಲ್ ಕಾಲೇಜು ದಾಖಲೆ ಪರಿಶೀಲನಾ ಟಿಪ್ಪಣಿ. 07/10/2026",
@@ -819,7 +873,8 @@
    "source": "KEA",
    "id": "KEA:abc22382c29d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "ಸೇಂಟ್ ಜಾನ್ಸ್ ವೈದ್ಯಕೀಯ ಕಾಲೇಜು PG ಪ್ರವೇಶ ಮಾಹಿತಿ ಕೈಪಿಡಿ 2026-2027. 07/10/2026",
@@ -835,7 +890,8 @@
    "source": "KEA",
    "id": "KEA:c5ab725d0d39",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "PG ವೈದ್ಯಕೀಯ 2026 ಪರಿಶೀಲನಾ ಅಧಿಸೂಚನೆ. 06-10-2026",
@@ -851,7 +907,8 @@
    "source": "KEA",
    "id": "KEA:b0ef33da3c9b",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "ಪಿಜಿ ವೈದ್ಯಕೀಯ 2026 ಅಧಿಸೂಚನೆ.06-10-2026",
@@ -867,7 +924,8 @@
    "source": "KEA",
    "id": "KEA:ecab78ed7646",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Verification",
@@ -883,7 +941,8 @@
    "source": "MP",
    "id": "MP:43d8ef4d65b7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Names of Participating Medical Colleges in M.P. State Combined NEET PG Counselling-2026 (14.10.2026)",
@@ -899,7 +958,8 @@
    "source": "MP",
    "id": "MP:45aa84248b62",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Frequently ASKED Question- M.P. State Combined NEET PG-2026 Counselling (14.10.2026)",
@@ -915,7 +975,8 @@
    "source": "MP",
    "id": "MP:4c6d28b51d5b",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Tentative Time Schedule MP State NEET PG Counselling (MD/MS Course) 2026-27 ( Dated 12.10.2026)",
@@ -931,7 +992,8 @@
    "source": "MP",
    "id": "MP:d2287323141f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "USER MANUAL FOR PROFILE CREATION AND REGISTRATION PROCESS OF MP STATE NEET PG COUNSELLING (MD/MS Course) 2026-27 (DATE- 12.10.2026)",
@@ -947,7 +1009,8 @@
    "source": "MP",
    "id": "MP:98f3635eb38c",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Notice for Inservice Candidates MP State Combined Counselling NEET MD/MS 2026-27 (Dated 09.10.2026)",
@@ -963,7 +1026,8 @@
    "source": "MP",
    "id": "MP:5e6ac73937e9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Government Colleges Fee Chart MP State Combined Counselling NEET PG 2026-27 ( Dated- 09.10.2026)",
@@ -979,7 +1043,8 @@
    "source": "MP",
    "id": "MP:5cc940eb80f8",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "मध्‍य प्रदेश चिकित्‍सा शिक्षा प्रवेश नियम 2018 एवं संशोधन (Dated 09.10.2026)",
@@ -995,7 +1060,8 @@
    "source": "MP",
    "id": "MP:0c2ddfb84801",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Final Guidelines with respect to Persons with Benchmark Disabilities (PwBD) for Post Graduate Medical Courses received from NMC",
@@ -1011,7 +1077,8 @@
    "source": "MP",
    "id": "MP:694c1907e615",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Notice for PwD assessment for PG Round 1_2026",
@@ -1027,7 +1094,8 @@
    "source": "MP",
    "id": "MP:ba7bcf70487f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "The List of Primary Medical Assessment Boards who will issue Eligibility Certificates as per NMC norms to PwD candidates 2026-27",
@@ -1043,7 +1111,8 @@
    "source": "MP",
    "id": "MP:80c7c2af40c5",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Counselling Schedule Tentative Time Schedule MP State NEET PG Counselling (MD/MS Course) 2026-27 ( Dated )",
@@ -1059,7 +1128,8 @@
    "source": "MP",
    "id": "MP:8e4c6cb735c6",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "Rule Book/Steps/User Manual USER MANUAL FOR PROFILE CREATION AND REGISTRATION PROCESS OF MP STATE NEET PG COUNSELLING (MD/MS Course) 2026-27 (DATE- ) मध्‍य प्रदेश चिकित्‍सा शिक्षा प्रवेश नियम 2018 एवं संशोधन (Dated )",
@@ -1075,7 +1145,8 @@
    "source": "MP",
    "id": "MP:7f02d6e9ffd2",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Previous Year Notification",
@@ -1091,7 +1162,8 @@
    "source": "MP",
    "id": "MP:ddbd11ad1b19",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "NEET-PG-INFORMATION BROCHURE",
@@ -1107,7 +1179,8 @@
    "source": "MH",
    "id": "MH:ea794d1230ee",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "Notice No.02_Eligibility & Registratio Process of NRI Candidates",
@@ -1123,7 +1196,8 @@
    "source": "MH",
    "id": "MH:fc6fbddf33f0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Notice No.01_Schedule for Online Registration and CAP Round 1",
@@ -1139,7 +1213,8 @@
    "source": "MH",
    "id": "MH:25636909c4a4",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "Online Registration for PG Counselling",
@@ -1155,7 +1230,8 @@
    "source": "TR",
    "id": "TR:1972caae3e79",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Notification Regarding NEET-PG 2026 Candidates List (Applied as State in Permanent Address: Tripura)",
@@ -1171,7 +1247,8 @@
    "source": "TR",
    "id": "TR:6cedba6a9804",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "KNRUHS - MDS ADMISSIONS UNDER MANAGEMENT QUOTA FOR THE AY 2026-27 - REGISTRATION AFTER REVISED NEET MDS 2026 CUT-OFF SCORE",
@@ -1187,7 +1264,8 @@
    "source": "TG",
    "id": "TG:bb2afb34ab3e",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "KNRUHS - MDS ADMISSIONS UNDER COMPETENT AUTHORITY QUOTA FOR THE AY 2026-27 - REGISTRATION AFTER REVISED NEET MDS 2026 CUT-OFF SCORE",
@@ -1203,7 +1281,8 @@
    "source": "TG",
    "id": "TG:ce28dd4e87b6",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "KNRUHS - NOTIFICATION FOR UG/PG ASPIRANTS",
@@ -1219,7 +1298,8 @@
    "source": "TG",
    "id": "TG:6faeeaebae03",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "KNRUHS - EXAMINATIONS - RESULTS OF MEDICAL PG MDMS EXAMINATIONS - AUGUST 2026 - REGULAR CANDIDATES",
@@ -1235,7 +1315,8 @@
    "source": "TG",
    "id": "TG:46748be4a9a6",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "KNRUHS - EXAMINATIONS - RESULTS OF MEDICAL PG MDMS EXAMINATIONS - AUGUST 2026 - BACKLOG CANDIDATES",
@@ -1251,7 +1332,8 @@
    "source": "TG",
    "id": "TG:eeeb38e60aa0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Notification",
@@ -1267,7 +1349,8 @@
    "source": "GJ",
    "id": "GJ:fa9909f7bb78",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Civil Hospital List for PwD",
@@ -1283,7 +1366,8 @@
    "source": "GJ",
    "id": "GJ:35b14c38ebe9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "દિવ્યાંગતા ધરાવતા અરજી કરેલ વિદ્યાર્થીઓનું લીસ્ટ તથા હાજર રહેવાનું સ્થળ અને તારીખ",
@@ -1299,7 +1383,8 @@
    "source": "GJ",
    "id": "GJ:204419aff671",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Proforma of disability [દિવ્યાંગતાનું પ્રોફોર્મા]",
@@ -1315,7 +1400,8 @@
    "source": "GJ",
    "id": "GJ:9100e35ed70d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "• GUIDELINES ON ASSESSMENT OF PERSONS WITH BENCHMARK DISABILITIES (PWBD) FOR ADMISSION TO THE POST GRADUATE MEDICAL COURSE, 2026. Dated 16/09/2026",
@@ -1331,7 +1417,8 @@
    "source": "GJ",
    "id": "GJ:6c3e4a7ba2da",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "AIQ AND STATE COUNSELLING SCEHDULE PG 2026",
@@ -1347,7 +1434,8 @@
    "source": "GJ",
    "id": "GJ:b5c255976fa6",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Advertisement for MD/MS/DIPLOMA of Online Registration",
@@ -1363,7 +1451,8 @@
    "source": "GJ",
    "id": "GJ:d4b86fa5bc97",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Procedure for Online Registration",
@@ -1379,7 +1468,8 @@
    "source": "GJ",
    "id": "GJ:07dd3cc04de4",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Process of Online admission",
@@ -1395,7 +1485,8 @@
    "source": "GJ",
    "id": "GJ:f3a0e5501203",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "List of Help Centers",
@@ -1411,7 +1502,8 @@
    "source": "GJ",
    "id": "GJ:2622ed1bdc81",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Instruction for NRI Candidates",
@@ -1427,7 +1519,8 @@
    "source": "GJ",
    "id": "GJ:601010b48801",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "Authority Letter",
@@ -1443,7 +1536,8 @@
    "source": "GJ",
    "id": "GJ:c84e2d89b9b1",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Eligibility Criteria and list of Documents Required for Admission process of ACPPGMEC",
@@ -1459,7 +1553,8 @@
    "source": "GJ",
    "id": "GJ:5e117257885c",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Proforma of disability [દિવ્યાંગતાનું પ્રોફોર્મા]",
@@ -1475,7 +1570,8 @@
    "source": "GJ",
    "id": "GJ:7dc24ecfc817",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Result of NEET-PG 2026 Declared",
@@ -1491,7 +1587,8 @@
    "source": "GJ",
    "id": "GJ:4aee0cc4be3f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "16/09/2026 - Guidelines on Assessment of Persons with benchmark Disabilities (PwBD) for admission to the Post Graduate Medical Course, 2026.",
@@ -1507,7 +1604,8 @@
    "source": "GJ",
    "id": "GJ:cd7a3dbd4886",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Eligibility Criteria & List of Documents Required for Admission Process of ACPUGMEC 2026-27",
@@ -1523,7 +1621,8 @@
    "source": "GJ",
    "id": "GJ:f9231ca07218",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Instructions for NRI Candidates 2026-27",
@@ -1539,7 +1638,8 @@
    "source": "GJ",
    "id": "GJ:85b0aee547b6",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "Click Here PG Rules 201819",
@@ -1555,7 +1655,8 @@
    "source": "GJ",
    "id": "GJ:f0e301471618",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "List of the candidates whose Tuition fee is Refundable and pending with Admission Committee",
@@ -1571,7 +1672,8 @@
    "source": "GJ",
    "id": "GJ:d33cb8885ba7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the successful candidates whose Tuition fee is Refunded in Round 1",
@@ -1587,7 +1689,8 @@
    "source": "GJ",
    "id": "GJ:8c9ec871b482",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the successful candidates whose Tuition fee is Refunded in Round 2",
@@ -1603,7 +1706,8 @@
    "source": "GJ",
    "id": "GJ:16ec14fc306f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the successful candidates whose Tuition fee is Refunded in Round 3",
@@ -1619,7 +1723,8 @@
    "source": "GJ",
    "id": "GJ:d373bbb255c3",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the successful candidates whose Tuition fee is Refunded in Round 4",
@@ -1635,7 +1740,8 @@
    "source": "GJ",
    "id": "GJ:e213d76b483d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the successful candidates whose Tuition fee is Refunded in Round 5",
@@ -1651,7 +1757,8 @@
    "source": "GJ",
    "id": "GJ:747689dd262c",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the unsuccessful candidates whose Tuition fee is not Refunded in Round 1",
@@ -1667,7 +1774,8 @@
    "source": "GJ",
    "id": "GJ:b18878458aca",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the unsuccessful candidates whose Tuition fee is not Refunded in Round 2",
@@ -1683,7 +1791,8 @@
    "source": "GJ",
    "id": "GJ:43da87fc1387",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the candidates whose Security Deposit is Refundable and pending with Admission Committee",
@@ -1699,7 +1808,8 @@
    "source": "GJ",
    "id": "GJ:3baf7454f413",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the successful candidates whose Security Deposit is Refunded in Round 1",
@@ -1715,7 +1825,8 @@
    "source": "GJ",
    "id": "GJ:90c8b5eac323",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the successful candidates whose Security Deposit is Refunded in Round 2",
@@ -1731,7 +1842,8 @@
    "source": "GJ",
    "id": "GJ:c315a37b8de0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the successful candidates whose Security Deposit is Refunded in Round 3",
@@ -1747,7 +1859,8 @@
    "source": "GJ",
    "id": "GJ:3a7ae862a6b0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the successful candidates whose Security Deposit is Refunded in Round 4",
@@ -1763,7 +1876,8 @@
    "source": "GJ",
    "id": "GJ:989ed6e3cfc1",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the successful candidates whose Security Deposit is Refunded in Round 5",
@@ -1779,7 +1893,8 @@
    "source": "GJ",
    "id": "GJ:2795a3895cb5",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 1",
@@ -1795,7 +1910,8 @@
    "source": "GJ",
    "id": "GJ:fc4e37fc6b15",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 2",
@@ -1811,7 +1927,8 @@
    "source": "GJ",
    "id": "GJ:3cb4d65df95f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 3",
@@ -1827,7 +1944,8 @@
    "source": "GJ",
    "id": "GJ:8ca984d3c4de",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 4",
@@ -1843,7 +1961,8 @@
    "source": "GJ",
    "id": "GJ:71083587bc5f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "Compiled Closure PG 2025-26",
@@ -1859,7 +1978,8 @@
    "source": "GJ",
    "id": "GJ:ac01d97851c7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Extension of Last Date for Submission of No Objection Certificate (NOC) for Grant of Incentive Marks under PCMS Category for Admission to MD/MS/DNB/PG Diploma Courses for the Academic Session 2026 (NEET-PG 2026)",
@@ -1875,7 +1995,8 @@
    "source": "PB",
    "id": "PB:ee639b91eedb",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Click here to apply online for MDMS/Dip./PGDSM/6 month ultrasonography course/DNB under NEET PG 2026",
@@ -1891,7 +2012,8 @@
    "source": "PB",
    "id": "PB:40c8a4b293d0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Notice regarding MDS 3rd round of counselling",
@@ -1907,7 +2029,8 @@
    "source": "PB",
    "id": "PB:cae0b9f3a372",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Click here to submit willingness for 3rd Round",
@@ -1927,7 +2050,8 @@
    "source": "PB",
    "id": "PB:e61ed8398bb4",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Vacancy position for 3rd round MDS counselling",
@@ -1943,7 +2067,8 @@
    "source": "PB",
    "id": "PB:512ca164cb89",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "3rd round MDS schedule under NEET PG-MDS 2026",
@@ -1959,7 +2084,8 @@
    "source": "PB",
    "id": "PB:4813d0d7aea0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "Notice Reg. NOC for incentive marks for PCMS in-service candidates under NEET PG-2026",
@@ -1983,7 +2109,8 @@
    "source": "PB",
    "id": "PB:dd59148dada6",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Notice regarding 2nd round MDS result 2026",
@@ -1999,7 +2126,8 @@
    "source": "PB",
    "id": "PB:b79b94f19e4d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Provisional allotment 2nd round online counselling MDS 2026",
@@ -2015,7 +2143,8 @@
    "source": "PB",
    "id": "PB:76cab99ce049",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Notice regarding final merit list for 2nd round counselling under NEET MDS 2026",
@@ -2031,7 +2160,8 @@
    "source": "PB",
    "id": "PB:72bb06875cb9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Provisional Merit list for 2nd round MDS 2026",
@@ -2047,7 +2177,8 @@
    "source": "PB",
    "id": "PB:94e152f8dc89",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Click here to fill online choices for 2nd Round of MDS Counselling Under NEET PG 2026",
@@ -2063,7 +2194,8 @@
    "source": "PB",
    "id": "PB:4ae04b414c22",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Updated tentative vacancy position for MDS 2nd round online counselling 2026",
@@ -2079,7 +2211,8 @@
    "source": "PB",
    "id": "PB:547a14b42139",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "Tentative vacancy position for MDS 2nd round online counselling 2026",
@@ -2095,7 +2228,8 @@
    "source": "PB",
    "id": "PB:59b5a2123e30",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "Schedule for 2nd Round of MDS Counselling under NEET PG 2026",
@@ -2111,7 +2245,8 @@
    "source": "PB",
    "id": "PB:3d1d16ded5a8",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "Notice regarding final provisional result MDS 1st round counselling",
@@ -2127,7 +2262,8 @@
    "source": "PB",
    "id": "PB:ff342dcc642a",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Provisional selection list MDS 1st round 2026",
@@ -2143,7 +2279,8 @@
    "source": "PB",
    "id": "PB:60d879f47dbb",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "List of Eligible Christian minority candidates for PG MDS 2026",
@@ -2171,7 +2308,8 @@
    "source": "PB",
    "id": "PB:a91f0e99c60a",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Provisional Merit list for 1st Round NEET PG - MDS 2026",
@@ -2187,7 +2325,8 @@
    "source": "PB",
    "id": "PB:c585dd2c9f0a",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Remaining schedule of MDS course under NEET UG 2026",
@@ -2203,7 +2342,8 @@
    "source": "PB",
    "id": "PB:829bba58bbef",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "Notice Regarding Minority candidates under NEET PG MDS Courses",
@@ -2219,7 +2359,8 @@
    "source": "PB",
    "id": "PB:de4ab6b3365e",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Notice regarding submission of online application form for the First Round of Online Counselling has been extended up to 29.08.2026",
@@ -2235,7 +2376,8 @@
    "source": "PB",
    "id": "PB:7ebadddcfb5d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Prospectus MDS 2026",
@@ -2255,7 +2397,8 @@
    "source": "PB",
    "id": "PB:ce336d93ba3a",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "Notice Board",
@@ -2271,7 +2414,8 @@
    "source": "BR",
    "id": "BR:442619e88655",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Notice Board 2025",
@@ -2287,7 +2431,8 @@
    "source": "BR",
    "id": "BR:ec06dffb372a",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "OLD PROSPECTUS",
@@ -2303,7 +2448,8 @@
    "source": "BR",
    "id": "BR:cc3c84c838fd",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "Notice for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/02 Dated 18.10.2026)",
@@ -2319,7 +2465,8 @@
    "source": "BR",
    "id": "BR:79cde03f154f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
@@ -2335,7 +2482,8 @@
    "source": "BR",
    "id": "BR:ff0b8cf4d998",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Home | About us | Contact us | Site Map | Tenders | RTI | | | [LE] | | | | | Terms & Condition Copyright © Board Patna",
@@ -2371,7 +2519,8 @@
    "source": "BR",
    "id": "BR:6bd4c446002c",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "NEET-PG 2026 (MD/MS/PGD) online registration of eligible candidates of J&K/Ladakh for preparation of Provisional Merit List (PML)-2026. [NEET-PG-NN-228 Dt. 13-10-2026]",
@@ -2387,7 +2536,8 @@
    "source": "J&K",
    "id": "J&K:ad6b02c6bb15",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Candidates of UT of J&K /Ladakh who have appeared in NEET PG-2026, conducted by the National Board of Examinations in Medical Sciences (NBEMS) Issuance of roll number-wise list thereof. [NEET-PG-NN-225 Dt. 09-10-2026]",
@@ -2403,7 +2553,8 @@
    "source": "J&K",
    "id": "J&K:a5007a52e61b",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "4th Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar. [PGDRP-NN-220 Dt. 05-10-2026]",
@@ -2419,7 +2570,8 @@
    "source": "J&K",
    "id": "J&K:a3f05bbb65a9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "3rd Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar.[PGD-RP-217 Dt. 28-09-2026]",
@@ -2435,7 +2587,8 @@
    "source": "J&K",
    "id": "J&K:0e66850fb9df",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Provisional Selection List of candidates of UT of J&K/Ladakh for NEET MDS Courses 2026 after conduct of 2nd/Mop up round of online counselling. [NEET-MDS-NN-209 Dt. 22-09-2026]",
@@ -2451,7 +2604,8 @@
    "source": "J&K",
    "id": "J&K:ea0cf5f3c1e2",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "2nd Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar. [PGDRP-NN-207 Dt. 21-09-2026]",
@@ -2467,7 +2621,8 @@
    "source": "J&K",
    "id": "J&K:c89ab7194cda",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Provisional Selection List of candidates for admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar [PGDRP-NN-199 Dt. 15-09-2026]",
@@ -2483,7 +2638,8 @@
    "source": "J&K",
    "id": "J&K:92a8a6c0f4ce",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Conduct Of 2nd / Mop up Round of Counselling / Submission of Online Preferences by the eligible candidates for admission to NEET MDS Courses-2026. [NEET-MDS-NN-198 Dt. 15-09-2026]",
@@ -2499,7 +2655,8 @@
    "source": "J&K",
    "id": "J&K:2eb4a5b3ceb8",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Provisional Merit List of candidates who have applied for admission to PG Diploma in Rehabilitation Psychology course 2026 at CRC, Srinagar- Inviting of the objections/Removal of deficiencies thereof.[PGDRP-NN-192, Dt. 11.09.2026]",
@@ -2515,7 +2672,8 @@
    "source": "J&K",
    "id": "J&K:eebaeaaf64af",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Revised Provisional Selection List of UT of J&K/Ladakh candidates for NEET MDS Courses 2026 after the 1st round of online counselling. [NEET-MDS-NN-182 Dt. 08-09-2026]",
@@ -2531,7 +2689,8 @@
    "source": "J&K",
    "id": "J&K:e48eae77b4fd",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Provisional Selection List of candidates of UT of J&K / Ladakh for NEET MDS Courses 2026 after the conduct of the 1st round of online counselling. [NEET-MDS-NN-181 Dt. 07-09-2026]",
@@ -2547,7 +2706,8 @@
    "source": "J&K",
    "id": "J&K:7553369c9083",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Cancellation of provisional allotment of seat of Ms. Mahjabeena Noor under SC category in 3rd round and OM in Mop-up round and allotment of resultant seat to the next eligible SC candidate in the 3rd/Mop-Up Round of Counselling for GNM Lateral Entry course-2026 – regarding. [GNM-LE-NN-177 Dt. 02-09-",
@@ -2563,7 +2723,8 @@
    "source": "J&K",
    "id": "J&K:64ea83b7b7b1",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Admission to the NEET MDS for the Session 2026: Online choice filling/Counselling schedule thereof. [NEET-MDS-NN-176 Dt. 02-09-2026]",
@@ -2579,7 +2740,8 @@
    "source": "J&K",
    "id": "J&K:397104b2cb1f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "Inviting of Online Application(s) for Admission to PG Diploma in Rehabilitation Psychology Course-2026 in Composite Regional Centre (CRC) Srinagar. [PG-RP-NN-171 Dt. 28-08-2026]",
@@ -2595,7 +2757,8 @@
    "source": "J&K",
    "id": "J&K:4963e6ca353c",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Provisional Merit List (PML) of NEET MDS Courses-2026 for candidates belonging to the UT of J&K/Ladakh: Inviting of Objections thereof. [NEET-MDS-NN-169 Dt. 27-08-2026]",
@@ -2611,7 +2774,8 @@
    "source": "J&K",
    "id": "J&K:6dfa469e0171",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Online registration of eligible candidates for NEET MDS-2026 of J&K/Ladakh for preparation of Provisional Merit List (PML)-2026. [NEET-PG-MDS-NN-155 Dt. 18-08-2026]",
@@ -2627,7 +2791,8 @@
    "source": "J&K",
    "id": "J&K:802f27ed15b1",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Candidates of UT of J&K /Ladakh who have appeared in the NEET MDS-2026, conducted by the National Board of Examinations—Issuance of Roll Number wise list thereof.[MDS-NN-126, Dt. 29.07.2026]",
@@ -2643,7 +2808,8 @@
    "source": "J&K",
    "id": "J&K:7e62a3690a1f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "E-Counselling Instructions and Guidelines for admission to NEET PG (MD/MS/PGD)-2025.",
@@ -2659,7 +2825,8 @@
    "source": "J&K",
    "id": "J&K:56b3def34f50",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "Filling up of unfilled seats in GMC, Jammu and ASCOMS, Jammu [PG-NN-24]",
@@ -2675,7 +2842,8 @@
    "source": "J&K",
    "id": "J&K:a69210c6c290",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "Filling up of unfilled seats in ASCOMS and one seat of Pediatrics in GMC, Jammu, which became available due to resignation of a candidate. [PG-NN-22]",
@@ -2691,7 +2859,8 @@
    "source": "J&K",
    "id": "J&K:e97ef47bf750",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "Admission to MD/MS /PG Diploma-filling up of unfilled NRI Seat in ASCOMS, Jammu.[PG-NN-32]",
@@ -2707,7 +2876,8 @@
    "source": "J&K",
    "id": "J&K:0b79f27feacb",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "NEET PG-2026 State Quota Counselling Seats (DNB/Diploma and MD/MS – TRIHMS) for Academic Session 2026‑27",
@@ -2723,7 +2893,8 @@
    "source": "AR",
    "id": "AR:e7cff5f6670b",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "MDMS COUNSELLING SCHEDULE FOR FIRST ROUND-2026",
@@ -2739,7 +2910,8 @@
    "source": "SK",
    "id": "SK:d26c405a29b1",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "NOTICE FOR LAST DATE OF APPLICATION FOR MDMS-2026-27",
@@ -2755,7 +2927,8 @@
    "source": "SK",
    "id": "SK:940535cacad9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "PG-DENTAL DASHBOARD",
@@ -2771,7 +2944,8 @@
    "source": "PY",
    "id": "PY:f63e6a76c8d9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "[17-10-2026] - NOTICE : ROUND 3 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 / ROUND 2 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -2787,7 +2961,8 @@
    "source": "PY",
    "id": "PY:9b726bb0b650",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[17-10-2026] - NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL (MDS) DUE TO LOWERING OF CUT-OFF",
@@ -2803,7 +2978,8 @@
    "source": "PY",
    "id": "PY:a003ab74fafa",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "[16-10-2026] - LIST OF VACANCIES IN PG NEET DENTAL (M.D.S.) COURSES AFTER ROUND 2",
@@ -2819,7 +2995,8 @@
    "source": "PY",
    "id": "PY:d5188020ca0f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "[01-10-2026] - PG DENTAL ADMITTED LIST - SECOND ROUND - (2026 - 2027)",
@@ -2835,7 +3012,8 @@
    "source": "PY",
    "id": "PY:fa49a0cc8ccc",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[24-09-2026] - SECOND ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
@@ -2851,7 +3029,8 @@
    "source": "PY",
    "id": "PY:86f172c96c23",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[24-09-2026] - NOTICE : ROUND 2 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -2867,7 +3046,8 @@
    "source": "PY",
    "id": "PY:614a1c0ee9cc",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[23-09-2026] - SECOND ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
@@ -2883,7 +3063,8 @@
    "source": "PY",
    "id": "PY:68aa2b1b3e54",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[23-09-2026] - NOTICE : ROUND 2 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -2899,7 +3080,8 @@
    "source": "PY",
    "id": "PY:94a3cc618e97",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[22-09-2026] - LIST OF CANDIDATES ELIGIBLE FOR ROUND 2 PG DENTAL COUNSELLING (2026 - 2027)",
@@ -2915,7 +3097,8 @@
    "source": "PY",
    "id": "PY:6c4dc83acc41",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "[22-09-2026] - NOTICE : ROUND 2 ELIGIBLE CANDIDATES LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -2931,7 +3114,8 @@
    "source": "PY",
    "id": "PY:1381ff0bee3b",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "[16-09-2026] - NOTICE : ROUND 2 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -2947,7 +3131,8 @@
    "source": "PY",
    "id": "PY:7bc8060d76e6",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[16-09-2026] - PG DENTAL (M.D.S.) COURSES - VACANCIES AFTER ROUND 1",
@@ -2963,7 +3148,8 @@
    "source": "PY",
    "id": "PY:b8bfa121f92c",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "[16-09-2026] - PG DENTAL ADMITTED LIST - FIRST ROUND - (2026 - 2027)",
@@ -2979,7 +3165,8 @@
    "source": "PY",
    "id": "PY:a8299110e8f7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[07-09-2026] - FIRST ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
@@ -2995,7 +3182,8 @@
    "source": "PY",
    "id": "PY:159d26dc0011",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[07-09-2026] - NOTICE : ROUND 1 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -3011,7 +3199,8 @@
    "source": "PY",
    "id": "PY:42c7724d94d3",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[06-09-2026] - FIRST ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
@@ -3027,7 +3216,8 @@
    "source": "PY",
    "id": "PY:866aee21c325",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[06-09-2026] - NOTICE : ROUND 1 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -3043,7 +3233,8 @@
    "source": "PY",
    "id": "PY:808d6dc7bc20",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "[05-09-2026] - MGPGIDS - MDS FEE STRUCTURE FOR THE ACADEMIC YEAR 2026 - 2027",
@@ -3059,7 +3250,8 @@
    "source": "PY",
    "id": "PY:c5a7920c00bb",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "[04-09-2026] - FINAL MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
@@ -3075,7 +3267,8 @@
    "source": "PY",
    "id": "PY:f263727ca7e6",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "[04-09-2026] - NOTICE : FINAL MERIT LIST FOR PG DENTAL (M.D.S.) COURSES & SUBMISSION OF COURSE PREFERENCES FOR ROUND 1 FOR THE ACADEMIC YEAR 2026-2027",
@@ -3091,7 +3284,8 @@
    "source": "PY",
    "id": "PY:0686b785f7d9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "[03-09-2026] - MINDS - BDS & MDS REDUCED FEES FOR THE ACADEMIC YEAR 2026-2027",
@@ -3107,7 +3301,8 @@
    "source": "PY",
    "id": "PY:00fd03d6bacc",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "[24-08-2026] - REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -3123,7 +3318,8 @@
    "source": "PY",
    "id": "PY:b4540a007cb4",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "[24-08-2026] - NOTICE : REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -3139,7 +3335,8 @@
    "source": "PY",
    "id": "PY:1db3b8e867b0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "[18-08-2026] - DRAFT MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
@@ -3155,7 +3352,8 @@
    "source": "PY",
    "id": "PY:d9f51fba5586",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "[18-08-2026] - NOTICE : DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -3171,7 +3369,8 @@
    "source": "PY",
    "id": "PY:de81f48841b3",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "[04-08-2026] - NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -3187,7 +3386,8 @@
    "source": "PY",
    "id": "PY:a541d64dabdf",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "[23-07-2026] - PG DENTAL (M.D.S.) SEAT MATRIX FOR THE ACADEMIC YEAR 2026 - 2027",
@@ -3203,7 +3403,8 @@
    "source": "PY",
    "id": "PY:a2a75fc43525",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "[10-07-2026] - NOTICE : EXTENSION OF LAST DATE FOR SUBMISSION OF APPLICATION TO PG DENTAL (MDS) COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -3219,7 +3420,8 @@
    "source": "PY",
    "id": "PY:4376ce29845a",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "[01-07-2026] - PG NEET (DENTAL) INFORMATION BROCHURE - 2026-27",
@@ -3235,7 +3437,8 @@
    "source": "PY",
    "id": "PY:5842c98062be",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "[01-07-2026] - NOTICE : ADMISSION NOTIFICATION TO PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -3251,7 +3454,8 @@
    "source": "PY",
    "id": "PY:a3dbe7116890",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "MEDICAL PG - 2025-26 Admission Last Rank",
@@ -3267,7 +3471,8 @@
    "source": "AP",
    "id": "AP:593cb899a0d4",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "PG (MEDICAL) MQ PROSPECTUS 2026-27",
@@ -3283,7 +3488,8 @@
    "source": "AP",
    "id": "AP:8d798e7be2d8",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "PG (MEDICAL) MQ NOTIFICATION 2026-27",
@@ -3299,7 +3505,8 @@
    "source": "AP",
    "id": "AP:59e1f97641c7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "MDS MQ 2026-27 - Detailed Notification for Online applications due to lowering of qualifying Percentiles",
@@ -3315,7 +3522,8 @@
    "source": "AP",
    "id": "AP:f1bda54e0051",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "MDS CQ 2026-27 - Detailed Notification for Online applications due to lowering of qualifying Percentiles",
@@ -3331,7 +3539,8 @@
    "source": "AP",
    "id": "AP:0d84617f6a88",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "PG (MEDICAL) CQ NOTIFICATION 2026-27",
@@ -3347,7 +3556,8 @@
    "source": "AP",
    "id": "AP:3728f9344965",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "PG(Medical) CQ UserManual 2026-27",
@@ -3363,7 +3573,8 @@
    "source": "AP",
    "id": "AP:3b1b631ae64d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "PG (MEDICAL) CQ PROSPECTUS 2026-27",
@@ -3379,7 +3590,8 @@
    "source": "AP",
    "id": "AP:70b60c61c1be",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "PG (Dental) MQ 2026-27 - List of Not Reported Candidates after Phase-II Counselling",
@@ -3395,7 +3607,8 @@
    "source": "AP",
    "id": "AP:462cd8720df4",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "MDS MQ 2026-27 - Phase-II College Wise Allotments List",
@@ -3411,7 +3624,8 @@
    "source": "AP",
    "id": "AP:61890889f503",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "PG (Dental) MQ 2026-27 - List of Not Reported Candidates after Phase-I Counselling",
@@ -3427,7 +3641,8 @@
    "source": "AP",
    "id": "AP:07bb53dd9641",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "MDS MQ 2026-27 - Phase-II Web Options Notification",
@@ -3443,7 +3658,8 @@
    "source": "AP",
    "id": "AP:5b91c1214c78",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "PG (Dental) MQ Admissions 2026-27 - Corrigendum to MQ Provisional Final Merit list",
@@ -3459,7 +3675,8 @@
    "source": "AP",
    "id": "AP:7608105b633e",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Super Speciality November, 2026 Exams Notification",
@@ -3475,7 +3692,8 @@
    "source": "AP",
    "id": "AP:224e294b5853",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Super Speciality Attend & Testimonial Certificate",
@@ -3491,7 +3709,8 @@
    "source": "AP",
    "id": "AP:86b77f898e28",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "MDS September 2026 Notification",
@@ -3507,7 +3726,8 @@
    "source": "AP",
    "id": "AP:40fcc1d992d9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "PG Degree Diploma Sept, 2026 Regular Exams Notification",
@@ -3523,7 +3743,8 @@
    "source": "AP",
    "id": "AP:f7a0082ea8b7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "PG Attend & Testimonial Certificate",
@@ -3539,7 +3760,8 @@
    "source": "AP",
    "id": "AP:208f6970044d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "PG Degree Diploma April May, 2026 Exams Retotalling Results",
@@ -3555,7 +3777,8 @@
    "source": "AP",
    "id": "AP:212820602ed8",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "MDS Degree Diploma May, 2026 Exams Retotalling Results",
@@ -3571,7 +3794,8 @@
    "source": "AP",
    "id": "AP:25d540d71874",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "FINAL CENTRAL INTERNAL QUOTA SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
@@ -3587,7 +3811,8 @@
    "source": "MCC",
    "id": "MCC:4023d4397212",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "FINAL SEATS MATRIX DNB PG COUNSELLING 2026",
@@ -3603,7 +3828,8 @@
    "source": "MCC",
    "id": "MCC:c89ff5b4147d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "FINAL DEEMED SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
@@ -3619,7 +3845,8 @@
    "source": "MCC",
    "id": "MCC:e9f3c67e4260",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "FINAL ALL INDIA QUOTA SEATS MATRIX PG 2026 COUNSELLING (MD MS)",
@@ -3635,7 +3862,8 @@
    "source": "MCC",
    "id": "MCC:928488d0fe61",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "AIQ AND STATE COUNSELLING SCEHDULE PG 2026",
@@ -3651,7 +3879,8 @@
    "source": "MCC",
    "id": "MCC:aed10464281c",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "PG All India Quota schedule 2026",
@@ -3667,7 +3896,8 @@
    "source": "MCC",
    "id": "MCC:d82a873f7731",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "PG Information Bulletin 2026",
@@ -3683,7 +3913,8 @@
    "source": "MCC",
    "id": "MCC:ddd91fe80233",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "New Registration for NEET PG Counselling 2026",
@@ -3699,7 +3930,8 @@
    "source": "MCC",
    "id": "MCC:b2cbd43b8292",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Verification of PG Counselling 2026 Seat Matrix and Reporting of Discrepancies Before Completion of Round 1 Choice Filling",
@@ -3715,7 +3947,8 @@
    "source": "MCC",
    "id": "MCC:9ccaa4f9e594",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "NMC PWD guidelines clarification.",
@@ -3731,7 +3964,8 @@
    "source": "MCC",
    "id": "MCC:f86f3c292b65",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Corrigendum regarding NRI documents to be submitted dated 14.10.2026",
@@ -3747,7 +3981,8 @@
    "source": "MCC",
    "id": "MCC:4a11f108cf55",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Notice for PwD assessment for PG Round 1 2026",
@@ -3763,7 +3998,8 @@
    "source": "MCC",
    "id": "MCC:d39ce915ec54",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Final Guidelines with respect to Persons with Benchmark Disabilities (PwBD) for Post Graduate Medical Courses received from NMC dated 16.09.2026",
@@ -3779,7 +4015,8 @@
    "source": "MCC",
    "id": "MCC:28aa4873c9fe",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Participating Institute Details PG 2026",
@@ -3795,7 +4032,8 @@
    "source": "MCC",
    "id": "MCC:c9eae958c4e7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "List Of Medical Assessment Board",
@@ -3811,7 +4049,8 @@
    "source": "MCC",
    "id": "MCC:6aa9db071012",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Candidate User Guide – NEET PG Counselling 2026",
@@ -3827,7 +4066,8 @@
    "source": "MCC",
    "id": "MCC:32425db5b35f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "PwD verification order dated 30-09-2026",
@@ -3843,7 +4083,8 @@
    "source": "WB",
    "id": "WB:6e64c6ad3c60",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Round 1 Counselling Schedule",
@@ -3859,7 +4100,8 @@
    "source": "WB",
    "id": "WB:c26ec35976b0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "Medical Certificate",
@@ -3875,7 +4117,8 @@
    "source": "WB",
    "id": "WB:86598a848f62",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "EWS Proforma",
@@ -3891,7 +4134,8 @@
    "source": "WB",
    "id": "WB:671b0aeedf53",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "– Information Bulletin",
@@ -3907,7 +4151,8 @@
    "source": "WB",
    "id": "WB:e0996b07d222",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR MDS COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION.",
@@ -3923,7 +4168,8 @@
    "source": "TN",
    "id": "TN:6eecb2950779",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR ELIGIBLE CANDIDATES OF POST BASIC DIPLOMA COURSE 2026 - 2027 SESSION",
@@ -3939,7 +4185,8 @@
    "source": "TN",
    "id": "TN:7e0eec95cb4f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "CLICK HERE TO APPLY FOR MDS COURSE 2026 - 2027 SESSION",
@@ -3955,7 +4202,8 @@
    "source": "TN",
    "id": "TN:0a14b6e738f4",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Kind Attention to the Candidates seeking admission to MDS Courses under the Government Medical and Dental Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Dental Colleges in Tamil Nadu for 2026-2027 Session.",
@@ -3971,7 +4219,8 @@
    "source": "TN",
    "id": "TN:9df9d64cae42",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "CLICK HERE FOR ONLINE COUNSELLING OF POST BASIC DIPLOMA COURSES COURSE 2026-2027 SESSION",
@@ -3987,7 +4236,8 @@
    "source": "TN",
    "id": "TN:4bd1e9d205b8",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "TENTATIVE ONLINE COUNSELLING SCHEDULE FOR POST BASIC DIPLOMA COURSES 2026-2027 SESSION",
@@ -4003,7 +4253,8 @@
    "source": "TN",
    "id": "TN:f9052c758c8b",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR PG DEGREE /DIPLOMA COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION.",
@@ -4019,7 +4270,8 @@
    "source": "TN",
    "id": "TN:c905605c100d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "PROVISIONAL RANK LIST FOR ELIGIBLE CANDIDATES OF POST BASIC DIPLOMA COURSE 2026 - 2027 SESSION",
@@ -4035,7 +4287,8 @@
    "source": "TN",
    "id": "TN:4a525fb67654",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "CLICK HERE TO APPLY FOR PG DEGREE / DIPLOMA COURSES (GOVERNMENT / MANAGEMENT (INCLUDING MINORITY AND NRI CATEGORY)) QUOTA) 2026 - 2027 SESSION",
@@ -4051,7 +4304,8 @@
    "source": "TN",
    "id": "TN:3c37b0597076",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "PROSPECTUS FOR ADMISSION TO DNB BROAD SPECIALITY – Post MBBS and Post MBBS Diploma Seats (2 year Diploma Course) FOR SERVICE CANDIDATES 2026-2027 session",
@@ -4067,7 +4321,8 @@
    "source": "TN",
    "id": "TN:852900549726",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "PROSPECTUS FOR ADMISSION TO POST GRADUATE DEGREE / DIPLOMA COURSES IN GOVERNMENT MEDICAL COLLEGES AND GOVERNMENT SEATS IN SELF-FINANCING MEDICAL COLLEGES AFFILIATED TO THE TAMILNADU Dr. M.G.R MEDICAL UNIVERSITY 2026-2027 SESSION",
@@ -4083,7 +4338,8 @@
    "source": "TN",
    "id": "TN:35df30d091f7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "PROSPECTUS FOR ADMISSION TO POST GRADUATE DEGREE / DIPLOMA COURSES IN MANAGEMENT QUOTA INCLUDING NRI OF SELF-FINANCING MEDICAL COLLEGES IN TAMIL NADU 2026-2027 SESSION",
@@ -4099,7 +4355,8 @@
    "source": "TN",
    "id": "TN:5243ec4dac2e",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "Kind Attention to the candidates seeking admission to PG MD/MS/DIPLOMA & DNB Courses under the Government Medical Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Medical Colleges in Tamil Nadu for 2026-2027 Session.",
@@ -4115,7 +4372,8 @@
    "source": "TN",
    "id": "TN:012bd17c5270",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "ATTENTION TO THE CANDIDATES WHO ARE APPLYING FOR PG MD/MS/DIPLOMA COURSES FOR 2026-27 UNDER PWD CATEGORY",
@@ -4131,7 +4389,8 @@
    "source": "TN",
    "id": "TN:55ee3fce9f48",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "CLICK HERE TO DOWNLOAD HALL TICKET FOR PG AHS DEGREE COURSES M.P.T, M.O.T, MASTER OF MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY, MASTER OF MEDICAL LABORATORY SCIENCE, MASTER OF OPTOMETRY, MASTERS IN NUTRITION AND DIETETICS, M.SC NUCLEAR MEDICINE TECHNOLOGY 2026 - 2027 SESSION",
@@ -4147,7 +4406,8 @@
    "source": "TN",
    "id": "TN:000e1838a941",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "KIND ATTENTION TO THE CANDIDATES WHO HAVE APPLIED FOR ADMISSION TO PG AHS DEGREE COURSES M.P.T, M.O.T, MASTER OF MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY, MASTER OF MEDICAL LABORATORY SCIENCE, MASTER OF OPTOMETRY, MASTERS IN NUTRITION AND DIETETICS, M.SC NUCLEAR MEDICINE TECHNOLOGY FOR 2026-2027 SES",
@@ -4163,7 +4423,8 @@
    "source": "TN",
    "id": "TN:05202948c07b",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "CLICK HERE TO DOWNLOAD ALLOTMENT ORDER FOR ONLINE COUNSELLING OF SUPER SPECIALITY COURSES 2025 - 2026 SESSION",
@@ -4179,7 +4440,8 @@
    "source": "TN",
    "id": "TN:4d6cfe47d946",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Provisional List of Candidates allotted for Super Speciality Courses Session :2025 - 2026 on - 27.09.2026",
@@ -4195,7 +4457,8 @@
    "source": "TN",
    "id": "TN:38ab2ffe1084",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "CLICK HERE TO DOWNLOAD ALLOTMENT ORDER FOR ROUND-2 ONLINE COUNSELLING OF MDS COURSE (GOVERNMENT AND MANAGEMENT QUOTA (INCL. NRI AND MINORITY)) 2026 - 2027 SESSION",
@@ -4211,7 +4474,8 @@
    "source": "TN",
    "id": "TN:6c9bfbe5faf4",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Provisional List of Candidates allotted for MDS (Government Quota) Course Session :2026 - 2027 on - 26.09.2026",
@@ -4227,7 +4491,8 @@
    "source": "TN",
    "id": "TN:e42c9185fa36",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Provisional List of Candidates allotted for MDS (Management Quota) Course Session :2026 - 2027",
@@ -4243,7 +4508,8 @@
    "source": "TN",
    "id": "TN:b0153f68e5ab",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "VIRTUAL VACANCY FOR SUPER SPECIALITY FOR 2025-2026 SESSION ON - 26-09-2026",
@@ -4259,7 +4525,8 @@
    "source": "TN",
    "id": "TN:8b3cc351b159",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR ELIGIBLE CANDIDATES OF SUPER SPECIALITY (DM/MCH) COURSES - 2025 - 2026 SESSION",
@@ -4275,7 +4542,8 @@
    "source": "TN",
    "id": "TN:22ce76fb21e2",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "TENTATIVE STRAY ROUND COUNSELLING SCHEDULE FOR SUPER SPECIALITY (DM/MCH) COURSES IN TAMILNADU GOVERNMENT MEDICAL COLLEGES 2025 SESSION",
@@ -4291,7 +4559,8 @@
    "source": "TN",
    "id": "TN:972fae7ae7ae",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "TENTATIVE VACANCY POSITION FOR MDS COURSES 2026-2027 AS ON 24-09-2026",
@@ -4307,7 +4576,8 @@
    "source": "TN",
    "id": "TN:242eb69674cf",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "KIND ATTENTION TO CANDIDATES WHO ARE PARTICIPATING IN ROUND 2 OF MDS COUNSELLING 2026-2027 SESSION",
@@ -4323,7 +4593,8 @@
    "source": "TN",
    "id": "TN:be694fca32f9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "RESIGNATION OF ROUND -1 MDS courses in Government Dental Colleges and Government Quota /Management Quota including (NRI) in self financing Dental Colleges for academic 2026-2027",
@@ -4339,7 +4610,8 @@
    "source": "TN",
    "id": "TN:5354ac8a246f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "RESIGNATION PORTAL LINK FOR MDS COURSE ROUND-1 JOINED CANDIDATES 2026 - 2027 SESSION",
@@ -4355,7 +4627,8 @@
    "source": "TN",
    "id": "TN:a5632d7e5d93",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "TENTATIVE STRAY ROUND VACANCY POSITION FOR ONLINE COUNSELLING OF SUPER SPECIALITY 2025-2026 SESSION",
@@ -4371,7 +4644,8 @@
    "source": "TN",
    "id": "TN:fe08c8f7c7cd",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "KIND ATTENTION TO THE CANDIDATES SEEKING ADMISSION TO SUPER SPECIALITY (DM/MCh) COURSES IN TAMIL NADU GOVERNMENT MEDICAL COLLEGES ONLY FOR IN-SERVICE CANDIATES 2025-2026 SESSION",
@@ -4387,7 +4661,8 @@
    "source": "TN",
    "id": "TN:71aba6237b58",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "ATTENTION TO THE CANDIDATES APPLYING FOR PG AHS COURSES 2026-2027 SESSION",
@@ -4403,7 +4678,8 @@
    "source": "TN",
    "id": "TN:d7e248172fc7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "TENTATIVE ROUND- 2 COUNSELLING SCHEDULE FOR MDS DEGREE COURSE IN TAMILNADU GOVERNMENT DENTAL COLLEGES, GOVERNMENT & MANAGEMENT (INCL. MINORITY & NRI) QUOTA SEATS IN SELF-FINANCING DENTAL COLLEGES 2026-2027 SESSION",
@@ -4419,7 +4695,8 @@
    "source": "TN",
    "id": "TN:a52159978e42",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "KIND ATTENTION TO THE CANDIDATES SEEKING ADMISSION TO SUPER SPECIALITY (DM/MCh) COURSES IN TAMIL NADU GOVERNMENT MEDICAL COLLEGES ONLY FOR IN-SERVICE CANDIATES 2025-2026 SESSION",
@@ -4435,7 +4712,8 @@
    "source": "TN",
    "id": "TN:e2cc77c26c0c",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "CLICK HERE TO APPLY FOR PG AHS DEGREE COURSES (M.P.T, Master of Medical Radiology and Imaging Technology, M.O.T, Masters in Nutrition and Dietetics, M.Sc Nuclear Medicine Technology, Master of Optometry(M. Optom), Master of Medical Laboratory science, M.Sc. Molecular Virology, M.Sc Critical Care Tec",
@@ -4451,7 +4729,8 @@
    "source": "TN",
    "id": "TN:4883aecadcce",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Provisional List of Candidates allotted for MDS (Government Quota) Course Session :2026 - 2027 on - 05.09.2026",
@@ -4467,7 +4746,8 @@
    "source": "TN",
    "id": "TN:94e7ea49df6c",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Provisional List of Candidates allotted for MDS (Management Quota) Course Session :2026 - 2027 on - 05.09.2026",
@@ -4483,7 +4763,8 @@
    "source": "TN",
    "id": "TN:5a3413f8f563",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "SERVICE PROFORMA FOR ADMISSION TO POST BASIC DIPLOMA COURSES 2026-2027 SESSION",
@@ -4499,7 +4780,8 @@
    "source": "TN",
    "id": "TN:ac2af7200256",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "NOTIFICATION FOR MDS FEE STRUCTURE FOR 2026 - 2027 SESSION",
@@ -4515,7 +4797,8 @@
    "source": "TN",
    "id": "TN:446240c15165",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "TENTATIVE VACANCY POSITION FOR MDS COURSES 2026-2027 AS ON 29-08-2026",
@@ -4531,7 +4814,8 @@
    "source": "TN",
    "id": "TN:2ae9ddafef5d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "NOTIFICATION FOR THE CANDIDATES WHO ARE SEEKING ADMISSION FOR MDS COURSE 2026 - 2027 SESSION",
@@ -4547,7 +4831,8 @@
    "source": "TN",
    "id": "TN:577aff6aa6b4",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "TENTATIVE ROUND- I COUNSELLING SCHEDULE FOR MDS DEGREE COURSES IN TAMILNADU GOVERNMENT DENTAL COLLEGES, GOVERNMENT & MANAGEMENT (INCL. MINORITY & NRI) QUOTA SEATS IN SELF-FINANCING DENTAL COLLEGES2026-2027 SESSION",
@@ -4563,7 +4848,8 @@
    "source": "TN",
    "id": "TN:c3f13a743c3e",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "PROSPECTUS FOR ADMISSION TO POST BASIC DIPLOMA COURSES 2026-2027 SESSION",
@@ -4579,7 +4865,8 @@
    "source": "TN",
    "id": "TN:53b26543b067",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR MDS COURSE GOVERNMENT QUOTA 2026 - 2027 SESSION",
@@ -4595,7 +4882,8 @@
    "source": "TN",
    "id": "TN:9f8786232d48",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR MDS COURSE MANAGEMENT QUOTA 2026 - 2027 SESSION",
@@ -4611,7 +4899,8 @@
    "source": "TN",
    "id": "TN:f7c5e4722751",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "PROVISIONAL RANK LIST FOR PWD CATEGORY OF MDS (GOVERNMENT QUOTA) COURSE 2026-2027 SESSION",
@@ -4627,7 +4916,8 @@
    "source": "TN",
    "id": "TN:4420dd1be271",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "PROVISIONAL LIST OF CANDIDATES ELIGIBLE FOR NRI OF MDS (MANAGEMENT QUOTA) COURSE 2026-2027 SESSION",
@@ -4643,7 +4933,8 @@
    "source": "TN",
    "id": "TN:d878c7325d75",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "PROVISIONAL LIST OF CANDIDATES ELIGIBLE FOR CHRISTIAN MINORITY CATEGORY OF MDS (MANAGEMENT QUOTA) COURSE 2026-2027 SESSION",
@@ -4659,7 +4950,8 @@
    "source": "TN",
    "id": "TN:31a45b720502",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "PROVISIONAL LIST OF CANDIDATES ELIGIBLE FOR PWD CATEGORY OF MDS (GOVERNMENT QUOTA) COURSE 2026-2027 SESSION",
@@ -4675,7 +4967,8 @@
    "source": "TN",
    "id": "TN:bbdb1774d7df",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "PROVISIONAL RANK LIST FOR MDS(GOVERNMENT QUOTA)COURSE 2026 - 2027 SESSION",
@@ -4691,7 +4984,8 @@
    "source": "TN",
    "id": "TN:3cb78631018d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "PROVISIONAL RANK LIST FOR MDS(MANAGEMENT QUOTA)COURSE 2026 - 2027 SESSION",
@@ -4707,7 +5001,8 @@
    "source": "TN",
    "id": "TN:6121e3951317",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "GRIEVANCE PORTAL FOR INELIGIBLE CANDIDATES FOR ADMISSION TO MDS GOVERNMENT QUOTA 2026-2027 SESSION",
@@ -4723,7 +5018,8 @@
    "source": "TN",
    "id": "TN:55f4f5aa1b7d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "GRIEVANCE PORTAL FOR INELIGIBLE CANDIDATES FOR ADMISSION TO MDS MANAGEMENT QUOTA 2026-2027 SESSION",
@@ -4739,7 +5035,8 @@
    "source": "TN",
    "id": "TN:b434cb2d0291",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "PROSPECTUS FOR ADMISSION TO MDS COURSE IN GOVERNMENT DENTAL COLLEGES AND GOVERNMENT SEATS IN SELF-FINANCING DENTAL COLLEGES AFFILIATED TO THE TAMIL NADU Dr. M.G.R MEDICAL UNIVERSITY 2026 - 2027 SESSION",
@@ -4755,7 +5052,8 @@
    "source": "TN",
    "id": "TN:f407d1b4cb15",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "PROSPECTUS FOR ADMISSION TO MDS COURSE UNDER MANAGEMENT QUOTA INCLUDING NRI OF SELF-FINANCING DENTAL COLLEGES IN TAMIL NADU 2026-2027 Session",
@@ -4771,7 +5069,8 @@
    "source": "TN",
    "id": "TN:b4ee68571256",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "DATE EXTENDED FOR ONLINE SUBMISSION OF APPLICATIONS OF AHS DIPLOMA / CERTIFICATE COURSES/DIPLOMA IN OPTOMETRY/ DIPLOMA IN MEDICAL RECORD SCIENCE/MULTI PURPOSE HOSPITAL WORKER COURSE UPTO 21.07.2026 AT 5.00 PM",
@@ -4787,7 +5086,8 @@
    "source": "TN",
    "id": "TN:30e7163dfe23",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "PROSPECTUS FOR ADMISSION TO AHS DIPLOMA / CERTIFICATE COURSES 2026-2027 SESSION",
@@ -4803,7 +5103,8 @@
    "source": "TN",
    "id": "TN:65103f2714fc",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "CLICK HERE FOR ONLINE COUNSELLING OF DNB-PDCET COURSES 2026 - 2027 SESSION",
@@ -4819,7 +5120,8 @@
    "source": "TN",
    "id": "TN:2582d18320fb",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "TENTATIVE ROUND- I COUNSELLING SCHEDULE FOR DNB- PDCET COURSES IN TAMILNADU GOVERNMENT MEDICAL COLLEGES 2026-2027 SESSION",
@@ -4835,7 +5137,8 @@
    "source": "TN",
    "id": "TN:0d9aa89066cb",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "TENTATIVE VACANCY POSITION FOR DNB PDCET COURSES 2026 - 2027 SESSION",
@@ -4851,7 +5154,8 @@
    "source": "TN",
    "id": "TN:ad6097ea4d2e",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "PROVISIONAL MERIT LIST FOR DNB - PDCET - 2026 - 2027 SESSION",
@@ -4867,7 +5171,8 @@
    "source": "TN",
    "id": "TN:4c8ebc2cd3cd",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "PROSPECTUS FOR ADMISSION TO DNB BROAD SPECIALITY (POST DIPLOMA) FOR IN-SERVICE CANDIDATES 2026-2027 SESSION",
@@ -4883,7 +5188,8 @@
    "source": "TN",
    "id": "TN:f63122579b3f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "EXTENSION OF REFUND PORTAL FOR PG MD/MS/DIPLOMA & DNB COURSES FOR 2025-26 SESSION",
@@ -4899,7 +5205,8 @@
    "source": "TN",
    "id": "TN:cabf949814e6",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "EXTENSION OF REFUND PORTAL FOR PG MD/MS/DIPLOMA & DNB COURSES FOR 2025-26 SESSION",
@@ -4915,7 +5222,8 @@
    "source": "TN",
    "id": "TN:ab850ec6db96",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "EXTENSION OF REFUND PORTAL FOR PG MD/MS/DIPLOMA & DNB COURSES FOR 2025-26 SESSION",
@@ -4931,7 +5239,8 @@
    "source": "TN",
    "id": "TN:e4bc29925fcb",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "PROVISIONAL RANK LIST FOR DNB BROAD SPECIALITY POST MBBS AND POST MBBS 2 YEARS DIPLOMA COURSES FOR SERVICE CANDIDATES 2025 - 2026 SESSION",
@@ -4947,7 +5256,8 @@
    "source": "TN",
    "id": "TN:df89f8be3e6a",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Notice (Inclusion in Assam State NEET-PG-2026 merit list)",
@@ -4963,7 +5273,8 @@
    "source": "AS",
    "id": "AS:69d74fc835c0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Notice 1st PG Counselling & Provisional Merit List of NEET-PG-2026.",
@@ -4979,7 +5290,8 @@
    "source": "AS",
    "id": "AS:d7e9595b4662",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Notice for change in category NEET-PG-2026",
@@ -4995,7 +5307,8 @@
    "source": "AS",
    "id": "AS:ae6af0abb1e9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Notice for awarding addl. marks in NEET-PG-2026",
@@ -5011,7 +5324,8 @@
    "source": "AS",
    "id": "AS:6a3558260b53",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "PROVISIONAL MERIT LIST FOR ASSAM STATE QUOTA SEATS (NEET-PG, 2026)",
@@ -5027,7 +5341,8 @@
    "source": "AS",
    "id": "AS:9d54d21ad9db",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Educational Notice-3rd Counseling-MDS Courses, 2026",
@@ -5043,7 +5358,8 @@
    "source": "AS",
    "id": "AS:bc9363a3ecbf",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Reschedule of MDS 1st Counselling-2026 Notice-2",
@@ -5059,7 +5375,8 @@
    "source": "AS",
    "id": "AS:0691d9a4abfb",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Reschedule of MDS 1st Counselling-2026 Notice",
@@ -5075,7 +5392,8 @@
    "source": "AS",
    "id": "AS:e74435439abd",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Educational Notice-Counseling for admission into MDS Courses, Session, 2026",
@@ -5091,7 +5409,8 @@
    "source": "AS",
    "id": "AS:c64c76fdd58d",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Notice & Assam State NEET-MDS-2026 Merit List",
@@ -5107,7 +5426,8 @@
    "source": "AS",
    "id": "AS:d2b6d04865a7",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Educational notice (counselling for PG courses at LGB, Tezpur).pdf",
@@ -5123,7 +5443,8 @@
    "source": "AS",
    "id": "AS:3153a483eab1",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Stray round online PG counselling_2026",
@@ -5139,7 +5460,8 @@
    "source": "AS",
    "id": "AS:b1100d9be682",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Notice-3rd PG Counselling,2025(New Date)",
@@ -5155,7 +5477,8 @@
    "source": "AS",
    "id": "AS:2b51ea1290d1",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Educational Notice 3rd PG Counselling, 2025 (New result & admission dates)",
@@ -5171,7 +5494,8 @@
    "source": "AS",
    "id": "AS:9d8154ea2471",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Result / Allotment"
   },
   {
    "title": "Notice 3rd PG Counselling, 2025 (New)",
@@ -5187,7 +5511,8 @@
    "source": "AS",
    "id": "AS:25971ffea080",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Notice (Postponement of 3rd round PG Counselling, 2025)",
@@ -5203,7 +5528,8 @@
    "source": "AS",
    "id": "AS:c4b431176fdd",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Notice 3rd PG Counselling, 2025",
@@ -5219,7 +5545,8 @@
    "source": "AS",
    "id": "AS:2559b8c53968",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Engagement order for BMC Post PG SR",
@@ -5235,7 +5562,8 @@
    "source": "AS",
    "id": "AS:e95b87e4e4ba",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Admission Notice-NEET-PG,2025, Round-2",
@@ -5251,7 +5579,8 @@
    "source": "AS",
    "id": "AS:64d106eedc5f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Notice (Extension of choice filling) 2nd round PG course, session 2025",
@@ -5267,7 +5596,8 @@
    "source": "AS",
    "id": "AS:0d2a17a86466",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Notice 2nd PG Counselling, 2025",
@@ -5283,7 +5613,8 @@
    "source": "AS",
    "id": "AS:8f0eaa66a30f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Educational Notice-1st round of PG counseling' 2025",
@@ -5299,7 +5630,8 @@
    "source": "AS",
    "id": "AS:8d0b186741ba",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Corrigendum (PG-2025 seat)",
@@ -5315,7 +5647,8 @@
    "source": "AS",
    "id": "AS:2309e1255599",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Notice 1st PG Counselling, 2025 (New Schedule).pdf",
@@ -5331,7 +5664,8 @@
    "source": "AS",
    "id": "AS:1f6188a3c36f",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "Educational Notice (1st PG online counselling, 2025) Re-scheduled",
@@ -5347,7 +5681,8 @@
    "source": "AS",
    "id": "AS:1732cb470287",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Notice (Postponement of PG 1st round choice filling)",
@@ -5363,7 +5698,8 @@
    "source": "AS",
    "id": "AS:f2cad1a14e0a",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Notice 1st PG Counselling, 2025",
@@ -5379,7 +5715,8 @@
    "source": "AS",
    "id": "AS:26323c9b3ca0",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Notice (Publication of NEET-PG-2025 State Merit list)",
@@ -5395,7 +5732,8 @@
    "source": "AS",
    "id": "AS:c637431d97a2",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "Notice-Reservation policy in 85% Assam State Quota UG seats & 50% Assam State Quota PG seats",
@@ -5411,7 +5749,8 @@
    "source": "AS",
    "id": "AS:a877dc593a40",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "APPLICATION FORMAT (PG incentive)",
@@ -5427,7 +5766,8 @@
    "source": "AS",
    "id": "AS:6b2f285b8ced",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Educational Notice for awarding addl. marks in NEET-PG-2025",
@@ -5443,7 +5783,8 @@
    "source": "AS",
    "id": "AS:661a9f2f2849",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Re-schedule of MDS counseling,2025",
@@ -5459,7 +5800,8 @@
    "source": "AS",
    "id": "AS:dbb6795957b3",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Admission Notice-MDS counseling,25",
@@ -5475,7 +5817,8 @@
    "source": "AS",
    "id": "AS:5b7afc04e161",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Admission Notice-MDS Counseling, 2025",
@@ -5491,7 +5834,8 @@
    "source": "AS",
    "id": "AS:66701bfa0de9",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Educational Notice (1 year Post PG Engagement under NHM, Assam )",
@@ -5507,7 +5851,8 @@
    "source": "AS",
    "id": "AS:76f39c6db5d3",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "COUNSELLING FOR 1 YEAR POST PG ENGAGEMENT UNDER NHM, ASSAM",
@@ -5523,7 +5868,8 @@
    "source": "AS",
    "id": "AS:bcece1d71e52",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Admission Notice-MDS Counseling,2025",
@@ -5539,7 +5885,8 @@
    "source": "AS",
    "id": "AS:3533bae1f0e2",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Post PG engagement order'2025",
@@ -5555,7 +5902,8 @@
    "source": "AS",
    "id": "AS:16ed4ba4c696",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Admission_Notice-_NEET-PG,_Stray_Round",
@@ -5571,7 +5919,8 @@
    "source": "AS",
    "id": "AS:a3b15efa9243",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Admission_Notice-NEET-PG,_Round_3",
@@ -5587,7 +5936,8 @@
    "source": "AS",
    "id": "AS:7e9a056ca568",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "Notice 3rd PG Counselling (date extension)",
@@ -5603,7 +5953,8 @@
    "source": "AS",
    "id": "AS:0d8a3fbec287",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "Notice 3rd PG Counselling (Choice filling)",
@@ -5619,7 +5970,8 @@
    "source": "AS",
    "id": "AS:b1ef64db6dff",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "Instructions_Post PG Counselling",
@@ -5635,7 +5987,8 @@
    "source": "AS",
    "id": "AS:dcb2f5eff3bd",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "Notice_Post PG Counselling",
@@ -5651,7 +6004,8 @@
    "source": "AS",
    "id": "AS:3df81f798cd2",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Counselling Update"
   },
   {
    "title": "Notice (PG admission under PwD category)",
@@ -5667,7 +6021,8 @@
    "source": "AS",
    "id": "AS:d2127b116357",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "Engagement order Post PG Diploma-5-12-24",
@@ -5683,7 +6038,8 @@
    "source": "AS",
    "id": "AS:2b5679107bcf",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   },
   {
    "title": "PG Admission Notice (after document verification)",
@@ -5699,7 +6055,8 @@
    "source": "AS",
    "id": "AS:cadea431ff62",
    "first_seen": "2026-10-20T11:45:39",
-   "baseline": true
+   "baseline": true,
+   "tag": "Documents / Verification"
   },
   {
    "title": "UP NEET PG 2026 FIRST ROUND COUNSELLING TIME SCHEDULE HINDI/ENGLISH",
@@ -5715,7 +6072,8 @@
    "source": "UP",
    "id": "UP:cf1ec965d416",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "LIST OF ELIGIBLE CANDIDATES FROM THE PMHS CATEGORY FOR DNB COURSES PARTICIPATING IN NEET PG-2026 COUNSELING",
@@ -5731,7 +6089,8 @@
    "source": "UP",
    "id": "UP:2e0b627eaf57",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "LIST OF ELIGIBLE CANDIDATES FROM THE PMHS CATEGORY FOR MD/MS COURSES PARTICIPATING IN NEET PG-2026 COUNSELING",
@@ -5747,7 +6106,8 @@
    "source": "UP",
    "id": "UP:e52fd7442317",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "IMPORTANT INFORMATION REGARDING UP NEET MDS-2026 COUNSELLING",
@@ -5763,7 +6123,8 @@
    "source": "UP",
    "id": "UP:a8e1315c9f4c",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "IMPORTANT INFORMATION/INSTRUCTIONS FOR CANDIDATES PARTICIPATING IN THE THIRD ROUND OF ONLINE COUNSELING FOR UP NEET-MDS 2026",
@@ -5779,7 +6140,8 @@
    "source": "UP",
    "id": "UP:2a713d3887bf",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "UP NEET MDS-2026 RESIGN NOTICE",
@@ -5795,7 +6157,8 @@
    "source": "UP",
    "id": "UP:93db65b0e6a5",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "UP NEET MDS-2026 THIRD ROUND COUNSELLING TIME SCHEDULE HINDI/ENGLISH",
@@ -5811,7 +6174,8 @@
    "source": "UP",
    "id": "UP:e037d77f2af8",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "UP STATE MERIT LIST OF NEET-PG 2026 MDS SECOND ROUND",
@@ -5827,7 +6191,8 @@
    "source": "UP",
    "id": "UP:fb471508b1f4",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "TENTATIVE SEAT MATRIX FOR - UP NEET PG COUNSELING FOR MDS ROUND-2 -2026",
@@ -5843,7 +6208,8 @@
    "source": "UP",
    "id": "UP:eb9c89d203d6",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "IMPORTANT INFORMATION/INSTRUCTIONS FOR CANDIDATES PARTICIPATING IN THE SECOND ROUND OF ONLINE COUNSELING FOR UP NEET-MDS 2026",
@@ -5859,7 +6225,8 @@
    "source": "UP",
    "id": "UP:288242961e26",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "UP NEET MDS-2026 SECOND ROUND COUNSELLING TIME SCHEDULE",
@@ -5875,7 +6242,8 @@
    "source": "UP",
    "id": "UP:e0eb1db844ab",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "UPNEET MDS 2026 TUITION FEE",
@@ -5891,7 +6259,8 @@
    "source": "UP",
    "id": "UP:a0b9caa4496e",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "TENTATIVE SEAT MATRIX FOR - UP NEET PG COUNSELING FOR MDS DENTAL-2026",
@@ -5907,7 +6276,8 @@
    "source": "UP",
    "id": "UP:c92148c381bc",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
   },
   {
    "title": "UP STATE MERIT LIST OF NEET-PG 2026 MDS FIRST ROUND",
@@ -5923,7 +6293,8 @@
    "source": "UP",
    "id": "UP:d80cae9f2a00",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Merit / Rank List"
   },
   {
    "title": "REVISED TIME SCHEDULE OF FIRST ROUND OF ONLINE COUNSELING FOR UP NEET MDS-2026",
@@ -5939,7 +6310,8 @@
    "source": "UP",
    "id": "UP:8d4dd071d090",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Revised / Extended"
   },
   {
    "title": "FEES STRUCTURE OF MDS-2026 COURSES IN PRIVATE DENTAL COLLEGES MINORITY",
@@ -5955,7 +6327,8 @@
    "source": "UP",
    "id": "UP:92cb38f35fd5",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Fees / Refund"
   },
   {
    "title": "IMPORTANT INFORMATION/INSTRUCTIONS FOR CANDIDATES PARTICIPATING IN THE FIRST ROUND OF ONLINE COUNSELING FOR UP NEET-MDS 2026",
@@ -5971,7 +6344,8 @@
    "source": "UP",
    "id": "UP:e84bb7969c5a",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Registration / Apply"
   },
   {
    "title": "UP NEET MDS-2026 FIRST ROUND COUNSELLING TIME SCHEDULE",
@@ -5987,7 +6361,8 @@
    "source": "UP",
    "id": "UP:4242f67e2e69",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Schedule"
   },
   {
    "title": "IMPORTANT INFORMATION REGARDING CANDIDATES DEBARRED FROM COUNSELLING OF UP NEET MDS 2026",
@@ -6003,7 +6378,8 @@
    "source": "UP",
    "id": "UP:dcd2142302c4",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "UP NEET PG-2026 BROCHURE",
@@ -6019,7 +6395,8 @@
    "source": "UP",
    "id": "UP:f2da255ddeca",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
   },
   {
    "title": "UP NEET PG-2026 POLICY GO",
@@ -6035,9 +6412,10 @@
    "source": "UP",
    "id": "UP:ffdc86ad93c4",
    "first_seen": "2026-10-20T14:07:36",
-   "baseline": true
+   "baseline": true,
+   "tag": "Notice"
   }
  ],
- "last_run": "2026-10-20T15:47:43",
- "last_run_utc": "2026-10-20T10:17:46"
+ "last_run": "2026-10-20T10:44:54",
+ "last_run_utc": "2026-10-20T10:50:27"
 }
