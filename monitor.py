@@ -16,7 +16,7 @@ import random
 import re
 import sys
 import time
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from urllib.parse import urljoin
 
 import requests
@@ -125,7 +125,7 @@ def url_date(url):
 def file_date(url):
     """Last-Modified of the linked file (used when neither page nor URL gives a date)."""
     try:
-        r = requests.head(url, headers=HEADERS, timeout=15, verify=False, allow_redirects=True)
+        r = requests.head(url, headers=HEADERS, timeout=8, verify=False, allow_redirects=True)
         lm = r.headers.get("Last-Modified")
         if lm and r.status_code < 400:
             from email.utils import parsedate_to_datetime
@@ -137,7 +137,7 @@ def file_date(url):
     return None
 
 
-def fetch(url, pw=False, retries=3):
+def fetch(url, pw=False, retries=2):
     if pw:
         from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
@@ -150,7 +150,7 @@ def fetch(url, pw=False, retries=3):
     last = None
     for i in range(retries):
         try:
-            r = requests.get(url, headers=HEADERS, timeout=30, verify=False)
+            r = requests.get(url, headers=HEADERS, timeout=(10, 20), verify=False)
             if r.status_code == 200:
                 return r.content, r.url
             last = f"HTTP {r.status_code}"
@@ -353,6 +353,29 @@ def run(only):
     random.shuffle(srcs)
     order = {x["id"]: i for i, x in enumerate(conf["sources"])}
     deadline = time.time() + 12 * 60  # never let one run hang the whole job
+
+    def grab(s):
+        found, errs = [], []
+        for u in s["urls"]:
+            try:
+                html, final = fetch(u, pw=s.get("pw", False))
+                found += extract(html, final, s)
+            except Exception as e:  # noqa: BLE001
+                errs.append(str(e)[:120])
+            time.sleep(random.uniform(0.5, 1.5))
+        return found, errs
+
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    fetched = {}
+    ex = ThreadPoolExecutor(max_workers=6)
+    futs = {ex.submit(grab, s): s for s in srcs}
+    try:
+        for f in as_completed(futs, timeout=8 * 60):
+            fetched[futs[f]["id"]] = f.result()
+            print(f"fetched {futs[f]['id']}", flush=True)
+    except Exception as e:  # noqa: BLE001
+        print("fetch phase cut short:", type(e).__name__)
+    ex.shutdown(wait=False, cancel_futures=True)
     for s in srcs:
         st = data["sources"].setdefault(s["id"], {})
         if time.time() > deadline:
@@ -360,14 +383,7 @@ def run(only):
             continue
         try:
             st.update(name=s["name"], url=s.get("view_url") or s["urls"][0], last_checked=now, order=order[s["id"]])
-            found, errs = [], []
-            for u in s["urls"]:
-                try:
-                    html, final = fetch(u, pw=s.get("pw", False))
-                    found += extract(html, final, s)
-                except Exception as e:  # noqa: BLE001
-                    errs.append(str(e)[:120])
-                time.sleep(random.uniform(1.5, 4))
+            found, errs = fetched.get(s["id"], ([], ["timed out (site too slow or blocking this server)"]))
             if not found and not errs and st.get("count"):
                 errs.append(f"found 0 notices (was {st['count']}) - site layout may have changed")
             if errs and not found:
@@ -383,7 +399,7 @@ def run(only):
             first_run = not st.get("initialized")
             new = 0
             seen_ids = set()
-            head_budget = 20
+            head_budget = 12
             for n in found:
                 n["source"] = s["id"]
                 n["id"] = nid(s["id"], n)
@@ -423,7 +439,7 @@ def run(only):
     for n in data["notices"]:
         n["tag"] = tag_of(n["title"])
     data["last_run"] = now
-    data["last_run_utc"] = datetime.utcnow().isoformat(timespec="seconds")
+    data["last_run_utc"] = datetime.now(timezone.utc).replace(tzinfo=None).isoformat(timespec="seconds")
     save(data)
     return data
 
