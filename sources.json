@@ -1,0 +1,169 @@
+{
+  "min_date": "2026-07-01",
+  "sources": [
+    {
+      "id": "MCC",
+      "name": "MCC (All India)",
+      "urls": [
+        "https://mcc.nic.in/pg-medical-counselling/",
+        "https://mcc.nic.in/current-events-pg/",
+        "https://mcc.nic.in/news-events-pg/",
+        "https://mcc.nic.in/eservices-schedule-pg/"
+      ]
+    },
+    {
+      "id": "WB",
+      "name": "West Bengal",
+      "urls": [
+        "https://wbmcc.nic.in/pg-medical-counselling/"
+      ]
+    },
+    {
+      "id": "KEA",
+      "name": "Karnataka (KEA)",
+      "urls": [
+        "https://cetonline.karnataka.gov.in/kea/pgetmed2026"
+      ]
+    },
+    {
+      "id": "J&K",
+      "name": "Jammu & Kashmir",
+      "urls": [
+        "https://www.jkbopee.gov.in/Notifications.aspx"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "TG",
+      "name": "Telangana (KNRUHS)",
+      "urls": [
+        "https://www.knruhs.telangana.gov.in/all-notifications/"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "MP",
+      "name": "Madhya Pradesh",
+      "urls": [
+        "https://dme.mponline.gov.in/portal/services/dmemp/DMEPG/Profile/ProfileLoginHome.aspx?Counstype=rfZR9zLVYzySY17sU9L9gA%3d%3d"
+      ]
+    },
+    {
+      "id": "TR",
+      "name": "Tripura",
+      "urls": [
+        "https://trmcc.admissions.nic.in/pg-counselling/"
+      ]
+    },
+    {
+      "id": "GJ",
+      "name": "Gujarat",
+      "urls": [
+        "https://www.medadmgujarat.org/pg/home.aspx"
+      ]
+    },
+    {
+      "id": "PB",
+      "name": "Punjab (BFUHS)",
+      "urls": [
+        "https://admission.bfuhsonline.ac.in/mdms/mdms.asp"
+      ]
+    },
+    {
+      "id": "MH",
+      "name": "Maharashtra",
+      "urls": [
+        "https://medical2026.mahacet.org/NEET-PGM-2026/login"
+      ]
+    },
+    {
+      "id": "UP",
+      "name": "Uttar Pradesh",
+      "urls": [
+        "https://upneet.gov.in/Newsandevent2.aspx"
+      ],
+      "view_url": "https://upneet.gov.in/NewandNotification.aspx",
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "BR",
+      "name": "Bihar (PGMAC)",
+      "urls": [
+        "https://bceceboard.bihar.gov.in/PGMACIndex.php"
+      ]
+    },
+    {
+      "id": "BR HOME",
+      "name": "Bihar (BCECEB Home)",
+      "urls": [
+        "https://bceceboard.bihar.gov.in/index.php/"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "TN",
+      "name": "Tamil Nadu",
+      "urls": [
+        "https://tnmedicalselection.net/"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "SK",
+      "name": "Sikkim (SMU)",
+      "urls": [
+        "https://www.smu.edu.in/"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "PY",
+      "name": "Puducherry (CENTAC)",
+      "urls": [
+        "https://www.centacpuducherry.in/"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "AR",
+      "name": "Arunachal",
+      "urls": [
+        "https://dmetrap.in/"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "AP",
+      "name": "Andhra Pradesh",
+      "urls": [
+        "https://drntr.uhsap.in/index/"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "AS",
+      "name": "Assam",
+      "urls": [
+        "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "KL",
+      "name": "Kerala (CEE)",
+      "urls": [
+        "https://cee.kerala.gov.in/pgm2026/notification"
+      ]
+    }
+  ]
+}

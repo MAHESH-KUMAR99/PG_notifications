@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PG Notices Desk</title>
+<style>
+:root{--bg:#f6f7f9;--panel:#fff;--ink:#14181f;--mute:#6b7280;--line:#e5e7eb;--accent:#0b5fd6;--new:#d92d20;--ok:#12a150;--bad:#d92d20;--warn:#d97706}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1218;--panel:#171b23;--ink:#e8ebf0;--mute:#8b94a3;--line:#262c37;--accent:#5b9bff;--new:#ff6b5e;--ok:#3ddc84;--bad:#ff6b5e;--warn:#f5a524}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--panel);border-bottom:1px solid var(--line);display:flex;gap:20px;align-items:center;padding:10px 16px 0;flex-wrap:wrap}header>div,header>input{margin-bottom:10px}
+header h1{font-size:17px;margin:0;font-weight:650}
+header .sub{color:var(--mute);font-size:12.5px}
+header input[type=search]{flex:1;min-width:180px;max-width:420px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+label.chk{display:flex;align-items:center;gap:6px;color:var(--mute);font-size:13.5px;cursor:pointer;user-select:none}
+.wrap{display:flex;align-items:flex-start;max-width:1250px;margin:0 auto}
+aside{width:230px;flex:none;position:sticky;top:57px;max-height:calc(100vh - 57px);overflow:auto;padding:10px 0 20px 8px}
+aside button{display:flex;width:100%;align-items:center;gap:8px;background:none;border:0;border-left:3px solid transparent;padding:7px 10px;color:var(--ink);font:inherit;text-align:left;cursor:pointer}
+aside button:hover{background:var(--line)}
+aside button.on{border-left-color:var(--accent);font-weight:600;background:var(--line)}
+aside .dot{width:8px;height:8px;border-radius:50%;background:var(--ok);flex:none}
+aside .dot.bad{background:var(--bad)}aside .dot.warn{background:var(--warn)}
+aside .cnt{margin-left:auto;color:var(--mute);font-size:12.5px}
+aside .cnt b{color:var(--new)}
+main{flex:1;min-width:0;padding:6px 16px 60px}
+.status{color:var(--mute);font-size:13px;padding:10px 0;border-bottom:1px solid var(--line)}
+.status .err{color:var(--bad)}
+
+.tabs{display:flex;align-items:stretch;gap:2px;align-self:stretch}
+.tabs button,.tabs .pick{background:none;border:0;border-bottom:3px solid transparent;padding:8px 12px;color:var(--mute);font:inherit;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:4px;margin-bottom:-11px}
+.tabs button:hover,.tabs .pick:hover{color:var(--ink)}
+.tabs button.on,.tabs .pick.on{color:var(--ink);font-weight:650;border-bottom-color:var(--accent)}
+.tabs b{font-weight:700;color:var(--new)}
+.tabs input{border:0;background:none;color:inherit;font:inherit;font-size:13px;cursor:pointer;color-scheme:light dark}
+header input[type=search]{margin-left:auto}
+header select{padding:7px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit;font-size:13.5px}
+.bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.bar button,.n .cp{background:none;border:0;color:var(--accent);font:inherit;font-size:13px;cursor:pointer;padding:0}
+.bar button:hover,.n .cp:hover{text-decoration:underline}
+.n .m span{margin-right:12px}.n .tag{color:var(--mute)}
+*{scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}::-webkit-scrollbar-thumb:hover{background:var(--mute)}::-webkit-scrollbar-track{background:transparent}
+h2.day.new{color:var(--new)}h2.day.today{color:var(--accent)}h2.day{font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);margin:22px 0 4px;font-weight:600}
+.n{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.n .src{flex:none;width:130px;line-height:1.3;font-weight:650;font-size:12.5px;color:var(--accent);padding-top:2px}
+.n .body{min-width:0}
+.n .t{font-weight:550;word-break:break-word}
+.n .t .new{color:var(--new);font-size:11.5px;font-weight:700;margin-right:6px}
+.n .m{color:var(--mute);font-size:12.5px;margin-top:3px}
+.n .m a{color:var(--accent);text-decoration:none;margin-right:12px}
+.n .m a:hover{text-decoration:underline}
+.n a.tl{color:inherit;text-decoration:none}.n a.tl:hover{color:var(--accent)}
+.empty{color:var(--mute);padding:40px 0;text-align:center}
+@media(max-width:760px){.wrap{display:block}aside{position:static;width:auto;max-height:none;display:flex;overflow-x:auto;padding:6px 8px;border-bottom:1px solid var(--line)}aside button{width:auto;white-space:nowrap;border-left:0;border-bottom:3px solid transparent}aside button.on{border-bottom-color:var(--accent)}.n .src{width:84px;font-size:11.5px}}
+</style>
+</head>
+<body>
+<header>
+  <div><h1>PG Notices Desk</h1><div class="sub" id="gen"></div></div>
+  <nav class="tabs" id="seg">
+    <button data-d="" class="on">All</button>
+    <button data-d="today">Today <b id="ctoday"></b></button>
+    <button data-d="yest">Yesterday</button>
+    <label class="pick" title="Pick any date">Date <input type="date" id="pick"></label>
+  </nav>
+  <select id="tag" title="Filter by type"><option value="">All types</option></select>
+  <input type="search" id="q" placeholder="Search notices or state...">
+</header>
+<div class="wrap">
+  <aside id="side"></aside>
+  <main><div class="status bar" id="statusbar"><span id="status"></span><button id="copyall" title="Copies the list below as a WhatsApp-ready message">Copy for WhatsApp</button><a id="feed" href="feed.xml" style="color:var(--accent);font-size:13px">RSS feed</a></div><div id="list"></div></main>
+</div>
+<script>
+const DATA=/*__DATA__*/null;
+const $=s=>document.querySelector(s);
+let now=Date.now();const H24=24*3600e3;
+let cur="ALL",dsel="",tagsel="";
+let srcs=DATA.sources, all=DATA.notices;
+const eff=n=>n.date?n.date:(!n.baseline?n.first_seen.slice(0,10):null);
+const onDay=(n,d)=>eff(n)==d||(!n.baseline&&n.first_seen.slice(0,10)==d);
+const isNew=n=>!n.baseline&&(now-new Date(n.first_seen).getTime())<H24;
+const fmt=d=>{const x=new Date(d+"T00:00:00");return x.toLocaleDateString("en-IN",{day:"2-digit",month:"short",year:"numeric",weekday:"short"})};
+const ago=iso=>{if(!iso)return"never";const m=Math.round((now-new Date(iso).getTime())/6e4);return m<1?"just now":m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" d ago"};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function srcHealth(id){const s=srcs[id];if(!s||!s.last_ok)return"bad";if(s.error)return"warn";const age=now-new Date(s.last_ok).getTime();return age>6*3600e3?"warn":"ok"}
+function side(){
+  const ids=Object.keys(srcs).sort((a,b)=>(srcs[a].order??99)-(srcs[b].order??99));
+  const newBy={};all.forEach(n=>{if(isNew(n))newBy[n.source]=(newBy[n.source]||0)+1});
+  const tot=Object.values(newBy).reduce((a,b)=>a+b,0);
+  let h=`<button data-s="ALL" class="${cur=="ALL"?"on":""}">All sources<span class="cnt">${tot?`<b>${tot} new</b>`:""}</span></button>`;
+  ids.forEach(id=>{const hl=srcHealth(id),c=newBy[id];
+    h+=`<button data-s="${esc(id)}" class="${cur==id?"on":""}" title="${esc(srcs[id].name)}"><span class="dot ${hl=="ok"?"":hl}"></span>${esc(srcs[id].name)}<span class="cnt">${c?`<b>${c} new</b>`:""}</span></button>`});
+  $("#side").innerHTML=h;
+  $("#side").querySelectorAll("button").forEach(b=>b.onclick=()=>{cur=b.dataset.s;render()});
+}
+function render(){
+  side();
+  const td=new Date(now-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,10);
+  $("#ctoday").textContent="("+all.filter(n=>onDay(n,td)&&(cur=="ALL"||n.source==cur)).length+")";
+  document.querySelectorAll("#seg button").forEach(b=>b.classList.toggle("on",b.dataset.d===dsel));
+  $(".pick").classList.toggle("on",!!dsel&&!["today","yest"].includes(dsel));
+  const q=$("#q").value.trim().toLowerCase(),onlyNew=dsel=="new";
+  let items=all.filter(n=>(cur=="ALL"||n.source==cur));
+  if(q)items=items.filter(n=>(n.title+" "+n.source+" "+(srcs[n.source]||{}).name).toLowerCase().includes(q));
+  const today=new Date(now-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,10);
+  const yest=new Date(now-86400e3-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,10);
+  const want=dsel=="today"?today:dsel=="yest"?yest:(dsel&&dsel!="new"?dsel:"");
+  if(want)items=items.filter(n=>onDay(n,want));
+  if(tagsel)items=items.filter(n=>n.tag==tagsel);
+  if(onlyNew)items=items.filter(isNew);
+  if(cur=="ALL"&&!want&&!onlyNew)items=items.filter(n=>eff(n));
+  items.sort((a,b)=>{const x=eff(a),y=eff(b);if(x&&y&&x!==y)return x<y?1:-1;if(!x!=!y)return x?-1:1;
+    if(x&&y&&a.first_seen!==b.first_seen&&!a.baseline&&!b.baseline)return a.first_seen<b.first_seen?1:-1;
+    return a.source==b.source?a.rank-b.rank:(a.source<b.source?-1:1)});
+  const row=n=>{const l=n.links,main=l[0].url;
+    const same=x=>n.title.toLowerCase().startsWith(x.label.toLowerCase().replace(/…$/,"").slice(0,30));
+    const more=l.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${same(x)?"Open ↗":esc(x.label.length>40?x.label.slice(0,38)+"…":x.label)}</a>`).join("");
+    const note=n.date?(n.date_src=="url"||n.date_src=="file"?"date taken from the file":""):(!n.baseline?"date not on website":"");
+    const det=!n.baseline?`detected ${ago(n.first_seen)}`:"";
+    const nm=(srcs[n.source]||{}).name||n.source;
+    return `<div class="n"><div class="src">${esc(nm)}</div><div class="body"><div class="t">${isNew(n)?'<span class="new">NEW</span>':""}<a class="tl" href="${esc(main)}" target="_blank" rel="noopener">${esc(n.title)}</a></div><div class="m">${more}${[n.tag,note,det].filter(Boolean).map((x,i)=>`<span${i==0?' class="tag"':''}>${esc(x)}</span>`).join("")}<button class="cp" data-id="${esc(n.id)}">Copy</button></div></div></div>`};
+  let out="";
+  const fresh=items.filter(isNew).sort((a,b)=>a.first_seen<b.first_seen?1:-1);
+  if(fresh.length&&dsel==="")out+=`<h2 class="day new">Just detected · last 24 hours (${fresh.length})</h2>`+fresh.map(row).join("");
+  let last="__";
+  items.forEach(n=>{const d=want?want:eff(n);if(d!==last){const lab=d?(d==today?"Today · "+fmt(d):d==yest?"Yesterday · "+fmt(d):fmt(d)):"Date not available";out+=`<h2 class="day${d==today?" today":""}">${lab}</h2>`;last=d}
+    out+=row(n)});
+  $("#list").innerHTML=out||`<div class="empty">${onlyNew?"Nothing new in the last 24 hours.":want?"No notices found for this date.":"Nothing to show here yet."}</div>`;
+  const ids=cur=="ALL"?Object.keys(srcs):[cur];
+  const bad=Object.keys(srcs).filter(i=>srcHealth(i)=="bad");
+  let st=cur=="ALL"?`${items.length} notices from ${ids.length} sources.`:`${esc(srcs[cur].name)} · checked ${ago(srcs[cur].last_checked)} · <a href="${esc(srcs[cur].url)}" target="_blank" rel="noopener" style="color:var(--accent)">open site</a>`;
+  if(cur!="ALL"&&srcs[cur].error)st+=` · <span class="err">${esc(srcs[cur].error)}</span>`;
+  if(cur=="ALL"&&bad.length)st+=` <span class="err">Not reachable: ${bad.map(esc).join(", ")}</span>`;
+  $("#status").innerHTML=st;
+  const tg=$("#tag"),tags=[...new Set(all.map(n=>n.tag).filter(Boolean))].sort();
+  if(tg.options.length!=tags.length+1){tg.innerHTML='<option value="">All types</option>'+tags.map(x=>`<option>${esc(x)}</option>`).join("");}
+  tg.value=tagsel;
+  shown=items;
+  document.querySelectorAll(".cp").forEach(b=>b.onclick=()=>{const n=all.find(x=>x.id==b.dataset.id);copyText(waLine(n),b)});
+}
+let shown=[];
+const nameOf=n=>(srcs[n.source]||{}).name||n.source;
+const waLine=n=>`*${nameOf(n)}*${n.tag?" · "+n.tag:""}\n${n.title}${n.date?"\n"+fmt(n.date):""}\n${n.links[0].url}`;
+function copyText(txt,btn){
+  const done=()=>{if(btn){const o=btn.textContent;btn.textContent="Copied";setTimeout(()=>btn.textContent=o,1200)}};
+  if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(txt).then(done,()=>fallback());
+  else fallback();
+  function fallback(){const a=document.createElement("textarea");a.value=txt;document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove();done()}
+}
+$("#copyall").onclick=function(){
+  const list=shown.slice(0,40);if(!list.length)return;
+  const by={};list.forEach(n=>{(by[nameOf(n)]=by[nameOf(n)]||[]).push(n)});
+  const title=dsel=="today"?"Today":dsel=="yest"?"Yesterday":dsel&&dsel!="new"?fmt(dsel):"Latest";
+  let m=`📢 *NEET PG notices · ${title}*\n`;
+  Object.keys(by).forEach(k=>{m+=`\n*${k}*\n`+by[k].map(n=>`• ${n.title}\n  ${n.links[0].url}`).join("\n")+"\n"});
+  copyText(m.trim(),this);
+};
+$("#tag").addEventListener("input",e=>{tagsel=e.target.value;render()});
+const lc=Object.values(srcs).map(s=>s.last_checked).sort().pop();
+$("#gen").textContent="Last check: "+ago(lc);
+document.querySelectorAll("#seg button").forEach(b=>b.onclick=()=>{dsel=b.dataset.d;$("#pick").value="";render()});
+$("#pick").addEventListener("input",e=>{dsel=e.target.value||"";render()});
+["#q"].forEach(s=>$(s).addEventListener("input",render));
+render();
+// when served from a website, quietly re-fetch fresh data every 2 minutes
+if(location.protocol.startsWith("http")){
+  const refresh=()=>fetch("notices.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{
+    if(!d||!d.notices)return;srcs=d.sources;all=d.notices;now=Date.now();
+    const lc2=Object.values(srcs).map(s=>s.last_checked).sort().pop();$("#gen").textContent="Last check: "+ago(lc2);render()}).catch(()=>{});
+  setInterval(refresh,120000);refresh();
+}
+</script>
+</body>
+</html>

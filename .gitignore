@@ -1,0 +1,9 @@
+pg_notices.html
+monitor.log
+config.json
+__pycache__/
+site/
+feed.xml
+notices.json.bak
+notices.json.tmp
+*.log

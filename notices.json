@@ -1,0 +1,6043 @@
+{
+ "sources": {
+  "BR HOME": {
+   "name": "Bihar (BCECEB Home)",
+   "url": "https://bceceboard.bihar.gov.in/index.php/",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 33,
+   "order": 12
+  },
+  "KL": {
+   "name": "Kerala (CEE)",
+   "url": "https://cee.kerala.gov.in/pgm2026/notification",
+   "last_checked": "2026-10-20T15:47:43",
+   "error": null,
+   "last_ok": "2026-10-20T15:47:43",
+   "initialized": true,
+   "count": 4,
+   "order": 19,
+   "fails": 0
+  },
+  "KEA": {
+   "name": "Karnataka (KEA)",
+   "url": "https://cetonline.karnataka.gov.in/kea/pgetmed2026",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 7,
+   "order": 2
+  },
+  "MP": {
+   "name": "Madhya Pradesh",
+   "url": "https://dme.mponline.gov.in/portal/services/dmemp/DMEPG/Profile/ProfileLoginHome.aspx?Counstype=rfZR9zLVYzySY17sU9L9gA%3d%3d",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 14,
+   "order": 5
+  },
+  "MH": {
+   "name": "Maharashtra",
+   "url": "https://medical2026.mahacet.org/NEET-PGM-2026/login",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 3,
+   "order": 9
+  },
+  "TR": {
+   "name": "Tripura",
+   "url": "https://trmcc.admissions.nic.in/pg-counselling/",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 2,
+   "order": 6
+  },
+  "TG": {
+   "name": "Telangana (KNRUHS)",
+   "url": "https://www.knruhs.telangana.gov.in/all-notifications/",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 5,
+   "order": 4
+  },
+  "GJ": {
+   "name": "Gujarat",
+   "url": "https://www.medadmgujarat.org/pg/home.aspx",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 38,
+   "order": 7
+  },
+  "PB": {
+   "name": "Punjab (BFUHS)",
+   "url": "https://admission.bfuhsonline.ac.in/mdms/mdms.asp",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 23,
+   "order": 8
+  },
+  "BR": {
+   "name": "Bihar (PGMAC)",
+   "url": "https://bceceboard.bihar.gov.in/PGMACIndex.php",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 6,
+   "order": 11
+  },
+  "UP": {
+   "name": "Uttar Pradesh",
+   "url": "https://upneet.gov.in/NewandNotification.aspx",
+   "last_checked": "2026-10-20T15:47:03",
+   "error": null,
+   "last_ok": "2026-10-20T15:47:03",
+   "initialized": true,
+   "count": 21,
+   "order": 10,
+   "fails": 0
+  },
+  "J&K": {
+   "name": "Jammu & Kashmir",
+   "url": "https://www.jkbopee.gov.in/Notifications.aspx",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 110,
+   "order": 3
+  },
+  "AR": {
+   "name": "Arunachal",
+   "url": "https://dmetrap.in/",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 7,
+   "order": 16
+  },
+  "SK": {
+   "name": "Sikkim (SMU)",
+   "url": "https://www.smu.edu.in/",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 2,
+   "order": 14
+  },
+  "PY": {
+   "name": "Puducherry (CENTAC)",
+   "url": "https://www.centacpuducherry.in/",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 31,
+   "order": 15
+  },
+  "AP": {
+   "name": "Andhra Pradesh",
+   "url": "https://drntr.uhsap.in/index/",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 23,
+   "order": 17
+  },
+  "MCC": {
+   "name": "MCC (All India)",
+   "url": "https://mcc.nic.in/pg-medical-counselling/",
+   "last_checked": "2026-10-20T15:47:03",
+   "error": null,
+   "last_ok": "2026-10-20T15:47:03",
+   "initialized": true,
+   "count": 16,
+   "order": 0,
+   "fails": 0
+  },
+  "WB": {
+   "name": "West Bengal",
+   "url": "https://wbmcc.nic.in/pg-medical-counselling/",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 5,
+   "order": 1
+  },
+  "TN": {
+   "name": "Tamil Nadu",
+   "url": "https://tnmedicalselection.net/",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 68,
+   "order": 13
+  },
+  "AS": {
+   "name": "Assam",
+   "url": "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew",
+   "last_checked": "2026-10-20T11:49:04",
+   "error": null,
+   "last_ok": "2026-10-20T11:49:04",
+   "initialized": true,
+   "count": 48,
+   "order": 18
+  }
+ },
+ "notices": [
+  {
+   "title": "Seat Matrix for PGMAC-2026",
+   "links": [
+    {
+     "label": "Seat Matrix for PGMAC-2026",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Seat/PGMAC26_SM_R1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 77,
+   "source": "BR HOME",
+   "id": "BR HOME:10a5f24ef723",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Check Slip & Biometric Form of PGPAC-2026",
+   "links": [
+    {
+     "label": "Check Slip & Biometric Form of PGPAC-2026",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Web/CHK_BIO_PGPAC26.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 87,
+   "source": "BR HOME",
+   "id": "BR HOME:a0aae240e44a",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Seat Matrix for PGDAC-2026 Round-3",
+   "links": [
+    {
+     "label": "Seat Matrix for PGDAC-2026 Round-3",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Seat/PGDAC26_SM_R3.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 89,
+   "source": "BR HOME",
+   "id": "BR HOME:efdff8f1c3f0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Round-2 Seat Allotment Result of PGDAC-2026",
+   "links": [
+    {
+     "label": "Round-2 Seat Allotment Result of PGDAC-2026",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Result/PGDAC26_ALT_R2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 90,
+   "source": "BR HOME",
+   "id": "BR HOME:538d61eb683d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Round-2 Opening and Closing Rank of PGDAC-2026",
+   "links": [
+    {
+     "label": "Round-2 Opening and Closing Rank of PGDAC-2026",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Web/PGDAC26_OCR_R2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 91,
+   "source": "BR HOME",
+   "id": "BR HOME:0a6bf9a94759",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Second Round Seat Matrix for PGDAC-2026",
+   "links": [
+    {
+     "label": "Second Round Seat Matrix for PGDAC-2026",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Seat/PGDAC26_SM_R2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 97,
+   "source": "BR HOME",
+   "id": "BR HOME:fd142f66bca1",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "First Round Seat Allotment Result of PGDAC-2026",
+   "links": [
+    {
+     "label": "First Round Seat Allotment Result of PGDAC-2026",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Result/PGDAC26_ALT_R1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 114,
+   "source": "BR HOME",
+   "id": "BR HOME:19dfdc4c2aa7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "First Round Opening and Closing Rank of PGDAC-2026",
+   "links": [
+    {
+     "label": "First Round Opening and Closing Rank of PGDAC-2026",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Web/PGDAC26_OCR_R1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 115,
+   "source": "BR HOME",
+   "id": "BR HOME:b4532cbf8da1",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Check Slip & Biometric Form of PGDAC-2026",
+   "links": [
+    {
+     "label": "Check Slip & Biometric Form of PGDAC-2026",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Web/CHK_BIO_PGDAC26.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 116,
+   "source": "BR HOME",
+   "id": "BR HOME:7d2db4aade1d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Fee Structure of PGDAC-2026",
+   "links": [
+    {
+     "label": "Fee Structure of PGDAC-2026",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Web/PGDAC26_FSTR.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 126,
+   "source": "BR HOME",
+   "id": "BR HOME:45505b4058a0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Seat Matrix for PGDAC-2026",
+   "links": [
+    {
+     "label": "Seat Matrix for PGDAC-2026",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Seat/PGDAC26_SM_R1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 129,
+   "source": "BR HOME",
+   "id": "BR HOME:f9d89e84cd39",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/02 Dated 18.10.2026)",
+   "links": [
+    {
+     "label": "Notice for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/02 Dated 18.10.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_02.pdf"
+    }
+   ],
+   "date": "2026-10-18",
+   "date_src": "page",
+   "rank": 197,
+   "source": "BR HOME",
+   "id": "BR HOME:79cde03f154f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+   "links": [
+    {
+     "label": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf"
+    }
+   ],
+   "date": "2026-10-18",
+   "date_src": "page",
+   "rank": 198,
+   "source": "BR HOME",
+   "id": "BR HOME:ff0b8cf4d998",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Important Notice for of Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/05 Dated 02.10.2026)",
+   "links": [
+    {
+     "label": "Important Notice for of Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/05 Dated 02.10.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_05.pdf"
+    }
+   ],
+   "date": "2026-10-02",
+   "date_src": "page",
+   "rank": 204,
+   "source": "BR HOME",
+   "id": "BR HOME:9073d0e8dec7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Details of Registration-cum-Choice Filling for Admission in Round-3 of Post Graduate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/04 Dated 02.10.2026)",
+   "links": [
+    {
+     "label": "Details of Registration-cum-Choice Filling for Admission in Round-3 of Post Graduate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/04 Dated 02.10.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_04.pdf"
+    }
+   ],
+   "date": "2026-10-02",
+   "date_src": "page",
+   "rank": 205,
+   "source": "BR HOME",
+   "id": "BR HOME:e365ba1c3111",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Revised Schedule of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/03 Dated 14.09.2026)",
+   "links": [
+    {
+     "label": "Revised Schedule of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/03 Dated 14.09.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_03.pdf"
+    }
+   ],
+   "date": "2026-09-14",
+   "date_src": "page",
+   "rank": 219,
+   "source": "BR HOME",
+   "id": "BR HOME:a81f4d602e7c",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Important Notice for Registration-cum-Choice Filling for Admission in Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/02 Dated 18.08.2026)",
+   "links": [
+    {
+     "label": "Important Notice for Registration-cum-Choice Filling for Admission in Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/02 Dated 18.08.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_02.pdf"
+    }
+   ],
+   "date": "2026-08-18",
+   "date_src": "page",
+   "rank": 247,
+   "source": "BR HOME",
+   "id": "BR HOME:1db910ae044b",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Details for Registration-cum-Choice Filling for Admission in Post Graduate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/01 Dated 18.08.2026)",
+   "links": [
+    {
+     "label": "Details for Registration-cum-Choice Filling for Admission in Post Graduate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/01 Dated 18.08.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_01.pdf"
+    }
+   ],
+   "date": "2026-08-18",
+   "date_src": "page",
+   "rank": 248,
+   "source": "BR HOME",
+   "id": "BR HOME:43cf67cd0938",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice for First Counselling of Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified(Adv. No. BCECEB(PGEAC)-2026/04 Dated 22.07.2026)",
+   "links": [
+    {
+     "label": "Notice for First Counselling of Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified(Adv. No. BCECEB(PGEAC)-2026/04 Dated 22.07.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGEAC26_04.pdf"
+    }
+   ],
+   "date": "2026-07-22",
+   "date_src": "page",
+   "rank": 267,
+   "source": "BR HOME",
+   "id": "BR HOME:b31934ae4ada",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Details of First Counselling of Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified(Adv. No. BCECEB(PGEAC)-2026/03 Dated 22.07.2026)",
+   "links": [
+    {
+     "label": "Details of First Counselling of Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified(Adv. No. BCECEB(PGEAC)-2026/03 Dated 22.07.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGEAC26_03.pdf"
+    }
+   ],
+   "date": "2026-07-22",
+   "date_src": "page",
+   "rank": 268,
+   "source": "BR HOME",
+   "id": "BR HOME:991de576d1ba",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Important Notice for Filling up Online Application Form for Admission to Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified(Adv. No. BCECEB(PGEAC)-2026/02 Dated 07.07.2026)",
+   "links": [
+    {
+     "label": "Important Notice for Filling up Online Application Form for Admission to Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified(Adv. No. BCECEB(PGEAC)-2026/02 Dated 07.07.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGEAC26_02.pdf"
+    }
+   ],
+   "date": "2026-07-07",
+   "date_src": "page",
+   "rank": 276,
+   "source": "BR HOME",
+   "id": "BR HOME:31b145e7d22e",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Details for Filling up Online Application Form for Admission to Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified (Adv. No. BCECEB(PGEAC)-2026/01 Dated 07.07.2026)",
+   "links": [
+    {
+     "label": "Details for Filling up Online Application Form for Admission to Post Graduate [PGEAC-2026] (M. Tech.) Course in Government Engineering Colleges of Bihar on the basis of Gate Qualified (Adv. No. BCECEB(PGEAC)-2026/01 Dated 07.07.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGEAC26_01.pdf"
+    }
+   ],
+   "date": "2026-07-07",
+   "date_src": "page",
+   "rank": 277,
+   "source": "BR HOME",
+   "id": "BR HOME:eb4bf8483ee9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Stray Vacancy Round Seat Allotment Result of PGMAC-2025",
+   "links": [
+    {
+     "label": "Stray Vacancy Round Seat Allotment Result of PGMAC-2025",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Result/PGMAC25_ALT_R4.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 476,
+   "source": "BR HOME",
+   "id": "BR HOME:8bf0ce043159",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Re-Revised Third Round Seat Allotment Result of PGMAC-2025",
+   "links": [
+    {
+     "label": "Re-Revised Third Round Seat Allotment Result of PGMAC-2025",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Result/RE_REV_PGMAC25_ALT_R3.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 477,
+   "source": "BR HOME",
+   "id": "BR HOME:38f104137b75",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Revised Second Round Seat Allotment Result of PGMAC-2025",
+   "links": [
+    {
+     "label": "Revised Second Round Seat Allotment Result of PGMAC-2025",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Result/REV_PGMAC25_ALT_R2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 478,
+   "source": "BR HOME",
+   "id": "BR HOME:a1a88e1d0681",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Revised First Round Seat Allotment Result of PGMAC-2025",
+   "links": [
+    {
+     "label": "Revised First Round Seat Allotment Result of PGMAC-2025",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Result/REV_PGMAC25_FALT.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 479,
+   "source": "BR HOME",
+   "id": "BR HOME:5d36d1ce9106",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Stray Vacancy Round Seat Allotment Result of PGDAC-2025",
+   "links": [
+    {
+     "label": "Stray Vacancy Round Seat Allotment Result of PGDAC-2025",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Result/PGDAC25_SV_ALT.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 496,
+   "source": "BR HOME",
+   "id": "BR HOME:e88ea48eee2f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Third Round Seat Allotment Result of PGDAC-2025",
+   "links": [
+    {
+     "label": "Third Round Seat Allotment Result of PGDAC-2025",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Result/PGDAC25_TALT.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 497,
+   "source": "BR HOME",
+   "id": "BR HOME:fdfc484e89db",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Second Round Seat Allotment result of PGDAC-2025",
+   "links": [
+    {
+     "label": "Second Round Seat Allotment result of PGDAC-2025",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Result/PGDAC25_SALT.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 498,
+   "source": "BR HOME",
+   "id": "BR HOME:94266526b557",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "First Round Final Seat Allotment result of PGDAC-2025",
+   "links": [
+    {
+     "label": "First Round Final Seat Allotment result of PGDAC-2025",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Result/PGDAC25_FALT.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 499,
+   "source": "BR HOME",
+   "id": "BR HOME:79bb93542c23",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provision For Verification Of Profile Details Enabled",
+   "links": [
+    {
+     "label": "Notification",
+     "url": "https://cee.kerala.gov.in/pgm2026/noti_view/342/Upload1"
+    },
+    {
+     "label": "Press Release",
+     "url": "https://cee.kerala.gov.in/pgm2026/noti_view/342/Upload2"
+    }
+   ],
+   "date": "2026-10-19",
+   "date_src": "page",
+   "rank": 0,
+   "source": "KL",
+   "id": "KL:29747b8e690d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Application Invited- Date Extended",
+   "links": [
+    {
+     "label": "Notification",
+     "url": "https://cee.kerala.gov.in/pgm2026/noti_view/325/Upload1"
+    },
+    {
+     "label": "Press Release",
+     "url": "https://cee.kerala.gov.in/pgm2026/noti_view/325/Upload2"
+    }
+   ],
+   "date": "2026-10-16",
+   "date_src": "page",
+   "rank": 1,
+   "source": "KL",
+   "id": "KL:d5614ba9a20b",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Internship date correction regarding",
+   "links": [
+    {
+     "label": "Notification",
+     "url": "https://cee.kerala.gov.in/pgm2026/noti_view/319/Upload1"
+    }
+   ],
+   "date": "2026-10-13",
+   "date_src": "page",
+   "rank": 2,
+   "source": "KL",
+   "id": "KL:be94125a1138",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Allotment/Admission To Post Graduate Medical (Degree) Courses- Online Applications Invited",
+   "links": [
+    {
+     "label": "Notification",
+     "url": "https://cee.kerala.gov.in/pgm2026/noti_view/313/Upload1"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "page",
+   "rank": 3,
+   "source": "KL",
+   "id": "KL:200e5a9a88cf",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ಪಿಜಿ ಮೆಡಿಕಲ್ – 2026 ದೈಹಿಕ ಅಂಗವೈಕಲ್ಯ ಪರಿಶೀಲನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಸೂಚನೆ. 14-10-2026",
+   "links": [
+    {
+     "label": "ಪಿಜಿ ಮೆಡಿಕಲ್ – 2026 ದೈಹಿಕ ಅಂಗವೈಕಲ್ಯ ಪರಿಶೀಲನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಸೂಚನೆ. 14-10-2026",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/20261014180552kannada.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "page",
+   "rank": 2,
+   "source": "KEA",
+   "id": "KEA:df4778b4ffee",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG ವೈದ್ಯಕೀಯ 2026: ಕ್ಲೈಮ್ ಮಾಡದ 'A' ಮತ್ತು 'Y' ವರ್ಗಗಳು (NRI/LM/RM) - ಕ್ಲೈಮ್ ಸ್ಲಿಪ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್. 12/10/2026",
+   "links": [
+    {
+     "label": "PG ವೈದ್ಯಕೀಯ 2026: ಕ್ಲೈಮ್ ಮಾಡದ 'A' ಮತ್ತು 'Y' ವರ್ಗಗಳು (NRI/LM/RM) - ಕ್ಲೈಮ್ ಸ್ಲಿಪ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್. 12/10/2026",
+     "url": "https://cetonline.karnataka.gov.in/PGET2026VS//FORMS/LOGIN_APPOINT.ASPX"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "page",
+   "rank": 3,
+   "source": "KEA",
+   "id": "KEA:b75d39abf9d5",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ಪಿಜಿ ಮೆಡಿಕಲ್ – 2026 ದೈಹಿಕ ಅಂಗವೈಕಲ್ಯ ಪರಿಶೀಲನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಸೂಚನೆ",
+   "links": [
+    {
+     "label": "ಪಿಜಿ ಮೆಡಿಕಲ್ – 2026 ದೈಹಿಕ ಅಂಗವೈಕಲ್ಯ ಪರಿಶೀಲನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಸೂಚನೆ",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/PGMED_PH_2026_NOTIkannada.pdf"
+    }
+   ],
+   "date": "2026-10-08",
+   "date_src": "file",
+   "rank": 4,
+   "source": "KEA",
+   "id": "KEA:edfce80b28c0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ಸೇಂಟ್ ಜಾನ್ಸ್ ಮೆಡಿಕಲ್ ಕಾಲೇಜು ದಾಖಲೆ ಪರಿಶೀಲನಾ ಟಿಪ್ಪಣಿ. 07/10/2026",
+   "links": [
+    {
+     "label": "ಸೇಂಟ್ ಜಾನ್ಸ್ ಮೆಡಿಕಲ್ ಕಾಲೇಜು ದಾಖಲೆ ಪರಿಶೀಲನಾ ಟಿಪ್ಪಣಿ. 07/10/2026",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/20261007121159kannada.pdf"
+    }
+   ],
+   "date": "2026-10-07",
+   "date_src": "page",
+   "rank": 6,
+   "source": "KEA",
+   "id": "KEA:abc22382c29d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ಸೇಂಟ್ ಜಾನ್ಸ್ ವೈದ್ಯಕೀಯ ಕಾಲೇಜು PG ಪ್ರವೇಶ ಮಾಹಿತಿ ಕೈಪಿಡಿ 2026-2027. 07/10/2026",
+   "links": [
+    {
+     "label": "ಸೇಂಟ್ ಜಾನ್ಸ್ ವೈದ್ಯಕೀಯ ಕಾಲೇಜು PG ಪ್ರವೇಶ ಮಾಹಿತಿ ಕೈಪಿಡಿ 2026-2027. 07/10/2026",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/Submission%20of%20details%20of%20sanctioned%20seats,%20seat%20matrix%20and%20fees%20for%20PG%20courses-2026-27kannada.pdf"
+    }
+   ],
+   "date": "2026-10-07",
+   "date_src": "page",
+   "rank": 7,
+   "source": "KEA",
+   "id": "KEA:c5ab725d0d39",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG ವೈದ್ಯಕೀಯ 2026 ಪರಿಶೀಲನಾ ಅಧಿಸೂಚನೆ. 06-10-2026",
+   "links": [
+    {
+     "label": "PG ವೈದ್ಯಕೀಯ 2026 ಪರಿಶೀಲನಾ ಅಧಿಸೂಚನೆ. 06-10-2026",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/ANN20261006172206kannada.pdf"
+    }
+   ],
+   "date": "2026-10-06",
+   "date_src": "page",
+   "rank": 8,
+   "source": "KEA",
+   "id": "KEA:b0ef33da3c9b",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ಪಿಜಿ ವೈದ್ಯಕೀಯ 2026 ಅಧಿಸೂಚನೆ.06-10-2026",
+   "links": [
+    {
+     "label": "ಪಿಜಿ ವೈದ್ಯಕೀಯ 2026 ಅಧಿಸೂಚನೆ.06-10-2026",
+     "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/PGK20261006172220kannada.pdf"
+    }
+   ],
+   "date": "2026-10-06",
+   "date_src": "page",
+   "rank": 9,
+   "source": "KEA",
+   "id": "KEA:ecab78ed7646",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Verification",
+   "links": [
+    {
+     "label": "Verification",
+     "url": "https://dme.mponline.gov.in/Portal/frmLogin.aspx?loginType=G&depid=V"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 2,
+   "source": "MP",
+   "id": "MP:43d8ef4d65b7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Names of Participating Medical Colleges in M.P. State Combined NEET PG Counselling-2026 (14.10.2026)",
+   "links": [
+    {
+     "label": "Names of Participating Medical Colleges in M.P. State Combined NEET PG Counselling-2026 (14.10.2026)",
+     "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/PARTICIPATING_COLLEGE 2026_39.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "page",
+   "rank": 6,
+   "source": "MP",
+   "id": "MP:45aa84248b62",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Frequently ASKED Question- M.P. State Combined NEET PG-2026 Counselling (14.10.2026)",
+   "links": [
+    {
+     "label": "Frequently ASKED Question- M.P. State Combined NEET PG-2026 Counselling (14.10.2026)",
+     "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/FAQ 2026_38.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "page",
+   "rank": 7,
+   "source": "MP",
+   "id": "MP:4c6d28b51d5b",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Tentative Time Schedule MP State NEET PG Counselling (MD/MS Course) 2026-27 ( Dated 12.10.2026)",
+   "links": [
+    {
+     "label": "Tentative Time Schedule MP State NEET PG Counselling (MD/MS Course) 2026-27 ( Dated 12.10.2026)",
+     "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/Time schedule PG_37.pdf"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "page",
+   "rank": 8,
+   "source": "MP",
+   "id": "MP:d2287323141f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "USER MANUAL FOR PROFILE CREATION AND REGISTRATION PROCESS OF MP STATE NEET PG COUNSELLING (MD/MS Course) 2026-27 (DATE- 12.10.2026)",
+   "links": [
+    {
+     "label": "USER MANUAL FOR PROFILE CREATION AND REGISTRATION PROCESS OF MP STATE NEET PG COUNSELLING (MD/MS Course) 2026-27 (DATE- 12.10.2026)",
+     "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/DME NEET MD_MS 2026 Registration USER Manual 1__36.pdf"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "page",
+   "rank": 9,
+   "source": "MP",
+   "id": "MP:98f3635eb38c",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice for Inservice Candidates MP State Combined Counselling NEET MD/MS 2026-27 (Dated 09.10.2026)",
+   "links": [
+    {
+     "label": "Notice for Inservice Candidates MP State Combined Counselling NEET MD/MS 2026-27 (Dated 09.10.2026)",
+     "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/Inservice Notice_34.pdf"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "page",
+   "rank": 10,
+   "source": "MP",
+   "id": "MP:5e6ac73937e9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Government Colleges Fee Chart MP State Combined Counselling NEET PG 2026-27 ( Dated- 09.10.2026)",
+   "links": [
+    {
+     "label": "Government Colleges Fee Chart MP State Combined Counselling NEET PG 2026-27 ( Dated- 09.10.2026)",
+     "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/Government Fee chart 2026_35.pdf"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "page",
+   "rank": 11,
+   "source": "MP",
+   "id": "MP:5cc940eb80f8",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "मध्‍य प्रदेश चिकित्‍सा शिक्षा प्रवेश नियम 2018 एवं संशोधन (Dated 09.10.2026)",
+   "links": [
+    {
+     "label": "मध्‍य प्रदेश चिकित्‍सा शिक्षा प्रवेश नियम 2018 एवं संशोधन (Dated 09.10.2026)",
+     "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/Admission Rules and Amendments 2018_d_33.pdf"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "page",
+   "rank": 12,
+   "source": "MP",
+   "id": "MP:0c2ddfb84801",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Final Guidelines with respect to Persons with Benchmark Disabilities (PwBD) for Post Graduate Medical Courses received from NMC",
+   "links": [
+    {
+     "label": "Final Guidelines with respect to Persons with Benchmark Disabilities (PwBD) for Post Graduate Medical Courses received from NMC",
+     "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/Final Guidelines with respect to Persons with Benchmark Disabilities _PwBD_30.pdf"
+    }
+   ],
+   "date": "2026-10-01",
+   "date_src": "file",
+   "rank": 13,
+   "source": "MP",
+   "id": "MP:694c1907e615",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice for PwD assessment for PG Round 1_2026",
+   "links": [
+    {
+     "label": "Notice for PwD assessment for PG Round 1_2026",
+     "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/Notice for PwD assessment for PG Round 1_2026_29.pdf"
+    }
+   ],
+   "date": "2026-10-01",
+   "date_src": "file",
+   "rank": 14,
+   "source": "MP",
+   "id": "MP:ba7bcf70487f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "The List of Primary Medical Assessment Boards who will issue Eligibility Certificates as per NMC norms to PwD candidates 2026-27",
+   "links": [
+    {
+     "label": "The List of Primary Medical Assessment Boards who will issue Eligibility Certificates as per NMC norms to PwD candidates 2026-27",
+     "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/The List of Primary Medical Assessment Boards who will issue Eligibility Certificates as per NMC norms to PwD candidates 2026-27_28.pdf"
+    }
+   ],
+   "date": "2026-09-28",
+   "date_src": "file",
+   "rank": 15,
+   "source": "MP",
+   "id": "MP:80c7c2af40c5",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Counselling Schedule Tentative Time Schedule MP State NEET PG Counselling (MD/MS Course) 2026-27 ( Dated )",
+   "links": [
+    {
+     "label": "View More..",
+     "url": "https://dme.mponline.gov.in/portal/services/dmemp/DMEPG/Profile/Instructions.aspx?tab=tab2&Counstype=rfZR9zLVYzySY17sU9L9gA%3d%3d"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "page",
+   "rank": 18,
+   "source": "MP",
+   "id": "MP:8e4c6cb735c6",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Rule Book/Steps/User Manual USER MANUAL FOR PROFILE CREATION AND REGISTRATION PROCESS OF MP STATE NEET PG COUNSELLING (MD/MS Course) 2026-27 (DATE- ) मध्‍य प्रदेश चिकित्‍सा शिक्षा प्रवेश नियम 2018 एवं संशोधन (Dated )",
+   "links": [
+    {
+     "label": "View More..",
+     "url": "https://dme.mponline.gov.in/portal/services/dmemp/DMEPG/Profile/Instructions.aspx?tab=tab5&Counstype=rfZR9zLVYzySY17sU9L9gA%3d%3d"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "page",
+   "rank": 23,
+   "source": "MP",
+   "id": "MP:7f02d6e9ffd2",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Previous Year Notification",
+   "links": [
+    {
+     "label": "Previous Year Notification",
+     "url": "https://dme.mponline.gov.in/Portal/Services/DMEMP/DMEPG/NotificationPage.aspx?Counstype=rfZR9zLVYzySY17sU9L9gA%3d%3d"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 27,
+   "source": "MP",
+   "id": "MP:ddbd11ad1b19",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "NEET-PG-INFORMATION BROCHURE",
+   "links": [
+    {
+     "label": "NEET-PG-INFORMATION BROCHURE",
+     "url": "https://statecetcell.s3.ap-south-1.amazonaws.com/2026/PGM/PGM-26_IB.pdf"
+    }
+   ],
+   "date": "2026-10-16",
+   "date_src": "file",
+   "rank": 0,
+   "source": "MH",
+   "id": "MH:ea794d1230ee",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice No.02_Eligibility & Registratio Process of NRI Candidates",
+   "links": [
+    {
+     "label": "Notice No.02_Eligibility & Registratio Process of NRI Candidates",
+     "url": "https://medical2026.mahacet.org/NEET-PGM-2026/instructions-downloadFile/Notice%20No.02.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1,
+   "source": "MH",
+   "id": "MH:fc6fbddf33f0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice No.01_Schedule for Online Registration and CAP Round 1",
+   "links": [
+    {
+     "label": "Notice No.01_Schedule for Online Registration and CAP Round 1",
+     "url": "https://medical2026.mahacet.org/NEET-PGM-2026/instructions-downloadFile/Notice%20No.01.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 2,
+   "source": "MH",
+   "id": "MH:25636909c4a4",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Online Registration for PG Counselling",
+   "links": [
+    {
+     "label": "Online Registration for PG Counselling",
+     "url": "https://admissions.nic.in/TRMCC/Applicant/Root/Home.aspx?enc=k5U5Gp8NR6abhZ8Lld4oWgHD7VSxK6UY6pD/VmlLPqjh5FJD1Pq/C16j83OlZEjhQsH5k1t9JhMWCOSSiNpFMg=="
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 0,
+   "source": "TR",
+   "id": "TR:1972caae3e79",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notification Regarding NEET-PG 2026 Candidates List (Applied as State in Permanent Address: Tripura)",
+   "links": [
+    {
+     "label": "Click Here",
+     "url": "https://cdnbbsr.s3waas.gov.in/s337e3ca9768a106f686626a07db6facff/uploads/2026/10/202610121342549031.pdf"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "url",
+   "rank": 1,
+   "source": "TR",
+   "id": "TR:6cedba6a9804",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KNRUHS - MDS ADMISSIONS UNDER MANAGEMENT QUOTA FOR THE AY 2026-27 - REGISTRATION AFTER REVISED NEET MDS 2026 CUT-OFF SCORE",
+   "links": [
+    {
+     "label": "View Document",
+     "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20261017103829_KNRUHS-MDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-REGISTRATION-AFTER-REVISED-NEET-MDS-2026-CUT-OFF-SCORE.pdf"
+    }
+   ],
+   "date": "2026-10-17",
+   "date_src": "page",
+   "rank": 17,
+   "source": "TG",
+   "id": "TG:bb2afb34ab3e",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KNRUHS - MDS ADMISSIONS UNDER COMPETENT AUTHORITY QUOTA FOR THE AY 2026-27 - REGISTRATION AFTER REVISED NEET MDS 2026 CUT-OFF SCORE",
+   "links": [
+    {
+     "label": "View Document",
+     "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20261017103805_KNRUHS-MDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-REGISTRATION-AFTER-REVISED-NEET-MDS-2026-CUT-OFF-SCORE.pdf"
+    }
+   ],
+   "date": "2026-10-17",
+   "date_src": "page",
+   "rank": 18,
+   "source": "TG",
+   "id": "TG:ce28dd4e87b6",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KNRUHS - NOTIFICATION FOR UG/PG ASPIRANTS",
+   "links": [
+    {
+     "label": "View Document",
+     "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20220712104718Notice%20from%20MCC%20%20for%20All%20States%20Authorities%20(DME)%20and%20Candidates%20(1).pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 53,
+   "source": "TG",
+   "id": "TG:6faeeaebae03",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KNRUHS - EXAMINATIONS - RESULTS OF MEDICAL PG MDMS EXAMINATIONS - AUGUST 2026 - REGULAR CANDIDATES",
+   "links": [
+    {
+     "label": "View Document",
+     "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20261009074955_KNRUHS-EXAMINATIONS-RESULTS-OF-MEDICAL-PG-MDMS-EXAMINATIONS-AUGUST-2026-REGULAR-CANDIDATES.pdf"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "page",
+   "rank": 93,
+   "source": "TG",
+   "id": "TG:46748be4a9a6",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KNRUHS - EXAMINATIONS - RESULTS OF MEDICAL PG MDMS EXAMINATIONS - AUGUST 2026 - BACKLOG CANDIDATES",
+   "links": [
+    {
+     "label": "View Document",
+     "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20261009075009_KNRUHS-EXAMINATIONS-RESULTS-OF-MEDICAL-PG-MDMS-EXAMINATIONS-AUGUST-2026-BACKLOG-CANDIDATES.pdf"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "page",
+   "rank": 94,
+   "source": "TG",
+   "id": "TG:eeeb38e60aa0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notification",
+   "links": [
+    {
+     "label": "Notification",
+     "url": "https://www.medadmgujarat.org/pg/Notification.aspx"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 0,
+   "source": "GJ",
+   "id": "GJ:fa9909f7bb78",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Civil Hospital List for PwD",
+   "links": [
+    {
+     "label": "Civil Hospital List for PwD",
+     "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/Civil hospital PwD_Board_List_2026-27.pdf"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "file",
+   "rank": 2,
+   "source": "GJ",
+   "id": "GJ:35b14c38ebe9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "દિવ્યાંગતા ધરાવતા અરજી કરેલ વિદ્યાર્થીઓનું લીસ્ટ તથા હાજર રહેવાનું સ્થળ અને તારીખ",
+   "links": [
+    {
+     "label": "દિવ્યાંગતા ધરાવતા અરજી કરેલ વિદ્યાર્થીઓનું લીસ્ટ તથા હાજર રહેવાનું સ્થળ અને તારીખ",
+     "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/PWD Students List medical boart 14 october 2026.pdf"
+    }
+   ],
+   "date": "2026-10-13",
+   "date_src": "file",
+   "rank": 3,
+   "source": "GJ",
+   "id": "GJ:204419aff671",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Proforma of disability [દિવ્યાંગતાનું પ્રોફોર્મા]",
+   "links": [
+    {
+     "label": "Proforma of disability [દિવ્યાંગતાનું પ્રોફોર્મા]",
+     "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/Proforma for MD MS  PWd Medical Board.pdf"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "file",
+   "rank": 5,
+   "source": "GJ",
+   "id": "GJ:9100e35ed70d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "• GUIDELINES ON ASSESSMENT OF PERSONS WITH BENCHMARK DISABILITIES (PWBD) FOR ADMISSION TO THE POST GRADUATE MEDICAL COURSE, 2026. Dated 16/09/2026",
+   "links": [
+    {
+     "label": "• GUIDELINES ON ASSESSMENT OF PERSONS WITH BENCHMARK DISABILITIES (PWBD) FOR ADMISSION TO THE POST GRADUATE MEDICAL COURSE, 2026. Dated 16/09/2026",
+     "url": "http://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/GUIDELINES ON ASSESSMENT OF PERSONS WITH BENCHMARK DISABILITIES.pdf"
+    }
+   ],
+   "date": "2026-09-16",
+   "date_src": "page",
+   "rank": 6,
+   "source": "GJ",
+   "id": "GJ:6c3e4a7ba2da",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "AIQ AND STATE COUNSELLING SCEHDULE PG 2026",
+   "links": [
+    {
+     "label": "AIQ AND STATE COUNSELLING SCEHDULE PG 2026",
+     "url": "http://medadmgujarat.ncode.in/web/PG2026/MDMS/202610081115756031.pdf"
+    }
+   ],
+   "date": "2026-10-08",
+   "date_src": "url",
+   "rank": 7,
+   "source": "GJ",
+   "id": "GJ:b5c255976fa6",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Advertisement for MD/MS/DIPLOMA of Online Registration",
+   "links": [
+    {
+     "label": "Advertisement for MD/MS/DIPLOMA of Online Registration",
+     "url": "http://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Adv. - Online Reg.Round 01.pdf?v=2"
+    }
+   ],
+   "date": "2026-09-29",
+   "date_src": "file",
+   "rank": 8,
+   "source": "GJ",
+   "id": "GJ:d4b86fa5bc97",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Procedure for Online Registration",
+   "links": [
+    {
+     "label": "Procedure for Online Registration",
+     "url": "http://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Procedure for Online Registration - PG.pdf?v=2"
+    }
+   ],
+   "date": "2026-09-30",
+   "date_src": "file",
+   "rank": 9,
+   "source": "GJ",
+   "id": "GJ:07dd3cc04de4",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Process of Online admission",
+   "links": [
+    {
+     "label": "Process of Online admission",
+     "url": "http://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Process of Online Admission - PG.pdf?v=2"
+    }
+   ],
+   "date": "2026-10-01",
+   "date_src": "file",
+   "rank": 10,
+   "source": "GJ",
+   "id": "GJ:f3a0e5501203",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of Help Centers",
+   "links": [
+    {
+     "label": "List of Help Centers",
+     "url": "http://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/LIST OF HELP CENTER.pdf?v=2"
+    }
+   ],
+   "date": "2026-09-29",
+   "date_src": "file",
+   "rank": 11,
+   "source": "GJ",
+   "id": "GJ:2622ed1bdc81",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Instruction for NRI Candidates",
+   "links": [
+    {
+     "label": "Instruction for NRI Candidates",
+     "url": "http://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Instructions for NRI Candidates 2026-27.pdf?v=2"
+    }
+   ],
+   "date": "2026-10-01",
+   "date_src": "file",
+   "rank": 12,
+   "source": "GJ",
+   "id": "GJ:601010b48801",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Authority Letter",
+   "links": [
+    {
+     "label": "Authority Letter",
+     "url": "http://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Authority Letter.pdf?v=2"
+    }
+   ],
+   "date": "2026-10-01",
+   "date_src": "file",
+   "rank": 13,
+   "source": "GJ",
+   "id": "GJ:c84e2d89b9b1",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Eligibility Criteria and list of Documents Required for Admission process of ACPPGMEC",
+   "links": [
+    {
+     "label": "Eligibility Criteria and list of Documents Required for Admission process of ACPPGMEC",
+     "url": "http://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Eligibility Criteria & List of Documents Required for Admission Process of ACPUGMEC 2026-27.pdf?v=2"
+    }
+   ],
+   "date": "2026-10-03",
+   "date_src": "file",
+   "rank": 14,
+   "source": "GJ",
+   "id": "GJ:5e117257885c",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Proforma of disability [દિવ્યાંગતાનું પ્રોફોર્મા]",
+   "links": [
+    {
+     "label": "Proforma of disability [દિવ્યાંગતાનું પ્રોફોર્મા]",
+     "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/ProformaMedical & Appeal  Board_Case Paper.pdf"
+    }
+   ],
+   "date": "2026-09-29",
+   "date_src": "file",
+   "rank": 16,
+   "source": "GJ",
+   "id": "GJ:7dc24ecfc817",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Result of NEET-PG 2026 Declared",
+   "links": [
+    {
+     "label": "Result of NEET-PG 2026 Declared",
+     "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/NBEMS_2026619243078.PDF"
+    }
+   ],
+   "date": "2026-09-29",
+   "date_src": "file",
+   "rank": 18,
+   "source": "GJ",
+   "id": "GJ:4aee0cc4be3f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "16/09/2026 - Guidelines on Assessment of Persons with benchmark Disabilities (PwBD) for admission to the Post Graduate Medical Course, 2026.",
+   "links": [
+    {
+     "label": "16/09/2026 - Guidelines on Assessment of Persons with benchmark Disabilities (PwBD) for admission to the Post Graduate Medical Course, 2026.",
+     "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/20260917090022-pg-final-rpwd-guidleines-compressed.PDF"
+    }
+   ],
+   "date": "2026-09-16",
+   "date_src": "page",
+   "rank": 19,
+   "source": "GJ",
+   "id": "GJ:cd7a3dbd4886",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Eligibility Criteria & List of Documents Required for Admission Process of ACPUGMEC 2026-27",
+   "links": [
+    {
+     "label": "Eligibility Criteria & List of Documents Required for Admission Process of ACPUGMEC 2026-27",
+     "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/Eligibility Criteria & List of Documents Required for Admission Process of ACPUGMEC 2026-27.PDF"
+    }
+   ],
+   "date": "2026-09-29",
+   "date_src": "file",
+   "rank": 20,
+   "source": "GJ",
+   "id": "GJ:f9231ca07218",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Instructions for NRI Candidates 2026-27",
+   "links": [
+    {
+     "label": "Instructions for NRI Candidates 2026-27",
+     "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/Instructions for NRI Candidates 2026-27.PDF"
+    }
+   ],
+   "date": "2026-09-29",
+   "date_src": "file",
+   "rank": 21,
+   "source": "GJ",
+   "id": "GJ:85b0aee547b6",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Click Here PG Rules 201819",
+   "links": [
+    {
+     "label": "Click Here PG Rules 201819",
+     "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/PG_Rules_201819.PDF"
+    }
+   ],
+   "date": "2026-09-29",
+   "date_src": "file",
+   "rank": 22,
+   "source": "GJ",
+   "id": "GJ:f0e301471618",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the candidates whose Tuition fee is Refundable and pending with Admission Committee",
+   "links": [
+    {
+     "label": "List of the candidates whose Tuition fee is Refundable and pending with Admission Committee",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/Pending_Fees_Refund_R6.pdf"
+    }
+   ],
+   "date": "2026-09-16",
+   "date_src": "file",
+   "rank": 23,
+   "source": "GJ",
+   "id": "GJ:d33cb8885ba7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the successful candidates whose Tuition fee is Refunded in Round 1",
+   "links": [
+    {
+     "label": "List of the successful candidates whose Tuition fee is Refunded in Round 1",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/FEE_REFUND_SUCCESS_PGMDMS_R1.pdf"
+    }
+   ],
+   "date": "2026-04-13",
+   "date_src": "file",
+   "rank": 24,
+   "source": "GJ",
+   "id": "GJ:8c9ec871b482",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the successful candidates whose Tuition fee is Refunded in Round 2",
+   "links": [
+    {
+     "label": "List of the successful candidates whose Tuition fee is Refunded in Round 2",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/FEE_REFUND_SUCCESS_PGMDMS_R2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 25,
+   "source": "GJ",
+   "id": "GJ:16ec14fc306f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the successful candidates whose Tuition fee is Refunded in Round 3",
+   "links": [
+    {
+     "label": "List of the successful candidates whose Tuition fee is Refunded in Round 3",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/FEE_REFUND_SUCCESS_PGMDMS_R3.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 26,
+   "source": "GJ",
+   "id": "GJ:d373bbb255c3",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the successful candidates whose Tuition fee is Refunded in Round 4",
+   "links": [
+    {
+     "label": "List of the successful candidates whose Tuition fee is Refunded in Round 4",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/FEE_REFUND_SUCCESS_PGMDMS_R4.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 27,
+   "source": "GJ",
+   "id": "GJ:e213d76b483d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the successful candidates whose Tuition fee is Refunded in Round 5",
+   "links": [
+    {
+     "label": "List of the successful candidates whose Tuition fee is Refunded in Round 5",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/FEE_REFUND_SUCCESS_PGMDMS_R5.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 28,
+   "source": "GJ",
+   "id": "GJ:747689dd262c",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the unsuccessful candidates whose Tuition fee is not Refunded in Round 1",
+   "links": [
+    {
+     "label": "List of the unsuccessful candidates whose Tuition fee is not Refunded in Round 1",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/FEE_REFUND_FAIL_PGMDMS_R1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 29,
+   "source": "GJ",
+   "id": "GJ:b18878458aca",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the unsuccessful candidates whose Tuition fee is not Refunded in Round 2",
+   "links": [
+    {
+     "label": "List of the unsuccessful candidates whose Tuition fee is not Refunded in Round 2",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/FEE_REFUND_FAIL_PGMDMS_R2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 30,
+   "source": "GJ",
+   "id": "GJ:43da87fc1387",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the candidates whose Security Deposit is Refundable and pending with Admission Committee",
+   "links": [
+    {
+     "label": "List of the candidates whose Security Deposit is Refundable and pending with Admission Committee",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/Pending_Deposit_Refund_R6.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 31,
+   "source": "GJ",
+   "id": "GJ:3baf7454f413",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the successful candidates whose Security Deposit is Refunded in Round 1",
+   "links": [
+    {
+     "label": "List of the successful candidates whose Security Deposit is Refunded in Round 1",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/DEPOSITE_REFUND_SUCCESS_PGMDMS_R1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 32,
+   "source": "GJ",
+   "id": "GJ:90c8b5eac323",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the successful candidates whose Security Deposit is Refunded in Round 2",
+   "links": [
+    {
+     "label": "List of the successful candidates whose Security Deposit is Refunded in Round 2",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/DEPOSITE_REFUND_SUCCESS_PGMDMS_R2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 33,
+   "source": "GJ",
+   "id": "GJ:c315a37b8de0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the successful candidates whose Security Deposit is Refunded in Round 3",
+   "links": [
+    {
+     "label": "List of the successful candidates whose Security Deposit is Refunded in Round 3",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/DEPOSITE_REFUND_SUCCESS_PGMDMS_R3.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 34,
+   "source": "GJ",
+   "id": "GJ:3a7ae862a6b0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the successful candidates whose Security Deposit is Refunded in Round 4",
+   "links": [
+    {
+     "label": "List of the successful candidates whose Security Deposit is Refunded in Round 4",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/DEPOSITE_REFUND_SUCCESS_PGMDMS_R4.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 35,
+   "source": "GJ",
+   "id": "GJ:989ed6e3cfc1",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the successful candidates whose Security Deposit is Refunded in Round 5",
+   "links": [
+    {
+     "label": "List of the successful candidates whose Security Deposit is Refunded in Round 5",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/DEPOSITE_REFUND_SUCCESS_PGMDMS_R5.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 36,
+   "source": "GJ",
+   "id": "GJ:2795a3895cb5",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 1",
+   "links": [
+    {
+     "label": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 1",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/DEPOSITE_REFUND_FAIL_PGMDMS_R1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 37,
+   "source": "GJ",
+   "id": "GJ:fc4e37fc6b15",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 2",
+   "links": [
+    {
+     "label": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 2",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/DEPOSITE_REFUND_FAIL_PGMDMS_R2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 38,
+   "source": "GJ",
+   "id": "GJ:3cb4d65df95f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 3",
+   "links": [
+    {
+     "label": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 3",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/DEPOSITE_REFUND_FAIL_PGMDMS_R3.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 39,
+   "source": "GJ",
+   "id": "GJ:8ca984d3c4de",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 4",
+   "links": [
+    {
+     "label": "List of the unsuccessful candidates whose Security Deposit is not Refunded in Round 4",
+     "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/REFUND/DEPOSITE_REFUND_FAIL_PGMDMS_R4.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 40,
+   "source": "GJ",
+   "id": "GJ:71083587bc5f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Compiled Closure PG 2025-26",
+   "links": [
+    {
+     "label": "Compiled Closure PG 2025-26",
+     "url": "http://medadmgujarat.ncode.in/WEB/PG2025/MDMS/Compiled_Closure_PG_2025-26_PGMDMS.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 42,
+   "source": "GJ",
+   "id": "GJ:ac01d97851c7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Extension of Last Date for Submission of No Objection Certificate (NOC) for Grant of Incentive Marks under PCMS Category for Admission to MD/MS/DNB/PG Diploma Courses for the Academic Session 2026 (NEET-PG 2026)",
+   "links": [
+    {
+     "label": "Extension of Last Date for Submission of No Objection Certificate (NOC) for Grant of Incentive Marks under PCMS Category for Admission to MD/MS/DNB/PG Diploma Courses for the Academic Session 2026 (NEET-PG 2026)",
+     "url": "https://admission.bfuhsonline.ac.in/pget2026/mdms/Public%20Notice%20191026.pdf"
+    }
+   ],
+   "date": "2026-10-19",
+   "date_src": "page",
+   "rank": 8,
+   "source": "PB",
+   "id": "PB:ee639b91eedb",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Click here to apply online for MDMS/Dip./PGDSM/6 month ultrasonography course/DNB under NEET PG 2026",
+   "links": [
+    {
+     "label": "Click here to apply online for MDMS/Dip./PGDSM/6 month ultrasonography course/DNB under NEET PG 2026",
+     "url": "https://admission.bfuhsonline.ac.in/testpg2026mdms/main.aspx"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "page",
+   "rank": 9,
+   "source": "PB",
+   "id": "PB:40c8a4b293d0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice regarding MDS 3rd round of counselling",
+   "links": [
+    {
+     "label": "Notice regarding MDS 3rd round of counselling",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/notice regarding 3rd round MDS 2026 counselling.pdf"
+    }
+   ],
+   "date": "2026-10-07",
+   "date_src": "page",
+   "rank": 10,
+   "source": "PB",
+   "id": "PB:cae0b9f3a372",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Click here to submit willingness for 3rd Round",
+   "links": [
+    {
+     "label": "Click here to apply online",
+     "url": "https://admission.bfuhsonline.ac.in/testpg2026mds/main.aspx"
+    },
+    {
+     "label": "Click here to view willingness list",
+     "url": "https://admission.bfuhsonline.ac.in/testpg2026mds/willingnesslist.aspx"
+    }
+   ],
+   "date": "2026-10-03",
+   "date_src": "page",
+   "rank": 11,
+   "source": "PB",
+   "id": "PB:e61ed8398bb4",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Vacancy position for 3rd round MDS counselling",
+   "links": [
+    {
+     "label": "Vacancy position for 3rd round MDS counselling",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Tentative vacancy for 3rd round MDS 2026 02.10.2026.pdf"
+    }
+   ],
+   "date": "2026-10-02",
+   "date_src": "page",
+   "rank": 12,
+   "source": "PB",
+   "id": "PB:512ca164cb89",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "3rd round MDS schedule under NEET PG-MDS 2026",
+   "links": [
+    {
+     "label": "3rd round MDS schedule under NEET PG-MDS 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/3rd round of mds schedule.pdf"
+    }
+   ],
+   "date": "2026-10-01",
+   "date_src": "page",
+   "rank": 13,
+   "source": "PB",
+   "id": "PB:4813d0d7aea0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice Reg. NOC for incentive marks for PCMS in-service candidates under NEET PG-2026",
+   "links": [
+    {
+     "label": "Notice Reg. NOC for incentive marks for PCMS in-service candidates under NEET PG-2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/PCMSNotice/Notice regarding PCMS candidate.pdf"
+    },
+    {
+     "label": "CERTIFICATE OF SERVICE AND ELIGIBILITY CERTIFICATE (FOR CLAIMING INCENTIVE MARKS FOR IN SERVICE CANDIDATES)",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/PCMSNotice/ANNEXURE-A.pdf"
+    },
+    {
+     "label": "Compulsory UNDERTAKING for in service candidates only",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/PCMSNotice/ANNEXURE-B.pdf"
+    }
+   ],
+   "date": "2026-09-30",
+   "date_src": "page",
+   "rank": 14,
+   "source": "PB",
+   "id": "PB:dd59148dada6",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice regarding 2nd round MDS result 2026",
+   "links": [
+    {
+     "label": "Notice regarding 2nd round MDS result 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Notice regarding final provisional result 2nd round NEET PG-MDS 2026.pdf"
+    }
+   ],
+   "date": "2026-09-26",
+   "date_src": "page",
+   "rank": 16,
+   "source": "PB",
+   "id": "PB:b79b94f19e4d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional allotment 2nd round online counselling MDS 2026",
+   "links": [
+    {
+     "label": "Provisional allotment 2nd round online counselling MDS 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Provisional allotment 2nd round MDS under NEET PG MDS- 2026.pdf"
+    }
+   ],
+   "date": "2026-09-25",
+   "date_src": "page",
+   "rank": 17,
+   "source": "PB",
+   "id": "PB:76cab99ce049",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice regarding final merit list for 2nd round counselling under NEET MDS 2026",
+   "links": [
+    {
+     "label": "Notice regarding final merit list for 2nd round counselling under NEET MDS 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/notice regarding 2nd round merit list for MDS 2026.pdf"
+    }
+   ],
+   "date": "2026-09-21",
+   "date_src": "page",
+   "rank": 18,
+   "source": "PB",
+   "id": "PB:72bb06875cb9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional Merit list for 2nd round MDS 2026",
+   "links": [
+    {
+     "label": "Provisional Merit list for 2nd round MDS 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Provisional Merit list for 2nd round MDS 2026.pdf"
+    }
+   ],
+   "date": "2026-09-19",
+   "date_src": "page",
+   "rank": 19,
+   "source": "PB",
+   "id": "PB:94e152f8dc89",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Click here to fill online choices for 2nd Round of MDS Counselling Under NEET PG 2026",
+   "links": [
+    {
+     "label": "Click here to fill online choices for 2nd Round of MDS Counselling Under NEET PG 2026",
+     "url": "https://bfuhs.smartpad.in/Registration/Default.aspx"
+    }
+   ],
+   "date": "2026-09-19",
+   "date_src": "page",
+   "rank": 20,
+   "source": "PB",
+   "id": "PB:4ae04b414c22",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Updated tentative vacancy position for MDS 2nd round online counselling 2026",
+   "links": [
+    {
+     "label": "Updated tentative vacancy position for MDS 2nd round online counselling 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/15-9-26/Updated-vacancy.pdf"
+    }
+   ],
+   "date": "2026-09-15",
+   "date_src": "page",
+   "rank": 21,
+   "source": "PB",
+   "id": "PB:547a14b42139",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Tentative vacancy position for MDS 2nd round online counselling 2026",
+   "links": [
+    {
+     "label": "Tentative vacancy position for MDS 2nd round online counselling 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/14-9-26/Tentative-vacancy.pdf"
+    }
+   ],
+   "date": "2026-09-14",
+   "date_src": "page",
+   "rank": 23,
+   "source": "PB",
+   "id": "PB:59b5a2123e30",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Schedule for 2nd Round of MDS Counselling under NEET PG 2026",
+   "links": [
+    {
+     "label": "Schedule for 2nd Round of MDS Counselling under NEET PG 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Schedule 2nd counselling of MDS 2026.pdf"
+    }
+   ],
+   "date": "2026-09-12",
+   "date_src": "page",
+   "rank": 24,
+   "source": "PB",
+   "id": "PB:3d1d16ded5a8",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice regarding final provisional result MDS 1st round counselling",
+   "links": [
+    {
+     "label": "Notice regarding final provisional result MDS 1st round counselling",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/notice regarding final provisional result 1st round MDS 2026 counselling.pdf"
+    }
+   ],
+   "date": "2026-09-09",
+   "date_src": "page",
+   "rank": 26,
+   "source": "PB",
+   "id": "PB:ff342dcc642a",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional selection list MDS 1st round 2026",
+   "links": [
+    {
+     "label": "Provisional selection list MDS 1st round 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Provisional Selection list MDS ist round dated 08.09.2026.pdf"
+    }
+   ],
+   "date": "2026-09-08",
+   "date_src": "page",
+   "rank": 27,
+   "source": "PB",
+   "id": "PB:60d879f47dbb",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List of Eligible Christian minority candidates for PG MDS 2026",
+   "links": [
+    {
+     "label": "List of Eligible Christian minority candidates for PG MDS 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/List of Eligible Christian minority candidates for PG MDS 2026.pdf"
+    },
+    {
+     "label": "List of Not Eligible Christian Minority Candidates for PG MDS 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/List of Not Eligible Christian Minority Candidates for PG MDS 2026.pdf"
+    },
+    {
+     "label": "List of Eligible and Not Eligible students Sikh Minority NEET PG MDS 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/List of Eligible and Not Eligible students Sikh Minority NEET PG MDS 2026.pdf"
+    },
+    {
+     "label": "Notice regarding Final Merit list of NEET MDS 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Notice regarding Final Merit list of NEET MDS 2026.pdf"
+    }
+   ],
+   "date": "2026-09-01",
+   "date_src": "page",
+   "rank": 29,
+   "source": "PB",
+   "id": "PB:a91f0e99c60a",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional Merit list for 1st Round NEET PG - MDS 2026",
+   "links": [
+    {
+     "label": "Provisional Merit list for 1st Round NEET PG - MDS 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Provisional Merit 1st round MDS-2026.pdf"
+    }
+   ],
+   "date": "2026-08-31",
+   "date_src": "page",
+   "rank": 30,
+   "source": "PB",
+   "id": "PB:c585dd2c9f0a",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Remaining schedule of MDS course under NEET UG 2026",
+   "links": [
+    {
+     "label": "Remaining schedule of MDS course under NEET UG 2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Remaining schedule for 1st round.pdf"
+    }
+   ],
+   "date": "2026-08-29",
+   "date_src": "page",
+   "rank": 31,
+   "source": "PB",
+   "id": "PB:829bba58bbef",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice Regarding Minority candidates under NEET PG MDS Courses",
+   "links": [
+    {
+     "label": "Notice Regarding Minority candidates under NEET PG MDS Courses",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Notice Minority quota for 1st round.pdf"
+    }
+   ],
+   "date": "2026-08-26",
+   "date_src": "page",
+   "rank": 32,
+   "source": "PB",
+   "id": "PB:de4ab6b3365e",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice regarding submission of online application form for the First Round of Online Counselling has been extended up to 29.08.2026",
+   "links": [
+    {
+     "label": "Notice regarding submission of online application form for the First Round of Online Counselling has been extended up to 29.08.2026",
+     "url": "https://admission.bfuhsonline.ac.in/PGET2026/Revised schedule notice 22.08.2026.pdf"
+    }
+   ],
+   "date": "2026-08-29",
+   "date_src": "page",
+   "rank": 33,
+   "source": "PB",
+   "id": "PB:7ebadddcfb5d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Prospectus MDS 2026",
+   "links": [
+    {
+     "label": "Prospectus MDS 2026",
+     "url": "https://admission.bfuhsonline.ac.in/TestPG2026MDS/ProspectusMDS2026.pdf"
+    },
+    {
+     "label": "Click here to apply Online for MDS courses under NEET PG 2026",
+     "url": "https://admission.bfuhsonline.ac.in/testpg2026mds/main.aspx"
+    }
+   ],
+   "date": "2026-08-20",
+   "date_src": "page",
+   "rank": 34,
+   "source": "PB",
+   "id": "PB:ce336d93ba3a",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice Board",
+   "links": [
+    {
+     "label": "Notice Board",
+     "url": "https://bceceboard.bihar.gov.in/NoticeBoard.php"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 16,
+   "source": "BR",
+   "id": "BR:442619e88655",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice Board 2025",
+   "links": [
+    {
+     "label": "Notice Board 2025",
+     "url": "https://bceceboard.bihar.gov.in/NoticeBoard_2025.php"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 17,
+   "source": "BR",
+   "id": "BR:ec06dffb372a",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "OLD PROSPECTUS",
+   "links": [
+    {
+     "label": "OLD PROSPECTUS",
+     "url": "https://bceceboard.bihar.gov.in/PROS.php"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 18,
+   "source": "BR",
+   "id": "BR:cc3c84c838fd",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/02 Dated 18.10.2026)",
+   "links": [
+    {
+     "label": "Notice for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/02 Dated 18.10.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_02.pdf"
+    }
+   ],
+   "date": "2026-10-18",
+   "date_src": "page",
+   "rank": 20,
+   "source": "BR",
+   "id": "BR:79cde03f154f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+   "links": [
+    {
+     "label": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf"
+    }
+   ],
+   "date": "2026-10-18",
+   "date_src": "page",
+   "rank": 21,
+   "source": "BR",
+   "id": "BR:ff0b8cf4d998",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Home | About us | Contact us | Site Map | Tenders | RTI | | | [LE] | | | | | Terms & Condition Copyright © Board Patna",
+   "links": [
+    {
+     "label": "Act",
+     "url": "https://bceceboard.bihar.gov.in/PDF_web_file/GazatPDF.pdf"
+    },
+    {
+     "label": "BCECE",
+     "url": "https://bceceboard.bihar.gov.in/BCECEexIndex.php"
+    },
+    {
+     "label": "BCECE[LE]",
+     "url": "https://bceceboard.bihar.gov.in/BCECE[LE]exIndex.php"
+    },
+    {
+     "label": "DCECE",
+     "url": "https://bceceboard.bihar.gov.in/DCECEexIndex.php"
+    },
+    {
+     "label": "DECE[LE]",
+     "url": "https://bceceboard.bihar.gov.in/DECE[LE]exIndex.php"
+    },
+    {
+     "label": "ITICAT",
+     "url": "https://bceceboard.bihar.gov.in/ITICATexIndex.php"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 22,
+   "source": "BR",
+   "id": "BR:6bd4c446002c",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "NEET-PG 2026 (MD/MS/PGD) online registration of eligible candidates of J&K/Ladakh for preparation of Provisional Merit List (PML)-2026. [NEET-PG-NN-228 Dt. 13-10-2026]",
+   "links": [
+    {
+     "label": "NEET-PG 2026 (MD/MS/PGD) online registration of eligible candidates of J&K/Ladakh for preparation of Provisional Merit List (PML)-2026. [NEET-PG-NN-228 Dt. 13-10-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19266&type=n"
+    }
+   ],
+   "date": "2026-10-13",
+   "date_src": "page",
+   "rank": 8,
+   "source": "J&K",
+   "id": "J&K:ad6b02c6bb15",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Candidates of UT of J&K /Ladakh who have appeared in NEET PG-2026, conducted by the National Board of Examinations in Medical Sciences (NBEMS) Issuance of roll number-wise list thereof. [NEET-PG-NN-225 Dt. 09-10-2026]",
+   "links": [
+    {
+     "label": "Candidates of UT of J&K /Ladakh who have appeared in NEET PG-2026, conducted by the National Board of Examinations in Medical Sciences (NBEMS) Issuance of roll number-wise list thereof. [NEET-PG-NN-225 Dt. 09-10-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19250&type=n"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "page",
+   "rank": 12,
+   "source": "J&K",
+   "id": "J&K:a5007a52e61b",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "4th Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar. [PGDRP-NN-220 Dt. 05-10-2026]",
+   "links": [
+    {
+     "label": "4th Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar. [PGDRP-NN-220 Dt. 05-10-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19230&type=n"
+    }
+   ],
+   "date": "2026-10-05",
+   "date_src": "page",
+   "rank": 17,
+   "source": "J&K",
+   "id": "J&K:a3f05bbb65a9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "3rd Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar.[PGD-RP-217 Dt. 28-09-2026]",
+   "links": [
+    {
+     "label": "3rd Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar.[PGD-RP-217 Dt. 28-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19224&type=n"
+    }
+   ],
+   "date": "2026-09-28",
+   "date_src": "page",
+   "rank": 20,
+   "source": "J&K",
+   "id": "J&K:0e66850fb9df",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional Selection List of candidates of UT of J&K/Ladakh for NEET MDS Courses 2026 after conduct of 2nd/Mop up round of online counselling. [NEET-MDS-NN-209 Dt. 22-09-2026]",
+   "links": [
+    {
+     "label": "Provisional Selection List of candidates of UT of J&K/Ladakh for NEET MDS Courses 2026 after conduct of 2nd/Mop up round of online counselling. [NEET-MDS-NN-209 Dt. 22-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19188&type=n"
+    }
+   ],
+   "date": "2026-09-22",
+   "date_src": "page",
+   "rank": 30,
+   "source": "J&K",
+   "id": "J&K:ea0cf5f3c1e2",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "2nd Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar. [PGDRP-NN-207 Dt. 21-09-2026]",
+   "links": [
+    {
+     "label": "2nd Provisional Selection List of candidates for Admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar. [PGDRP-NN-207 Dt. 21-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19182&type=n"
+    }
+   ],
+   "date": "2026-09-21",
+   "date_src": "page",
+   "rank": 32,
+   "source": "J&K",
+   "id": "J&K:c89ab7194cda",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional Selection List of candidates for admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar [PGDRP-NN-199 Dt. 15-09-2026]",
+   "links": [
+    {
+     "label": "Provisional Selection List of candidates for admission to PG Diploma in Rehabilitation Psychology-2026 in Composite Regional Centre, Bemina, Srinagar [PGDRP-NN-199 Dt. 15-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19156&type=n"
+    }
+   ],
+   "date": "2026-09-15",
+   "date_src": "page",
+   "rank": 41,
+   "source": "J&K",
+   "id": "J&K:92a8a6c0f4ce",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Conduct Of 2nd / Mop up Round of Counselling / Submission of Online Preferences by the eligible candidates for admission to NEET MDS Courses-2026. [NEET-MDS-NN-198 Dt. 15-09-2026]",
+   "links": [
+    {
+     "label": "Conduct Of 2nd / Mop up Round of Counselling / Submission of Online Preferences by the eligible candidates for admission to NEET MDS Courses-2026. [NEET-MDS-NN-198 Dt. 15-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19151&type=n"
+    }
+   ],
+   "date": "2026-09-15",
+   "date_src": "page",
+   "rank": 42,
+   "source": "J&K",
+   "id": "J&K:2eb4a5b3ceb8",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional Merit List of candidates who have applied for admission to PG Diploma in Rehabilitation Psychology course 2026 at CRC, Srinagar- Inviting of the objections/Removal of deficiencies thereof.[PGDRP-NN-192, Dt. 11.09.2026]",
+   "links": [
+    {
+     "label": "Provisional Merit List of candidates who have applied for admission to PG Diploma in Rehabilitation Psychology course 2026 at CRC, Srinagar- Inviting of the objections/Removal of deficiencies thereof.[PGDRP-NN-192, Dt. 11.09.2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19136&type=n"
+    }
+   ],
+   "date": "2026-09-11",
+   "date_src": "page",
+   "rank": 48,
+   "source": "J&K",
+   "id": "J&K:eebaeaaf64af",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Revised Provisional Selection List of UT of J&K/Ladakh candidates for NEET MDS Courses 2026 after the 1st round of online counselling. [NEET-MDS-NN-182 Dt. 08-09-2026]",
+   "links": [
+    {
+     "label": "Revised Provisional Selection List of UT of J&K/Ladakh candidates for NEET MDS Courses 2026 after the 1st round of online counselling. [NEET-MDS-NN-182 Dt. 08-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19110&type=n"
+    }
+   ],
+   "date": "2026-09-08",
+   "date_src": "page",
+   "rank": 58,
+   "source": "J&K",
+   "id": "J&K:e48eae77b4fd",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional Selection List of candidates of UT of J&K / Ladakh for NEET MDS Courses 2026 after the conduct of the 1st round of online counselling. [NEET-MDS-NN-181 Dt. 07-09-2026]",
+   "links": [
+    {
+     "label": "Provisional Selection List of candidates of UT of J&K / Ladakh for NEET MDS Courses 2026 after the conduct of the 1st round of online counselling. [NEET-MDS-NN-181 Dt. 07-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19106&type=n"
+    }
+   ],
+   "date": "2026-09-07",
+   "date_src": "page",
+   "rank": 59,
+   "source": "J&K",
+   "id": "J&K:7553369c9083",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Cancellation of provisional allotment of seat of Ms. Mahjabeena Noor under SC category in 3rd round and OM in Mop-up round and allotment of resultant seat to the next eligible SC candidate in the 3rd/Mop-Up Round of Counselling for GNM Lateral Entry course-2026 – regarding. [GNM-LE-NN-177 Dt. 02-09-",
+   "links": [
+    {
+     "label": "Cancellation of provisional allotment of seat of Ms. Mahjabeena Noor under SC category in 3rd round and OM in Mop-up round and allotment of resultant seat to the next eligible SC candidate in the 3rd/Mop-Up Round of Counselling for GNM Lateral Entry course-2026 – regarding. [GNM-LE-NN-177 Dt. 02-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19087&type=n"
+    }
+   ],
+   "date": "2026-09-02",
+   "date_src": "page",
+   "rank": 63,
+   "source": "J&K",
+   "id": "J&K:64ea83b7b7b1",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Admission to the NEET MDS for the Session 2026: Online choice filling/Counselling schedule thereof. [NEET-MDS-NN-176 Dt. 02-09-2026]",
+   "links": [
+    {
+     "label": "Admission to the NEET MDS for the Session 2026: Online choice filling/Counselling schedule thereof. [NEET-MDS-NN-176 Dt. 02-09-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19085&type=n"
+    }
+   ],
+   "date": "2026-09-02",
+   "date_src": "page",
+   "rank": 64,
+   "source": "J&K",
+   "id": "J&K:397104b2cb1f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Inviting of Online Application(s) for Admission to PG Diploma in Rehabilitation Psychology Course-2026 in Composite Regional Centre (CRC) Srinagar. [PG-RP-NN-171 Dt. 28-08-2026]",
+   "links": [
+    {
+     "label": "Inviting of Online Application(s) for Admission to PG Diploma in Rehabilitation Psychology Course-2026 in Composite Regional Centre (CRC) Srinagar. [PG-RP-NN-171 Dt. 28-08-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19067&type=n"
+    }
+   ],
+   "date": "2026-08-28",
+   "date_src": "page",
+   "rank": 70,
+   "source": "J&K",
+   "id": "J&K:4963e6ca353c",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional Merit List (PML) of NEET MDS Courses-2026 for candidates belonging to the UT of J&K/Ladakh: Inviting of Objections thereof. [NEET-MDS-NN-169 Dt. 27-08-2026]",
+   "links": [
+    {
+     "label": "Provisional Merit List (PML) of NEET MDS Courses-2026 for candidates belonging to the UT of J&K/Ladakh: Inviting of Objections thereof. [NEET-MDS-NN-169 Dt. 27-08-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19054&type=n"
+    }
+   ],
+   "date": "2026-08-27",
+   "date_src": "page",
+   "rank": 72,
+   "source": "J&K",
+   "id": "J&K:6dfa469e0171",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Online registration of eligible candidates for NEET MDS-2026 of J&K/Ladakh for preparation of Provisional Merit List (PML)-2026. [NEET-PG-MDS-NN-155 Dt. 18-08-2026]",
+   "links": [
+    {
+     "label": "Online registration of eligible candidates for NEET MDS-2026 of J&K/Ladakh for preparation of Provisional Merit List (PML)-2026. [NEET-PG-MDS-NN-155 Dt. 18-08-2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19011&type=n"
+    }
+   ],
+   "date": "2026-08-18",
+   "date_src": "page",
+   "rank": 86,
+   "source": "J&K",
+   "id": "J&K:802f27ed15b1",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Candidates of UT of J&K /Ladakh who have appeared in the NEET MDS-2026, conducted by the National Board of Examinations—Issuance of Roll Number wise list thereof.[MDS-NN-126, Dt. 29.07.2026]",
+   "links": [
+    {
+     "label": "Candidates of UT of J&K /Ladakh who have appeared in the NEET MDS-2026, conducted by the National Board of Examinations—Issuance of Roll Number wise list thereof.[MDS-NN-126, Dt. 29.07.2026]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=18926&type=n"
+    }
+   ],
+   "date": "2026-07-29",
+   "date_src": "page",
+   "rank": 115,
+   "source": "J&K",
+   "id": "J&K:7e62a3690a1f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "E-Counselling Instructions and Guidelines for admission to NEET PG (MD/MS/PGD)-2025.",
+   "links": [
+    {
+     "label": "E-Counselling Instructions and Guidelines for admission to NEET PG (MD/MS/PGD)-2025.",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17289&type=n"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 300,
+   "source": "J&K",
+   "id": "J&K:56b3def34f50",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Filling up of unfilled seats in GMC, Jammu and ASCOMS, Jammu [PG-NN-24]",
+   "links": [
+    {
+     "label": "Filling up of unfilled seats in GMC, Jammu and ASCOMS, Jammu [PG-NN-24]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=12706&type=n"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1201,
+   "source": "J&K",
+   "id": "J&K:a69210c6c290",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Filling up of unfilled seats in ASCOMS and one seat of Pediatrics in GMC, Jammu, which became available due to resignation of a candidate. [PG-NN-22]",
+   "links": [
+    {
+     "label": "Filling up of unfilled seats in ASCOMS and one seat of Pediatrics in GMC, Jammu, which became available due to resignation of a candidate. [PG-NN-22]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=12698&type=n"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1203,
+   "source": "J&K",
+   "id": "J&K:e97ef47bf750",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Admission to MD/MS /PG Diploma-filling up of unfilled NRI Seat in ASCOMS, Jammu.[PG-NN-32]",
+   "links": [
+    {
+     "label": "Admission to MD/MS /PG Diploma-filling up of unfilled NRI Seat in ASCOMS, Jammu.[PG-NN-32]",
+     "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=4396&type=n"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1321,
+   "source": "J&K",
+   "id": "J&K:0b79f27feacb",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "NEET PG-2026 State Quota Counselling Seats (DNB/Diploma and MD/MS – TRIHMS) for Academic Session 2026‑27",
+   "links": [
+    {
+     "label": "NEET PG-2026 State Quota Counselling Seats (DNB/Diploma and MD/MS – TRIHMS) for Academic Session 2026‑27",
+     "url": "https://dmetrap.in/2026/10/16/neet-pg-2026-state-quota-counselling-seats-dnb-diploma-and-md-ms-trihms-for-academic-session-2026-27/"
+    }
+   ],
+   "date": "2026-10-16",
+   "date_src": "page",
+   "rank": 14,
+   "source": "AR",
+   "id": "AR:e7cff5f6670b",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "MDMS COUNSELLING SCHEDULE FOR FIRST ROUND-2026",
+   "links": [
+    {
+     "label": "MDMS COUNSELLING SCHEDULE FOR FIRST ROUND-2026",
+     "url": "https://www.smu.edu.in/img/pdf/notice-board/MDMS-COUNSELLING-SCHEDULE-FIRST-ROUND-2026.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "file",
+   "rank": 14,
+   "source": "SK",
+   "id": "SK:d26c405a29b1",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "NOTICE FOR LAST DATE OF APPLICATION FOR MDMS-2026-27",
+   "links": [
+    {
+     "label": "NOTICE FOR LAST DATE OF APPLICATION FOR MDMS-2026-27",
+     "url": "https://www.smu.edu.in/img/pdf/notice-board/NOTICE-FOR-LAST-DATE-OF-APPLICATION-FOR-MDMS-2026-27.pdf"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "file",
+   "rank": 16,
+   "source": "SK",
+   "id": "SK:940535cacad9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG-DENTAL DASHBOARD",
+   "links": [
+    {
+     "label": "PG-DENTAL DASHBOARD",
+     "url": "https://centacpuducherry.in/PgNeet/Dental_2026"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 4,
+   "source": "PY",
+   "id": "PY:f63e6a76c8d9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[17-10-2026] - NOTICE : ROUND 3 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 / ROUND 2 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "links": [
+    {
+     "label": "[17-10-2026] - NOTICE : ROUND 3 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 / ROUND 2 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+     "url": "https://drive.google.com/file/d/1GtODqGuSeuI1TEkQp7q1Ozj_t_ps_xvW/view?usp=sharing"
+    }
+   ],
+   "date": "2026-10-17",
+   "date_src": "page",
+   "rank": 5,
+   "source": "PY",
+   "id": "PY:9b726bb0b650",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[17-10-2026] - NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL (MDS) DUE TO LOWERING OF CUT-OFF",
+   "links": [
+    {
+     "label": "[17-10-2026] - NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL (MDS) DUE TO LOWERING OF CUT-OFF",
+     "url": "https://drive.google.com/file/d/1v6BXMy4IqCtYAHHiIuVPPHPhzJQXp_1p/view?usp=sharing"
+    }
+   ],
+   "date": "2026-10-17",
+   "date_src": "page",
+   "rank": 6,
+   "source": "PY",
+   "id": "PY:a003ab74fafa",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[16-10-2026] - LIST OF VACANCIES IN PG NEET DENTAL (M.D.S.) COURSES AFTER ROUND 2",
+   "links": [
+    {
+     "label": "[16-10-2026] - LIST OF VACANCIES IN PG NEET DENTAL (M.D.S.) COURSES AFTER ROUND 2",
+     "url": "https://drive.google.com/file/d/1182fGm-6otlxKCZo43W3Z-VqhIswuK09/view?usp=sharing"
+    }
+   ],
+   "date": "2026-10-16",
+   "date_src": "page",
+   "rank": 7,
+   "source": "PY",
+   "id": "PY:d5188020ca0f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[01-10-2026] - PG DENTAL ADMITTED LIST - SECOND ROUND - (2026 - 2027)",
+   "links": [
+    {
+     "label": "[01-10-2026] - PG DENTAL ADMITTED LIST - SECOND ROUND - (2026 - 2027)",
+     "url": "https://drive.google.com/file/d/1ixIdXRTqkvfXKmm-u3cuDLJ2gx1c7cbT/view?usp=sharing"
+    }
+   ],
+   "date": "2026-10-01",
+   "date_src": "page",
+   "rank": 8,
+   "source": "PY",
+   "id": "PY:fa49a0cc8ccc",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[24-09-2026] - SECOND ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+   "links": [
+    {
+     "label": "[24-09-2026] - SECOND ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+     "url": "https://drive.google.com/file/d/16ZbS7_fz3iAzhbOZyzceSsUBLoC-aKpU/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-24",
+   "date_src": "page",
+   "rank": 9,
+   "source": "PY",
+   "id": "PY:86f172c96c23",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[24-09-2026] - NOTICE : ROUND 2 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "links": [
+    {
+     "label": "[24-09-2026] - NOTICE : ROUND 2 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+     "url": "https://drive.google.com/file/d/1xMaNn3vyVy1mCYGfps7oVhzx51Q9VtgK/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-24",
+   "date_src": "page",
+   "rank": 10,
+   "source": "PY",
+   "id": "PY:614a1c0ee9cc",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[23-09-2026] - SECOND ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+   "links": [
+    {
+     "label": "[23-09-2026] - SECOND ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+     "url": "https://drive.google.com/file/d/1A1FFJrAsJSuflD_elscacRkSXPjxBa4T/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-23",
+   "date_src": "page",
+   "rank": 11,
+   "source": "PY",
+   "id": "PY:68aa2b1b3e54",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[23-09-2026] - NOTICE : ROUND 2 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "links": [
+    {
+     "label": "[23-09-2026] - NOTICE : ROUND 2 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+     "url": "https://drive.google.com/file/d/15ZccFR18iZEpcEIAsf2CFeyGmSlR3KhE/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-23",
+   "date_src": "page",
+   "rank": 12,
+   "source": "PY",
+   "id": "PY:94a3cc618e97",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[22-09-2026] - LIST OF CANDIDATES ELIGIBLE FOR ROUND 2 PG DENTAL COUNSELLING (2026 - 2027)",
+   "links": [
+    {
+     "label": "[22-09-2026] - LIST OF CANDIDATES ELIGIBLE FOR ROUND 2 PG DENTAL COUNSELLING (2026 - 2027)",
+     "url": "https://centacpuducherry.in/htmlpages/2026/PgDental_2026/second_round_eligible_list.html"
+    }
+   ],
+   "date": "2026-09-22",
+   "date_src": "page",
+   "rank": 13,
+   "source": "PY",
+   "id": "PY:6c4dc83acc41",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[22-09-2026] - NOTICE : ROUND 2 ELIGIBLE CANDIDATES LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "links": [
+    {
+     "label": "[22-09-2026] - NOTICE : ROUND 2 ELIGIBLE CANDIDATES LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+     "url": "https://drive.google.com/file/d/1U2tQhBPHmLuO3SbmcjFi3at7wNyev4hL/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-22",
+   "date_src": "page",
+   "rank": 14,
+   "source": "PY",
+   "id": "PY:1381ff0bee3b",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[16-09-2026] - NOTICE : ROUND 2 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "links": [
+    {
+     "label": "[16-09-2026] - NOTICE : ROUND 2 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+     "url": "https://drive.google.com/file/d/1DiuLVm5koq2A-UEDmQ4JbHTrP3D4RzVa/view?usp=drivesdk"
+    }
+   ],
+   "date": "2026-09-16",
+   "date_src": "page",
+   "rank": 15,
+   "source": "PY",
+   "id": "PY:7bc8060d76e6",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[16-09-2026] - PG DENTAL (M.D.S.) COURSES - VACANCIES AFTER ROUND 1",
+   "links": [
+    {
+     "label": "[16-09-2026] - PG DENTAL (M.D.S.) COURSES - VACANCIES AFTER ROUND 1",
+     "url": "https://drive.google.com/file/d/18f7A3mShs-2-Y0wS_gnbzk6fK01CP7G_/view?usp=drivesdk"
+    }
+   ],
+   "date": "2026-09-16",
+   "date_src": "page",
+   "rank": 16,
+   "source": "PY",
+   "id": "PY:b8bfa121f92c",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[16-09-2026] - PG DENTAL ADMITTED LIST - FIRST ROUND - (2026 - 2027)",
+   "links": [
+    {
+     "label": "[16-09-2026] - PG DENTAL ADMITTED LIST - FIRST ROUND - (2026 - 2027)",
+     "url": "https://drive.google.com/file/d/1l6RTEALGpBh94V55mSeL5726WUMgsOFi/view?usp=drivesdk"
+    }
+   ],
+   "date": "2026-09-16",
+   "date_src": "page",
+   "rank": 17,
+   "source": "PY",
+   "id": "PY:a8299110e8f7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[07-09-2026] - FIRST ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+   "links": [
+    {
+     "label": "[07-09-2026] - FIRST ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+     "url": "https://drive.google.com/file/d/1DUyhzwWvFGqvCOFvu9ZfZfZa56OzQ1TL/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-07",
+   "date_src": "page",
+   "rank": 18,
+   "source": "PY",
+   "id": "PY:159d26dc0011",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[07-09-2026] - NOTICE : ROUND 1 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "links": [
+    {
+     "label": "[07-09-2026] - NOTICE : ROUND 1 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+     "url": "https://drive.google.com/file/d/1CyXYu_c4qDwjKSOVaSxV8S_Xbov0bUif/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-07",
+   "date_src": "page",
+   "rank": 19,
+   "source": "PY",
+   "id": "PY:42c7724d94d3",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[06-09-2026] - FIRST ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+   "links": [
+    {
+     "label": "[06-09-2026] - FIRST ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+     "url": "https://drive.google.com/file/d/1DZ0r9Mpy5BGeLPgUfiyPbFwSBvIakF5p/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-06",
+   "date_src": "page",
+   "rank": 20,
+   "source": "PY",
+   "id": "PY:866aee21c325",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[06-09-2026] - NOTICE : ROUND 1 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "links": [
+    {
+     "label": "[06-09-2026] - NOTICE : ROUND 1 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+     "url": "https://drive.google.com/file/d/1TJxM64_bqXEnbW-Ad1ALcAvIN1p7A4T2/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-06",
+   "date_src": "page",
+   "rank": 21,
+   "source": "PY",
+   "id": "PY:808d6dc7bc20",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[05-09-2026] - MGPGIDS - MDS FEE STRUCTURE FOR THE ACADEMIC YEAR 2026 - 2027",
+   "links": [
+    {
+     "label": "[05-09-2026] - MGPGIDS - MDS FEE STRUCTURE FOR THE ACADEMIC YEAR 2026 - 2027",
+     "url": "https://drive.google.com/file/d/1yQxdq5ZYELuAPt7YHGzpKo0_4ctYj-Ok/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-05",
+   "date_src": "page",
+   "rank": 22,
+   "source": "PY",
+   "id": "PY:c5a7920c00bb",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[04-09-2026] - FINAL MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
+   "links": [
+    {
+     "label": "[04-09-2026] - FINAL MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
+     "url": "https://centacpuducherry.in/htmlpages/2026/PgDental_2026/final_merit_list.html"
+    }
+   ],
+   "date": "2026-09-04",
+   "date_src": "page",
+   "rank": 23,
+   "source": "PY",
+   "id": "PY:f263727ca7e6",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[04-09-2026] - NOTICE : FINAL MERIT LIST FOR PG DENTAL (M.D.S.) COURSES & SUBMISSION OF COURSE PREFERENCES FOR ROUND 1 FOR THE ACADEMIC YEAR 2026-2027",
+   "links": [
+    {
+     "label": "[04-09-2026] - NOTICE : FINAL MERIT LIST FOR PG DENTAL (M.D.S.) COURSES & SUBMISSION OF COURSE PREFERENCES FOR ROUND 1 FOR THE ACADEMIC YEAR 2026-2027",
+     "url": "https://drive.google.com/file/d/1uoLQmN_6OFCk5HhH6G33DclPHKvMzIe5/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-04",
+   "date_src": "page",
+   "rank": 24,
+   "source": "PY",
+   "id": "PY:0686b785f7d9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[03-09-2026] - MINDS - BDS & MDS REDUCED FEES FOR THE ACADEMIC YEAR 2026-2027",
+   "links": [
+    {
+     "label": "[03-09-2026] - MINDS - BDS & MDS REDUCED FEES FOR THE ACADEMIC YEAR 2026-2027",
+     "url": "https://drive.google.com/file/d/1IHWK5li88JYw5jYnRqMcNcfFZ3-9S3Lz/view?usp=sharing"
+    }
+   ],
+   "date": "2026-09-03",
+   "date_src": "page",
+   "rank": 25,
+   "source": "PY",
+   "id": "PY:00fd03d6bacc",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[24-08-2026] - REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "links": [
+    {
+     "label": "[24-08-2026] - REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+     "url": "https://centacpuducherry.in/htmlpages/2026/PgDental_2026/revised_draft_merit_list.html"
+    }
+   ],
+   "date": "2026-08-24",
+   "date_src": "page",
+   "rank": 27,
+   "source": "PY",
+   "id": "PY:b4540a007cb4",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[24-08-2026] - NOTICE : REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "links": [
+    {
+     "label": "[24-08-2026] - NOTICE : REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+     "url": "https://drive.google.com/file/d/1NdAaKm2C-32rgQYxm5WnAo7E6Mp3aQgn/view?usp=sharing"
+    }
+   ],
+   "date": "2026-08-24",
+   "date_src": "page",
+   "rank": 28,
+   "source": "PY",
+   "id": "PY:1db3b8e867b0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[18-08-2026] - DRAFT MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
+   "links": [
+    {
+     "label": "[18-08-2026] - DRAFT MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
+     "url": "https://centacpuducherry.in/htmlpages/2026/PgDental_2026/draft_merit_list.html"
+    }
+   ],
+   "date": "2026-08-18",
+   "date_src": "page",
+   "rank": 29,
+   "source": "PY",
+   "id": "PY:d9f51fba5586",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[18-08-2026] - NOTICE : DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "links": [
+    {
+     "label": "[18-08-2026] - NOTICE : DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+     "url": "https://drive.google.com/file/d/1hQdnDIzv-S7VhWYeaF6yw-yedeVOhkd3/view?usp=sharing"
+    }
+   ],
+   "date": "2026-08-18",
+   "date_src": "page",
+   "rank": 30,
+   "source": "PY",
+   "id": "PY:de81f48841b3",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[04-08-2026] - NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "links": [
+    {
+     "label": "[04-08-2026] - NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+     "url": "https://drive.google.com/file/d/1DPo6lkjMUYCm6howhB21QUagmzt5EZjW/view?usp=sharing"
+    }
+   ],
+   "date": "2026-08-04",
+   "date_src": "page",
+   "rank": 31,
+   "source": "PY",
+   "id": "PY:a541d64dabdf",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[23-07-2026] - PG DENTAL (M.D.S.) SEAT MATRIX FOR THE ACADEMIC YEAR 2026 - 2027",
+   "links": [
+    {
+     "label": "[23-07-2026] - PG DENTAL (M.D.S.) SEAT MATRIX FOR THE ACADEMIC YEAR 2026 - 2027",
+     "url": "https://drive.google.com/file/d/1nOScRyQB-2NcMOIG329M2IuKM5lTJ2IW/view?usp=sharing"
+    }
+   ],
+   "date": "2026-07-23",
+   "date_src": "page",
+   "rank": 32,
+   "source": "PY",
+   "id": "PY:a2a75fc43525",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[10-07-2026] - NOTICE : EXTENSION OF LAST DATE FOR SUBMISSION OF APPLICATION TO PG DENTAL (MDS) COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "links": [
+    {
+     "label": "[10-07-2026] - NOTICE : EXTENSION OF LAST DATE FOR SUBMISSION OF APPLICATION TO PG DENTAL (MDS) COURSES FOR THE ACADEMIC YEAR 2026-2027",
+     "url": "https://drive.google.com/file/d/1Uf6gcF0sch8qnvIUmXmESqE0z1kGGCIU/view?usp=sharing"
+    }
+   ],
+   "date": "2026-07-10",
+   "date_src": "page",
+   "rank": 33,
+   "source": "PY",
+   "id": "PY:4376ce29845a",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[01-07-2026] - PG NEET (DENTAL) INFORMATION BROCHURE - 2026-27",
+   "links": [
+    {
+     "label": "[01-07-2026] - PG NEET (DENTAL) INFORMATION BROCHURE - 2026-27",
+     "url": "https://drive.google.com/file/d/1WjDVqNb-zsDzlr6UsOJKLBQFZxeQ6Ac9/view?usp=sharing"
+    }
+   ],
+   "date": "2026-07-01",
+   "date_src": "page",
+   "rank": 34,
+   "source": "PY",
+   "id": "PY:5842c98062be",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "[01-07-2026] - NOTICE : ADMISSION NOTIFICATION TO PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "links": [
+    {
+     "label": "[01-07-2026] - NOTICE : ADMISSION NOTIFICATION TO PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+     "url": "https://drive.google.com/file/d/1YbR0mlce4j-IUxmtKdT6Ky-Qkzov3TfN/view?usp=sharing"
+    }
+   ],
+   "date": "2026-07-01",
+   "date_src": "page",
+   "rank": 35,
+   "source": "PY",
+   "id": "PY:a3dbe7116890",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "MEDICAL PG - 2025-26 Admission Last Rank",
+   "links": [
+    {
+     "label": "MEDICAL PG - 2025-26 Admission Last Rank",
+     "url": "https://drntr.uhsap.in/index/adms_lastranks"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 2,
+   "source": "AP",
+   "id": "AP:593cb899a0d4",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG (MEDICAL) MQ PROSPECTUS 2026-27",
+   "links": [
+    {
+     "label": "PG (MEDICAL) MQ PROSPECTUS 2026-27",
+     "url": "https://drntr.uhsap.in/index/notification/20261017182730260.pdf"
+    }
+   ],
+   "date": "2026-10-17",
+   "date_src": "url",
+   "rank": 91,
+   "source": "AP",
+   "id": "AP:8d798e7be2d8",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG (MEDICAL) MQ NOTIFICATION 2026-27",
+   "links": [
+    {
+     "label": "PG (MEDICAL) MQ NOTIFICATION 2026-27",
+     "url": "https://drntr.uhsap.in/index/notification/20261017182730230.pdf"
+    }
+   ],
+   "date": "2026-10-17",
+   "date_src": "url",
+   "rank": 92,
+   "source": "AP",
+   "id": "AP:59e1f97641c7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "MDS MQ 2026-27 - Detailed Notification for Online applications due to lowering of qualifying Percentiles",
+   "links": [
+    {
+     "label": "MDS MQ 2026-27 - Detailed Notification for Online applications due to lowering of qualifying Percentiles",
+     "url": "https://drntr.uhsap.in/index/notification/20261016173444477.pdf"
+    }
+   ],
+   "date": "2026-10-16",
+   "date_src": "url",
+   "rank": 102,
+   "source": "AP",
+   "id": "AP:f1bda54e0051",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "MDS CQ 2026-27 - Detailed Notification for Online applications due to lowering of qualifying Percentiles",
+   "links": [
+    {
+     "label": "MDS CQ 2026-27 - Detailed Notification for Online applications due to lowering of qualifying Percentiles",
+     "url": "https://drntr.uhsap.in/index/notification/20261016173444463.pdf"
+    }
+   ],
+   "date": "2026-10-16",
+   "date_src": "url",
+   "rank": 103,
+   "source": "AP",
+   "id": "AP:0d84617f6a88",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG (MEDICAL) CQ NOTIFICATION 2026-27",
+   "links": [
+    {
+     "label": "PG (MEDICAL) CQ NOTIFICATION 2026-27",
+     "url": "https://drntr.uhsap.in/index/notification/20261014153152180.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "url",
+   "rank": 117,
+   "source": "AP",
+   "id": "AP:3728f9344965",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG(Medical) CQ UserManual 2026-27",
+   "links": [
+    {
+     "label": "PG(Medical) CQ UserManual 2026-27",
+     "url": "https://drntr.uhsap.in/index/notification/20261014153147320.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "url",
+   "rank": 118,
+   "source": "AP",
+   "id": "AP:3b1b631ae64d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG (MEDICAL) CQ PROSPECTUS 2026-27",
+   "links": [
+    {
+     "label": "PG (MEDICAL) CQ PROSPECTUS 2026-27",
+     "url": "https://drntr.uhsap.in/index/notification/20261014153141837.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "url",
+   "rank": 119,
+   "source": "AP",
+   "id": "AP:70b60c61c1be",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG (Dental) MQ 2026-27 - List of Not Reported Candidates after Phase-II Counselling",
+   "links": [
+    {
+     "label": "PG (Dental) MQ 2026-27 - List of Not Reported Candidates after Phase-II Counselling",
+     "url": "https://drntr.uhsap.in/index/notification/20261013132254267.pdf"
+    }
+   ],
+   "date": "2026-10-13",
+   "date_src": "url",
+   "rank": 131,
+   "source": "AP",
+   "id": "AP:462cd8720df4",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "MDS MQ 2026-27 - Phase-II College Wise Allotments List",
+   "links": [
+    {
+     "label": "MDS MQ 2026-27 - Phase-II College Wise Allotments List",
+     "url": "https://drntr.uhsap.in/index/notification/20261009121132353.pdf"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "url",
+   "rank": 140,
+   "source": "AP",
+   "id": "AP:61890889f503",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG (Dental) MQ 2026-27 - List of Not Reported Candidates after Phase-I Counselling",
+   "links": [
+    {
+     "label": "PG (Dental) MQ 2026-27 - List of Not Reported Candidates after Phase-I Counselling",
+     "url": "https://drntr.uhsap.in/index/notification/20261006164554311.pdf"
+    }
+   ],
+   "date": "2026-10-06",
+   "date_src": "url",
+   "rank": 158,
+   "source": "AP",
+   "id": "AP:07bb53dd9641",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "MDS MQ 2026-27 - Phase-II Web Options Notification",
+   "links": [
+    {
+     "label": "MDS MQ 2026-27 - Phase-II Web Options Notification",
+     "url": "https://drntr.uhsap.in/index/notification/20261006164554310.pdf"
+    }
+   ],
+   "date": "2026-10-06",
+   "date_src": "url",
+   "rank": 159,
+   "source": "AP",
+   "id": "AP:5b91c1214c78",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG (Dental) MQ Admissions 2026-27 - Corrigendum to MQ Provisional Final Merit list",
+   "links": [
+    {
+     "label": "PG (Dental) MQ Admissions 2026-27 - Corrigendum to MQ Provisional Final Merit list",
+     "url": "https://drntr.uhsap.in/index/notification/20261006164554297.pdf"
+    }
+   ],
+   "date": "2026-10-06",
+   "date_src": "url",
+   "rank": 160,
+   "source": "AP",
+   "id": "AP:7608105b633e",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Super Speciality November, 2026 Exams Notification",
+   "links": [
+    {
+     "label": "Super Speciality November, 2026 Exams Notification",
+     "url": "https://drntr.uhsap.in/index/notification/20260929130238240.pdf"
+    }
+   ],
+   "date": "2026-09-29",
+   "date_src": "url",
+   "rank": 168,
+   "source": "AP",
+   "id": "AP:224e294b5853",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Super Speciality Attend & Testimonial Certificate",
+   "links": [
+    {
+     "label": "Super Speciality Attend & Testimonial Certificate",
+     "url": "https://drntr.uhsap.in/index/notification/20260929130230947.pdf"
+    }
+   ],
+   "date": "2026-09-29",
+   "date_src": "url",
+   "rank": 169,
+   "source": "AP",
+   "id": "AP:86b77f898e28",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "MDS September 2026 Notification",
+   "links": [
+    {
+     "label": "MDS September 2026 Notification",
+     "url": "https://drntr.uhsap.in/index/notification/20260717113233640.pdf"
+    }
+   ],
+   "date": "2026-07-17",
+   "date_src": "url",
+   "rank": 188,
+   "source": "AP",
+   "id": "AP:40fcc1d992d9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG Degree Diploma Sept, 2026 Regular Exams Notification",
+   "links": [
+    {
+     "label": "PG Degree Diploma Sept, 2026 Regular Exams Notification",
+     "url": "https://drntr.uhsap.in/index/notification/20260710114020767.pdf"
+    }
+   ],
+   "date": "2026-07-10",
+   "date_src": "url",
+   "rank": 189,
+   "source": "AP",
+   "id": "AP:f7a0082ea8b7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG Attend & Testimonial Certificate",
+   "links": [
+    {
+     "label": "PG Attend & Testimonial Certificate",
+     "url": "https://drntr.uhsap.in/index/notification/20260710114012640.pdf"
+    }
+   ],
+   "date": "2026-07-10",
+   "date_src": "url",
+   "rank": 190,
+   "source": "AP",
+   "id": "AP:208f6970044d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG Degree Diploma April May, 2026 Exams Retotalling Results",
+   "links": [
+    {
+     "label": "PG Degree Diploma April May, 2026 Exams Retotalling Results",
+     "url": "https://drntr.uhsap.in/index/notification/20260708144454023.pdf"
+    }
+   ],
+   "date": "2026-07-08",
+   "date_src": "url",
+   "rank": 191,
+   "source": "AP",
+   "id": "AP:212820602ed8",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "MDS Degree Diploma May, 2026 Exams Retotalling Results",
+   "links": [
+    {
+     "label": "MDS Degree Diploma May, 2026 Exams Retotalling Results",
+     "url": "https://drntr.uhsap.in/index/notification/20260708144440117.pdf"
+    }
+   ],
+   "date": "2026-07-08",
+   "date_src": "url",
+   "rank": 192,
+   "source": "AP",
+   "id": "AP:25d540d71874",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "FINAL CENTRAL INTERNAL QUOTA SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
+   "links": [
+    {
+     "label": "FINAL CENTRAL INTERNAL QUOTA SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151906520168.pdf"
+    }
+   ],
+   "date": "2026-10-15",
+   "date_src": "url",
+   "rank": 0,
+   "source": "MCC",
+   "id": "MCC:4023d4397212",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "FINAL SEATS MATRIX DNB PG COUNSELLING 2026",
+   "links": [
+    {
+     "label": "FINAL SEATS MATRIX DNB PG COUNSELLING 2026",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151482599908.pdf"
+    }
+   ],
+   "date": "2026-10-15",
+   "date_src": "url",
+   "rank": 1,
+   "source": "MCC",
+   "id": "MCC:c89ff5b4147d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "FINAL DEEMED SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
+   "links": [
+    {
+     "label": "FINAL DEEMED SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/20261015907178910.pdf"
+    }
+   ],
+   "date": "2026-10-15",
+   "date_src": "url",
+   "rank": 2,
+   "source": "MCC",
+   "id": "MCC:e9f3c67e4260",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "FINAL ALL INDIA QUOTA SEATS MATRIX PG 2026 COUNSELLING (MD MS)",
+   "links": [
+    {
+     "label": "FINAL ALL INDIA QUOTA SEATS MATRIX PG 2026 COUNSELLING (MD MS)",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151676193504.pdf"
+    }
+   ],
+   "date": "2026-10-15",
+   "date_src": "url",
+   "rank": 3,
+   "source": "MCC",
+   "id": "MCC:928488d0fe61",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "AIQ AND STATE COUNSELLING SCEHDULE PG 2026",
+   "links": [
+    {
+     "label": "AIQ AND STATE COUNSELLING SCEHDULE PG 2026",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610081115756031.pdf"
+    }
+   ],
+   "date": "2026-10-08",
+   "date_src": "url",
+   "rank": 4,
+   "source": "MCC",
+   "id": "MCC:aed10464281c",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG All India Quota schedule 2026",
+   "links": [
+    {
+     "label": "PG All India Quota schedule 2026",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610071411981089.pdf"
+    }
+   ],
+   "date": "2026-10-07",
+   "date_src": "url",
+   "rank": 5,
+   "source": "MCC",
+   "id": "MCC:d82a873f7731",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG Information Bulletin 2026",
+   "links": [
+    {
+     "label": "PG Information Bulletin 2026",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610082121348550.pdf"
+    }
+   ],
+   "date": "2026-10-08",
+   "date_src": "url",
+   "rank": 6,
+   "source": "MCC",
+   "id": "MCC:ddd91fe80233",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "New Registration for NEET PG Counselling 2026",
+   "links": [
+    {
+     "label": "New Registration for NEET PG Counselling 2026 New",
+     "url": "https://mcc.admissions.nic.in/Applicant/Root/Home.aspx?enc=b3y6S6rqn323+Rrps4aJmWq6uDzwcVyR2D994Iqx3miWKIwOHdAUl7I6zs1LI/bNq85fKhJWyvHvAMhgNvbzOg=="
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 7,
+   "source": "MCC",
+   "id": "MCC:b2cbd43b8292",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Verification of PG Counselling 2026 Seat Matrix and Reporting of Discrepancies Before Completion of Round 1 Choice Filling",
+   "links": [
+    {
+     "label": "Verification of PG Counselling 2026 Seat Matrix and Reporting of Discrepancies Before Completion of Round 1 Choice Filling",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151265361532.pdf"
+    }
+   ],
+   "date": "2026-10-15",
+   "date_src": "url",
+   "rank": 8,
+   "source": "MCC",
+   "id": "MCC:9ccaa4f9e594",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "NMC PWD guidelines clarification.",
+   "links": [
+    {
+     "label": "NMC PWD guidelines clarification.",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151285229813.pdf"
+    }
+   ],
+   "date": "2026-10-15",
+   "date_src": "url",
+   "rank": 9,
+   "source": "MCC",
+   "id": "MCC:f86f3c292b65",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Corrigendum regarding NRI documents to be submitted dated 14.10.2026",
+   "links": [
+    {
+     "label": "Corrigendum regarding NRI documents to be submitted dated 14.10.2026",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151921258874.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "page",
+   "rank": 10,
+   "source": "MCC",
+   "id": "MCC:4a11f108cf55",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice for PwD assessment for PG Round 1 2026",
+   "links": [
+    {
+     "label": "Notice for PwD assessment for PG Round 1 2026",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609291035233397.pdf"
+    }
+   ],
+   "date": "2026-09-29",
+   "date_src": "url",
+   "rank": 11,
+   "source": "MCC",
+   "id": "MCC:d39ce915ec54",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Final Guidelines with respect to Persons with Benchmark Disabilities (PwBD) for Post Graduate Medical Courses received from NMC dated 16.09.2026",
+   "links": [
+    {
+     "label": "Final Guidelines with respect to Persons with Benchmark Disabilities (PwBD) for Post Graduate Medical Courses received from NMC dated 16.09.2026",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/20260917634917816.pdf"
+    }
+   ],
+   "date": "2026-09-16",
+   "date_src": "page",
+   "rank": 12,
+   "source": "MCC",
+   "id": "MCC:28aa4873c9fe",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Participating Institute Details PG 2026",
+   "links": [
+    {
+     "label": "Participating Institute Details PG 2026",
+     "url": "https://mcc.admissions.nic.in/Applicant/Report/ViewInstituteProfileDynamic.aspx?enc=b3y6S6rqn323+Rrps4aJmWq6uDzwcVyR2D994Iqx3miWKIwOHdAUl7I6zs1LI/bNq85fKhJWyvHvAMhgNvbzOg=="
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 13,
+   "source": "MCC",
+   "id": "MCC:c9eae958c4e7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "List Of Medical Assessment Board",
+   "links": [
+    {
+     "label": "List Of Medical Assessment Board",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610051847554726.pdf"
+    }
+   ],
+   "date": "2026-10-05",
+   "date_src": "url",
+   "rank": 14,
+   "source": "MCC",
+   "id": "MCC:6aa9db071012",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Candidate User Guide – NEET PG Counselling 2026",
+   "links": [
+    {
+     "label": "Candidate User Guide – NEET PG Counselling 2026",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610121388624358.pdf"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "url",
+   "rank": 15,
+   "source": "MCC",
+   "id": "MCC:32425db5b35f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PwD verification order dated 30-09-2026",
+   "links": [
+    {
+     "label": "PwD verification order dated 30-09-2026",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/20261001274560219.pdf"
+    }
+   ],
+   "date": "2026-09-30",
+   "date_src": "page",
+   "rank": 1,
+   "source": "WB",
+   "id": "WB:6e64c6ad3c60",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Round 1 Counselling Schedule",
+   "links": [
+    {
+     "label": "Round 1 Counselling Schedule",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610141038182976.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "url",
+   "rank": 2,
+   "source": "WB",
+   "id": "WB:c26ec35976b0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Medical Certificate",
+   "links": [
+    {
+     "label": "Medical Certificate",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/20261012264067547.pdf"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "url",
+   "rank": 3,
+   "source": "WB",
+   "id": "WB:86598a848f62",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "EWS Proforma",
+   "links": [
+    {
+     "label": "EWS Proforma",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610121311714532.pdf"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "url",
+   "rank": 4,
+   "source": "WB",
+   "id": "WB:671b0aeedf53",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "– Information Bulletin",
+   "links": [
+    {
+     "label": "– Information Bulletin",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/2026101495338605.pdf"
+    }
+   ],
+   "date": "2026-10-14",
+   "date_src": "url",
+   "rank": 5,
+   "source": "WB",
+   "id": "WB:e0996b07d222",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR MDS COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION.",
+   "links": [
+    {
+     "label": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR MDS COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION.",
+     "url": "https://tnmedicalselection.net/news/19102026190249.pdf"
+    }
+   ],
+   "date": "2026-10-20",
+   "date_src": "file",
+   "rank": 0,
+   "source": "TN",
+   "id": "TN:6eecb2950779",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR ELIGIBLE CANDIDATES OF POST BASIC DIPLOMA COURSE 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR ELIGIBLE CANDIDATES OF POST BASIC DIPLOMA COURSE 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/15102026232223.pdf"
+    }
+   ],
+   "date": "2026-10-16",
+   "date_src": "file",
+   "rank": 10,
+   "source": "TN",
+   "id": "TN:7e0eec95cb4f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "CLICK HERE TO APPLY FOR MDS COURSE 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "CLICK HERE TO APPLY FOR MDS COURSE 2026 - 2027 SESSION",
+     "url": "https://regpg.tnmedicalonline.co.in/MDS26/"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 29,
+   "source": "TN",
+   "id": "TN:0a14b6e738f4",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Kind Attention to the Candidates seeking admission to MDS Courses under the Government Medical and Dental Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Dental Colleges in Tamil Nadu for 2026-2027 Session.",
+   "links": [
+    {
+     "label": "Kind Attention to the Candidates seeking admission to MDS Courses under the Government Medical and Dental Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Dental Colleges in Tamil Nadu for 2026-2027 Session.",
+     "url": "https://tnmedicalselection.net/news/15102026050653.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 30,
+   "source": "TN",
+   "id": "TN:9df9d64cae42",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "CLICK HERE FOR ONLINE COUNSELLING OF POST BASIC DIPLOMA COURSES COURSE 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "CLICK HERE FOR ONLINE COUNSELLING OF POST BASIC DIPLOMA COURSES COURSE 2026-2027 SESSION",
+     "url": "https://counpmc1.tnmedicalonline.co.in/PBDIP26A/"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 37,
+   "source": "TN",
+   "id": "TN:4bd1e9d205b8",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE ONLINE COUNSELLING SCHEDULE FOR POST BASIC DIPLOMA COURSES 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "TENTATIVE ONLINE COUNSELLING SCHEDULE FOR POST BASIC DIPLOMA COURSES 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/14102026102138.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 40,
+   "source": "TN",
+   "id": "TN:f9052c758c8b",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR PG DEGREE /DIPLOMA COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION.",
+   "links": [
+    {
+     "label": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR PG DEGREE /DIPLOMA COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION.",
+     "url": "https://tnmedicalselection.net/news/14102026010431.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 42,
+   "source": "TN",
+   "id": "TN:c905605c100d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROVISIONAL RANK LIST FOR ELIGIBLE CANDIDATES OF POST BASIC DIPLOMA COURSE 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "PROVISIONAL RANK LIST FOR ELIGIBLE CANDIDATES OF POST BASIC DIPLOMA COURSE 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/13102026063808.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 48,
+   "source": "TN",
+   "id": "TN:4a525fb67654",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "CLICK HERE TO APPLY FOR PG DEGREE / DIPLOMA COURSES (GOVERNMENT / MANAGEMENT (INCLUDING MINORITY AND NRI CATEGORY)) QUOTA) 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "CLICK HERE TO APPLY FOR PG DEGREE / DIPLOMA COURSES (GOVERNMENT / MANAGEMENT (INCLUDING MINORITY AND NRI CATEGORY)) QUOTA) 2026 - 2027 SESSION",
+     "url": "https://regpg.tnmedicalonline.co.in/pgmed26/"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 88,
+   "source": "TN",
+   "id": "TN:3c37b0597076",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROSPECTUS FOR ADMISSION TO DNB BROAD SPECIALITY – Post MBBS and Post MBBS Diploma Seats (2 year Diploma Course) FOR SERVICE CANDIDATES 2026-2027 session",
+   "links": [
+    {
+     "label": "PROSPECTUS FOR ADMISSION TO DNB BROAD SPECIALITY – Post MBBS and Post MBBS Diploma Seats (2 year Diploma Course) FOR SERVICE CANDIDATES 2026-2027 session",
+     "url": "https://tnmedicalselection.net/news/08102026235258.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 89,
+   "source": "TN",
+   "id": "TN:852900549726",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROSPECTUS FOR ADMISSION TO POST GRADUATE DEGREE / DIPLOMA COURSES IN GOVERNMENT MEDICAL COLLEGES AND GOVERNMENT SEATS IN SELF-FINANCING MEDICAL COLLEGES AFFILIATED TO THE TAMILNADU Dr. M.G.R MEDICAL UNIVERSITY 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "PROSPECTUS FOR ADMISSION TO POST GRADUATE DEGREE / DIPLOMA COURSES IN GOVERNMENT MEDICAL COLLEGES AND GOVERNMENT SEATS IN SELF-FINANCING MEDICAL COLLEGES AFFILIATED TO THE TAMILNADU Dr. M.G.R MEDICAL UNIVERSITY 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/08102026235127.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 90,
+   "source": "TN",
+   "id": "TN:35df30d091f7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROSPECTUS FOR ADMISSION TO POST GRADUATE DEGREE / DIPLOMA COURSES IN MANAGEMENT QUOTA INCLUDING NRI OF SELF-FINANCING MEDICAL COLLEGES IN TAMIL NADU 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "PROSPECTUS FOR ADMISSION TO POST GRADUATE DEGREE / DIPLOMA COURSES IN MANAGEMENT QUOTA INCLUDING NRI OF SELF-FINANCING MEDICAL COLLEGES IN TAMIL NADU 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/08102026235016.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 91,
+   "source": "TN",
+   "id": "TN:5243ec4dac2e",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Kind Attention to the candidates seeking admission to PG MD/MS/DIPLOMA & DNB Courses under the Government Medical Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Medical Colleges in Tamil Nadu for 2026-2027 Session.",
+   "links": [
+    {
+     "label": "Kind Attention to the candidates seeking admission to PG MD/MS/DIPLOMA & DNB Courses under the Government Medical Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Medical Colleges in Tamil Nadu for 2026-2027 Session.",
+     "url": "https://tnmedicalselection.net/news/07102026054845.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 98,
+   "source": "TN",
+   "id": "TN:012bd17c5270",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ATTENTION TO THE CANDIDATES WHO ARE APPLYING FOR PG MD/MS/DIPLOMA COURSES FOR 2026-27 UNDER PWD CATEGORY",
+   "links": [
+    {
+     "label": "ATTENTION TO THE CANDIDATES WHO ARE APPLYING FOR PG MD/MS/DIPLOMA COURSES FOR 2026-27 UNDER PWD CATEGORY",
+     "url": "https://tnmedicalselection.net/news/06102026234757.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 99,
+   "source": "TN",
+   "id": "TN:55ee3fce9f48",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "CLICK HERE TO DOWNLOAD HALL TICKET FOR PG AHS DEGREE COURSES M.P.T, M.O.T, MASTER OF MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY, MASTER OF MEDICAL LABORATORY SCIENCE, MASTER OF OPTOMETRY, MASTERS IN NUTRITION AND DIETETICS, M.SC NUCLEAR MEDICINE TECHNOLOGY 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "CLICK HERE TO DOWNLOAD HALL TICKET FOR PG AHS DEGREE COURSES M.P.T, M.O.T, MASTER OF MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY, MASTER OF MEDICAL LABORATORY SCIENCE, MASTER OF OPTOMETRY, MASTERS IN NUTRITION AND DIETETICS, M.SC NUCLEAR MEDICINE TECHNOLOGY 2026 - 2027 SESSION",
+     "url": "https://regpg.tnmedicalonline.co.in/ahsht/"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 143,
+   "source": "TN",
+   "id": "TN:000e1838a941",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KIND ATTENTION TO THE CANDIDATES WHO HAVE APPLIED FOR ADMISSION TO PG AHS DEGREE COURSES M.P.T, M.O.T, MASTER OF MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY, MASTER OF MEDICAL LABORATORY SCIENCE, MASTER OF OPTOMETRY, MASTERS IN NUTRITION AND DIETETICS, M.SC NUCLEAR MEDICINE TECHNOLOGY FOR 2026-2027 SES",
+   "links": [
+    {
+     "label": "KIND ATTENTION TO THE CANDIDATES WHO HAVE APPLIED FOR ADMISSION TO PG AHS DEGREE COURSES M.P.T, M.O.T, MASTER OF MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY, MASTER OF MEDICAL LABORATORY SCIENCE, MASTER OF OPTOMETRY, MASTERS IN NUTRITION AND DIETETICS, M.SC NUCLEAR MEDICINE TECHNOLOGY FOR 2026-2027 SESSION",
+     "url": "https://stgaccbarathi.blob.core.windows.net/docs/pgahslist/01102026135011.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 144,
+   "source": "TN",
+   "id": "TN:05202948c07b",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "CLICK HERE TO DOWNLOAD ALLOTMENT ORDER FOR ONLINE COUNSELLING OF SUPER SPECIALITY COURSES 2025 - 2026 SESSION",
+   "links": [
+    {
+     "label": "CLICK HERE TO DOWNLOAD ALLOTMENT ORDER FOR ONLINE COUNSELLING OF SUPER SPECIALITY COURSES 2025 - 2026 SESSION",
+     "url": "https://pgcoun25.tnmedicalonline.co.in//ssgq25"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 166,
+   "source": "TN",
+   "id": "TN:4d6cfe47d946",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional List of Candidates allotted for Super Speciality Courses Session :2025 - 2026 on - 27.09.2026",
+   "links": [
+    {
+     "label": "Provisional List of Candidates allotted for Super Speciality Courses Session :2025 - 2026 on - 27.09.2026",
+     "url": "https://tnmedicalselection.net/news/27092026044927.pdf"
+    }
+   ],
+   "date": "2026-09-27",
+   "date_src": "page",
+   "rank": 167,
+   "source": "TN",
+   "id": "TN:38ab2ffe1084",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "CLICK HERE TO DOWNLOAD ALLOTMENT ORDER FOR ROUND-2 ONLINE COUNSELLING OF MDS COURSE (GOVERNMENT AND MANAGEMENT QUOTA (INCL. NRI AND MINORITY)) 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "CLICK HERE TO DOWNLOAD ALLOTMENT ORDER FOR ROUND-2 ONLINE COUNSELLING OF MDS COURSE (GOVERNMENT AND MANAGEMENT QUOTA (INCL. NRI AND MINORITY)) 2026 - 2027 SESSION",
+     "url": "https://counpg.tnmedicalonline.co.in/mds26/"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 168,
+   "source": "TN",
+   "id": "TN:6c9bfbe5faf4",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional List of Candidates allotted for MDS (Government Quota) Course Session :2026 - 2027 on - 26.09.2026",
+   "links": [
+    {
+     "label": "Provisional List of Candidates allotted for MDS (Government Quota) Course Session :2026 - 2027 on - 26.09.2026",
+     "url": "https://tnmedicalselection.net/news/26092026034640.pdf"
+    }
+   ],
+   "date": "2026-09-26",
+   "date_src": "page",
+   "rank": 169,
+   "source": "TN",
+   "id": "TN:e42c9185fa36",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional List of Candidates allotted for MDS (Management Quota) Course Session :2026 - 2027",
+   "links": [
+    {
+     "label": "Provisional List of Candidates allotted for MDS (Management Quota) Course Session :2026 - 2027",
+     "url": "https://tnmedicalselection.net/news/26092026034534.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 170,
+   "source": "TN",
+   "id": "TN:b0153f68e5ab",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "VIRTUAL VACANCY FOR SUPER SPECIALITY FOR 2025-2026 SESSION ON - 26-09-2026",
+   "links": [
+    {
+     "label": "VIRTUAL VACANCY FOR SUPER SPECIALITY FOR 2025-2026 SESSION ON - 26-09-2026",
+     "url": "https://tnmedicalselection.net/news/26092026031246.pdf"
+    }
+   ],
+   "date": "2026-09-26",
+   "date_src": "page",
+   "rank": 171,
+   "source": "TN",
+   "id": "TN:8b3cc351b159",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR ELIGIBLE CANDIDATES OF SUPER SPECIALITY (DM/MCH) COURSES - 2025 - 2026 SESSION",
+   "links": [
+    {
+     "label": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR ELIGIBLE CANDIDATES OF SUPER SPECIALITY (DM/MCH) COURSES - 2025 - 2026 SESSION",
+     "url": "https://tnmedicalselection.net/news/25092026044845.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 172,
+   "source": "TN",
+   "id": "TN:22ce76fb21e2",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE STRAY ROUND COUNSELLING SCHEDULE FOR SUPER SPECIALITY (DM/MCH) COURSES IN TAMILNADU GOVERNMENT MEDICAL COLLEGES 2025 SESSION",
+   "links": [
+    {
+     "label": "TENTATIVE STRAY ROUND COUNSELLING SCHEDULE FOR SUPER SPECIALITY (DM/MCH) COURSES IN TAMILNADU GOVERNMENT MEDICAL COLLEGES 2025 SESSION",
+     "url": "https://tnmedicalselection.net/news/24092026051721.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 174,
+   "source": "TN",
+   "id": "TN:972fae7ae7ae",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE VACANCY POSITION FOR MDS COURSES 2026-2027 AS ON 24-09-2026",
+   "links": [
+    {
+     "label": "TENTATIVE VACANCY POSITION FOR MDS COURSES 2026-2027 AS ON 24-09-2026",
+     "url": "https://tnmedicalselection.net/news/24092026021644.pdf"
+    }
+   ],
+   "date": "2026-09-24",
+   "date_src": "page",
+   "rank": 176,
+   "source": "TN",
+   "id": "TN:242eb69674cf",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KIND ATTENTION TO CANDIDATES WHO ARE PARTICIPATING IN ROUND 2 OF MDS COUNSELLING 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "KIND ATTENTION TO CANDIDATES WHO ARE PARTICIPATING IN ROUND 2 OF MDS COUNSELLING 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/23092026234618.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 177,
+   "source": "TN",
+   "id": "TN:be694fca32f9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "RESIGNATION OF ROUND -1 MDS courses in Government Dental Colleges and Government Quota /Management Quota including (NRI) in self financing Dental Colleges for academic 2026-2027",
+   "links": [
+    {
+     "label": "RESIGNATION OF ROUND -1 MDS courses in Government Dental Colleges and Government Quota /Management Quota including (NRI) in self financing Dental Colleges for academic 2026-2027",
+     "url": "https://tnmedicalselection.net/news/22092026235113.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 178,
+   "source": "TN",
+   "id": "TN:5354ac8a246f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "RESIGNATION PORTAL LINK FOR MDS COURSE ROUND-1 JOINED CANDIDATES 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "RESIGNATION PORTAL LINK FOR MDS COURSE ROUND-1 JOINED CANDIDATES 2026 - 2027 SESSION",
+     "url": "https://counpg.tnmedicalonline.co.in/mds26disc"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 179,
+   "source": "TN",
+   "id": "TN:a5632d7e5d93",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE STRAY ROUND VACANCY POSITION FOR ONLINE COUNSELLING OF SUPER SPECIALITY 2025-2026 SESSION",
+   "links": [
+    {
+     "label": "TENTATIVE STRAY ROUND VACANCY POSITION FOR ONLINE COUNSELLING OF SUPER SPECIALITY 2025-2026 SESSION",
+     "url": "https://tnmedicalselection.net/news/21092026033631.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 180,
+   "source": "TN",
+   "id": "TN:fe08c8f7c7cd",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KIND ATTENTION TO THE CANDIDATES SEEKING ADMISSION TO SUPER SPECIALITY (DM/MCh) COURSES IN TAMIL NADU GOVERNMENT MEDICAL COLLEGES ONLY FOR IN-SERVICE CANDIATES 2025-2026 SESSION",
+   "links": [
+    {
+     "label": "KIND ATTENTION TO THE CANDIDATES SEEKING ADMISSION TO SUPER SPECIALITY (DM/MCh) COURSES IN TAMIL NADU GOVERNMENT MEDICAL COLLEGES ONLY FOR IN-SERVICE CANDIATES 2025-2026 SESSION",
+     "url": "https://tnmedicalselection.net/news/22092026230119.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 182,
+   "source": "TN",
+   "id": "TN:71aba6237b58",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ATTENTION TO THE CANDIDATES APPLYING FOR PG AHS COURSES 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "ATTENTION TO THE CANDIDATES APPLYING FOR PG AHS COURSES 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/22092026024416.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 185,
+   "source": "TN",
+   "id": "TN:d7e248172fc7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE ROUND- 2 COUNSELLING SCHEDULE FOR MDS DEGREE COURSE IN TAMILNADU GOVERNMENT DENTAL COLLEGES, GOVERNMENT & MANAGEMENT (INCL. MINORITY & NRI) QUOTA SEATS IN SELF-FINANCING DENTAL COLLEGES 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "TENTATIVE ROUND- 2 COUNSELLING SCHEDULE FOR MDS DEGREE COURSE IN TAMILNADU GOVERNMENT DENTAL COLLEGES, GOVERNMENT & MANAGEMENT (INCL. MINORITY & NRI) QUOTA SEATS IN SELF-FINANCING DENTAL COLLEGES 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/21092026100446.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 186,
+   "source": "TN",
+   "id": "TN:a52159978e42",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "KIND ATTENTION TO THE CANDIDATES SEEKING ADMISSION TO SUPER SPECIALITY (DM/MCh) COURSES IN TAMIL NADU GOVERNMENT MEDICAL COLLEGES ONLY FOR IN-SERVICE CANDIATES 2025-2026 SESSION",
+   "links": [
+    {
+     "label": "KIND ATTENTION TO THE CANDIDATES SEEKING ADMISSION TO SUPER SPECIALITY (DM/MCh) COURSES IN TAMIL NADU GOVERNMENT MEDICAL COLLEGES ONLY FOR IN-SERVICE CANDIATES 2025-2026 SESSION",
+     "url": "https://tnmedicalselection.net/news/21092026033750.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 189,
+   "source": "TN",
+   "id": "TN:e2cc77c26c0c",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "CLICK HERE TO APPLY FOR PG AHS DEGREE COURSES (M.P.T, Master of Medical Radiology and Imaging Technology, M.O.T, Masters in Nutrition and Dietetics, M.Sc Nuclear Medicine Technology, Master of Optometry(M. Optom), Master of Medical Laboratory science, M.Sc. Molecular Virology, M.Sc Critical Care Tec",
+   "links": [
+    {
+     "label": "CLICK HERE TO APPLY FOR PG AHS DEGREE COURSES (M.P.T, Master of Medical Radiology and Imaging Technology, M.O.T, Masters in Nutrition and Dietetics, M.Sc Nuclear Medicine Technology, Master of Optometry(M. Optom), Master of Medical Laboratory science, M.Sc. Molecular Virology, M.Sc Critical Care Technology and M. Sc Neuro Surgical Care) 2026 - 2027 SESSION",
+     "url": "https://regpmc.tnmedicalonline.co.in/PGPMC1/"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 196,
+   "source": "TN",
+   "id": "TN:4883aecadcce",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional List of Candidates allotted for MDS (Government Quota) Course Session :2026 - 2027 on - 05.09.2026",
+   "links": [
+    {
+     "label": "Provisional List of Candidates allotted for MDS (Government Quota) Course Session :2026 - 2027 on - 05.09.2026",
+     "url": "https://tnmedicalselection.net/news/05092026014155.pdf"
+    }
+   ],
+   "date": "2026-09-05",
+   "date_src": "page",
+   "rank": 238,
+   "source": "TN",
+   "id": "TN:94e7ea49df6c",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Provisional List of Candidates allotted for MDS (Management Quota) Course Session :2026 - 2027 on - 05.09.2026",
+   "links": [
+    {
+     "label": "Provisional List of Candidates allotted for MDS (Management Quota) Course Session :2026 - 2027 on - 05.09.2026",
+     "url": "https://tnmedicalselection.net/news/05092026014105.pdf"
+    }
+   ],
+   "date": "2026-09-05",
+   "date_src": "page",
+   "rank": 239,
+   "source": "TN",
+   "id": "TN:5a3413f8f563",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "SERVICE PROFORMA FOR ADMISSION TO POST BASIC DIPLOMA COURSES 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "SERVICE PROFORMA FOR ADMISSION TO POST BASIC DIPLOMA COURSES 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/31082026225703.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 247,
+   "source": "TN",
+   "id": "TN:ac2af7200256",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "NOTIFICATION FOR MDS FEE STRUCTURE FOR 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "NOTIFICATION FOR MDS FEE STRUCTURE FOR 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/30082026222317.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 257,
+   "source": "TN",
+   "id": "TN:446240c15165",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE VACANCY POSITION FOR MDS COURSES 2026-2027 AS ON 29-08-2026",
+   "links": [
+    {
+     "label": "TENTATIVE VACANCY POSITION FOR MDS COURSES 2026-2027 AS ON 29-08-2026",
+     "url": "https://tnmedicalselection.net/news/29082026040644.pdf"
+    }
+   ],
+   "date": "2026-08-29",
+   "date_src": "page",
+   "rank": 258,
+   "source": "TN",
+   "id": "TN:2ae9ddafef5d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "NOTIFICATION FOR THE CANDIDATES WHO ARE SEEKING ADMISSION FOR MDS COURSE 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "NOTIFICATION FOR THE CANDIDATES WHO ARE SEEKING ADMISSION FOR MDS COURSE 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/28082026210454.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 264,
+   "source": "TN",
+   "id": "TN:577aff6aa6b4",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE ROUND- I COUNSELLING SCHEDULE FOR MDS DEGREE COURSES IN TAMILNADU GOVERNMENT DENTAL COLLEGES, GOVERNMENT & MANAGEMENT (INCL. MINORITY & NRI) QUOTA SEATS IN SELF-FINANCING DENTAL COLLEGES2026-2027 SESSION",
+   "links": [
+    {
+     "label": "TENTATIVE ROUND- I COUNSELLING SCHEDULE FOR MDS DEGREE COURSES IN TAMILNADU GOVERNMENT DENTAL COLLEGES, GOVERNMENT & MANAGEMENT (INCL. MINORITY & NRI) QUOTA SEATS IN SELF-FINANCING DENTAL COLLEGES2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/28082026060842.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 265,
+   "source": "TN",
+   "id": "TN:c3f13a743c3e",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROSPECTUS FOR ADMISSION TO POST BASIC DIPLOMA COURSES 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "PROSPECTUS FOR ADMISSION TO POST BASIC DIPLOMA COURSES 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/28082026025421.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 270,
+   "source": "TN",
+   "id": "TN:53b26543b067",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR MDS COURSE GOVERNMENT QUOTA 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR MDS COURSE GOVERNMENT QUOTA 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/24082026051815.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 288,
+   "source": "TN",
+   "id": "TN:9f8786232d48",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR MDS COURSE MANAGEMENT QUOTA 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "ADDENDUM TO THE PROVISIONAL RANK LIST FOR MDS COURSE MANAGEMENT QUOTA 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/24082026051748.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 289,
+   "source": "TN",
+   "id": "TN:f7c5e4722751",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROVISIONAL RANK LIST FOR PWD CATEGORY OF MDS (GOVERNMENT QUOTA) COURSE 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "PROVISIONAL RANK LIST FOR PWD CATEGORY OF MDS (GOVERNMENT QUOTA) COURSE 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/21082026070714.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 293,
+   "source": "TN",
+   "id": "TN:4420dd1be271",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROVISIONAL LIST OF CANDIDATES ELIGIBLE FOR NRI OF MDS (MANAGEMENT QUOTA) COURSE 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "PROVISIONAL LIST OF CANDIDATES ELIGIBLE FOR NRI OF MDS (MANAGEMENT QUOTA) COURSE 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/24082026051138.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 294,
+   "source": "TN",
+   "id": "TN:d878c7325d75",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROVISIONAL LIST OF CANDIDATES ELIGIBLE FOR CHRISTIAN MINORITY CATEGORY OF MDS (MANAGEMENT QUOTA) COURSE 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "PROVISIONAL LIST OF CANDIDATES ELIGIBLE FOR CHRISTIAN MINORITY CATEGORY OF MDS (MANAGEMENT QUOTA) COURSE 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/24082026051208.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 295,
+   "source": "TN",
+   "id": "TN:31a45b720502",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROVISIONAL LIST OF CANDIDATES ELIGIBLE FOR PWD CATEGORY OF MDS (GOVERNMENT QUOTA) COURSE 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "PROVISIONAL LIST OF CANDIDATES ELIGIBLE FOR PWD CATEGORY OF MDS (GOVERNMENT QUOTA) COURSE 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/21082026035619.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 296,
+   "source": "TN",
+   "id": "TN:bbdb1774d7df",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROVISIONAL RANK LIST FOR MDS(GOVERNMENT QUOTA)COURSE 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "PROVISIONAL RANK LIST FOR MDS(GOVERNMENT QUOTA)COURSE 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/21082026033652.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 297,
+   "source": "TN",
+   "id": "TN:3cb78631018d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROVISIONAL RANK LIST FOR MDS(MANAGEMENT QUOTA)COURSE 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "PROVISIONAL RANK LIST FOR MDS(MANAGEMENT QUOTA)COURSE 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/21082026002616.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 298,
+   "source": "TN",
+   "id": "TN:6121e3951317",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "GRIEVANCE PORTAL FOR INELIGIBLE CANDIDATES FOR ADMISSION TO MDS GOVERNMENT QUOTA 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "GRIEVANCE PORTAL FOR INELIGIBLE CANDIDATES FOR ADMISSION TO MDS GOVERNMENT QUOTA 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/17082026062908.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 308,
+   "source": "TN",
+   "id": "TN:55f4f5aa1b7d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "GRIEVANCE PORTAL FOR INELIGIBLE CANDIDATES FOR ADMISSION TO MDS MANAGEMENT QUOTA 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "GRIEVANCE PORTAL FOR INELIGIBLE CANDIDATES FOR ADMISSION TO MDS MANAGEMENT QUOTA 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/17082026062841.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 309,
+   "source": "TN",
+   "id": "TN:b434cb2d0291",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROSPECTUS FOR ADMISSION TO MDS COURSE IN GOVERNMENT DENTAL COLLEGES AND GOVERNMENT SEATS IN SELF-FINANCING DENTAL COLLEGES AFFILIATED TO THE TAMIL NADU Dr. M.G.R MEDICAL UNIVERSITY 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "PROSPECTUS FOR ADMISSION TO MDS COURSE IN GOVERNMENT DENTAL COLLEGES AND GOVERNMENT SEATS IN SELF-FINANCING DENTAL COLLEGES AFFILIATED TO THE TAMIL NADU Dr. M.G.R MEDICAL UNIVERSITY 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/12072026233050.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 377,
+   "source": "TN",
+   "id": "TN:f407d1b4cb15",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROSPECTUS FOR ADMISSION TO MDS COURSE UNDER MANAGEMENT QUOTA INCLUDING NRI OF SELF-FINANCING DENTAL COLLEGES IN TAMIL NADU 2026-2027 Session",
+   "links": [
+    {
+     "label": "PROSPECTUS FOR ADMISSION TO MDS COURSE UNDER MANAGEMENT QUOTA INCLUDING NRI OF SELF-FINANCING DENTAL COLLEGES IN TAMIL NADU 2026-2027 Session",
+     "url": "https://tnmedicalselection.net/news/12072026232949.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 378,
+   "source": "TN",
+   "id": "TN:b4ee68571256",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "DATE EXTENDED FOR ONLINE SUBMISSION OF APPLICATIONS OF AHS DIPLOMA / CERTIFICATE COURSES/DIPLOMA IN OPTOMETRY/ DIPLOMA IN MEDICAL RECORD SCIENCE/MULTI PURPOSE HOSPITAL WORKER COURSE UPTO 21.07.2026 AT 5.00 PM",
+   "links": [
+    {
+     "label": "DATE EXTENDED FOR ONLINE SUBMISSION OF APPLICATIONS OF AHS DIPLOMA / CERTIFICATE COURSES/DIPLOMA IN OPTOMETRY/ DIPLOMA IN MEDICAL RECORD SCIENCE/MULTI PURPOSE HOSPITAL WORKER COURSE UPTO 21.07.2026 AT 5.00 PM",
+     "url": "https://tnmedicalselection.net/news/01072026233615.pdf"
+    }
+   ],
+   "date": "2026-07-21",
+   "date_src": "page",
+   "rank": 381,
+   "source": "TN",
+   "id": "TN:30e7163dfe23",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROSPECTUS FOR ADMISSION TO AHS DIPLOMA / CERTIFICATE COURSES 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "PROSPECTUS FOR ADMISSION TO AHS DIPLOMA / CERTIFICATE COURSES 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/26062026231842.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 388,
+   "source": "TN",
+   "id": "TN:65103f2714fc",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "CLICK HERE FOR ONLINE COUNSELLING OF DNB-PDCET COURSES 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "CLICK HERE FOR ONLINE COUNSELLING OF DNB-PDCET COURSES 2026 - 2027 SESSION",
+     "url": "https://pgcoun.tnmedicalonline.co.in/pgdnbgq26"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 396,
+   "source": "TN",
+   "id": "TN:2582d18320fb",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE ROUND- I COUNSELLING SCHEDULE FOR DNB- PDCET COURSES IN TAMILNADU GOVERNMENT MEDICAL COLLEGES 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "TENTATIVE ROUND- I COUNSELLING SCHEDULE FOR DNB- PDCET COURSES IN TAMILNADU GOVERNMENT MEDICAL COLLEGES 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/23062026015535.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 397,
+   "source": "TN",
+   "id": "TN:0d9aa89066cb",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE VACANCY POSITION FOR DNB PDCET COURSES 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "TENTATIVE VACANCY POSITION FOR DNB PDCET COURSES 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/22062026063927.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 398,
+   "source": "TN",
+   "id": "TN:ad6097ea4d2e",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROVISIONAL MERIT LIST FOR DNB - PDCET - 2026 - 2027 SESSION",
+   "links": [
+    {
+     "label": "PROVISIONAL MERIT LIST FOR DNB - PDCET - 2026 - 2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/22062026064010.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 399,
+   "source": "TN",
+   "id": "TN:4c8ebc2cd3cd",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROSPECTUS FOR ADMISSION TO DNB BROAD SPECIALITY (POST DIPLOMA) FOR IN-SERVICE CANDIDATES 2026-2027 SESSION",
+   "links": [
+    {
+     "label": "PROSPECTUS FOR ADMISSION TO DNB BROAD SPECIALITY (POST DIPLOMA) FOR IN-SERVICE CANDIDATES 2026-2027 SESSION",
+     "url": "https://tnmedicalselection.net/news/16062026233333.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 421,
+   "source": "TN",
+   "id": "TN:f63122579b3f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "EXTENSION OF REFUND PORTAL FOR PG MD/MS/DIPLOMA & DNB COURSES FOR 2025-26 SESSION",
+   "links": [
+    {
+     "label": "EXTENSION OF REFUND PORTAL FOR PG MD/MS/DIPLOMA & DNB COURSES FOR 2025-26 SESSION",
+     "url": "https://tnmedicalselection.net/news/25052026212658.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 429,
+   "source": "TN",
+   "id": "TN:cabf949814e6",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "EXTENSION OF REFUND PORTAL FOR PG MD/MS/DIPLOMA & DNB COURSES FOR 2025-26 SESSION",
+   "links": [
+    {
+     "label": "EXTENSION OF REFUND PORTAL FOR PG MD/MS/DIPLOMA & DNB COURSES FOR 2025-26 SESSION",
+     "url": "https://tnmedicalselection.net/news/11052026025307.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 432,
+   "source": "TN",
+   "id": "TN:ab850ec6db96",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "EXTENSION OF REFUND PORTAL FOR PG MD/MS/DIPLOMA & DNB COURSES FOR 2025-26 SESSION",
+   "links": [
+    {
+     "label": "EXTENSION OF REFUND PORTAL FOR PG MD/MS/DIPLOMA & DNB COURSES FOR 2025-26 SESSION",
+     "url": "https://tnmedicalselection.net/news/08052026212605.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 433,
+   "source": "TN",
+   "id": "TN:e4bc29925fcb",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROVISIONAL RANK LIST FOR DNB BROAD SPECIALITY POST MBBS AND POST MBBS 2 YEARS DIPLOMA COURSES FOR SERVICE CANDIDATES 2025 - 2026 SESSION",
+   "links": [
+    {
+     "label": "PROVISIONAL RANK LIST FOR DNB BROAD SPECIALITY POST MBBS AND POST MBBS 2 YEARS DIPLOMA COURSES FOR SERVICE CANDIDATES 2025 - 2026 SESSION",
+     "url": "https://tnmedicalselection.net/news/20112025232649.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 440,
+   "source": "TN",
+   "id": "TN:df89f8be3e6a",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice (Inclusion in Assam State NEET-PG-2026 merit list)",
+   "links": [
+    {
+     "label": "Notice (Inclusion in Assam State NEET-PG-2026 merit list)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_inclusion_in_assam_state_neet-pg-2026_merit_list.pdf"
+    }
+   ],
+   "date": "2026-10-17",
+   "date_src": "file",
+   "rank": 0,
+   "source": "AS",
+   "id": "AS:69d74fc835c0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice 1st PG Counselling & Provisional Merit List of NEET-PG-2026.",
+   "links": [
+    {
+     "label": "Notice 1st PG Counselling & Provisional Merit List of NEET-PG-2026.",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_1st_pg_counselling_provisional_merit_list_of_neet-pg-2026.pdf"
+    }
+   ],
+   "date": "2026-10-16",
+   "date_src": "file",
+   "rank": 1,
+   "source": "AS",
+   "id": "AS:d7e9595b4662",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice for change in category NEET-PG-2026",
+   "links": [
+    {
+     "label": "Notice for change in category NEET-PG-2026",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_for_change_in_category_neet-pg-2026.pdf"
+    }
+   ],
+   "date": "2026-10-13",
+   "date_src": "file",
+   "rank": 4,
+   "source": "AS",
+   "id": "AS:ae6af0abb1e9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice for awarding addl. marks in NEET-PG-2026",
+   "links": [
+    {
+     "label": "Notice for awarding addl. marks in NEET-PG-2026",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_for_awarding_addl._marks_in_neet-pg-2026.pdf"
+    }
+   ],
+   "date": "2026-10-12",
+   "date_src": "file",
+   "rank": 6,
+   "source": "AS",
+   "id": "AS:6a3558260b53",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PROVISIONAL MERIT LIST FOR ASSAM STATE QUOTA SEATS (NEET-PG, 2026)",
+   "links": [
+    {
+     "label": "PROVISIONAL MERIT LIST FOR ASSAM STATE QUOTA SEATS (NEET-PG, 2026)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/provisional_merit_list_for_assam_state_quota_seats_neet-pg_2026.pdf"
+    }
+   ],
+   "date": "2026-10-06",
+   "date_src": "file",
+   "rank": 8,
+   "source": "AS",
+   "id": "AS:9d54d21ad9db",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Educational Notice-3rd Counseling-MDS Courses, 2026",
+   "links": [
+    {
+     "label": "Educational Notice-3rd Counseling-MDS Courses, 2026",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/3rd_counseling-mds_courses_2026.pdf"
+    }
+   ],
+   "date": "2026-10-05",
+   "date_src": "file",
+   "rank": 10,
+   "source": "AS",
+   "id": "AS:bc9363a3ecbf",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Reschedule of MDS 1st Counselling-2026 Notice-2",
+   "links": [
+    {
+     "label": "Reschedule of MDS 1st Counselling-2026 Notice-2",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/docscanner_28_aug_2026_3-28_pm.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 29,
+   "source": "AS",
+   "id": "AS:0691d9a4abfb",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Reschedule of MDS 1st Counselling-2026 Notice",
+   "links": [
+    {
+     "label": "Reschedule of MDS 1st Counselling-2026 Notice",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/reschedule_of_mds_1st_counselling-2026_notice.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 30,
+   "source": "AS",
+   "id": "AS:e74435439abd",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Educational Notice-Counseling for admission into MDS Courses, Session, 2026",
+   "links": [
+    {
+     "label": "Educational Notice-Counseling for admission into MDS Courses, Session, 2026",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/educational_notice-counseling_for_admission_into_mds_courses_session_2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 31,
+   "source": "AS",
+   "id": "AS:c64c76fdd58d",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice & Assam State NEET-MDS-2026 Merit List",
+   "links": [
+    {
+     "label": "Notice & Assam State NEET-MDS-2026 Merit List",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_assam_state_neet-mds-2026_merit_list.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 33,
+   "source": "AS",
+   "id": "AS:d2b6d04865a7",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Educational notice (counselling for PG courses at LGB, Tezpur).pdf",
+   "links": [
+    {
+     "label": "Educational notice (counselling for PG courses at LGB, Tezpur).pdf",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/educational_notice_counselling_for_pg_courses_at_lgb_tezpur.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 42,
+   "source": "AS",
+   "id": "AS:3153a483eab1",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Stray round online PG counselling_2026",
+   "links": [
+    {
+     "label": "Stray round online PG counselling_2026",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/stray_round_online_pg_counselling_2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 58,
+   "source": "AS",
+   "id": "AS:b1100d9be682",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice-3rd PG Counselling,2025(New Date)",
+   "links": [
+    {
+     "label": "Notice-3rd PG Counselling,2025(New Date)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/6._notice_3rd_pg_counselling_2025_new_dates.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 60,
+   "source": "AS",
+   "id": "AS:2b51ea1290d1",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Educational Notice 3rd PG Counselling, 2025 (New result & admission dates)",
+   "links": [
+    {
+     "label": "Educational Notice 3rd PG Counselling, 2025 (New result & admission dates)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/edu_notice_3rd_pg_counselling_2025_new_result_admission_dates.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 61,
+   "source": "AS",
+   "id": "AS:9d8154ea2471",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice 3rd PG Counselling, 2025 (New)",
+   "links": [
+    {
+     "label": "Notice 3rd PG Counselling, 2025 (New)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_3rd_pg_counselling_2025_new.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 63,
+   "source": "AS",
+   "id": "AS:25971ffea080",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice (Postponement of 3rd round PG Counselling, 2025)",
+   "links": [
+    {
+     "label": "Notice (Postponement of 3rd round PG Counselling, 2025)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/3._postponement_notice_3rd_pg_counselling_2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 65,
+   "source": "AS",
+   "id": "AS:c4b431176fdd",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice 3rd PG Counselling, 2025",
+   "links": [
+    {
+     "label": "Notice 3rd PG Counselling, 2025",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_3rd_pg_counselling_2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 71,
+   "source": "AS",
+   "id": "AS:2559b8c53968",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Engagement order for BMC Post PG SR",
+   "links": [
+    {
+     "label": "Engagement order for BMC Post PG SR",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/engagement_order_for_bmc_post_pg_sr.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 78,
+   "source": "AS",
+   "id": "AS:e95b87e4e4ba",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Admission Notice-NEET-PG,2025, Round-2",
+   "links": [
+    {
+     "label": "Admission Notice-NEET-PG,2025, Round-2",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/admission_notice-neet-pg2025_round-2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 79,
+   "source": "AS",
+   "id": "AS:64d106eedc5f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice (Extension of choice filling) 2nd round PG course, session 2025",
+   "links": [
+    {
+     "label": "Notice (Extension of choice filling) 2nd round PG course, session 2025",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_extension_of_choice_filling_2nd_round_pg_course_session_2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 82,
+   "source": "AS",
+   "id": "AS:0d2a17a86466",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice 2nd PG Counselling, 2025",
+   "links": [
+    {
+     "label": "Notice 2nd PG Counselling, 2025",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_2nd_pg_counselling_2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 87,
+   "source": "AS",
+   "id": "AS:8f0eaa66a30f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Educational Notice-1st round of PG counseling' 2025",
+   "links": [
+    {
+     "label": "Educational Notice-1st round of PG counseling' 2025",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/educational_notice-1st_round_of_pg_counseling_2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 94,
+   "source": "AS",
+   "id": "AS:8d0b186741ba",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Corrigendum (PG-2025 seat)",
+   "links": [
+    {
+     "label": "Corrigendum (PG-2025 seat)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/corrigendum_pg-2025_seat.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 96,
+   "source": "AS",
+   "id": "AS:2309e1255599",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice 1st PG Counselling, 2025 (New Schedule).pdf",
+   "links": [
+    {
+     "label": "Notice 1st PG Counselling, 2025 (New Schedule).pdf",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_1st_pg_counselling_2025_new_schedule.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 97,
+   "source": "AS",
+   "id": "AS:1f6188a3c36f",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Educational Notice (1st PG online counselling, 2025) Re-scheduled",
+   "links": [
+    {
+     "label": "Educational Notice (1st PG online counselling, 2025) Re-scheduled",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_1st_pg_counselling_2025_2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 99,
+   "source": "AS",
+   "id": "AS:1732cb470287",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice (Postponement of PG 1st round choice filling)",
+   "links": [
+    {
+     "label": "Notice (Postponement of PG 1st round choice filling)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/2._notice_postponement_of_pg_1st_round_choice_filling.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 103,
+   "source": "AS",
+   "id": "AS:f2cad1a14e0a",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice 1st PG Counselling, 2025",
+   "links": [
+    {
+     "label": "Notice 1st PG Counselling, 2025",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_1st_pg_counselling_2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 108,
+   "source": "AS",
+   "id": "AS:26323c9b3ca0",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice (Publication of NEET-PG-2025 State Merit list)",
+   "links": [
+    {
+     "label": "Notice (Publication of NEET-PG-2025 State Merit list)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_publication_of_neet-pg-2025_state_merit_list.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 119,
+   "source": "AS",
+   "id": "AS:c637431d97a2",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice-Reservation policy in 85% Assam State Quota UG seats & 50% Assam State Quota PG seats",
+   "links": [
+    {
+     "label": "Notice-Reservation policy in 85% Assam State Quota UG seats & 50% Assam State Quota PG seats",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice-reservation_policy_in_85_percent_assam_state_quota_ug_seats_50_percent_assam_state_quota_pg_seats.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 125,
+   "source": "AS",
+   "id": "AS:a877dc593a40",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "APPLICATION FORMAT (PG incentive)",
+   "links": [
+    {
+     "label": "APPLICATION FORMAT (PG incentive)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/application_format_incentive.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 127,
+   "source": "AS",
+   "id": "AS:6b2f285b8ced",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Educational Notice for awarding addl. marks in NEET-PG-2025",
+   "links": [
+    {
+     "label": "Educational Notice for awarding addl. marks in NEET-PG-2025",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_for_awarding_addl._marks_in_neet-pg-2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 128,
+   "source": "AS",
+   "id": "AS:661a9f2f2849",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Re-schedule of MDS counseling,2025",
+   "links": [
+    {
+     "label": "Re-schedule of MDS counseling,2025",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/re-schedule_of_mds_counseling2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 131,
+   "source": "AS",
+   "id": "AS:dbb6795957b3",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Admission Notice-MDS counseling,25",
+   "links": [
+    {
+     "label": "Admission Notice-MDS counseling,25",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/18-8-25.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 135,
+   "source": "AS",
+   "id": "AS:5b7afc04e161",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Admission Notice-MDS Counseling, 2025",
+   "links": [
+    {
+     "label": "Admission Notice-MDS Counseling, 2025",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/11-08-2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 137,
+   "source": "AS",
+   "id": "AS:66701bfa0de9",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Educational Notice (1 year Post PG Engagement under NHM, Assam )",
+   "links": [
+    {
+     "label": "Educational Notice (1 year Post PG Engagement under NHM, Assam )",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/select_list_for_publication.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 160,
+   "source": "AS",
+   "id": "AS:76f39c6db5d3",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "COUNSELLING FOR 1 YEAR POST PG ENGAGEMENT UNDER NHM, ASSAM",
+   "links": [
+    {
+     "label": "COUNSELLING FOR 1 YEAR POST PG ENGAGEMENT UNDER NHM, ASSAM",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/educational_notice_for_counselling.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 162,
+   "source": "AS",
+   "id": "AS:bcece1d71e52",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Admission Notice-MDS Counseling,2025",
+   "links": [
+    {
+     "label": "Admission Notice-MDS Counseling,2025",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/admission_notice-mds_counseling2025_0.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 163,
+   "source": "AS",
+   "id": "AS:3533bae1f0e2",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Post PG engagement order'2025",
+   "links": [
+    {
+     "label": "Post PG engagement order'2025",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/post_pg_engagement_order-2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 183,
+   "source": "AS",
+   "id": "AS:16ed4ba4c696",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Admission_Notice-_NEET-PG,_Stray_Round",
+   "links": [
+    {
+     "label": "Admission_Notice-_NEET-PG,_Stray_Round",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/admission_notice-_neet-pg_stray_round.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 184,
+   "source": "AS",
+   "id": "AS:a3b15efa9243",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Admission_Notice-NEET-PG,_Round_3",
+   "links": [
+    {
+     "label": "Admission_Notice-NEET-PG,_Round_3",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/admission_notice-neet-pg_round_3.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 187,
+   "source": "AS",
+   "id": "AS:7e9a056ca568",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice 3rd PG Counselling (date extension)",
+   "links": [
+    {
+     "label": "Notice 3rd PG Counselling (date extension)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_3rd_pg_counselling_date_extension.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 188,
+   "source": "AS",
+   "id": "AS:0d8a3fbec287",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice 3rd PG Counselling (Choice filling)",
+   "links": [
+    {
+     "label": "Notice 3rd PG Counselling (Choice filling)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/2._notice_3rd_pg_counselling_choice_filling.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 189,
+   "source": "AS",
+   "id": "AS:b1ef64db6dff",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Instructions_Post PG Counselling",
+   "links": [
+    {
+     "label": "Instructions_Post PG Counselling",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/instructions_post_pg_counselling.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 190,
+   "source": "AS",
+   "id": "AS:dcb2f5eff3bd",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice_Post PG Counselling",
+   "links": [
+    {
+     "label": "Notice_Post PG Counselling",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_post_pg_counselling.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 191,
+   "source": "AS",
+   "id": "AS:3df81f798cd2",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Notice (PG admission under PwD category)",
+   "links": [
+    {
+     "label": "Notice (PG admission under PwD category)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_dr._maucham_kr._das.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 221,
+   "source": "AS",
+   "id": "AS:d2127b116357",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "Engagement order Post PG Diploma-5-12-24",
+   "links": [
+    {
+     "label": "Engagement order Post PG Diploma-5-12-24",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/engagement_order_post_pg_diploma-5-12-24.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 223,
+   "source": "AS",
+   "id": "AS:2b5679107bcf",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "PG Admission Notice (after document verification)",
+   "links": [
+    {
+     "label": "PG Admission Notice (after document verification)",
+     "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/admission_notice_after_verification.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 224,
+   "source": "AS",
+   "id": "AS:cadea431ff62",
+   "first_seen": "2026-10-20T11:45:39",
+   "baseline": true
+  },
+  {
+   "title": "UP NEET PG 2026 FIRST ROUND COUNSELLING TIME SCHEDULE HINDI/ENGLISH",
+   "links": [
+    {
+     "label": "UP NEET PG 2026 FIRST ROUND COUNSELLING TIME SCHEDULE HINDI/ENGLISH",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl02$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 0,
+   "source": "UP",
+   "id": "UP:cf1ec965d416",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "LIST OF ELIGIBLE CANDIDATES FROM THE PMHS CATEGORY FOR DNB COURSES PARTICIPATING IN NEET PG-2026 COUNSELING",
+   "links": [
+    {
+     "label": "LIST OF ELIGIBLE CANDIDATES FROM THE PMHS CATEGORY FOR DNB COURSES PARTICIPATING IN NEET PG-2026 COUNSELING",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl03$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1,
+   "source": "UP",
+   "id": "UP:2e0b627eaf57",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "LIST OF ELIGIBLE CANDIDATES FROM THE PMHS CATEGORY FOR MD/MS COURSES PARTICIPATING IN NEET PG-2026 COUNSELING",
+   "links": [
+    {
+     "label": "LIST OF ELIGIBLE CANDIDATES FROM THE PMHS CATEGORY FOR MD/MS COURSES PARTICIPATING IN NEET PG-2026 COUNSELING",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl04$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 2,
+   "source": "UP",
+   "id": "UP:e52fd7442317",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "IMPORTANT INFORMATION REGARDING UP NEET MDS-2026 COUNSELLING",
+   "links": [
+    {
+     "label": "IMPORTANT INFORMATION REGARDING UP NEET MDS-2026 COUNSELLING",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl07$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 5,
+   "source": "UP",
+   "id": "UP:a8e1315c9f4c",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "IMPORTANT INFORMATION/INSTRUCTIONS FOR CANDIDATES PARTICIPATING IN THE THIRD ROUND OF ONLINE COUNSELING FOR UP NEET-MDS 2026",
+   "links": [
+    {
+     "label": "IMPORTANT INFORMATION/INSTRUCTIONS FOR CANDIDATES PARTICIPATING IN THE THIRD ROUND OF ONLINE COUNSELING FOR UP NEET-MDS 2026",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl08$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 6,
+   "source": "UP",
+   "id": "UP:2a713d3887bf",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "UP NEET MDS-2026 RESIGN NOTICE",
+   "links": [
+    {
+     "label": "UP NEET MDS-2026 RESIGN NOTICE",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl09$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 7,
+   "source": "UP",
+   "id": "UP:93db65b0e6a5",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "UP NEET MDS-2026 THIRD ROUND COUNSELLING TIME SCHEDULE HINDI/ENGLISH",
+   "links": [
+    {
+     "label": "UP NEET MDS-2026 THIRD ROUND COUNSELLING TIME SCHEDULE HINDI/ENGLISH",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl10$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 8,
+   "source": "UP",
+   "id": "UP:e037d77f2af8",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "UP STATE MERIT LIST OF NEET-PG 2026 MDS SECOND ROUND",
+   "links": [
+    {
+     "label": "UP STATE MERIT LIST OF NEET-PG 2026 MDS SECOND ROUND",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl11$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 9,
+   "source": "UP",
+   "id": "UP:fb471508b1f4",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE SEAT MATRIX FOR - UP NEET PG COUNSELING FOR MDS ROUND-2 -2026",
+   "links": [
+    {
+     "label": "TENTATIVE SEAT MATRIX FOR - UP NEET PG COUNSELING FOR MDS ROUND-2 -2026",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl12$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 10,
+   "source": "UP",
+   "id": "UP:eb9c89d203d6",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "IMPORTANT INFORMATION/INSTRUCTIONS FOR CANDIDATES PARTICIPATING IN THE SECOND ROUND OF ONLINE COUNSELING FOR UP NEET-MDS 2026",
+   "links": [
+    {
+     "label": "IMPORTANT INFORMATION/INSTRUCTIONS FOR CANDIDATES PARTICIPATING IN THE SECOND ROUND OF ONLINE COUNSELING FOR UP NEET-MDS 2026",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl20$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 18,
+   "source": "UP",
+   "id": "UP:288242961e26",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "UP NEET MDS-2026 SECOND ROUND COUNSELLING TIME SCHEDULE",
+   "links": [
+    {
+     "label": "UP NEET MDS-2026 SECOND ROUND COUNSELLING TIME SCHEDULE",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl21$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 19,
+   "source": "UP",
+   "id": "UP:e0eb1db844ab",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "UPNEET MDS 2026 TUITION FEE",
+   "links": [
+    {
+     "label": "UPNEET MDS 2026 TUITION FEE",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl37$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 35,
+   "source": "UP",
+   "id": "UP:a0b9caa4496e",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "TENTATIVE SEAT MATRIX FOR - UP NEET PG COUNSELING FOR MDS DENTAL-2026",
+   "links": [
+    {
+     "label": "TENTATIVE SEAT MATRIX FOR - UP NEET PG COUNSELING FOR MDS DENTAL-2026",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl40$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 38,
+   "source": "UP",
+   "id": "UP:c92148c381bc",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "UP STATE MERIT LIST OF NEET-PG 2026 MDS FIRST ROUND",
+   "links": [
+    {
+     "label": "UP STATE MERIT LIST OF NEET-PG 2026 MDS FIRST ROUND",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl41$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 39,
+   "source": "UP",
+   "id": "UP:d80cae9f2a00",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "REVISED TIME SCHEDULE OF FIRST ROUND OF ONLINE COUNSELING FOR UP NEET MDS-2026",
+   "links": [
+    {
+     "label": "REVISED TIME SCHEDULE OF FIRST ROUND OF ONLINE COUNSELING FOR UP NEET MDS-2026",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl42$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 40,
+   "source": "UP",
+   "id": "UP:8d4dd071d090",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "FEES STRUCTURE OF MDS-2026 COURSES IN PRIVATE DENTAL COLLEGES MINORITY",
+   "links": [
+    {
+     "label": "FEES STRUCTURE OF MDS-2026 COURSES IN PRIVATE DENTAL COLLEGES MINORITY",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl43$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 41,
+   "source": "UP",
+   "id": "UP:92cb38f35fd5",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "IMPORTANT INFORMATION/INSTRUCTIONS FOR CANDIDATES PARTICIPATING IN THE FIRST ROUND OF ONLINE COUNSELING FOR UP NEET-MDS 2026",
+   "links": [
+    {
+     "label": "IMPORTANT INFORMATION/INSTRUCTIONS FOR CANDIDATES PARTICIPATING IN THE FIRST ROUND OF ONLINE COUNSELING FOR UP NEET-MDS 2026",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl44$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 42,
+   "source": "UP",
+   "id": "UP:e84bb7969c5a",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "UP NEET MDS-2026 FIRST ROUND COUNSELLING TIME SCHEDULE",
+   "links": [
+    {
+     "label": "UP NEET MDS-2026 FIRST ROUND COUNSELLING TIME SCHEDULE",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl45$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 43,
+   "source": "UP",
+   "id": "UP:4242f67e2e69",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "IMPORTANT INFORMATION REGARDING CANDIDATES DEBARRED FROM COUNSELLING OF UP NEET MDS 2026",
+   "links": [
+    {
+     "label": "IMPORTANT INFORMATION REGARDING CANDIDATES DEBARRED FROM COUNSELLING OF UP NEET MDS 2026",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl49$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 47,
+   "source": "UP",
+   "id": "UP:dcd2142302c4",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "UP NEET PG-2026 BROCHURE",
+   "links": [
+    {
+     "label": "UP NEET PG-2026 BROCHURE",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl51$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 49,
+   "source": "UP",
+   "id": "UP:f2da255ddeca",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  },
+  {
+   "title": "UP NEET PG-2026 POLICY GO",
+   "links": [
+    {
+     "label": "UP NEET PG-2026 POLICY GO",
+     "url": "https://upneet.gov.in/NewandNotification.aspx#gvCustomers$ctl52$lnkViewPdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 50,
+   "source": "UP",
+   "id": "UP:ffdc86ad93c4",
+   "first_seen": "2026-10-20T14:07:36",
+   "baseline": true
+  }
+ ],
+ "last_run": "2026-10-20T15:47:43",
+ "last_run_utc": "2026-10-20T10:17:46"
+}
