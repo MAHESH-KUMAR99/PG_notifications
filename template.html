@@ -77,13 +77,15 @@ const $=s=>document.querySelector(s);
 let now=Date.now();const H24=24*3600e3;
 let cur="ALL",dsel="",tagsel="";
 let srcs=DATA.sources, all=DATA.notices;
-const eff=n=>n.date?n.date:(!n.baseline?n.first_seen.slice(0,10):null);
-const onDay=(n,d)=>eff(n)==d||(!n.baseline&&n.first_seen.slice(0,10)==d);
-const isNew=n=>!n.baseline&&(now-new Date(n.first_seen).getTime())<H24;
+const P=s=>new Date(/(Z|[+-]\d\d:?\d\d)$/.test(s)?s:s+"Z");
+const ld=s=>{const d=P(s);return new Date(d.getTime()-d.getTimezoneOffset()*6e4).toISOString().slice(0,10)};
+const eff=n=>n.date?n.date:(!n.baseline?ld(n.first_seen):null);
+const onDay=(n,d)=>eff(n)==d||(!n.baseline&&ld(n.first_seen)==d);
+const isNew=n=>!n.baseline&&(now-P(n.first_seen).getTime())<H24;
 const fmt=d=>{const x=new Date(d+"T00:00:00");return x.toLocaleDateString("en-IN",{day:"2-digit",month:"short",year:"numeric",weekday:"short"})};
-const ago=iso=>{if(!iso)return"never";const m=Math.round((now-new Date(iso).getTime())/6e4);return m<1?"just now":m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" d ago"};
+const ago=iso=>{if(!iso)return"never";const m=Math.round((now-P(iso).getTime())/6e4);return m<1?"just now":m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" d ago"};
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-function srcHealth(id){const s=srcs[id];if(!s||!s.last_ok)return"bad";if(s.error)return"warn";const age=now-new Date(s.last_ok).getTime();return age>6*3600e3?"warn":"ok"}
+function srcHealth(id){const s=srcs[id];if(!s||!s.last_ok)return"bad";if(s.error)return"warn";const age=now-P(s.last_ok).getTime();return age>6*3600e3?"warn":"ok"}
 function side(){
   const ids=Object.keys(srcs).sort((a,b)=>(srcs[a].order??99)-(srcs[b].order??99));
   const newBy={};all.forEach(n=>{if(isNew(n))newBy[n.source]=(newBy[n.source]||0)+1});

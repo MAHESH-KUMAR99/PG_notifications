@@ -348,7 +348,7 @@ def run(only):
     min_date = conf.get("min_date", "2026-07-01")
     data = load()
     known = {n["id"]: n for n in data["notices"]}
-    now = datetime.now().isoformat(timespec="seconds")
+    now = datetime.now(timezone.utc).isoformat(timespec="seconds")  # always UTC; the page converts to local time
     srcs = [s for s in conf["sources"] if not only or s["id"] in only]
     random.shuffle(srcs)
     order = {x["id"]: i for i, x in enumerate(conf["sources"])}
