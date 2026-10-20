@@ -2,7 +2,10 @@ name: PG notices
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "4-59/10 * * * *"   # :04 :14 :24 ... (avoids GitHub's busy :00/:10 slots)
+  push:
+    branches: [main]
+    paths: ["monitor.py", "template.html", "sources.json", ".github/workflows/notices.yml"]
   workflow_dispatch:
 
 permissions:
