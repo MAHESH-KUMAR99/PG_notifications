@@ -8,3 +8,6 @@ notices.json.bak
 notices.json.tmp
 *.log
 notices_merged.json
+notices_pc.json.bak
+notices_pc.json.tmp
+monitor_pc.log
