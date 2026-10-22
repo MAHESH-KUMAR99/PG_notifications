@@ -170,6 +170,23 @@
       "urls": [
         "https://cee.kerala.gov.in/pgm2026/notification"
       ]
+    },
+    {
+      "id": "HR",
+      "name": "Haryana",
+      "urls": [
+        "https://hry.online-counselling.co.in/"
+      ],
+      "api": "https://hryapi.online-counselling.co.in/v1/api/notifications",
+      "site": "https://hry.online-counselling.co.in"
+    },
+    {
+      "id": "CG",
+      "name": "Chhattisgarh",
+      "urls": [
+        "https://cgdme.in/MD-MS-DIPLOMA.php"
+      ],
+      "more_is_link": true
     }
   ]
 }

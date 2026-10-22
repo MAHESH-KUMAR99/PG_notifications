@@ -48,7 +48,7 @@ RE_URLDATE = re.compile(r"(?<!\d)(20(?:2[4-9]))(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[0
 GENERIC_LABEL = re.compile(
     r"^(click\s*here|here|view|view\s*document|download|details?|read\s*more|more|link|"
     r"notification|notice|press\s*release|pdf|new|schedule|click|open|view\s*more|"
-    r"english|hindi|click here to download|view\s*\(.*\)|download\s*\(.*\)|view\s*more|read\s*more)\W*$", re.I)
+    r"more|english|hindi|click here to download|view\s*\(.*\)|download\s*\(.*\)|view\s*more|read\s*more)\W*$", re.I)
 JUNK_TEXT = re.compile(
     r"^(home|contact( us)?|about( us)?|login|sitemap|site map|terms.*|privacy.*|disclaimer|"
     r"help|faq|skip to.*|screen reader.*|accessibility.*|copyright.*|hyperlink.*|rti|"
@@ -66,6 +66,7 @@ NOTICE_WORDS = re.compile(
     r"guideline|bulletin|prospectus|vacan|cut[- ]?off|fee|document|upload|last date|"
     r"order|press|advertis|information|reporting|willingness|neet|pg\b|mdms|mds\b",
     re.I)
+LEAD_DATE = re.compile(r"^\s*(\d{1,2}[\s.\-/]+[A-Za-z]{3,9}\.?[\s,.\-/]+\d{4}|\d{1,2}[-/.]\d{1,2}[-/.]\d{4})\s*[:\-–]\s*")
 OLD_YEAR = re.compile(r"(?<!\d)(20(?:0\d|1\d|2[0-5]))(?!\d)")
 NEW_YEAR = re.compile(r"2026|26-27|2026-27")
 BAD_CONTAINER = re.compile(r"^(nav|navbar|menu|footer|breadcrumb|breadcrumbs|social|social-links|topbar|accessibility|skip-link)$", re.I)
@@ -162,6 +163,31 @@ def fetch(url, pw=False, retries=2):
     raise RuntimeError(last or "fetch failed")
 
 
+def api_items(src):
+    """Sources whose notice board is filled from a JSON API (Haryana)."""
+    r = requests.get(src["api"], headers={**HEADERS, "Accept": "application/json",
+                     "Origin": src["site"], "Referer": src["site"] + "/"}, timeout=(10, 20), verify=False)
+    r.raise_for_status()
+    body = r.json()["body"]
+    rows = sorted(body.get("notice", []) + body.get("news", []), key=lambda x: -int(x.get("id", 0)))
+    out = []
+    for rank, n in enumerate(rows):
+        subject, content = clean(n.get("subject")), clean(n.get("content"))
+        title = subject if not content or content.lower() == subject.lower() else f"{subject}: {content}"
+        d = None
+        stamp = n.get("validFrom") or n.get("publishedDate")
+        if stamp:
+            try:  # stored in UTC, the board shows India dates
+                d = (datetime.fromisoformat(stamp.replace("Z", "+00:00")) + timedelta(hours=5, minutes=30)).date()
+            except ValueError:
+                d = None
+        out.append({"title": clean(title)[:300], "date": d.isoformat() if d else None,
+                    "date_src": "page" if d else None, "rank": rank,
+                    # file links are signed and expire within minutes, so point at the live notice board
+                    "links": [{"label": "Open notice board", "url": f"{src['site']}/#{n['id']}"}]})
+    return out
+
+
 def strip_chrome(soup):
     for t in soup(["script", "style", "noscript", "nav", "footer", "select", "option"]):
         t.decompose()
@@ -209,9 +235,11 @@ def extract(html, base_url, src):
         else:
             url = urljoin(base_url, href)
         label = clean(a.get_text(" "))
+        label = re.sub(r"^[.\s…]+", "", label) or label
+        more_link = bool(src.get("more_is_link")) and re.fullmatch(r"(view |read )?more\W*", label, re.I)
         if re.sub(r"^https?://[^/]+/?(index\.(php|html?|aspx))?/?$", "", url, flags=re.I) == "":
             continue
-        if JUNK_TEXT.match(re.sub(r"[\s.…:>»]+$", "", label)) or (len(label) < 3 and not DOC_HREF.search(href)):
+        if (JUNK_TEXT.match(re.sub(r"[\s.…:>»]+$", "", label)) and not more_link) or (len(label) < 3 and not DOC_HREF.search(href)):
             continue
         row = row_of(a)
         key = id(row)
@@ -252,6 +280,7 @@ def extract(html, base_url, src):
             else:
                 title = clean(rtxt) or links[0]["label"]
         title = clean(re.sub(r"\bNew\b$", "", title))[:300]
+        title = LEAD_DATE.sub("", title) or title  # "30 Mar 2026 : ..." / "21-10-2026 - ..." prefixes
         if len(title) < 10:
             continue
         has_doc = any(DOC_HREF.search(l["url"]) for l in links)
@@ -389,6 +418,9 @@ def run(only):
         found, errs = [], []
         for u in s["urls"]:
             try:
+                if s.get("api"):
+                    found += api_items(s)
+                    continue
                 html, final = fetch(u, pw=s.get("pw", False))
                 found += extract(html, final, s)
             except Exception as e:  # noqa: BLE001
