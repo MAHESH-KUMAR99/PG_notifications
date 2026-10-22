@@ -211,7 +211,7 @@ def extract(html, base_url, src):
         label = clean(a.get_text(" "))
         if re.sub(r"^https?://[^/]+/?(index\.(php|html?|aspx))?/?$", "", url, flags=re.I) == "":
             continue
-        if JUNK_TEXT.match(label) or (len(label) < 3 and not DOC_HREF.search(href)):
+        if JUNK_TEXT.match(re.sub(r"[\s.…:>»]+$", "", label)) or (len(label) < 3 and not DOC_HREF.search(href)):
             continue
         row = row_of(a)
         key = id(row)
@@ -298,7 +298,7 @@ def tag_of(title):
 
 
 def nid(source, n):
-    base = n["links"][0]["url"] + "|" + n["title"]
+    base = n["title"] if "#" in n["links"][0]["url"] else n["links"][0]["url"] + "|" + n["title"]
     return source + ":" + hashlib.sha1(base.encode("utf-8")).hexdigest()[:12]
 
 
@@ -375,6 +375,9 @@ def run(only):
     min_date = conf.get("min_date", "2026-07-01")
     data = load()
     known = {n["id"]: n for n in data["notices"]}
+    by_title = {}
+    for n in sorted(data["notices"], key=lambda n: n.get("first_seen", ""), reverse=True):
+        by_title[(n["source"], n["title"])] = n["id"]  # oldest wins
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")  # always UTC; the page converts to local time
     srcs = [s for s in conf["sources"]
             if (not only or s["id"] in only) and (bool(s.get("via") == "pc") == PC_MODE or only)]
@@ -437,6 +440,11 @@ def run(only):
                 seen_ids.add(n["id"])
                 if n["date"] and n["date"] < min_date:
                     continue
+                if "#" in n["links"][0]["url"] and n["id"] not in known:
+                    prev = by_title.get((s["id"], n["title"]))
+                    if prev:
+                        n["id"] = prev
+                        seen_ids.add(prev)
                 old = known.get(n["id"])
                 if not old and n["id"] in seen:
                     continue  # already seen on the page before (was filtered as old)
@@ -468,6 +476,16 @@ def run(only):
             st["error"] = f"internal error: {type(e).__name__}: {str(e)[:100]}"
             print(f"[{s['id']}] CRASH {st['error']}")
             note_failure(cfg, s, st)
+    postback = {s["id"] for s in conf["sources"] if s.get("view_url")}
+    keep_ids, seen_titles = set(), set()
+    for n in sorted(data["notices"], key=lambda n: n.get("first_seen", "")):
+        k = (n["source"], n["title"])
+        junk = all(JUNK_TEXT.match(re.sub(r"[\s.…:>»]+$", "", l["label"])) for l in n["links"])
+        if junk or (n["source"] in postback and k in seen_titles):
+            continue
+        seen_titles.add(k)
+        keep_ids.add(n["id"])
+    data["notices"] = [n for n in data["notices"] if n["id"] in keep_ids]
     for n in data["notices"]:
         n["tag"] = tag_of(n["title"])
     data["last_run"] = now
