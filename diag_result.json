@@ -1,0 +1,207 @@
+{
+ "when": "2026-10-24T10:00:13Z",
+ "results": [
+  {
+   "site": "KEA",
+   "route": "direct",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='cetonline.karnataka.gov.in', port=443): Max ",
+   "secs": 10.5
+  },
+  {
+   "site": "KEA",
+   "route": "direct_full_browser_headers",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='cetonline.karnataka.gov.in', port=443): Max ",
+   "secs": 10.5
+  },
+  {
+   "site": "KEA",
+   "route": "google_translate_proxy",
+   "status": 408,
+   "bytes": 5929,
+   "marker": true,
+   "links": 2,
+   "pdfs": 0,
+   "secs": 14.6
+  },
+  {
+   "site": "KEA",
+   "route": "jina_reader",
+   "status": 422,
+   "bytes": 197,
+   "marker": false,
+   "links": 0,
+   "pdfs": 0,
+   "secs": 3.4
+  },
+  {
+   "site": "KEA",
+   "route": "allorigins",
+   "status": 522,
+   "bytes": 7262,
+   "marker": false,
+   "links": 5,
+   "pdfs": 0,
+   "secs": 20.1
+  },
+  {
+   "site": "KEA",
+   "route": "corsproxy_io",
+   "status": 403,
+   "bytes": 322,
+   "marker": false,
+   "links": 0,
+   "pdfs": 0,
+   "secs": 0.3
+  },
+  {
+   "site": "KEA",
+   "route": "codetabs",
+   "status": 522,
+   "bytes": 7250,
+   "marker": false,
+   "links": 5,
+   "pdfs": 0,
+   "secs": 19.6
+  },
+  {
+   "site": "J&K",
+   "route": "direct",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.jkbopee.gov.in', port=443): Max retries ",
+   "secs": 10.5
+  },
+  {
+   "site": "J&K",
+   "route": "direct_full_browser_headers",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.jkbopee.gov.in', port=443): Max retries ",
+   "secs": 10.3
+  },
+  {
+   "site": "J&K",
+   "route": "google_translate_proxy",
+   "status": 408,
+   "bytes": 5924,
+   "marker": true,
+   "links": 2,
+   "pdfs": 0,
+   "secs": 14.6
+  },
+  {
+   "site": "J&K",
+   "route": "jina_reader",
+   "status": 422,
+   "bytes": 197,
+   "marker": false,
+   "links": 0,
+   "pdfs": 0,
+   "secs": 5.5
+  },
+  {
+   "site": "J&K",
+   "route": "allorigins",
+   "status": 408,
+   "bytes": 24,
+   "marker": false,
+   "links": 0,
+   "pdfs": 0,
+   "secs": 8.4
+  },
+  {
+   "site": "J&K",
+   "route": "corsproxy_io",
+   "status": 403,
+   "bytes": 322,
+   "marker": false,
+   "links": 0,
+   "pdfs": 0,
+   "secs": 0.1
+  },
+  {
+   "site": "J&K",
+   "route": "codetabs",
+   "error": "ReadTimeout: HTTPSConnectionPool(host='api.codetabs.com', port=443): Read timed out",
+   "secs": 25.1
+  },
+  {
+   "site": "AR",
+   "route": "direct",
+   "status": 403,
+   "bytes": 5517,
+   "marker": true,
+   "links": 0,
+   "pdfs": 0,
+   "secs": 0.1
+  },
+  {
+   "site": "AR",
+   "route": "direct_full_browser_headers",
+   "status": 403,
+   "bytes": 5731,
+   "marker": true,
+   "links": 0,
+   "pdfs": 0,
+   "secs": 0.1
+  },
+  {
+   "site": "AR",
+   "route": "google_translate_proxy",
+   "status": 403,
+   "bytes": 10514,
+   "marker": true,
+   "links": 0,
+   "pdfs": 0,
+   "secs": 0.2
+  },
+  {
+   "site": "AR",
+   "route": "jina_reader",
+   "status": 200,
+   "bytes": 117211,
+   "marker": true,
+   "links": 99,
+   "pdfs": 0,
+   "secs": 1.4
+  },
+  {
+   "site": "AR",
+   "route": "allorigins",
+   "status": 522,
+   "bytes": 7262,
+   "marker": false,
+   "links": 5,
+   "pdfs": 0,
+   "secs": 19.3
+  },
+  {
+   "site": "AR",
+   "route": "corsproxy_io",
+   "status": 403,
+   "bytes": 322,
+   "marker": false,
+   "links": 0,
+   "pdfs": 0,
+   "secs": 0.0
+  },
+  {
+   "site": "AR",
+   "route": "codetabs",
+   "status": 522,
+   "bytes": 7250,
+   "marker": false,
+   "links": 5,
+   "pdfs": 0,
+   "secs": 20.0
+  }
+ ],
+ "runner_ip": "20.168.102.131",
+ "runner_geo": {
+  "ip": "20.168.102.131",
+  "city": "Phoenix",
+  "region": "Arizona",
+  "country": "US",
+  "loc": "33.4484,-112.0740",
+  "org": "AS8075 Microsoft Corporation",
+  "postal": "85003",
+  "timezone": "America/Phoenix",
+  "readme": "https://ipinfo.io/missingauth"
+ }
+}
