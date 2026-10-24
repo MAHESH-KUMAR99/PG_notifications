@@ -151,7 +151,7 @@ def file_date(url):
     return None
 
 
-def fetch(url, pw=False, retries=2):
+def fetch(url, pw=False, retries=2, via=None):
     if pw:
         from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
@@ -162,11 +162,14 @@ def fetch(url, pw=False, retries=2):
             b.close()
         return html.encode("utf-8"), url
     last = None
+    target, headers = url, HEADERS
+    if via == "jina":  # free reader proxy: reaches sites that answer 403 to GitHub's servers
+        target, headers = "https://r.jina.ai/" + url, {**HEADERS, "X-Return-Format": "html"}
     for i in range(retries):
         try:
-            r = requests.get(url, headers=HEADERS, timeout=(10, 20), verify=False)
+            r = requests.get(target, headers=headers, timeout=(10, 25), verify=False)
             if r.status_code == 200:
-                return r.content, r.url
+                return r.content, (url if via else r.url)
             last = f"HTTP {r.status_code}"
         except Exception as e:  # noqa: BLE001
             last = f"{type(e).__name__}: {str(e)[:80]}"
@@ -437,7 +440,7 @@ def run(only):
                 if s.get("api"):
                     found += api_items(s)
                     continue
-                html, final = fetch(u, pw=s.get("pw", False))
+                html, final = fetch(u, pw=s.get("pw", False), via=s.get("fetch_via"))
                 found += extract(html, final, s)
             except Exception as e:  # noqa: BLE001
                 errs.append(str(e)[:120])

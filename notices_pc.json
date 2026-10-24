@@ -141,26 +141,6 @@
     "KEA:abc22382c29d"
    ],
    "count": 7
-  },
-  "AR": {
-   "name": "Arunachal",
-   "url": "https://dmetrap.in/",
-   "last_checked": "2026-10-20T12:08:33+00:00",
-   "order": 16,
-   "error": null,
-   "last_ok": "2026-10-20T12:08:33+00:00",
-   "fails": 0,
-   "initialized": true,
-   "seen": [
-    "AR:bb4296d91ebb",
-    "AR:e7cff5f6670b",
-    "AR:94bf5189e2dd",
-    "AR:533c92006a82",
-    "AR:1327008cfef2",
-    "AR:8d43d62cc6d2",
-    "AR:d584d50f611d"
-   ],
-   "count": 7
   }
  },
  "notices": [
@@ -622,23 +602,6 @@
    "first_seen": "2026-10-20T11:02:15+00:00",
    "baseline": true,
    "tag": "Notice"
-  },
-  {
-   "title": "NEET PG-2026 State Quota Counselling Seats (DNB/Diploma and MD/MS – TRIHMS) for Academic Session 2026‑27",
-   "links": [
-    {
-     "label": "NEET PG-2026 State Quota Counselling Seats (DNB/Diploma and MD/MS – TRIHMS) for Academic Session 2026‑27",
-     "url": "https://dmetrap.in/2026/10/16/neet-pg-2026-state-quota-counselling-seats-dnb-diploma-and-md-ms-trihms-for-academic-session-2026-27/"
-    }
-   ],
-   "date": "2026-10-16",
-   "date_src": "page",
-   "rank": 14,
-   "source": "AR",
-   "id": "AR:e7cff5f6670b",
-   "first_seen": "2026-10-20T11:02:15+00:00",
-   "baseline": true,
-   "tag": "Seat Matrix / Vacancy"
   }
  ],
  "last_run": "2026-10-20T12:08:33+00:00",
