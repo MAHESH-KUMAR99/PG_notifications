@@ -40,7 +40,7 @@ MONTHS = {m: i + 1 for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"])}
 MON = r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*"
 RE_DMY = re.compile(r"(?<!\d)(\d{1,2})\s?[-/.]\s?(\d{1,2})\s?[-/.]\s?(20\d{2}|\d{2})(?!\d)")
-RE_DMONY = re.compile(r"(?<!\d)(\d{1,2})(?:st|nd|rd|th)?[\s,-]+" + MON + r"[\s,.-]+(20\d{2})", re.I)
+RE_DMONY = re.compile(r"(?<!\d)(\d{1,2})(?:st|nd|rd|th)?[\s,.-]*" + MON + r"[\s,.-]+(20\d{2})", re.I)
 RE_MONDY = re.compile(MON + r"\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(20\d{2})", re.I)
 RE_YMD = re.compile(r"(?<!\d)(20\d{2})-(\d{2})-(\d{2})(?!\d)")
 RE_URLDATE = re.compile(r"(?<!\d)(20(?:2[4-9]))(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])(?!\d)")
@@ -279,12 +279,12 @@ def extract(html, base_url, src):
                 title = real[0]["label"]
             else:
                 title = clean(rtxt) or links[0]["label"]
-        title = clean(re.sub(r"\bNew\b$", "", title))[:300]
+        title = clean(re.sub(r"\bnew\b$", "", title, flags=re.I))[:300]
         title = LEAD_DATE.sub("", title) or title  # "30 Mar 2026 : ..." / "21-10-2026 - ..." prefixes
         if len(title) < 10:
             continue
         has_doc = any(DOC_HREF.search(l["url"]) for l in links)
-        if not (has_doc or NOTICE_WORDS.search(title)):
+        if not (has_doc or NOTICE_WORDS.search(title) or src.get("more_is_link")):  # a "More" list holds only notices
             continue
         if keep and not keep.search(title):
             continue
@@ -304,17 +304,17 @@ def extract(html, base_url, src):
 
 
 TAGS = [
-    ("Revised / Extended", r"corrigendum|revised|revision|addendum|amend|extended|extension|postpone|re-?schedul|cancel"),
-    ("Result / Allotment", r"result|allot|selected|selection list|admitted"),
-    ("Merit / Rank List", r"merit list|rank list|provisional list|final list|list of (eligible|candidates)|eligible candidates"),
+    ("Revised / Extended", r"वृद्धि|संशोधित|निरस्त|स्थगित|corrigendum|revised|revision|addendum|amend|extended|extension|postpone|re-?schedul|cancel"),
+    ("Result / Allotment", r"आवंटन|परिणाम|चयनित|result|allot|selected|selection list|admitted"),
+    ("Merit / Rank List", r"मेरिट|मैरिट|सूची|merit list|rank list|provisional list|final list|list of (eligible|candidates)|eligible candidates"),
     ("Seat Matrix / Vacancy", r"seat matrix|vacan|seats"),
-    ("Schedule", r"schedule|time ?table|calendar"),
-    ("Registration / Apply", r"registration|apply|application|choice filling|willingness|online|resign|web options?|option entry"),
+    ("Schedule", r"समय[ -]?सारणी|कार्यक्रम|तिथि|schedule|time ?table|calendar"),
+    ("Registration / Apply", r"आवेदन|पंजीयन|पंजीकरण|ऑन-?लाईन|ऑनलाइन|विकल्प|registration|apply|application|choice filling|willingness|online|resign|web options?|option entry"),
     ("Fees / Refund", r"\bfees?\b|refund|security (deposit|fee)|tuition"),
-    ("Documents / Verification", r"verification|document|certificate|\bnoc\b|pwd|pwbd|medical board|undertaking|proforma|biometric|check slip|ಪರಿಶೀಲನ"),
+    ("Documents / Verification", r"दस्तावेज|सत्यापन|संवीक्षा|प्रमाण|verification|document|certificate|\bnoc\b|pwd|pwbd|medical board|undertaking|proforma|biometric|check slip|ಪರಿಶೀಲನ"),
     ("Merit / Rank List", r"\blist\b|\branks?\b"),
     ("Guidelines / Bulletin", r"guideline|bulletin|prospectus|brochure|manual|instruction|\bfaq\b|information|procedure|\brules?\b"),
-    ("Counselling Update", r"counsel+ing|\bround\b|\bphase\b|reporting|dashboard"),
+    ("Counselling Update", r"काउंसिलिंग|चरण|राउण्ड|counsel+ing|\bround\b|\bphase\b|reporting|dashboard"),
 ]
 TAGS = [(n, re.compile(p, re.I)) for n, p in TAGS]
 
@@ -509,10 +509,12 @@ def run(only):
             print(f"[{s['id']}] CRASH {st['error']}")
             note_failure(cfg, s, st)
     postback = {s["id"] for s in conf["sources"] if s.get("view_url")}
+    more_src = {s["id"] for s in conf["sources"] if s.get("more_is_link")}  # their "More" link IS the notice
     keep_ids, seen_titles = set(), set()
     for n in sorted(data["notices"], key=lambda n: n.get("first_seen", "")):
         k = (n["source"], n["title"])
-        junk = all(JUNK_TEXT.match(re.sub(r"[\s.…:>»]+$", "", l["label"])) for l in n["links"])
+        junk = n["source"] not in more_src and all(
+            JUNK_TEXT.match(re.sub(r"[\s.…:>»]+$", "", l["label"])) for l in n["links"])
         if junk or (n["source"] in postback and k in seen_titles):
             continue
         seen_titles.add(k)
