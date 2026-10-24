@@ -509,7 +509,9 @@ def run(only):
                         old.update(date=n["date"], date_src=n["date_src"])
                     continue
                 n["first_seen"] = now
-                n["baseline"] = first_run
+                # a notice whose own date is weeks old is not news, even if we only just started seeing it
+                stale = bool(n["date"]) and (date.today() - date.fromisoformat(n["date"])).days > 14
+                n["baseline"] = first_run or stale
                 known[n["id"]] = n
                 data["notices"].append(n)
                 if not first_run:
