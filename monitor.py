@@ -66,7 +66,16 @@ NOTICE_WORDS = re.compile(
     r"guideline|bulletin|prospectus|vacan|cut[- ]?off|fee|document|upload|last date|"
     r"order|press|advertis|information|reporting|willingness|neet|pg\b|mdms|mds\b",
     re.I)
-LEAD_DATE = re.compile(r"^\s*(\d{1,2}[\s.\-/]+[A-Za-z]{3,9}\.?[\s,.\-/]+\d{4}|\d{1,2}[-/.]\d{1,2}[-/.]\d{4})\s*[:\-–]\s*")
+LEAD_DATE = re.compile(r"^\s*\[?\s*(\d{1,2}[\s.\-/]+[A-Za-z]{3,9}\.?[\s,.\-/]+\d{4}|\d{1,2}[-/.]\d{1,2}[-/.]\d{4})\s*\]?\s*[:\-–]+\s*")
+# titles that are menu/button labels rather than notices
+NAV_TITLE = re.compile(r"^(verification|notice board|notices?|notifications?|(?:📄\s*)?view\s*pdf|.*\bdashboard)\W*$", re.I)
+
+
+def tidy_title(t):
+    """One normal form for titles: no trailing 'new' badge, no leading date prefix."""
+    t = clean(re.sub(r"\bnew\b$", "", t, flags=re.I))
+    t = LEAD_DATE.sub("", t) or t
+    return clean(t.strip(" -–|:.•"))
 OLD_YEAR = re.compile(r"(?<!\d)(20(?:0\d|1\d|2[0-5]))(?!\d)")
 NEW_YEAR = re.compile(r"2026|26-27|2026-27")
 BAD_CONTAINER = re.compile(r"^(nav|navbar|menu|footer|breadcrumb|breadcrumbs|social|social-links|topbar|accessibility|skip-link)$", re.I)
@@ -279,9 +288,8 @@ def extract(html, base_url, src):
                 title = real[0]["label"]
             else:
                 title = clean(rtxt) or links[0]["label"]
-        title = clean(re.sub(r"\bnew\b$", "", title, flags=re.I))[:300]
-        title = LEAD_DATE.sub("", title) or title  # "30 Mar 2026 : ..." / "21-10-2026 - ..." prefixes
-        if len(title) < 10:
+        title = tidy_title(title)[:300]
+        if len(title) < 10 or NAV_TITLE.match(title) or GENERIC_LABEL.match(title):
             continue
         has_doc = any(DOC_HREF.search(l["url"]) for l in links)
         if not (has_doc or NOTICE_WORDS.search(title) or src.get("more_is_link")):  # a "More" list holds only notices
@@ -403,6 +411,12 @@ def run(only):
     cfg.setdefault("chat_id", os.environ.get("TG_CHAT_ID", ""))
     min_date = conf.get("min_date", "2026-07-01")
     data = load()
+    for n in data["notices"]:  # bring older stored titles to the current normal form (ids follow the title)
+        t = tidy_title(n["title"])
+        if t != n["title"]:
+            n["title"] = t
+            n["id"] = nid(n["source"], n)
+            data["sources"][n["source"]].setdefault("seen", []).append(n["id"])
     known = {n["id"]: n for n in data["notices"]}
     by_title = {}
     for n in sorted(data["notices"], key=lambda n: n.get("first_seen", ""), reverse=True):
@@ -510,16 +524,19 @@ def run(only):
             note_failure(cfg, s, st)
     postback = {s["id"] for s in conf["sources"] if s.get("view_url")}
     more_src = {s["id"] for s in conf["sources"] if s.get("more_is_link")}  # their "More" link IS the notice
-    keep_ids, seen_titles = set(), set()
+    kept, seen_titles, seen_links = [], set(), set()
     for n in sorted(data["notices"], key=lambda n: n.get("first_seen", "")):
         k = (n["source"], n["title"])
+        lk = (n["source"], n["title"], n["links"][0]["url"])
         junk = n["source"] not in more_src and all(
             JUNK_TEXT.match(re.sub(r"[\s.…:>»]+$", "", l["label"])) for l in n["links"])
-        if junk or (n["source"] in postback and k in seen_titles):
+        if (junk or NAV_TITLE.match(n["title"]) or GENERIC_LABEL.match(n["title"])
+                or (n["source"] in postback and k in seen_titles) or lk in seen_links):
             continue
         seen_titles.add(k)
-        keep_ids.add(n["id"])
-    data["notices"] = [n for n in data["notices"] if n["id"] in keep_ids]
+        seen_links.add(lk)
+        kept.append(n)
+    data["notices"] = kept
     for n in data["notices"]:
         n["tag"] = tag_of(n["title"])
     data["last_run"] = now

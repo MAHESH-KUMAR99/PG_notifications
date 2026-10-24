@@ -3,60 +3,60 @@
   "BR HOME": {
    "name": "Bihar (BCECEB Home)",
    "url": "https://bceceboard.bihar.gov.in/index.php/",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 27,
    "order": 12,
    "fails": 0,
    "seen": [
-    "BR HOME:9073d0e8dec7",
-    "BR HOME:2db4bea0889e",
-    "BR HOME:10a5f24ef723",
-    "BR HOME:991de576d1ba",
-    "BR HOME:538d61eb683d",
-    "BR HOME:ff0b8cf4d998",
-    "BR HOME:c9ebdaf38211",
-    "BR HOME:e365ba1c3111",
-    "BR HOME:31b145e7d22e",
-    "BR HOME:19dfdc4c2aa7",
-    "BR HOME:43cf67cd0938",
-    "BR HOME:79cde03f154f",
-    "BR HOME:a0aae240e44a",
+    "BR HOME:fd142f66bca1",
     "BR HOME:eb4bf8483ee9",
     "BR HOME:b4532cbf8da1",
-    "BR HOME:b31934ae4ada",
-    "BR HOME:7d2db4aade1d",
-    "BR HOME:4d54f807679b",
-    "BR HOME:fd142f66bca1",
+    "BR HOME:efdff8f1c3f0",
+    "BR HOME:e365ba1c3111",
+    "BR HOME:9073d0e8dec7",
     "BR HOME:2f03e3055ac9",
-    "BR HOME:a81f4d602e7c",
-    "BR HOME:00bcc5f3d455",
     "BR HOME:1db910ae044b",
-    "BR HOME:0a6bf9a94759",
-    "BR HOME:f9d89e84cd39",
+    "BR HOME:538d61eb683d",
+    "BR HOME:43cf67cd0938",
+    "BR HOME:10a5f24ef723",
+    "BR HOME:b31934ae4ada",
+    "BR HOME:19dfdc4c2aa7",
+    "BR HOME:a0aae240e44a",
+    "BR HOME:7d2db4aade1d",
     "BR HOME:45505b4058a0",
+    "BR HOME:31b145e7d22e",
+    "BR HOME:a81f4d602e7c",
+    "BR HOME:2db4bea0889e",
+    "BR HOME:79cde03f154f",
+    "BR HOME:ff0b8cf4d998",
+    "BR HOME:f9d89e84cd39",
+    "BR HOME:4d54f807679b",
+    "BR HOME:c9ebdaf38211",
+    "BR HOME:00bcc5f3d455",
     "BR HOME:1e51a7fadf40",
-    "BR HOME:efdff8f1c3f0"
+    "BR HOME:991de576d1ba",
+    "BR HOME:0a6bf9a94759"
    ]
   },
   "KL": {
    "name": "Kerala (CEE)",
    "url": "https://cee.kerala.gov.in/pgm2026/notification",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 5,
    "order": 19,
    "fails": 0,
    "seen": [
+    "KL:be94125a1138",
     "KL:200e5a9a88cf",
-    "KL:29747b8e690d",
-    "KL:d5614ba9a20b",
     "KL:7c3335d8ac02",
-    "KL:be94125a1138"
+    "KL:d5614ba9a20b",
+    "KL:29747b8e690d"
    ]
   },
   "KEA": {
@@ -82,293 +82,295 @@
   "MP": {
    "name": "Madhya Pradesh",
    "url": "https://dme.mponline.gov.in/portal/services/dmemp/DMEPG/Profile/ProfileLoginHome.aspx?Counstype=rfZR9zLVYzySY17sU9L9gA%3d%3d",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
-   "count": 15,
+   "count": 14,
    "order": 5,
    "fails": 0,
    "seen": [
-    "MP:5cc940eb80f8",
-    "MP:8650e957c810",
-    "MP:ba7bcf70487f",
-    "MP:80c7c2af40c5",
-    "MP:136661c1d80b",
-    "MP:5e6ac73937e9",
-    "MP:7f02d6e9ffd2",
-    "MP:8e4c6cb735c6",
-    "MP:7e2cfd6b1d8d",
     "MP:fc60b3e1229d",
+    "MP:9d49213b6656",
+    "MP:0c2ddfb84801",
     "MP:ddbd11ad1b19",
-    "MP:4c6d28b51d5b",
+    "MP:136661c1d80b",
+    "MP:98f3635eb38c",
     "MP:45aa84248b62",
+    "MP:8e4c6cb735c6",
     "MP:c0fe4707e514",
+    "MP:8650e957c810",
+    "MP:7e2cfd6b1d8d",
     "MP:d2287323141f",
     "MP:2ee573f941af",
     "MP:43d8ef4d65b7",
     "MP:dd3fb4f72347",
     "MP:ad9436d2ae79",
-    "MP:98f3635eb38c",
-    "MP:0c2ddfb84801",
-    "MP:9d49213b6656",
+    "MP:5cc940eb80f8",
+    "MP:7f02d6e9ffd2",
+    "MP:80c7c2af40c5",
+    "MP:ba7bcf70487f",
     "MP:000d4805801a",
-    "MP:694c1907e615"
+    "MP:694c1907e615",
+    "MP:5e6ac73937e9",
+    "MP:4c6d28b51d5b"
    ]
   },
   "MH": {
    "name": "Maharashtra",
    "url": "https://medical2026.mahacet.org/NEET-PGM-2026/login",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 3,
    "order": 9,
    "fails": 0,
    "seen": [
+    "MH:ea794d1230ee",
     "MH:fc6fbddf33f0",
-    "MH:25636909c4a4",
-    "MH:ea794d1230ee"
+    "MH:25636909c4a4"
    ]
   },
   "TR": {
    "name": "Tripura",
    "url": "https://trmcc.admissions.nic.in/pg-counselling/",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 2,
    "order": 6,
    "fails": 0,
    "seen": [
-    "TR:6cedba6a9804",
+    "TR:8a50d68e7115",
     "TR:1972caae3e79",
-    "TR:8a50d68e7115"
+    "TR:6cedba6a9804"
    ]
   },
   "TG": {
    "name": "Telangana (KNRUHS)",
    "url": "https://www.knruhs.telangana.gov.in/all-notifications/",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 5,
    "order": 4,
    "fails": 0,
    "seen": [
-    "TG:6faeeaebae03",
-    "TG:eeeb38e60aa0",
-    "TG:ce28dd4e87b6",
     "TG:047a0a13d83a",
-    "TG:bb2afb34ab3e",
     "TG:c6c7803f39c6",
-    "TG:46748be4a9a6"
+    "TG:eeeb38e60aa0",
+    "TG:46748be4a9a6",
+    "TG:bb2afb34ab3e",
+    "TG:ce28dd4e87b6",
+    "TG:6faeeaebae03"
    ]
   },
   "GJ": {
    "name": "Gujarat",
    "url": "https://www.medadmgujarat.org/pg/home.aspx",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
-   "count": 49,
+   "count": 48,
    "order": 7,
    "fails": 0,
    "seen": [
-    "GJ:07dd3cc04de4",
-    "GJ:d607eb67ab8f",
     "GJ:7cc2b8c4332a",
-    "GJ:d373bbb255c3",
-    "GJ:71083587bc5f",
-    "GJ:7dc24ecfc817",
-    "GJ:953cb8b01427",
-    "GJ:43da87fc1387",
-    "GJ:5e117257885c",
-    "GJ:fc4e37fc6b15",
-    "GJ:cd7a3dbd4886",
-    "GJ:601010b48801",
-    "GJ:35b14c38ebe9",
-    "GJ:8ca984d3c4de",
-    "GJ:4fb7443119aa",
-    "GJ:ea73182c0aa1",
-    "GJ:fa9909f7bb78",
-    "GJ:d4b86fa5bc97",
-    "GJ:f9231ca07218",
+    "GJ:68486309d4ab",
     "GJ:6dcbb6ce31ce",
-    "GJ:c315a37b8de0",
-    "GJ:46f6ed9e69b5",
-    "GJ:2622ed1bdc81",
-    "GJ:05b2254c889c",
-    "GJ:85b0aee547b6",
-    "GJ:747689dd262c",
-    "GJ:b18878458aca",
-    "GJ:9100e35ed70d",
+    "GJ:fc4e37fc6b15",
+    "GJ:e213d76b483d",
+    "GJ:f9231ca07218",
     "GJ:3a7ae862a6b0",
-    "GJ:204419aff671",
+    "GJ:b5c255976fa6",
+    "GJ:90c8b5eac323",
+    "GJ:a7cfd5b676a5",
+    "GJ:3cb4d65df95f",
+    "GJ:c315a37b8de0",
     "GJ:418d38f6ce97",
+    "GJ:c84e2d89b9b1",
+    "GJ:4fb7443119aa",
+    "GJ:d607eb67ab8f",
+    "GJ:953cb8b01427",
+    "GJ:f0e301471618",
+    "GJ:2795a3895cb5",
+    "GJ:85b0aee547b6",
+    "GJ:d33cb8885ba7",
+    "GJ:5e51f8676539",
+    "GJ:d373bbb255c3",
+    "GJ:35b14c38ebe9",
+    "GJ:204419aff671",
+    "GJ:6c3e4a7ba2da",
+    "GJ:8ca984d3c4de",
+    "GJ:fa9909f7bb78",
+    "GJ:07dd3cc04de4",
+    "GJ:4aee0cc4be3f",
+    "GJ:5e117257885c",
+    "GJ:b18878458aca",
+    "GJ:16ec14fc306f",
+    "GJ:2622ed1bdc81",
     "GJ:3512b4a13d87",
     "GJ:4e3b416a8d58",
-    "GJ:989ed6e3cfc1",
-    "GJ:90c8b5eac323",
-    "GJ:3cb4d65df95f",
-    "GJ:f0e301471618",
-    "GJ:840c22605d4a",
-    "GJ:16ec14fc306f",
-    "GJ:b5c255976fa6",
-    "GJ:d33cb8885ba7",
+    "GJ:43da87fc1387",
+    "GJ:d4b86fa5bc97",
     "GJ:3baf7454f413",
-    "GJ:f3a0e5501203",
-    "GJ:2795a3895cb5",
-    "GJ:6c3e4a7ba2da",
-    "GJ:a7cfd5b676a5",
-    "GJ:4aee0cc4be3f",
-    "GJ:68486309d4ab",
-    "GJ:c84e2d89b9b1",
+    "GJ:9100e35ed70d",
+    "GJ:cd7a3dbd4886",
+    "GJ:46f6ed9e69b5",
+    "GJ:05b2254c889c",
+    "GJ:601010b48801",
+    "GJ:989ed6e3cfc1",
+    "GJ:ea73182c0aa1",
+    "GJ:23f4b31b9743",
     "GJ:8c9ec871b482",
-    "GJ:e213d76b483d"
+    "GJ:7dc24ecfc817",
+    "GJ:747689dd262c",
+    "GJ:71083587bc5f",
+    "GJ:f3a0e5501203",
+    "GJ:840c22605d4a"
    ]
   },
   "PB": {
    "name": "Punjab (BFUHS)",
    "url": "https://admission.bfuhsonline.ac.in/mdms/mdms.asp",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 26,
    "order": 8,
    "fails": 0,
    "seen": [
     "PB:94e152f8dc89",
-    "PB:60d879f47dbb",
-    "PB:cae0b9f3a372",
+    "PB:829bba58bbef",
+    "PB:40c8a4b293d0",
     "PB:ee639b91eedb",
-    "PB:de4ab6b3365e",
+    "PB:72bb06875cb9",
     "PB:1052986fe1b8",
     "PB:6e45b7a97975",
-    "PB:ce336d93ba3a",
-    "PB:547a14b42139",
-    "PB:829bba58bbef",
     "PB:59b5a2123e30",
-    "PB:c585dd2c9f0a",
-    "PB:dd59148dada6",
-    "PB:76cab99ce049",
-    "PB:72bb06875cb9",
+    "PB:60d879f47dbb",
     "PB:4ef21ab4227f",
-    "PB:a91f0e99c60a",
-    "PB:e61ed8398bb4",
-    "PB:3d1d16ded5a8",
-    "PB:512ca164cb89",
-    "PB:4813d0d7aea0",
-    "PB:ff342dcc642a",
-    "PB:4ae04b414c22",
-    "PB:0f1d554bf427",
-    "PB:40c8a4b293d0",
     "PB:7ebadddcfb5d",
-    "PB:b79b94f19e4d"
+    "PB:dd59148dada6",
+    "PB:a91f0e99c60a",
+    "PB:c585dd2c9f0a",
+    "PB:de4ab6b3365e",
+    "PB:0f1d554bf427",
+    "PB:cae0b9f3a372",
+    "PB:ce336d93ba3a",
+    "PB:4ae04b414c22",
+    "PB:b79b94f19e4d",
+    "PB:3d1d16ded5a8",
+    "PB:ff342dcc642a",
+    "PB:4813d0d7aea0",
+    "PB:76cab99ce049",
+    "PB:e61ed8398bb4",
+    "PB:512ca164cb89",
+    "PB:547a14b42139"
    ]
   },
   "BR": {
    "name": "Bihar (PGMAC)",
    "url": "https://bceceboard.bihar.gov.in/PGMACIndex.php",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
-   "count": 5,
+   "count": 4,
    "order": 11,
    "fails": 0,
    "seen": [
+    "BR:ff0b8cf4d998",
     "BR:442619e88655",
     "BR:cc3c84c838fd",
     "BR:6bd4c446002c",
-    "BR:79cde03f154f",
-    "BR:ff0b8cf4d998"
+    "BR:79cde03f154f"
    ]
   },
   "UP": {
    "name": "Uttar Pradesh",
    "url": "https://upneet.gov.in/NewandNotification.aspx",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 47,
    "order": 10,
    "fails": 0,
    "seen": [
-    "UP:2e09e8830775",
-    "UP:bc9a9fa4099f",
-    "UP:44024e8f8e61",
-    "UP:4bd88717a5bd",
-    "UP:a85205c113d5",
-    "UP:8d4dd071d090",
-    "UP:68382567ee9d",
-    "UP:eabc7db56607",
-    "UP:0d13c5cc3bd0",
-    "UP:7eadcb733bcf",
-    "UP:ce5ba94bf17a",
-    "UP:93d411080b3b",
-    "UP:9baaaf73a23b",
-    "UP:8fb53015b16f",
-    "UP:2e0b627eaf57",
-    "UP:4edb3bf73747",
-    "UP:cffa3503ca9c",
-    "UP:0736fe438627",
-    "UP:1bcbce4fb891",
-    "UP:ec607cfda670",
-    "UP:8c529b2f21b3",
-    "UP:118b5670355a",
-    "UP:8ed33c5ca1f9",
-    "UP:32b6b890bdc3",
-    "UP:26a2f92f51c0",
-    "UP:93db65b0e6a5",
-    "UP:e037d77f2af8",
-    "UP:fb471508b1f4",
-    "UP:b15734d110c6",
-    "UP:fa3d85132a1c",
-    "UP:f2da255ddeca",
-    "UP:1d300527edc7",
-    "UP:dcd2142302c4",
-    "UP:cf1ec965d416",
-    "UP:1bb22163de35",
-    "UP:b35bec86f771",
-    "UP:dcc09fa6ec3f",
-    "UP:a0b9caa4496e",
     "UP:e84bb7969c5a",
-    "UP:2d5fe99d2189",
-    "UP:eb9c89d203d6",
-    "UP:2d84f07eef37",
-    "UP:6c88e0e7171a",
-    "UP:c144e7e584db",
-    "UP:d80cae9f2a00",
-    "UP:f76556a25e30",
-    "UP:0473dc983056",
-    "UP:a8e1315c9f4c",
-    "UP:f342818440b1",
-    "UP:74ecf489cfc6",
-    "UP:ffdc86ad93c4",
-    "UP:a87ff83cc270",
+    "UP:a0b9caa4496e",
     "UP:54fc1134d15c",
-    "UP:d8e69787bef7",
-    "UP:c92148c381bc",
-    "UP:e52fd7442317",
-    "UP:52bcbaddb97d",
-    "UP:e0eb1db844ab",
-    "UP:d446ccb1366d",
-    "UP:6e634c5312fd",
-    "UP:95f5bbdb26da",
-    "UP:eb25df0baaf7",
-    "UP:288242961e26",
-    "UP:92cb38f35fd5",
+    "UP:dcd2142302c4",
     "UP:1fa2415bc5a1",
+    "UP:2d5fe99d2189",
+    "UP:288242961e26",
+    "UP:74ecf489cfc6",
+    "UP:fa3d85132a1c",
+    "UP:8ed33c5ca1f9",
+    "UP:eb25df0baaf7",
+    "UP:bc9a9fa4099f",
+    "UP:f76556a25e30",
     "UP:7422f273ed66",
+    "UP:95f5bbdb26da",
+    "UP:4242f67e2e69",
+    "UP:7eadcb733bcf",
+    "UP:8c529b2f21b3",
+    "UP:c144e7e584db",
+    "UP:32b6b890bdc3",
+    "UP:d8e69787bef7",
+    "UP:93db65b0e6a5",
+    "UP:68382567ee9d",
+    "UP:d80cae9f2a00",
+    "UP:2e09e8830775",
+    "UP:118b5670355a",
+    "UP:ce5ba94bf17a",
     "UP:2a713d3887bf",
-    "UP:4242f67e2e69"
+    "UP:2d84f07eef37",
+    "UP:4bd88717a5bd",
+    "UP:e0eb1db844ab",
+    "UP:dcc09fa6ec3f",
+    "UP:1d300527edc7",
+    "UP:0473dc983056",
+    "UP:9baaaf73a23b",
+    "UP:6e634c5312fd",
+    "UP:cffa3503ca9c",
+    "UP:eb9c89d203d6",
+    "UP:fb471508b1f4",
+    "UP:8fb53015b16f",
+    "UP:f342818440b1",
+    "UP:c92148c381bc",
+    "UP:93d411080b3b",
+    "UP:1bcbce4fb891",
+    "UP:a85205c113d5",
+    "UP:26a2f92f51c0",
+    "UP:b35bec86f771",
+    "UP:ffdc86ad93c4",
+    "UP:52bcbaddb97d",
+    "UP:e037d77f2af8",
+    "UP:f2da255ddeca",
+    "UP:1bb22163de35",
+    "UP:a87ff83cc270",
+    "UP:eabc7db56607",
+    "UP:0736fe438627",
+    "UP:ec607cfda670",
+    "UP:4edb3bf73747",
+    "UP:a8e1315c9f4c",
+    "UP:44024e8f8e61",
+    "UP:6c88e0e7171a",
+    "UP:2e0b627eaf57",
+    "UP:8d4dd071d090",
+    "UP:e52fd7442317",
+    "UP:92cb38f35fd5",
+    "UP:d446ccb1366d",
+    "UP:b15734d110c6",
+    "UP:0d13c5cc3bd0",
+    "UP:cf1ec965d416"
    ]
   },
   "J&K": {
@@ -490,7 +492,9 @@
     "J&K:dd0b245306cb",
     "J&K:3691f70f1f65",
     "J&K:8688f70544a7",
-    "J&K:78f2f19cfeb0"
+    "J&K:78f2f19cfeb0",
+    "J&K:a1388ca456f2",
+    "J&K:ae76ef2719da"
    ]
   },
   "AR": {
@@ -516,9 +520,9 @@
   "SK": {
    "name": "Sikkim (SMU)",
    "url": "https://www.smu.edu.in/",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 2,
    "order": 14,
@@ -531,399 +535,457 @@
   "PY": {
    "name": "Puducherry (CENTAC)",
    "url": "https://www.centacpuducherry.in/",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
-   "count": 36,
+   "count": 35,
    "order": 15,
    "fails": 0,
    "seen": [
-    "PY:68aa2b1b3e54",
-    "PY:d64d05a28a30",
-    "PY:1c760402df68",
-    "PY:7bc8060d76e6",
-    "PY:1381ff0bee3b",
-    "PY:a8299110e8f7",
-    "PY:86f172c96c23",
-    "PY:de81f48841b3",
-    "PY:42c7724d94d3",
-    "PY:b8bfa121f92c",
-    "PY:f63e6a76c8d9",
     "PY:d9f51fba5586",
-    "PY:f263727ca7e6",
-    "PY:d5188020ca0f",
+    "PY:063ac481a2e0",
+    "PY:48e76ab3b124",
+    "PY:d64d05a28a30",
+    "PY:fbb918b22334",
+    "PY:88565ef5dcd4",
     "PY:866aee21c325",
-    "PY:e95ce1cdab1a",
-    "PY:9b726bb0b650",
-    "PY:94a3cc618e97",
-    "PY:a541d64dabdf",
-    "PY:fa49a0cc8ccc",
-    "PY:a003ab74fafa",
-    "PY:a2a75fc43525",
-    "PY:00fd03d6bacc",
-    "PY:614a1c0ee9cc",
-    "PY:6c4dc83acc41",
-    "PY:159d26dc0011",
-    "PY:42809a65692e",
-    "PY:4376ce29845a",
-    "PY:b4540a007cb4",
-    "PY:2b0f5ec29657",
+    "PY:0e4b6c3a94ca",
+    "PY:7bc8060d76e6",
+    "PY:76a8dbd1cbfa",
+    "PY:27156633877c",
+    "PY:d65053fb10be",
     "PY:1db3b8e867b0",
-    "PY:5842c98062be",
+    "PY:4376ce29845a",
+    "PY:0510a27833ac",
+    "PY:614a1c0ee9cc",
+    "PY:a003ab74fafa",
+    "PY:2b0f5ec29657",
+    "PY:776985e6b38e",
+    "PY:e7258649316b",
+    "PY:eb19ad06b339",
+    "PY:6e8c3e057d23",
+    "PY:072bb803f466",
+    "PY:818b7f4b28fb",
     "PY:0686b785f7d9",
-    "PY:c5a7920c00bb",
+    "PY:9b726bb0b650",
     "PY:a3dbe7116890",
-    "PY:808d6dc7bc20"
+    "PY:a332cf6abadd",
+    "PY:f263727ca7e6",
+    "PY:a2a75fc43525",
+    "PY:cdf3b0a569be",
+    "PY:b6d695b80214",
+    "PY:fa38d50d5bc9",
+    "PY:5842c98062be",
+    "PY:a218d4fcf16f",
+    "PY:e140a5b947db",
+    "PY:159d26dc0011",
+    "PY:67467e5fc527",
+    "PY:1381ff0bee3b",
+    "PY:a541d64dabdf",
+    "PY:c52147ef1a80",
+    "PY:304380b02a2b",
+    "PY:94a3cc618e97",
+    "PY:a8299110e8f7",
+    "PY:a2f33e92b6d7",
+    "PY:c5a7920c00bb",
+    "PY:b4540a007cb4",
+    "PY:5380a3e55e61",
+    "PY:fa49a0cc8ccc",
+    "PY:d45b025a87ef",
+    "PY:d5188020ca0f",
+    "PY:1c760402df68",
+    "PY:68aa2b1b3e54",
+    "PY:dd17c62dd063",
+    "PY:808d6dc7bc20",
+    "PY:42809a65692e",
+    "PY:de81f48841b3",
+    "PY:b8bfa121f92c",
+    "PY:f9e10761fe9b",
+    "PY:c8f37d63639e",
+    "PY:e95ce1cdab1a",
+    "PY:a6657126b919",
+    "PY:42c7724d94d3",
+    "PY:86f172c96c23",
+    "PY:6567a20056fd",
+    "PY:1260e4735e82",
+    "PY:9ba1cba0fdb1",
+    "PY:f63e6a76c8d9",
+    "PY:fd524c0c7825",
+    "PY:6c4dc83acc41",
+    "PY:00fd03d6bacc"
    ]
   },
   "AP": {
    "name": "Andhra Pradesh",
    "url": "https://drntr.uhsap.in/index/",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 20,
    "order": 17,
    "fails": 0,
    "seen": [
-    "AP:0d84617f6a88",
-    "AP:c87f55db5b40",
-    "AP:462cd8720df4",
-    "AP:3b1b631ae64d",
-    "AP:3728f9344965",
     "AP:212820602ed8",
-    "AP:86b77f898e28",
-    "AP:59e1f97641c7",
-    "AP:5b91c1214c78",
-    "AP:07bb53dd9641",
-    "AP:9b641994e055",
-    "AP:25d540d71874",
-    "AP:40fcc1d992d9",
-    "AP:224e294b5853",
-    "AP:85474be45312",
-    "AP:8d798e7be2d8",
+    "AP:0d84617f6a88",
     "AP:7608105b633e",
-    "AP:61890889f503",
+    "AP:462cd8720df4",
+    "AP:85474be45312",
+    "AP:59e1f97641c7",
     "AP:208f6970044d",
+    "AP:3b1b631ae64d",
     "AP:734842a52acd",
+    "AP:07bb53dd9641",
+    "AP:86b77f898e28",
+    "AP:8d798e7be2d8",
+    "AP:c87f55db5b40",
+    "AP:9b641994e055",
+    "AP:5b91c1214c78",
+    "AP:224e294b5853",
+    "AP:61890889f503",
+    "AP:40fcc1d992d9",
     "AP:f7a0082ea8b7",
+    "AP:25d540d71874",
     "AP:f1bda54e0051",
+    "AP:3728f9344965",
     "AP:70b60c61c1be"
    ]
   },
   "MCC": {
    "name": "MCC (All India)",
    "url": "https://mcc.nic.in/pg-medical-counselling/",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 19,
    "order": 0,
    "fails": 0,
    "seen": [
-    "MCC:6aa9db071012",
-    "MCC:6dba8c263326",
-    "MCC:c89ff5b4147d",
-    "MCC:d82a873f7731",
-    "MCC:928488d0fe61",
-    "MCC:c9eae958c4e7",
-    "MCC:4a245f909616",
-    "MCC:aed10464281c",
-    "MCC:f86f3c292b65",
-    "MCC:d39ce915ec54",
     "MCC:ddd91fe80233",
-    "MCC:4023d4397212",
-    "MCC:32425db5b35f",
-    "MCC:e9f3c67e4260",
-    "MCC:b2cbd43b8292",
-    "MCC:49bec02e0021",
     "MCC:28aa4873c9fe",
+    "MCC:d82a873f7731",
+    "MCC:4a11f108cf55",
+    "MCC:b2cbd43b8292",
+    "MCC:928488d0fe61",
+    "MCC:f86f3c292b65",
+    "MCC:4023d4397212",
+    "MCC:d39ce915ec54",
+    "MCC:6aa9db071012",
     "MCC:9ccaa4f9e594",
-    "MCC:4a11f108cf55"
+    "MCC:fa4efd9c4e3d",
+    "MCC:aed10464281c",
+    "MCC:49bec02e0021",
+    "MCC:e9f3c67e4260",
+    "MCC:2c3d3ccb6a53",
+    "MCC:6dba8c263326",
+    "MCC:4a245f909616",
+    "MCC:32425db5b35f",
+    "MCC:c9eae958c4e7",
+    "MCC:c89ff5b4147d"
    ]
   },
   "WB": {
    "name": "West Bengal",
    "url": "https://wbmcc.nic.in/pg-medical-counselling/",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 6,
    "order": 1,
    "fails": 0,
    "seen": [
-    "WB:86598a848f62",
     "WB:36cd4d2a7146",
+    "WB:758866a0e346",
     "WB:e0996b07d222",
-    "WB:6e64c6ad3c60",
+    "WB:c26ec35976b0",
     "WB:671b0aeedf53",
+    "WB:86598a848f62",
+    "WB:6e64c6ad3c60",
     "WB:a68df8899662",
-    "WB:c26ec35976b0"
+    "WB:43fc90490520"
    ]
   },
   "TN": {
    "name": "Tamil Nadu",
    "url": "https://tnmedicalselection.net/",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 65,
    "order": 13,
    "fails": 0,
    "seen": [
-    "TN:b434cb2d0291",
-    "TN:e42c9185fa36",
-    "TN:ad6097ea4d2e",
-    "TN:f407d1b4cb15",
-    "TN:0a14b6e738f4",
-    "TN:f7c5e4722751",
-    "TN:e2cc77c26c0c",
-    "TN:000e1838a941",
-    "TN:3cb78631018d",
-    "TN:bbdb1774d7df",
-    "TN:f63122579b3f",
-    "TN:d7e248172fc7",
-    "TN:71aba6237b58",
-    "TN:446240c15165",
-    "TN:4d6cfe47d946",
-    "TN:577aff6aa6b4",
-    "TN:fe08c8f7c7cd",
-    "TN:b0153f68e5ab",
-    "TN:a52159978e42",
     "TN:31a45b720502",
+    "TN:8b3cc351b159",
+    "TN:30e7163dfe23",
+    "TN:f407d1b4cb15",
+    "TN:0d9aa89066cb",
+    "TN:9df9d64cae42",
+    "TN:c3f13a743c3e",
+    "TN:0a14b6e738f4",
+    "TN:e2cc77c26c0c",
+    "TN:4c8ebc2cd3cd",
+    "TN:5243ec4dac2e",
+    "TN:df89f8be3e6a",
     "TN:583a3ee1ab88",
-    "TN:242eb69674cf",
+    "TN:05202948c07b",
+    "TN:f63122579b3f",
+    "TN:35df30d091f7",
+    "TN:012bd17c5270",
+    "TN:852900549726",
+    "TN:4bd1e9d205b8",
+    "TN:d78597cee152",
+    "TN:ea20b31904a0",
+    "TN:76dff2508550",
+    "TN:9f8786232d48",
+    "TN:577aff6aa6b4",
+    "TN:d878c7325d75",
+    "TN:7e0eec95cb4f",
+    "TN:000e1838a941",
+    "TN:b0153f68e5ab",
+    "TN:71aba6237b58",
+    "TN:6121e3951317",
+    "TN:4a525fb67654",
+    "TN:3cb78631018d",
+    "TN:6463442949f6",
+    "TN:b434cb2d0291",
+    "TN:8e39052f2b06",
+    "TN:d7e248172fc7",
+    "TN:22ce76fb21e2",
+    "TN:55ee3fce9f48",
+    "TN:85cae0ab4ede",
+    "TN:ac2af7200256",
+    "TN:c905605c100d",
     "TN:4420dd1be271",
     "TN:6c9bfbe5faf4",
-    "TN:6121e3951317",
-    "TN:9df9d64cae42",
-    "TN:65103f2714fc",
-    "TN:5243ec4dac2e",
-    "TN:7e0eec95cb4f",
-    "TN:6463442949f6",
-    "TN:4883aecadcce",
-    "TN:35df30d091f7",
-    "TN:30e7163dfe23",
-    "TN:0d9aa89066cb",
-    "TN:05202948c07b",
-    "TN:55ee3fce9f48",
-    "TN:4c8ebc2cd3cd",
-    "TN:55f4f5aa1b7d",
-    "TN:38ab2ffe1084",
-    "TN:53b26543b067",
     "TN:be694fca32f9",
-    "TN:012bd17c5270",
-    "TN:76dff2508550",
     "TN:6eecb2950779",
-    "TN:d878c7325d75",
-    "TN:c905605c100d",
-    "TN:4a525fb67654",
-    "TN:ac2af7200256",
-    "TN:8b3cc351b159",
-    "TN:2582d18320fb",
-    "TN:f9052c758c8b",
-    "TN:c3f13a743c3e",
-    "TN:5354ac8a246f",
-    "TN:9f8786232d48",
-    "TN:a5632d7e5d93",
-    "TN:4bd1e9d205b8",
-    "TN:2ae9ddafef5d",
-    "TN:ea20b31904a0",
-    "TN:3c37b0597076",
+    "TN:94e7ea49df6c",
     "TN:4f0fde495b27",
+    "TN:55f4f5aa1b7d",
+    "TN:bbdb1774d7df",
+    "TN:fe08c8f7c7cd",
+    "TN:f9052c758c8b",
+    "TN:a5632d7e5d93",
+    "TN:53b26543b067",
     "TN:5a3413f8f563",
-    "TN:22ce76fb21e2",
-    "TN:df89f8be3e6a",
+    "TN:4883aecadcce",
+    "TN:2ae9ddafef5d",
+    "TN:3c37b0597076",
+    "TN:a52159978e42",
+    "TN:f7c5e4722751",
     "TN:b4ee68571256",
-    "TN:852900549726",
-    "TN:94e7ea49df6c"
+    "TN:65103f2714fc",
+    "TN:5354ac8a246f",
+    "TN:95a1679d148b",
+    "TN:e42c9185fa36",
+    "TN:2582d18320fb",
+    "TN:446240c15165",
+    "TN:242eb69674cf",
+    "TN:ad6097ea4d2e",
+    "TN:38ab2ffe1084",
+    "TN:4d6cfe47d946"
    ]
   },
   "AS": {
    "name": "Assam",
    "url": "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "initialized": true,
    "count": 29,
    "order": 18,
    "fails": 0,
    "seen": [
-    "AS:69d74fc835c0",
-    "AS:ae6af0abb1e9",
-    "AS:dcb2f5eff3bd",
-    "AS:7e9a056ca568",
-    "AS:d2b6d04865a7",
-    "AS:f2cad1a14e0a",
-    "AS:a877dc593a40",
-    "AS:9d54d21ad9db",
-    "AS:0691d9a4abfb",
     "AS:c64c76fdd58d",
-    "AS:3153a483eab1",
-    "AS:a3b15efa9243",
-    "AS:d2127b116357",
-    "AS:6a3558260b53",
-    "AS:bc9363a3ecbf",
-    "AS:0d8a3fbec287",
-    "AS:cadea431ff62",
     "AS:e74435439abd",
-    "AS:d7e9595b4662",
-    "AS:6b2f285b8ced",
-    "AS:b1ef64db6dff",
-    "AS:b1100d9be682",
-    "AS:5b7afc04e161",
-    "AS:3df81f798cd2",
+    "AS:69d74fc835c0",
     "AS:bcece1d71e52",
     "AS:fa39f65eef1c",
+    "AS:a3b15efa9243",
+    "AS:042c392f130e",
+    "AS:d2b6d04865a7",
+    "AS:0691d9a4abfb",
+    "AS:f2cad1a14e0a",
+    "AS:a877dc593a40",
+    "AS:ae6af0abb1e9",
+    "AS:b1ef64db6dff",
+    "AS:3153a483eab1",
     "AS:e95b87e4e4ba",
+    "AS:0d8a3fbec287",
+    "AS:d2127b116357",
+    "AS:2b5679107bcf",
+    "AS:7e9a056ca568",
+    "AS:d7e9595b4662",
+    "AS:bc9363a3ecbf",
+    "AS:5b7afc04e161",
+    "AS:3df81f798cd2",
+    "AS:6a3558260b53",
+    "AS:cadea431ff62",
+    "AS:9d54d21ad9db",
+    "AS:dcb2f5eff3bd",
     "AS:76f39c6db5d3",
-    "AS:2b5679107bcf"
+    "AS:b1100d9be682",
+    "AS:6b2f285b8ced"
    ]
   },
   "HR": {
    "name": "Haryana",
    "url": "https://hry.online-counselling.co.in/",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "order": 20,
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "fails": 0,
    "initialized": true,
    "seen": [
-    "HR:a4b042318804",
-    "HR:815fca4d674a",
-    "HR:a41ffa36db63",
-    "HR:ff4d57020ad9",
+    "HR:ed48ad69ade6",
     "HR:ffc7e932fdfc",
-    "HR:564d8f40e57d",
-    "HR:8c49b92c4873",
-    "HR:e974e2165ba5",
-    "HR:153af5afcee6",
-    "HR:97be139b0aa1",
-    "HR:60956350e682",
-    "HR:4a44522200f2",
-    "HR:325044b43307",
-    "HR:1fb1c81c3b0c",
-    "HR:3b453016db59",
-    "HR:bcad18f4fce1",
-    "HR:45b51e924c05",
-    "HR:0d5f6dfd34dc",
-    "HR:bf2491f2d5de",
-    "HR:ad55e8f6fcc5",
-    "HR:a845ca804295",
-    "HR:3284404db52d",
-    "HR:96b11f4d41ea",
-    "HR:dee5e4753320",
+    "HR:a4b042318804",
+    "HR:0700cc1c1db7",
     "HR:d01cb1ef5317",
+    "HR:97be139b0aa1",
+    "HR:a845ca804295",
+    "HR:815fca4d674a",
+    "HR:96b11f4d41ea",
+    "HR:ad7dbc849fdc",
+    "HR:dee5e4753320",
+    "HR:8c49b92c4873",
+    "HR:bf2491f2d5de",
+    "HR:ff4d57020ad9",
+    "HR:004de3f45048",
+    "HR:1435e43e9ee9",
+    "HR:3284404db52d",
+    "HR:a99513291643",
+    "HR:a23dda95b8bb",
+    "HR:4a44522200f2",
     "HR:7ec691a97803",
-    "HR:ed48ad69ade6"
+    "HR:60956350e682",
+    "HR:45b51e924c05",
+    "HR:2c746c7379f2",
+    "HR:ec842d240f5f",
+    "HR:1fb1c81c3b0c",
+    "HR:f4e3d82d9ba9",
+    "HR:3a0e638a2033",
+    "HR:0d5f6dfd34dc",
+    "HR:ad55e8f6fcc5",
+    "HR:153af5afcee6",
+    "HR:60fc81722575",
+    "HR:d59e0c554ed6",
+    "HR:564d8f40e57d",
+    "HR:3b453016db59",
+    "HR:325044b43307",
+    "HR:a4b23de3d3f3",
+    "HR:d5acd0f03a4e",
+    "HR:a41ffa36db63",
+    "HR:e974e2165ba5",
+    "HR:bcad18f4fce1"
    ],
    "count": 27
   },
   "CG": {
    "name": "Chhattisgarh",
    "url": "https://cgdme.in/MD-MS-DIPLOMA.php",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "order": 21,
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "fails": 0,
    "initialized": true,
    "seen": [
-    "CG:f4c43a969a06",
-    "CG:8cae50c59af0",
-    "CG:25a995aa602c",
-    "CG:7a4a15fa6658",
-    "CG:687e479568c0",
-    "CG:c3c0eaff05ce",
-    "CG:72b0a5a09483",
-    "CG:03c4d075a876",
-    "CG:dfb04f736e3c",
-    "CG:87c3a6540940",
-    "CG:b01c47697f4c",
-    "CG:2ec559e338c2",
-    "CG:47e18f7a1e7c",
-    "CG:b64b3ebdc607",
-    "CG:dca988889b4b",
-    "CG:8e90dba0e4d6",
-    "CG:89614fee54d3",
-    "CG:c81503986792",
-    "CG:440c6d2366bc",
-    "CG:b48c5937b736",
-    "CG:2c8c403a2b59",
-    "CG:7f38504cdb2f",
-    "CG:c811f609431f",
-    "CG:303b2bf252e9",
-    "CG:d45a3c299e93",
-    "CG:53abb3269184",
-    "CG:f6f0b536ccb0",
-    "CG:dfb1a5686e3a",
-    "CG:1dd27f1dd842",
-    "CG:1c8b3cfdd05f",
-    "CG:b7d4cca68f2e",
-    "CG:ddb6af1860af",
-    "CG:123c45026acd",
-    "CG:623458a38754",
-    "CG:c2703bc1d1c9",
-    "CG:8a88f9db6c5d",
-    "CG:81e4942e89b2",
     "CG:94d6ddf22627",
-    "CG:d398b362bfb9",
-    "CG:2c510f73fe0e",
-    "CG:be8aa90d1208",
-    "CG:da5b5e260714",
-    "CG:f96efe31f8cb",
-    "CG:c08c29df1fc8",
-    "CG:89dd627a3962",
-    "CG:3fe14d36df41",
-    "CG:c7ae00c3f1ce",
-    "CG:e207472d77eb",
-    "CG:2d37e85182fa",
-    "CG:c385f83b38ab",
-    "CG:7d4d132ecfff",
-    "CG:9147698308f4",
-    "CG:da251ff5a7c9",
-    "CG:d3ca110abb6a",
     "CG:5843e9b40a40",
-    "CG:57e4e8031160",
-    "CG:a6c70a057195",
+    "CG:2f6b3b9f1349",
+    "CG:ddb6af1860af",
+    "CG:303b2bf252e9",
+    "CG:2c8c403a2b59",
+    "CG:d398b362bfb9",
+    "CG:7e2f516498d1",
+    "CG:b7d4cca68f2e",
+    "CG:1c8b3cfdd05f",
+    "CG:b64b3ebdc607",
+    "CG:d3ca110abb6a",
+    "CG:be8aa90d1208",
+    "CG:7d4d132ecfff",
+    "CG:e44d6b99b4eb",
+    "CG:5b9f6cc3afa7",
+    "CG:c08c29df1fc8",
+    "CG:da251ff5a7c9",
+    "CG:c2703bc1d1c9",
+    "CG:f6f0b536ccb0",
+    "CG:c7ae00c3f1ce",
+    "CG:3f105526fc17",
+    "CG:d45a3c299e93",
+    "CG:2c510f73fe0e",
+    "CG:dca988889b4b",
+    "CG:53abb3269184",
+    "CG:7a4a15fa6658",
+    "CG:2d37e85182fa",
+    "CG:623458a38754",
+    "CG:c3c0eaff05ce",
+    "CG:f96efe31f8cb",
+    "CG:dfb04f736e3c",
+    "CG:25a995aa602c",
     "CG:30696229f812",
+    "CG:dfb1a5686e3a",
+    "CG:835cdb3db077",
+    "CG:81e4942e89b2",
+    "CG:89dd627a3962",
+    "CG:2ec559e338c2",
+    "CG:a6c70a057195",
+    "CG:c385f83b38ab",
     "CG:e4e7e53759ae",
     "CG:86761f068a9f",
-    "CG:835cdb3db077",
-    "CG:5b9f6cc3afa7",
-    "CG:e44d6b99b4eb",
-    "CG:2f6b3b9f1349",
-    "CG:3f105526fc17",
-    "CG:7e2f516498d1",
-    "CG:9583ce259776"
+    "CG:f4c43a969a06",
+    "CG:47e18f7a1e7c",
+    "CG:123c45026acd",
+    "CG:440c6d2366bc",
+    "CG:687e479568c0",
+    "CG:8cae50c59af0",
+    "CG:da5b5e260714",
+    "CG:1dd27f1dd842",
+    "CG:03c4d075a876",
+    "CG:72b0a5a09483",
+    "CG:b48c5937b736",
+    "CG:87c3a6540940",
+    "CG:8e90dba0e4d6",
+    "CG:8a88f9db6c5d",
+    "CG:b01c47697f4c",
+    "CG:c811f609431f",
+    "CG:c81503986792",
+    "CG:57e4e8031160",
+    "CG:e207472d77eb",
+    "CG:7f38504cdb2f",
+    "CG:3fe14d36df41",
+    "CG:9147698308f4",
+    "CG:9583ce259776",
+    "CG:89614fee54d3"
    ],
    "count": 67
   },
   "UK": {
    "name": "Uttarakhand",
    "url": "https://meta-secure.com/HNBUMU_MDMS",
-   "last_checked": "2026-10-24T09:50:32+00:00",
+   "last_checked": "2026-10-24T09:52:43+00:00",
    "order": 22,
    "error": null,
-   "last_ok": "2026-10-24T09:50:32+00:00",
+   "last_ok": "2026-10-24T09:52:43+00:00",
    "fails": 0,
    "initialized": true,
    "seen": [
-    "UK:f3b379772d85",
-    "UK:7de8c168f782",
-    "UK:218eef7848c5",
-    "UK:ac441219df38",
-    "UK:552ba7707910",
     "UK:1e19111b232c",
     "UK:cb9a90b6db78",
-    "UK:231bc0121317"
+    "UK:f3b379772d85",
+    "UK:552ba7707910",
+    "UK:7de8c168f782",
+    "UK:231bc0121317",
+    "UK:218eef7848c5",
+    "UK:ac441219df38"
    ],
    "count": 4
   }
@@ -1635,23 +1697,6 @@
    "tag": "Notice"
   },
   {
-   "title": "Verification",
-   "links": [
-    {
-     "label": "Verification",
-     "url": "https://dme.mponline.gov.in/Portal/frmLogin.aspx?loginType=G&depid=V"
-    }
-   ],
-   "date": null,
-   "date_src": null,
-   "rank": 2,
-   "source": "MP",
-   "id": "MP:43d8ef4d65b7",
-   "first_seen": "2026-10-20T11:45:39",
-   "baseline": true,
-   "tag": "Documents / Verification"
-  },
-  {
    "title": "Names of Participating Medical Colleges in M.P. State Combined NEET PG Counselling-2026 (14.10.2026)",
    "links": [
     {
@@ -1910,13 +1955,13 @@
    "title": "Notification Regarding NEET-PG 2026 Candidates List (Applied as State in Permanent Address: Tripura)",
    "links": [
     {
-     "label": "Click Here",
+     "label": "Notification Regarding NEET-PG 2026 Candidates List (Applied as State in Permanent Address: Tripura).",
      "url": "https://cdnbbsr.s3waas.gov.in/s337e3ca9768a106f686626a07db6facff/uploads/2026/10/202610121342549031.pdf"
     }
    ],
    "date": "2026-10-12",
    "date_src": "url",
-   "rank": 1,
+   "rank": 2,
    "source": "TR",
    "id": "TR:6cedba6a9804",
    "first_seen": "2026-10-20T11:45:39",
@@ -2009,23 +2054,6 @@
    "tag": "Result / Allotment"
   },
   {
-   "title": "Notification",
-   "links": [
-    {
-     "label": "Notification",
-     "url": "https://www.medadmgujarat.org/pg/Notification.aspx"
-    }
-   ],
-   "date": null,
-   "date_src": null,
-   "rank": 0,
-   "source": "GJ",
-   "id": "GJ:fa9909f7bb78",
-   "first_seen": "2026-10-20T11:45:39",
-   "baseline": true,
-   "tag": "Notice"
-  },
-  {
    "title": "Civil Hospital List for PwD",
    "links": [
     {
@@ -2077,7 +2105,7 @@
    "tag": "Documents / Verification"
   },
   {
-   "title": "• GUIDELINES ON ASSESSMENT OF PERSONS WITH BENCHMARK DISABILITIES (PWBD) FOR ADMISSION TO THE POST GRADUATE MEDICAL COURSE, 2026. Dated 16/09/2026",
+   "title": "GUIDELINES ON ASSESSMENT OF PERSONS WITH BENCHMARK DISABILITIES (PWBD) FOR ADMISSION TO THE POST GRADUATE MEDICAL COURSE, 2026. Dated 16/09/2026",
    "links": [
     {
      "label": "• GUIDELINES ON ASSESSMENT OF PERSONS WITH BENCHMARK DISABILITIES (PWBD) FOR ADMISSION TO THE POST GRADUATE MEDICAL COURSE, 2026. Dated 16/09/2026",
@@ -2088,7 +2116,7 @@
    "date_src": "page",
    "rank": 18,
    "source": "GJ",
-   "id": "GJ:6c3e4a7ba2da",
+   "id": "GJ:23f4b31b9743",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Documents / Verification"
@@ -2264,7 +2292,7 @@
    "tag": "Result / Allotment"
   },
   {
-   "title": "16/09/2026 - Guidelines on Assessment of Persons with benchmark Disabilities (PwBD) for admission to the Post Graduate Medical Course, 2026.",
+   "title": "Guidelines on Assessment of Persons with benchmark Disabilities (PwBD) for admission to the Post Graduate Medical Course, 2026",
    "links": [
     {
      "label": "16/09/2026 - Guidelines on Assessment of Persons with benchmark Disabilities (PwBD) for admission to the Post Graduate Medical Course, 2026.",
@@ -2275,7 +2303,7 @@
    "date_src": "page",
    "rank": 29,
    "source": "GJ",
-   "id": "GJ:cd7a3dbd4886",
+   "id": "GJ:5e51f8676539",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Documents / Verification"
@@ -3074,23 +3102,6 @@
    "tag": "Guidelines / Bulletin"
   },
   {
-   "title": "Notice Board",
-   "links": [
-    {
-     "label": "Notice Board",
-     "url": "https://bceceboard.bihar.gov.in/NoticeBoard.php"
-    }
-   ],
-   "date": null,
-   "date_src": null,
-   "rank": 16,
-   "source": "BR",
-   "id": "BR:442619e88655",
-   "first_seen": "2026-10-20T11:45:39",
-   "baseline": true,
-   "tag": "Notice"
-  },
-  {
    "title": "Notice Board 2025",
    "links": [
     {
@@ -3383,7 +3394,7 @@
    "tag": "Result / Allotment"
   },
   {
-   "title": "Cancellation of provisional allotment of seat of Ms. Mahjabeena Noor under SC category in 3rd round and OM in Mop-up round and allotment of resultant seat to the next eligible SC candidate in the 3rd/Mop-Up Round of Counselling for GNM Lateral Entry course-2026 – regarding. [GNM-LE-NN-177 Dt. 02-09-",
+   "title": "Cancellation of provisional allotment of seat of Ms. Mahjabeena Noor under SC category in 3rd round and OM in Mop-up round and allotment of resultant seat to the next eligible SC candidate in the 3rd/Mop-Up Round of Counselling for GNM Lateral Entry course-2026 – regarding. [GNM-LE-NN-177 Dt. 02-09",
    "links": [
     {
      "label": "Cancellation of provisional allotment of seat of Ms. Mahjabeena Noor under SC category in 3rd round and OM in Mop-up round and allotment of resultant seat to the next eligible SC candidate in the 3rd/Mop-Up Round of Counselling for GNM Lateral Entry course-2026 – regarding. [GNM-LE-NN-177 Dt. 02-09-2026]",
@@ -3394,7 +3405,7 @@
    "date_src": "page",
    "rank": 63,
    "source": "J&K",
-   "id": "J&K:64ea83b7b7b1",
+   "id": "J&K:a1388ca456f2",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Revised / Extended"
@@ -3485,7 +3496,7 @@
    "tag": "Merit / Rank List"
   },
   {
-   "title": "E-Counselling Instructions and Guidelines for admission to NEET PG (MD/MS/PGD)-2025.",
+   "title": "E-Counselling Instructions and Guidelines for admission to NEET PG (MD/MS/PGD)-2025",
    "links": [
     {
      "label": "E-Counselling Instructions and Guidelines for admission to NEET PG (MD/MS/PGD)-2025.",
@@ -3496,7 +3507,7 @@
    "date_src": null,
    "rank": 300,
    "source": "J&K",
-   "id": "J&K:56b3def34f50",
+   "id": "J&K:ae76ef2719da",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Guidelines / Bulletin"
@@ -3604,24 +3615,7 @@
    "tag": "Registration / Apply"
   },
   {
-   "title": "PG-DENTAL DASHBOARD",
-   "links": [
-    {
-     "label": "PG-DENTAL DASHBOARD",
-     "url": "https://centacpuducherry.in/PgNeet/Dental_2026"
-    }
-   ],
-   "date": null,
-   "date_src": null,
-   "rank": 12,
-   "source": "PY",
-   "id": "PY:f63e6a76c8d9",
-   "first_seen": "2026-10-20T11:45:39",
-   "baseline": true,
-   "tag": "Counselling Update"
-  },
-  {
-   "title": "[17-10-2026] - NOTICE : ROUND 3 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 / ROUND 2 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "title": "NOTICE : ROUND 3 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 / ROUND 2 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
    "links": [
     {
      "label": "[17-10-2026] - NOTICE : ROUND 3 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 / ROUND 2 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -3632,13 +3626,13 @@
    "date_src": "page",
    "rank": 16,
    "source": "PY",
-   "id": "PY:9b726bb0b650",
+   "id": "PY:76a8dbd1cbfa",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[17-10-2026] - NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL (MDS) DUE TO LOWERING OF CUT-OFF",
+   "title": "NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL (MDS) DUE TO LOWERING OF CUT-OFF",
    "links": [
     {
      "label": "[17-10-2026] - NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL (MDS) DUE TO LOWERING OF CUT-OFF",
@@ -3649,13 +3643,13 @@
    "date_src": "page",
    "rank": 17,
    "source": "PY",
-   "id": "PY:a003ab74fafa",
+   "id": "PY:a332cf6abadd",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Registration / Apply"
   },
   {
-   "title": "[16-10-2026] - LIST OF VACANCIES IN PG NEET DENTAL (M.D.S.) COURSES AFTER ROUND 2",
+   "title": "LIST OF VACANCIES IN PG NEET DENTAL (M.D.S.) COURSES AFTER ROUND 2",
    "links": [
     {
      "label": "[16-10-2026] - LIST OF VACANCIES IN PG NEET DENTAL (M.D.S.) COURSES AFTER ROUND 2",
@@ -3666,13 +3660,13 @@
    "date_src": "page",
    "rank": 18,
    "source": "PY",
-   "id": "PY:d5188020ca0f",
+   "id": "PY:0510a27833ac",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Seat Matrix / Vacancy"
   },
   {
-   "title": "[01-10-2026] - PG DENTAL ADMITTED LIST - SECOND ROUND - (2026 - 2027)",
+   "title": "PG DENTAL ADMITTED LIST - SECOND ROUND - (2026 - 2027)",
    "links": [
     {
      "label": "[01-10-2026] - PG DENTAL ADMITTED LIST - SECOND ROUND - (2026 - 2027)",
@@ -3683,13 +3677,13 @@
    "date_src": "page",
    "rank": 19,
    "source": "PY",
-   "id": "PY:fa49a0cc8ccc",
+   "id": "PY:c8f37d63639e",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[24-09-2026] - SECOND ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+   "title": "SECOND ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
    "links": [
     {
      "label": "[24-09-2026] - SECOND ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
@@ -3700,13 +3694,13 @@
    "date_src": "page",
    "rank": 20,
    "source": "PY",
-   "id": "PY:86f172c96c23",
+   "id": "PY:818b7f4b28fb",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[24-09-2026] - NOTICE : ROUND 2 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "title": "NOTICE : ROUND 2 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
    "links": [
     {
      "label": "[24-09-2026] - NOTICE : ROUND 2 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -3717,13 +3711,13 @@
    "date_src": "page",
    "rank": 21,
    "source": "PY",
-   "id": "PY:614a1c0ee9cc",
+   "id": "PY:e140a5b947db",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[23-09-2026] - SECOND ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+   "title": "SECOND ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
    "links": [
     {
      "label": "[23-09-2026] - SECOND ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
@@ -3734,13 +3728,13 @@
    "date_src": "page",
    "rank": 22,
    "source": "PY",
-   "id": "PY:68aa2b1b3e54",
+   "id": "PY:c52147ef1a80",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[23-09-2026] - NOTICE : ROUND 2 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "title": "NOTICE : ROUND 2 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
    "links": [
     {
      "label": "[23-09-2026] - NOTICE : ROUND 2 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -3751,13 +3745,13 @@
    "date_src": "page",
    "rank": 23,
    "source": "PY",
-   "id": "PY:94a3cc618e97",
+   "id": "PY:1260e4735e82",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[22-09-2026] - LIST OF CANDIDATES ELIGIBLE FOR ROUND 2 PG DENTAL COUNSELLING (2026 - 2027)",
+   "title": "LIST OF CANDIDATES ELIGIBLE FOR ROUND 2 PG DENTAL COUNSELLING (2026 - 2027)",
    "links": [
     {
      "label": "[22-09-2026] - LIST OF CANDIDATES ELIGIBLE FOR ROUND 2 PG DENTAL COUNSELLING (2026 - 2027)",
@@ -3768,13 +3762,13 @@
    "date_src": "page",
    "rank": 24,
    "source": "PY",
-   "id": "PY:6c4dc83acc41",
+   "id": "PY:9ba1cba0fdb1",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Merit / Rank List"
   },
   {
-   "title": "[22-09-2026] - NOTICE : ROUND 2 ELIGIBLE CANDIDATES LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "title": "NOTICE : ROUND 2 ELIGIBLE CANDIDATES LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
    "links": [
     {
      "label": "[22-09-2026] - NOTICE : ROUND 2 ELIGIBLE CANDIDATES LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -3785,13 +3779,13 @@
    "date_src": "page",
    "rank": 25,
    "source": "PY",
-   "id": "PY:1381ff0bee3b",
+   "id": "PY:27156633877c",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Merit / Rank List"
   },
   {
-   "title": "[16-09-2026] - NOTICE : ROUND 2 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "title": "NOTICE : ROUND 2 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
    "links": [
     {
      "label": "[16-09-2026] - NOTICE : ROUND 2 REGISTRATION, SUBMISSION OF COURSE PREFERENCES & RESIGNATION OF ROUND 1 ADMITTED SEAT FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -3802,13 +3796,13 @@
    "date_src": "page",
    "rank": 26,
    "source": "PY",
-   "id": "PY:7bc8060d76e6",
+   "id": "PY:f9e10761fe9b",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[16-09-2026] - PG DENTAL (M.D.S.) COURSES - VACANCIES AFTER ROUND 1",
+   "title": "PG DENTAL (M.D.S.) COURSES - VACANCIES AFTER ROUND 1",
    "links": [
     {
      "label": "[16-09-2026] - PG DENTAL (M.D.S.) COURSES - VACANCIES AFTER ROUND 1",
@@ -3819,13 +3813,13 @@
    "date_src": "page",
    "rank": 27,
    "source": "PY",
-   "id": "PY:b8bfa121f92c",
+   "id": "PY:d45b025a87ef",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Seat Matrix / Vacancy"
   },
   {
-   "title": "[16-09-2026] - PG DENTAL ADMITTED LIST - FIRST ROUND - (2026 - 2027)",
+   "title": "PG DENTAL ADMITTED LIST - FIRST ROUND - (2026 - 2027)",
    "links": [
     {
      "label": "[16-09-2026] - PG DENTAL ADMITTED LIST - FIRST ROUND - (2026 - 2027)",
@@ -3836,13 +3830,13 @@
    "date_src": "page",
    "rank": 28,
    "source": "PY",
-   "id": "PY:a8299110e8f7",
+   "id": "PY:a218d4fcf16f",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[07-09-2026] - FIRST ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+   "title": "FIRST ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
    "links": [
     {
      "label": "[07-09-2026] - FIRST ROUND PROVISIONAL ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
@@ -3853,13 +3847,13 @@
    "date_src": "page",
    "rank": 29,
    "source": "PY",
-   "id": "PY:159d26dc0011",
+   "id": "PY:b6d695b80214",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[07-09-2026] - NOTICE : ROUND 1 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "title": "NOTICE : ROUND 1 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
    "links": [
     {
      "label": "[07-09-2026] - NOTICE : ROUND 1 PROVISIONAL ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -3870,13 +3864,13 @@
    "date_src": "page",
    "rank": 30,
    "source": "PY",
-   "id": "PY:42c7724d94d3",
+   "id": "PY:fa38d50d5bc9",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[06-09-2026] - FIRST ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
+   "title": "FIRST ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
    "links": [
     {
      "label": "[06-09-2026] - FIRST ROUND DRAFT ALLOTMENT LIST OF PG DENTAL COURSES - (2026 - 2027)",
@@ -3887,13 +3881,13 @@
    "date_src": "page",
    "rank": 31,
    "source": "PY",
-   "id": "PY:866aee21c325",
+   "id": "PY:eb19ad06b339",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[06-09-2026] - NOTICE : ROUND 1 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
+   "title": "NOTICE : ROUND 1 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
    "links": [
     {
      "label": "[06-09-2026] - NOTICE : ROUND 1 DRAFT ALLOTMENT LIST FOR PG DENTAL (M.D.S.) COURSES - 2026-2027",
@@ -3904,13 +3898,13 @@
    "date_src": "page",
    "rank": 32,
    "source": "PY",
-   "id": "PY:808d6dc7bc20",
+   "id": "PY:88565ef5dcd4",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "[05-09-2026] - MGPGIDS - MDS FEE STRUCTURE FOR THE ACADEMIC YEAR 2026 - 2027",
+   "title": "MGPGIDS - MDS FEE STRUCTURE FOR THE ACADEMIC YEAR 2026 - 2027",
    "links": [
     {
      "label": "[05-09-2026] - MGPGIDS - MDS FEE STRUCTURE FOR THE ACADEMIC YEAR 2026 - 2027",
@@ -3921,13 +3915,13 @@
    "date_src": "page",
    "rank": 33,
    "source": "PY",
-   "id": "PY:c5a7920c00bb",
+   "id": "PY:dd17c62dd063",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Fees / Refund"
   },
   {
-   "title": "[04-09-2026] - FINAL MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
+   "title": "FINAL MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
    "links": [
     {
      "label": "[04-09-2026] - FINAL MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
@@ -3938,13 +3932,13 @@
    "date_src": "page",
    "rank": 34,
    "source": "PY",
-   "id": "PY:f263727ca7e6",
+   "id": "PY:776985e6b38e",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Merit / Rank List"
   },
   {
-   "title": "[04-09-2026] - NOTICE : FINAL MERIT LIST FOR PG DENTAL (M.D.S.) COURSES & SUBMISSION OF COURSE PREFERENCES FOR ROUND 1 FOR THE ACADEMIC YEAR 2026-2027",
+   "title": "NOTICE : FINAL MERIT LIST FOR PG DENTAL (M.D.S.) COURSES & SUBMISSION OF COURSE PREFERENCES FOR ROUND 1 FOR THE ACADEMIC YEAR 2026-2027",
    "links": [
     {
      "label": "[04-09-2026] - NOTICE : FINAL MERIT LIST FOR PG DENTAL (M.D.S.) COURSES & SUBMISSION OF COURSE PREFERENCES FOR ROUND 1 FOR THE ACADEMIC YEAR 2026-2027",
@@ -3955,13 +3949,13 @@
    "date_src": "page",
    "rank": 35,
    "source": "PY",
-   "id": "PY:0686b785f7d9",
+   "id": "PY:a6657126b919",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Merit / Rank List"
   },
   {
-   "title": "[03-09-2026] - MINDS - BDS & MDS REDUCED FEES FOR THE ACADEMIC YEAR 2026-2027",
+   "title": "MINDS - BDS & MDS REDUCED FEES FOR THE ACADEMIC YEAR 2026-2027",
    "links": [
     {
      "label": "[03-09-2026] - MINDS - BDS & MDS REDUCED FEES FOR THE ACADEMIC YEAR 2026-2027",
@@ -3972,13 +3966,13 @@
    "date_src": "page",
    "rank": 36,
    "source": "PY",
-   "id": "PY:00fd03d6bacc",
+   "id": "PY:48e76ab3b124",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Fees / Refund"
   },
   {
-   "title": "[24-08-2026] - REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "title": "REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
    "links": [
     {
      "label": "[24-08-2026] - REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -3989,13 +3983,13 @@
    "date_src": "page",
    "rank": 38,
    "source": "PY",
-   "id": "PY:b4540a007cb4",
+   "id": "PY:e7258649316b",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Revised / Extended"
   },
   {
-   "title": "[24-08-2026] - NOTICE : REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "title": "NOTICE : REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
    "links": [
     {
      "label": "[24-08-2026] - NOTICE : REVISED DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -4006,13 +4000,13 @@
    "date_src": "page",
    "rank": 39,
    "source": "PY",
-   "id": "PY:1db3b8e867b0",
+   "id": "PY:5380a3e55e61",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Revised / Extended"
   },
   {
-   "title": "[18-08-2026] - DRAFT MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
+   "title": "DRAFT MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
    "links": [
     {
      "label": "[18-08-2026] - DRAFT MERIT LIST FOR PG DENTAL COURSES BASED ON NEET MDS 2026",
@@ -4023,13 +4017,13 @@
    "date_src": "page",
    "rank": 40,
    "source": "PY",
-   "id": "PY:d9f51fba5586",
+   "id": "PY:6e8c3e057d23",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Merit / Rank List"
   },
   {
-   "title": "[18-08-2026] - NOTICE : DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "title": "NOTICE : DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
    "links": [
     {
      "label": "[18-08-2026] - NOTICE : DRAFT MERIT LIST FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -4040,13 +4034,13 @@
    "date_src": "page",
    "rank": 41,
    "source": "PY",
-   "id": "PY:de81f48841b3",
+   "id": "PY:a2f33e92b6d7",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Merit / Rank List"
   },
   {
-   "title": "[04-08-2026] - NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "title": "NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
    "links": [
     {
      "label": "[04-08-2026] - NOTICE : OPENING OF FRESH APPLICATION FOR PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -4057,13 +4051,13 @@
    "date_src": "page",
    "rank": 42,
    "source": "PY",
-   "id": "PY:a541d64dabdf",
+   "id": "PY:fd524c0c7825",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Registration / Apply"
   },
   {
-   "title": "[23-07-2026] - PG DENTAL (M.D.S.) SEAT MATRIX FOR THE ACADEMIC YEAR 2026 - 2027",
+   "title": "PG DENTAL (M.D.S.) SEAT MATRIX FOR THE ACADEMIC YEAR 2026 - 2027",
    "links": [
     {
      "label": "[23-07-2026] - PG DENTAL (M.D.S.) SEAT MATRIX FOR THE ACADEMIC YEAR 2026 - 2027",
@@ -4074,13 +4068,13 @@
    "date_src": "page",
    "rank": 43,
    "source": "PY",
-   "id": "PY:a2a75fc43525",
+   "id": "PY:063ac481a2e0",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Seat Matrix / Vacancy"
   },
   {
-   "title": "[10-07-2026] - NOTICE : EXTENSION OF LAST DATE FOR SUBMISSION OF APPLICATION TO PG DENTAL (MDS) COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "title": "NOTICE : EXTENSION OF LAST DATE FOR SUBMISSION OF APPLICATION TO PG DENTAL (MDS) COURSES FOR THE ACADEMIC YEAR 2026-2027",
    "links": [
     {
      "label": "[10-07-2026] - NOTICE : EXTENSION OF LAST DATE FOR SUBMISSION OF APPLICATION TO PG DENTAL (MDS) COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -4091,13 +4085,13 @@
    "date_src": "page",
    "rank": 44,
    "source": "PY",
-   "id": "PY:4376ce29845a",
+   "id": "PY:0e4b6c3a94ca",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Revised / Extended"
   },
   {
-   "title": "[01-07-2026] - PG NEET (DENTAL) INFORMATION BROCHURE - 2026-27",
+   "title": "PG NEET (DENTAL) INFORMATION BROCHURE - 2026-27",
    "links": [
     {
      "label": "[01-07-2026] - PG NEET (DENTAL) INFORMATION BROCHURE - 2026-27",
@@ -4108,13 +4102,13 @@
    "date_src": "page",
    "rank": 45,
    "source": "PY",
-   "id": "PY:5842c98062be",
+   "id": "PY:d65053fb10be",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Guidelines / Bulletin"
   },
   {
-   "title": "[01-07-2026] - NOTICE : ADMISSION NOTIFICATION TO PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "title": "NOTICE : ADMISSION NOTIFICATION TO PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
    "links": [
     {
      "label": "[01-07-2026] - NOTICE : ADMISSION NOTIFICATION TO PG DENTAL COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -4125,7 +4119,7 @@
    "date_src": "page",
    "rank": 46,
    "source": "PY",
-   "id": "PY:a3dbe7116890",
+   "id": "PY:67467e5fc527",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Notice"
@@ -4624,7 +4618,7 @@
    "tag": "Seat Matrix / Vacancy"
   },
   {
-   "title": "NMC PWD guidelines clarification.",
+   "title": "NMC PWD guidelines clarification",
    "links": [
     {
      "label": "NMC PWD guidelines clarification.",
@@ -4635,7 +4629,7 @@
    "date_src": "url",
    "rank": 11,
    "source": "MCC",
-   "id": "MCC:f86f3c292b65",
+   "id": "MCC:fa4efd9c4e3d",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Documents / Verification"
@@ -4811,7 +4805,7 @@
    "tag": "Documents / Verification"
   },
   {
-   "title": "– Information Bulletin",
+   "title": "Information Bulletin",
    "links": [
     {
      "label": "– Information Bulletin",
@@ -4822,13 +4816,13 @@
    "date_src": "url",
    "rank": 6,
    "source": "WB",
-   "id": "WB:e0996b07d222",
+   "id": "WB:43fc90490520",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Guidelines / Bulletin"
   },
   {
-   "title": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR MDS COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION.",
+   "title": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR MDS COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION",
    "links": [
     {
      "label": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR MDS COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION.",
@@ -4839,7 +4833,7 @@
    "date_src": "file",
    "rank": 28,
    "source": "TN",
-   "id": "TN:6eecb2950779",
+   "id": "TN:8e39052f2b06",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Registration / Apply"
@@ -4879,7 +4873,7 @@
    "tag": "Registration / Apply"
   },
   {
-   "title": "Kind Attention to the Candidates seeking admission to MDS Courses under the Government Medical and Dental Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Dental Colleges in Tamil Nadu for 2026-2027 Session.",
+   "title": "Kind Attention to the Candidates seeking admission to MDS Courses under the Government Medical and Dental Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Dental Colleges in Tamil Nadu for 2026-2027 Session",
    "links": [
     {
      "label": "Kind Attention to the Candidates seeking admission to MDS Courses under the Government Medical and Dental Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Dental Colleges in Tamil Nadu for 2026-2027 Session.",
@@ -4890,7 +4884,7 @@
    "date_src": null,
    "rank": 52,
    "source": "TN",
-   "id": "TN:9df9d64cae42",
+   "id": "TN:d78597cee152",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Notice"
@@ -4930,7 +4924,7 @@
    "tag": "Schedule"
   },
   {
-   "title": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR PG DEGREE /DIPLOMA COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION.",
+   "title": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR PG DEGREE /DIPLOMA COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION",
    "links": [
     {
      "label": "KIND ATTENTION TO THE CANDIDATES WHO WISH TO APPLY FOR PG DEGREE /DIPLOMA COURSES FOR THE ACADEMIC YEAR 2026-2027 SESSION.",
@@ -4941,7 +4935,7 @@
    "date_src": null,
    "rank": 62,
    "source": "TN",
-   "id": "TN:c905605c100d",
+   "id": "TN:95a1679d148b",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Registration / Apply"
@@ -5032,7 +5026,7 @@
    "tag": "Guidelines / Bulletin"
   },
   {
-   "title": "Kind Attention to the candidates seeking admission to PG MD/MS/DIPLOMA & DNB Courses under the Government Medical Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Medical Colleges in Tamil Nadu for 2026-2027 Session.",
+   "title": "Kind Attention to the candidates seeking admission to PG MD/MS/DIPLOMA & DNB Courses under the Government Medical Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Medical Colleges in Tamil Nadu for 2026-2027 Session",
    "links": [
     {
      "label": "Kind Attention to the candidates seeking admission to PG MD/MS/DIPLOMA & DNB Courses under the Government Medical Colleges, Government Quota and Management Quota (Including NRI) In Self Financing Medical Colleges in Tamil Nadu for 2026-2027 Session.",
@@ -5043,7 +5037,7 @@
    "date_src": null,
    "rank": 117,
    "source": "TN",
-   "id": "TN:012bd17c5270",
+   "id": "TN:85cae0ab4ede",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Notice"
@@ -5950,7 +5944,7 @@
    "tag": "Merit / Rank List"
   },
   {
-   "title": "Notice 1st PG Counselling & Provisional Merit List of NEET-PG-2026.",
+   "title": "Notice 1st PG Counselling & Provisional Merit List of NEET-PG-2026",
    "links": [
     {
      "label": "Notice 1st PG Counselling & Provisional Merit List of NEET-PG-2026.",
@@ -5961,7 +5955,7 @@
    "date_src": "file",
    "rank": 2,
    "source": "AS",
-   "id": "AS:d7e9595b4662",
+   "id": "AS:042c392f130e",
    "first_seen": "2026-10-20T11:45:39",
    "baseline": true,
    "tag": "Merit / Rank List"
@@ -7089,7 +7083,7 @@
    "tag": "Notice"
   },
   {
-   "title": "[20-10-2026] - CHIEF SECRETARIAT - HIGHER AND TECHNICAL EDUCATION - G.O. NO. 24 - GUIDELINES FOR THE ADMISSION OF STUDENTS UNDER MERITORIOUS SPORTS PERSONS QUOTA IN THE POST GRADUATE COURSES - ORDERS - LSSUED.",
+   "title": "CHIEF SECRETARIAT - HIGHER AND TECHNICAL EDUCATION - G.O. NO. 24 - GUIDELINES FOR THE ADMISSION OF STUDENTS UNDER MERITORIOUS SPORTS PERSONS QUOTA IN THE POST GRADUATE COURSES - ORDERS - LSSUED",
    "links": [
     {
      "label": "[20-10-2026] - CHIEF SECRETARIAT - HIGHER AND TECHNICAL EDUCATION - G.O. NO. 24 - GUIDELINES FOR THE ADMISSION OF STUDENTS UNDER MERITORIOUS SPORTS PERSONS QUOTA IN THE POST GRADUATE COURSES - ORDERS - LSSUED.",
@@ -7100,13 +7094,13 @@
    "date_src": "page",
    "rank": 3,
    "source": "PY",
-   "id": "PY:d64d05a28a30",
+   "id": "PY:072bb803f466",
    "first_seen": "2026-10-20T15:39:27+00:00",
    "baseline": false,
    "tag": "Guidelines / Bulletin"
   },
   {
-   "title": "[20-10-2026] - INFORMATION BROCHURE FOR ADMISSION TO POST GRADUATE MEDICAL (M.D./M.S.) COURSES",
+   "title": "INFORMATION BROCHURE FOR ADMISSION TO POST GRADUATE MEDICAL (M.D./M.S.) COURSES",
    "links": [
     {
      "label": "[20-10-2026] - INFORMATION BROCHURE FOR ADMISSION TO POST GRADUATE MEDICAL (M.D./M.S.) COURSES",
@@ -7117,13 +7111,13 @@
    "date_src": "page",
    "rank": 1,
    "source": "PY",
-   "id": "PY:42809a65692e",
+   "id": "PY:cdf3b0a569be",
    "first_seen": "2026-10-20T18:00:17+00:00",
    "baseline": false,
    "tag": "Guidelines / Bulletin"
   },
   {
-   "title": "[20-10-2026] - PRESS RELEASE ADMISSION NOTIFICATION TO PG MEDICAL (M.D. / M.S.) COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "title": "PRESS RELEASE ADMISSION NOTIFICATION TO PG MEDICAL (M.D. / M.S.) COURSES FOR THE ACADEMIC YEAR 2026-2027",
    "links": [
     {
      "label": "[20-10-2026] - PRESS RELEASE ADMISSION NOTIFICATION TO PG MEDICAL (M.D. / M.S.) COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -7134,7 +7128,7 @@
    "date_src": "page",
    "rank": 2,
    "source": "PY",
-   "id": "PY:e95ce1cdab1a",
+   "id": "PY:304380b02a2b",
    "first_seen": "2026-10-20T18:00:17+00:00",
    "baseline": false,
    "tag": "Notice"
@@ -7276,7 +7270,7 @@
    "tag": "Merit / Rank List"
   },
   {
-   "title": "[21-10-2026] - IGMCRI - FEE STRUCTURE FOR PG MEDICAL (M.D./M.S.) COURSES FOR THE ACADEMIC YEAR 2026-2027",
+   "title": "IGMCRI - FEE STRUCTURE FOR PG MEDICAL (M.D./M.S.) COURSES FOR THE ACADEMIC YEAR 2026-2027",
    "links": [
     {
      "label": "[21-10-2026] - IGMCRI - FEE STRUCTURE FOR PG MEDICAL (M.D./M.S.) COURSES FOR THE ACADEMIC YEAR 2026-2027",
@@ -7287,13 +7281,13 @@
    "date_src": "page",
    "rank": 0,
    "source": "PY",
-   "id": "PY:1c760402df68",
+   "id": "PY:6567a20056fd",
    "first_seen": "2026-10-21T13:48:50+00:00",
    "baseline": false,
    "tag": "Fees / Refund"
   },
   {
-   "title": "[21-10-2026] - NOTICE : EXTENSION OF LAST DATE FOR SUBMISSION OF FRESH APPLICATION & ROUND 3 REGISTRATION FOR PG DENTAL (MDS) COURSES",
+   "title": "NOTICE : EXTENSION OF LAST DATE FOR SUBMISSION OF FRESH APPLICATION & ROUND 3 REGISTRATION FOR PG DENTAL (MDS) COURSES",
    "links": [
     {
      "label": "[21-10-2026] - NOTICE : EXTENSION OF LAST DATE FOR SUBMISSION OF FRESH APPLICATION & ROUND 3 REGISTRATION FOR PG DENTAL (MDS) COURSES",
@@ -7304,7 +7298,7 @@
    "date_src": "page",
    "rank": 13,
    "source": "PY",
-   "id": "PY:2b0f5ec29657",
+   "id": "PY:fbb918b22334",
    "first_seen": "2026-10-21T13:48:50+00:00",
    "baseline": false,
    "tag": "Revised / Extended"
@@ -7394,7 +7388,7 @@
    "tag": "Registration / Apply"
   },
   {
-   "title": "– Participating Institutes",
+   "title": "Participating Institutes",
    "links": [
     {
      "label": "– Information Bulletin",
@@ -7409,7 +7403,7 @@
    "date_src": "url",
    "rank": 6,
    "source": "WB",
-   "id": "WB:a68df8899662",
+   "id": "WB:758866a0e346",
    "first_seen": "2026-10-22T06:12:41+00:00",
    "baseline": false,
    "tag": "Notice"
@@ -7636,7 +7630,7 @@
    "tag": "Registration / Apply"
   },
   {
-   "title": "SEAT MATRIX: Speciaility wise tentative Seats distribution of Post Diploma DNB Courses (Govt.) for the session 2026-27.",
+   "title": "SEAT MATRIX: Speciaility wise tentative Seats distribution of Post Diploma DNB Courses (Govt.) for the session 2026-27",
    "date": "2026-10-14",
    "date_src": "page",
    "rank": 0,
@@ -7647,7 +7641,7 @@
     }
    ],
    "source": "HR",
-   "id": "HR:96b11f4d41ea",
+   "id": "HR:2c746c7379f2",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Seat Matrix / Vacancy"
@@ -7670,7 +7664,7 @@
    "tag": "Schedule"
   },
   {
-   "title": "Public Notice: Procedure for admission to Post Diploma DNB course in various Civil Hospitals running under Health Department and Government Medical Colleges in the state of Haryana for the Academic Session 2026-27.",
+   "title": "Public Notice: Procedure for admission to Post Diploma DNB course in various Civil Hospitals running under Health Department and Government Medical Colleges in the state of Haryana for the Academic Session 2026-27",
    "date": "2026-10-14",
    "date_src": "page",
    "rank": 2,
@@ -7681,13 +7675,13 @@
     }
    ],
    "source": "HR",
-   "id": "HR:153af5afcee6",
+   "id": "HR:3a0e638a2033",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Guidelines / Bulletin"
   },
   {
-   "title": "Physical Document Verification: List of eligible candidates after successful physical documents verification(Round-2)on 05.10.2026 for admission to MDS courses for the academic session 2026-27.",
+   "title": "Physical Document Verification: List of eligible candidates after successful physical documents verification(Round-2)on 05.10.2026 for admission to MDS courses for the academic session 2026-27",
    "date": "2026-10-05",
    "date_src": "page",
    "rank": 3,
@@ -7698,13 +7692,13 @@
     }
    ],
    "source": "HR",
-   "id": "HR:4a44522200f2",
+   "id": "HR:ad7dbc849fdc",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Merit / Rank List"
   },
   {
-   "title": "Provisional Allocation Round 2 (After Greviences): Provisional Allotment of seats of the Candidates who have applied for MDS in Govt. and Private Dental Colleges in the State of Haryana, Including those under Private University (SGT University,Budhera Gurugram).",
+   "title": "Provisional Allocation Round 2 (After Greviences): Provisional Allotment of seats of the Candidates who have applied for MDS in Govt. and Private Dental Colleges in the State of Haryana, Including those under Private University (SGT University,Budhera Gurugram)",
    "date": "2026-10-01",
    "date_src": "page",
    "rank": 4,
@@ -7715,13 +7709,13 @@
     }
    ],
    "source": "HR",
-   "id": "HR:815fca4d674a",
+   "id": "HR:a23dda95b8bb",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Result / Allotment"
   },
   {
-   "title": "Provisional Allocation Round 2: Provisional Allotment of seats of the Candidates who have applied for MDS in Govt. and Private Dental Colleges in the State of Haryana, Including those under Private University (SGT University,Budhera Gurugram).",
+   "title": "Provisional Allocation Round 2: Provisional Allotment of seats of the Candidates who have applied for MDS in Govt. and Private Dental Colleges in the State of Haryana, Including those under Private University (SGT University,Budhera Gurugram)",
    "date": "2026-10-01",
    "date_src": "page",
    "rank": 5,
@@ -7732,7 +7726,7 @@
     }
    ],
    "source": "HR",
-   "id": "HR:bf2491f2d5de",
+   "id": "HR:a99513291643",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Result / Allotment"
@@ -7789,7 +7783,7 @@
    "tag": "Counselling Update"
   },
   {
-   "title": "Physical Document Verification: List of eligible candidates after sucessfully physical document verification(Round-1) on 21.09.2026 for admission to MDS courses for the academic session 2026-27.",
+   "title": "Physical Document Verification: List of eligible candidates after sucessfully physical document verification(Round-1) on 21.09.2026 for admission to MDS courses for the academic session 2026-27",
    "date": "2026-09-21",
    "date_src": "page",
    "rank": 9,
@@ -7800,13 +7794,13 @@
     }
    ],
    "source": "HR",
-   "id": "HR:dee5e4753320",
+   "id": "HR:d59e0c554ed6",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Merit / Rank List"
   },
   {
-   "title": "Provisional Allocation Round 1 (After Greviences): Provisional Allotment of seats of the Candidates who have applied for MDS in Govt. and Private Dental Colleges in the State of Haryana, Including those under Private University (SGT University,Budhera Gurugram).",
+   "title": "Provisional Allocation Round 1 (After Greviences): Provisional Allotment of seats of the Candidates who have applied for MDS in Govt. and Private Dental Colleges in the State of Haryana, Including those under Private University (SGT University,Budhera Gurugram)",
    "date": "2026-09-15",
    "date_src": "page",
    "rank": 10,
@@ -7817,7 +7811,7 @@
     }
    ],
    "source": "HR",
-   "id": "HR:3284404db52d",
+   "id": "HR:1435e43e9ee9",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Result / Allotment"
@@ -7857,7 +7851,7 @@
    "tag": "Fees / Refund"
   },
   {
-   "title": "Provisional Allocation Round 1: Provisional Allotment of seats of the Candidates who have applied for MDS in Govt. and Private Dental Colleges in the State of Haryana, Including those under Private University (SGT University,Budhera Gurugram).",
+   "title": "Provisional Allocation Round 1: Provisional Allotment of seats of the Candidates who have applied for MDS in Govt. and Private Dental Colleges in the State of Haryana, Including those under Private University (SGT University,Budhera Gurugram)",
    "date": "2026-09-15",
    "date_src": "page",
    "rank": 13,
@@ -7868,7 +7862,7 @@
     }
    ],
    "source": "HR",
-   "id": "HR:3b453016db59",
+   "id": "HR:004de3f45048",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Result / Allotment"
@@ -7908,7 +7902,7 @@
    "tag": "Schedule"
   },
   {
-   "title": "Notification: Classification of Scheduled Castes for the purpose of benefit of reservation in Haryana State.",
+   "title": "Notification: Classification of Scheduled Castes for the purpose of benefit of reservation in Haryana State",
    "date": "2026-09-11",
    "date_src": "page",
    "rank": 16,
@@ -7919,7 +7913,7 @@
     }
    ],
    "source": "HR",
-   "id": "HR:e974e2165ba5",
+   "id": "HR:ec842d240f5f",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Schedule"
@@ -7976,7 +7970,7 @@
    "tag": "Seat Matrix / Vacancy"
   },
   {
-   "title": "PUBLIC NOTICE (PAYMENT FAILURE): Public Notice regarding transaction failure and delay.",
+   "title": "PUBLIC NOTICE (PAYMENT FAILURE): Public Notice regarding transaction failure and delay",
    "date": "2026-09-11",
    "date_src": "page",
    "rank": 20,
@@ -7987,13 +7981,13 @@
     }
    ],
    "source": "HR",
-   "id": "HR:ad55e8f6fcc5",
+   "id": "HR:60fc81722575",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Notice"
   },
   {
-   "title": "PUBLIC NOTICE FOR NRI/OCI/PIO: Public Notice regarding for NRI OCI PIO category candidates.",
+   "title": "PUBLIC NOTICE FOR NRI/OCI/PIO: Public Notice regarding for NRI OCI PIO category candidates",
    "date": "2026-09-11",
    "date_src": "page",
    "rank": 21,
@@ -8004,13 +7998,13 @@
     }
    ],
    "source": "HR",
-   "id": "HR:a4b042318804",
+   "id": "HR:d5acd0f03a4e",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Notice"
   },
   {
-   "title": "Public Notice: Public Notice regarding list of documents required for PDV.",
+   "title": "Public Notice: Public Notice regarding list of documents required for PDV",
    "date": "2026-09-11",
    "date_src": "page",
    "rank": 22,
@@ -8021,13 +8015,13 @@
     }
    ],
    "source": "HR",
-   "id": "HR:ff4d57020ad9",
+   "id": "HR:a4b23de3d3f3",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Documents / Verification"
   },
   {
-   "title": "Public Notice: Public Notice regarding fee refund.",
+   "title": "Public Notice: Public Notice regarding fee refund",
    "date": "2026-09-11",
    "date_src": "page",
    "rank": 23,
@@ -8038,7 +8032,7 @@
     }
    ],
    "source": "HR",
-   "id": "HR:a41ffa36db63",
+   "id": "HR:f4e3d82d9ba9",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Fees / Refund"
@@ -8078,7 +8072,7 @@
    "tag": "Schedule"
   },
   {
-   "title": "MDS Notification for Academic Session 2026-27: Procedure for admission to MDS Courses in Government/Private Dental Educational Institutions including those under Private Universities for Academic Session 2026-27.",
+   "title": "MDS Notification for Academic Session 2026-27: Procedure for admission to MDS Courses in Government/Private Dental Educational Institutions including those under Private Universities for Academic Session 2026-27",
    "date": "2026-09-11",
    "date_src": "page",
    "rank": 26,
@@ -8089,27 +8083,10 @@
     }
    ],
    "source": "HR",
-   "id": "HR:ffc7e932fdfc",
+   "id": "HR:0700cc1c1db7",
    "first_seen": "2026-10-22T10:55:43+00:00",
    "baseline": true,
    "tag": "Guidelines / Bulletin"
-  },
-  {
-   "title": "Guidelines on Assessment of Persons with benchmark Disabilities (PwBD) for admission to the Post Graduate Medical Course, 2026.",
-   "links": [
-    {
-     "label": "16/09/2026 - Guidelines on Assessment of Persons with benchmark Disabilities (PwBD) for admission to the Post Graduate Medical Course, 2026.",
-     "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/20260917090022-pg-final-rpwd-guidleines-compressed.PDF"
-    }
-   ],
-   "date": "2026-09-16",
-   "date_src": "page",
-   "rank": 31,
-   "source": "GJ",
-   "id": "GJ:68486309d4ab",
-   "first_seen": "2026-10-22T10:55:43+00:00",
-   "baseline": false,
-   "tag": "Documents / Verification"
   },
   {
    "title": "नीट पीजी (MD/MS) प्रवेश वर्ष 2026 राज्य स्तरीय काउंसिलिंग अंतर्गत एनआरआई (NRI) कोटे की पात्रता हेतु दस्तावेज सत्यापन संबंधी सूचना",
@@ -8477,23 +8454,6 @@
    "tag": "Registration / Apply"
   },
   {
-   "title": "📄 View PDF",
-   "links": [
-    {
-     "label": "📄 View PDF",
-     "url": "https://cdnbbsr.s3waas.gov.in/s337e3ca9768a106f686626a07db6facff/uploads/2026/10/202610121342549031.pdf"
-    }
-   ],
-   "date": "2026-10-12",
-   "date_src": "url",
-   "rank": 1,
-   "source": "TR",
-   "id": "TR:8a50d68e7115",
-   "first_seen": "2026-10-24T09:47:13+00:00",
-   "baseline": false,
-   "tag": "Notice"
-  },
-  {
    "title": "Revised 200-Point Reservation Roster Seat Matrix for NEET PG (MD/MS) Admissions 2026 - GMC Rajnandgaon (State Quota)",
    "links": [
     {
@@ -8596,7 +8556,7 @@
    "tag": "Result / Allotment"
   },
   {
-   "title": "Notice for Provisional Result for PG Round 1 Counselling dated 23.10.2026.",
+   "title": "Notice for Provisional Result for PG Round 1 Counselling dated 23.10.2026",
    "links": [
     {
      "label": "Notice for Provisional Result for PG Round 1 Counselling dated 23.10.2026.",
@@ -8607,12 +8567,12 @@
    "date_src": "page",
    "rank": 1,
    "source": "MCC",
-   "id": "MCC:4a245f909616",
+   "id": "MCC:2c3d3ccb6a53",
    "first_seen": "2026-10-24T09:47:13+00:00",
    "baseline": false,
    "tag": "Result / Allotment"
   }
  ],
- "last_run": "2026-10-24T09:50:32+00:00",
- "last_run_utc": "2026-10-24T09:50:44"
+ "last_run": "2026-10-24T09:52:43+00:00",
+ "last_run_utc": "2026-10-24T09:53:01"
 }
