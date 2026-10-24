@@ -76,6 +76,8 @@ def tidy_title(t):
     t = clean(re.sub(r"\bnew\b$", "", t, flags=re.I))
     t = LEAD_DATE.sub("", t) or t
     return clean(t.strip(" -–|:.•"))
+# a title that names PG next to other courses (e.g. "Medical (PG/UG) / Nursing fee structure") stays
+PG_OVERRIDE = re.compile(r"PG\s*/\s*UG|UG\s*/\s*PG|NEET[ -]?PG", re.I)
 OLD_YEAR = re.compile(r"(?<!\d)(20(?:0\d|1\d|2[0-5]))(?!\d)")
 NEW_YEAR = re.compile(r"2026|26-27|2026-27")
 BAD_CONTAINER = re.compile(r"^(nav|navbar|menu|footer|breadcrumb|breadcrumbs|social|social-links|topbar|accessibility|skip-link)$", re.I)
@@ -296,7 +298,7 @@ def extract(html, base_url, src):
             continue
         if keep and not keep.search(title):
             continue
-        if drop and drop.search(title):
+        if drop and drop.search(title) and not PG_OVERRIDE.search(title):
             continue
         if OLD_YEAR.search(title) and not NEW_YEAR.search(title) and not dt:
             continue
