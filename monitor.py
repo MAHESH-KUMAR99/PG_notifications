@@ -48,7 +48,7 @@ RE_URLDATE = re.compile(r"(?<!\d)(20(?:2[4-9]))(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[0
 GENERIC_LABEL = re.compile(
     r"^(click\s*here|here|view|view\s*document|download|details?|read\s*more|more|link|"
     r"notification|notice|press\s*release|pdf|new|schedule|click|open|view\s*more|"
-    r"more|english|hindi|click here to download|view\s*\(.*\)|download\s*\(.*\)|view\s*more|read\s*more)\W*$", re.I)
+    r"more|english|hindi|click here to download|(?:📄\s*)?view\s*pdf|view\s*\(.*\)|download\s*\(.*\)|view\s*more|read\s*more)\W*$", re.I)
 JUNK_TEXT = re.compile(
     r"^(home|contact( us)?|about( us)?|login|sitemap|site map|terms.*|privacy.*|disclaimer|"
     r"help|faq|skip to.*|screen reader.*|accessibility.*|copyright.*|hyperlink.*|rti|"
@@ -66,7 +66,7 @@ NOTICE_WORDS = re.compile(
     r"guideline|bulletin|prospectus|vacan|cut[- ]?off|fee|document|upload|last date|"
     r"order|press|advertis|information|reporting|willingness|neet|pg\b|mdms|mds\b",
     re.I)
-LEAD_DATE = re.compile(r"^\s*\[?\s*(\d{1,2}[\s.\-/]+[A-Za-z]{3,9}\.?[\s,.\-/]+\d{4}|\d{1,2}[-/.]\d{1,2}[-/.]\d{4})\s*\]?\s*[:\-–]+\s*")
+LEAD_DATE = re.compile(r"^\s*\[?\s*(\d{1,2}[\s.\-/]+[A-Za-z]{3,9}\.?[\s,.\-/]+\d{4}|\d{1,2}[-/.]\d{1,2}[-/.]\d{4})\s*\]?\s*(?:[:\-\u2013]+\s*|(?=[A-Za-z(\[]))")
 # titles that are menu/button labels rather than notices
 NAV_TITLE = re.compile(r"^(verification|notice board|notices?|notifications?|(?:📄\s*)?view\s*pdf|.*\bdashboard)\W*$", re.I)
 
@@ -75,6 +75,7 @@ def tidy_title(t):
     """One normal form for titles: no trailing 'new' badge, no leading date prefix."""
     t = clean(re.sub(r"\bnew\b$", "", t, flags=re.I))
     t = LEAD_DATE.sub("", t) or t
+    t = re.sub(r"^\d{1,4}\s+20\d{2}\s+(?=\D)", "", t) or t  # "3 2026 Notice ..." serial + year prefix
     return clean(t.strip(" -–|:.•"))
 # a title that names PG next to other courses (e.g. "Medical (PG/UG) / Nursing fee structure") stays
 PG_OVERRIDE = re.compile(r"PG\s*/\s*UG|UG\s*/\s*PG|NEET[ -]?PG", re.I)
@@ -125,10 +126,16 @@ RE_UPLOADS = re.compile(r"/uploads/(20\d{2})/(\d{2})/(20\d{2})(\d{2})(\d{2})")
 RE_NAMEDATE = re.compile(r"(?:^|[/_-])(20(?:2[4-9]))(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\d{0,12}(?:[._-]|$)")
 
 
+RE_PATHDATE = re.compile(r"/(20(?:2[4-9]))/(0[1-9]|1[0-2])/(0[1-9]|[12]\d|3[01])/")
+
+
 def url_date(url):
     m = RE_UPLOADS.search(url)
     if m:
         return valid_date(int(m.group(3)), int(m.group(4)), int(m.group(5)))
+    m = RE_PATHDATE.search(url)
+    if m:
+        return valid_date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
     name = url.split("?")[0].rsplit("/", 1)[-1]
     m = RE_NAMEDATE.search(name) or RE_URLDATE.search(name)
     if m:
@@ -182,6 +189,11 @@ def api_items(src):
     r = requests.get(src["api"], headers={**HEADERS, "Accept": "application/json",
                      "Origin": src["site"], "Referer": src["site"] + "/"}, timeout=(10, 20), verify=False)
     r.raise_for_status()
+    if src.get("api_kind") == "rj":  # Rajasthan: {"data": [{id, title, attachment, createdAt}]}
+        rows = sorted(r.json()["data"], key=lambda x: -int(x["id"]))
+        return [{"title": clean(n["title"])[:300], "date": clean(n.get("createdAt"))[:10] or None, "date_src": "page",
+                 "rank": i, "links": [{"label": "Open PDF", "url": f"{src['site']}/notifications/{n['attachment']}"
+                                       if n.get("attachment") else src["site"] + "/home"}]} for i, n in enumerate(rows)]
     body = r.json()["body"]
     rows = sorted(body.get("notice", []) + body.get("news", []), key=lambda x: -int(x.get("id", 0)))
     out = []
@@ -218,17 +230,20 @@ def row_of(a):
     fallback = None
     for _ in range(6):
         node = node.parent
-        if node is None or node.name in ("body", "html", "table", "tbody", "ul", "ol"):
+        if node is None or node.name in ("body", "html"):
             break
         txt = clean(node.get_text(" "))
+        if node.name in ("table", "tbody", "ul", "ol") and len(txt) > 25:
+            break  # a real list/table: stop. (A nested table holding only "View PDF" is climbed through.)
         n_links = len(node.find_all("a", href=True))
         if len(txt) > 600 or n_links > 4:
             break
         if find_date(txt):
             return node
-        if fallback is None and node.name in ("tr", "li"):
+        if node.name in ("tr", "li") and (fallback is None or len(clean(fallback.get_text(" "))) < 25):
             fallback = node
-    return fallback or a.parent
+    # a long link inside a big list is its own row (e.g. list-group items); otherwise fall back to the parent
+    return fallback or (a if len(clean(a.get_text(" "))) >= 15 else a.parent)
 
 
 def extract(html, base_url, src):

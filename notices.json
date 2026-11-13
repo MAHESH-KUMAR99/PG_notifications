@@ -3,81 +3,81 @@
   "BR HOME": {
    "name": "Bihar (BCECEB Home)",
    "url": "https://bceceboard.bihar.gov.in/index.php/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 36,
    "order": 12,
    "fails": 0,
    "seen": [
-    "BR HOME:efdff8f1c3f0",
-    "BR HOME:ce114eb0028e",
-    "BR HOME:43cf67cd0938",
+    "BR HOME:1e51a7fadf40",
     "BR HOME:2db4bea0889e",
-    "BR HOME:7d2db4aade1d",
+    "BR HOME:a946b1b295ee",
+    "BR HOME:1db910ae044b",
+    "BR HOME:eb4bf8483ee9",
+    "BR HOME:ff0b8cf4d998",
+    "BR HOME:43cf67cd0938",
+    "BR HOME:19dfdc4c2aa7",
+    "BR HOME:b4532cbf8da1",
+    "BR HOME:79cde03f154f",
     "BR HOME:9073d0e8dec7",
+    "BR HOME:ec236df5967e",
+    "BR HOME:cc3900161005",
+    "BR HOME:ce114eb0028e",
+    "BR HOME:fd142f66bca1",
+    "BR HOME:7d2db4aade1d",
+    "BR HOME:cb510f15d883",
+    "BR HOME:c9ebdaf38211",
+    "BR HOME:a81f4d602e7c",
+    "BR HOME:b31934ae4ada",
+    "BR HOME:e9baea00f92c",
+    "BR HOME:e365ba1c3111",
+    "BR HOME:0a6bf9a94759",
+    "BR HOME:f9d89e84cd39",
+    "BR HOME:10a5f24ef723",
+    "BR HOME:a0aae240e44a",
+    "BR HOME:2f03e3055ac9",
+    "BR HOME:efdff8f1c3f0",
+    "BR HOME:5dfd4252fd3c",
+    "BR HOME:31b145e7d22e",
+    "BR HOME:00bcc5f3d455",
     "BR HOME:27cda1c9bb45",
+    "BR HOME:4d54f807679b",
     "BR HOME:850cabb102ef",
     "BR HOME:45505b4058a0",
-    "BR HOME:a81f4d602e7c",
-    "BR HOME:c9ebdaf38211",
-    "BR HOME:79cde03f154f",
-    "BR HOME:f9d89e84cd39",
-    "BR HOME:a0aae240e44a",
-    "BR HOME:b31934ae4ada",
-    "BR HOME:ec236df5967e",
     "BR HOME:991de576d1ba",
-    "BR HOME:e365ba1c3111",
-    "BR HOME:fd142f66bca1",
-    "BR HOME:31b145e7d22e",
-    "BR HOME:19dfdc4c2aa7",
-    "BR HOME:1db910ae044b",
-    "BR HOME:00bcc5f3d455",
-    "BR HOME:5dfd4252fd3c",
-    "BR HOME:ff0b8cf4d998",
-    "BR HOME:10a5f24ef723",
-    "BR HOME:a946b1b295ee",
-    "BR HOME:538d61eb683d",
-    "BR HOME:4d54f807679b",
-    "BR HOME:eb4bf8483ee9",
-    "BR HOME:1e51a7fadf40",
-    "BR HOME:e9baea00f92c",
-    "BR HOME:cb510f15d883",
-    "BR HOME:b4532cbf8da1",
-    "BR HOME:2f03e3055ac9",
-    "BR HOME:0a6bf9a94759",
-    "BR HOME:cc3900161005"
+    "BR HOME:538d61eb683d"
    ]
   },
   "KL": {
    "name": "Kerala (CEE)",
    "url": "https://cee.kerala.gov.in/pgm2026/notification",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 16,
    "order": 19,
    "fails": 0,
    "seen": [
-    "KL:e4f140e07f57",
     "KL:2b6cd21a2660",
-    "KL:200e5a9a88cf",
-    "KL:ad726a212afe",
-    "KL:77b5c9568bf7",
-    "KL:51fcbbe59241",
-    "KL:6c502c24e0a9",
-    "KL:fa7240b679f6",
-    "KL:be94125a1138",
-    "KL:f414e9022c11",
-    "KL:86d7afbcabaf",
     "KL:c16672cd9669",
-    "KL:29747b8e690d",
+    "KL:86d7afbcabaf",
+    "KL:51fcbbe59241",
     "KL:7ffc93cb69f6",
-    "KL:8634d39f4cd2",
+    "KL:e4f140e07f57",
+    "KL:6c502c24e0a9",
+    "KL:be94125a1138",
+    "KL:d5614ba9a20b",
+    "KL:fa7240b679f6",
     "KL:7c3335d8ac02",
-    "KL:d5614ba9a20b"
+    "KL:ad726a212afe",
+    "KL:f414e9022c11",
+    "KL:8634d39f4cd2",
+    "KL:29747b8e690d",
+    "KL:200e5a9a88cf",
+    "KL:77b5c9568bf7"
    ]
   },
   "KEA": {
@@ -103,421 +103,424 @@
   "MP": {
    "name": "Madhya Pradesh",
    "url": "https://dme.mponline.gov.in/portal/services/dmemp/DMEPG/Profile/ProfileLoginHome.aspx?Counstype=rfZR9zLVYzySY17sU9L9gA%3d%3d",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 19,
    "order": 5,
    "fails": 0,
    "seen": [
-    "MP:c0fe4707e514",
-    "MP:886f2ec7c7cf",
-    "MP:8650e957c810",
-    "MP:ad9436d2ae79",
-    "MP:ae12ebd43a75",
-    "MP:5e6ac73937e9",
-    "MP:694c1907e615",
-    "MP:5b52aa05c2a9",
-    "MP:8e4c6cb735c6",
-    "MP:9d49213b6656",
-    "MP:80c7c2af40c5",
-    "MP:5cc940eb80f8",
-    "MP:cd8251f9a24d",
-    "MP:6d017a67ea66",
     "MP:43d8ef4d65b7",
-    "MP:ddbd11ad1b19",
-    "MP:ba7bcf70487f",
-    "MP:d2287323141f",
+    "MP:6d017a67ea66",
+    "MP:2ee573f941af",
+    "MP:694c1907e615",
+    "MP:6332fb18014e",
+    "MP:fc60b3e1229d",
+    "MP:45aa84248b62",
+    "MP:ae12ebd43a75",
+    "MP:5b52aa05c2a9",
     "MP:dd3fb4f72347",
     "MP:7f02d6e9ffd2",
-    "MP:45aa84248b62",
-    "MP:fc60b3e1229d",
-    "MP:2ee573f941af",
-    "MP:136661c1d80b",
-    "MP:0c2ddfb84801",
-    "MP:509b4c430701",
-    "MP:7737dba76ecc",
-    "MP:524fa04f2ce7",
-    "MP:4c6d28b51d5b",
-    "MP:98f3635eb38c",
-    "MP:6332fb18014e",
     "MP:000d4805801a",
-    "MP:7e2cfd6b1d8d"
+    "MP:509b4c430701",
+    "MP:c0fe4707e514",
+    "MP:5e6ac73937e9",
+    "MP:ddbd11ad1b19",
+    "MP:ad9436d2ae79",
+    "MP:524fa04f2ce7",
+    "MP:136661c1d80b",
+    "MP:7737dba76ecc",
+    "MP:80c7c2af40c5",
+    "MP:0c2ddfb84801",
+    "MP:d2287323141f",
+    "MP:9d49213b6656",
+    "MP:cd8251f9a24d",
+    "MP:8650e957c810",
+    "MP:ba7bcf70487f",
+    "MP:4c6d28b51d5b",
+    "MP:7e2cfd6b1d8d",
+    "MP:5cc940eb80f8",
+    "MP:8e4c6cb735c6",
+    "MP:886f2ec7c7cf",
+    "MP:98f3635eb38c"
    ]
   },
   "MH": {
    "name": "Maharashtra",
    "url": "https://medical2026.mahacet.org/NEET-PGM-2026/login",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 16,
    "order": 9,
    "fails": 0,
    "seen": [
-    "MH:d99b93fb0593",
-    "MH:bca85c1abe60",
-    "MH:cab329037fa2",
+    "MH:25636909c4a4",
+    "MH:e062c78f5d3a",
+    "MH:2be2110b9902",
     "MH:760f133053f1",
+    "MH:bca85c1abe60",
+    "MH:d99b93fb0593",
+    "MH:232024804e44",
     "MH:ea794d1230ee",
     "MH:249aaf1870f0",
     "MH:2be2110b9902",
     "MH:7c34bcda8eb5",
     "MH:b3b0cb9c18a1",
     "MH:4a8115e38b0d",
-    "MH:232024804e44",
-    "MH:e062c78f5d3a",
-    "MH:f304cf335b07",
     "MH:3f8f6ac35164",
-    "MH:25636909c4a4",
+    "MH:f304cf335b07",
     "MH:0d14e50ec30e",
+    "MH:cab329037fa2",
     "MH:fc6fbddf33f0",
+    "MH:7c34bcda8eb5",
+    "MH:249aaf1870f0",
     "MH:3ab963b9e93a"
    ]
   },
   "TR": {
    "name": "Tripura",
    "url": "https://trmcc.admissions.nic.in/pg-counselling/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 9,
    "order": 6,
    "fails": 0,
    "seen": [
-    "TR:8b264a4215ec",
-    "TR:0942c04ad3c1",
-    "TR:f24f71d91399",
-    "TR:92024f0b71a4",
-    "TR:7da522e24bff",
-    "TR:6cedba6a9804",
-    "TR:8a50d68e7115",
-    "TR:1b0c9b57986c",
     "TR:91be08b0c81d",
+    "TR:8a50d68e7115",
+    "TR:4e49fbb26202",
     "TR:02d3d670db62",
-    "TR:4e49fbb26202"
+    "TR:0942c04ad3c1",
+    "TR:1b0c9b57986c",
+    "TR:92024f0b71a4",
+    "TR:8b264a4215ec",
+    "TR:7da522e24bff",
+    "TR:f24f71d91399",
+    "TR:6cedba6a9804"
    ]
   },
   "TG": {
    "name": "Telangana (KNRUHS)",
    "url": "https://www.knruhs.telangana.gov.in/all-notifications/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 9,
    "order": 4,
    "fails": 0,
    "seen": [
-    "TG:c6c7803f39c6",
-    "TG:3b3486b66427",
-    "TG:ce28dd4e87b6",
-    "TG:fbb5a43dcfd8",
-    "TG:95a646418823",
-    "TG:3acec98128bc",
-    "TG:9141782959cc",
     "TG:fd4a2d0f9423",
-    "TG:065b7eb7ff4e",
-    "TG:5c0a6c258a2e",
-    "TG:0939b042c156",
-    "TG:3a95ba12d602",
-    "TG:02a86ac69dac",
-    "TG:6faeeaebae03",
-    "TG:46748be4a9a6",
-    "TG:b09435c576bb",
-    "TG:c4f42453ca84",
-    "TG:b0be34d97c5f",
-    "TG:fc87680508dd",
-    "TG:492f19858f8f",
     "TG:eeeb38e60aa0",
-    "TG:80ab075de806",
-    "TG:d3409141d9a2",
-    "TG:7af76dc4471a",
-    "TG:c3f6399c1d96",
-    "TG:6fab12f476d9",
-    "TG:79e9de31408b",
-    "TG:9b2b9cefa3b9",
-    "TG:6c4fc26c69ad",
-    "TG:847186e44eae",
+    "TG:fbb5a43dcfd8",
+    "TG:3a95ba12d602",
     "TG:047a0a13d83a",
+    "TG:492f19858f8f",
+    "TG:065b7eb7ff4e",
+    "TG:46748be4a9a6",
+    "TG:7af76dc4471a",
+    "TG:0939b042c156",
+    "TG:d3409141d9a2",
+    "TG:3b3486b66427",
+    "TG:b09435c576bb",
+    "TG:80ab075de806",
+    "TG:c3f6399c1d96",
+    "TG:fc87680508dd",
+    "TG:95a646418823",
+    "TG:9141782959cc",
+    "TG:9b2b9cefa3b9",
+    "TG:847186e44eae",
+    "TG:9dc69b2b4b94",
+    "TG:3acec98128bc",
+    "TG:c6c7803f39c6",
+    "TG:c4f42453ca84",
+    "TG:6faeeaebae03",
     "TG:ddf97cdd3227",
+    "TG:02a86ac69dac",
     "TG:bb2afb34ab3e",
-    "TG:9dc69b2b4b94"
+    "TG:79e9de31408b",
+    "TG:5c0a6c258a2e",
+    "TG:6fab12f476d9",
+    "TG:b0be34d97c5f",
+    "TG:ce28dd4e87b6",
+    "TG:6c4fc26c69ad"
    ]
   },
   "GJ": {
    "name": "Gujarat",
    "url": "https://www.medadmgujarat.org/pg/home.aspx",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 81,
    "order": 7,
    "fails": 0,
    "seen": [
-    "GJ:fb8c26866d43",
-    "GJ:05b2254c889c",
-    "GJ:f0e301471618",
-    "GJ:bbd58c14f21a",
-    "GJ:b5569523b889",
-    "GJ:25874faac5cc",
-    "GJ:18dc042c1fd3",
-    "GJ:3cb4d65df95f",
-    "GJ:de04f7b2acb7",
-    "GJ:168cf9cfea2d",
-    "GJ:93f9d34443f6",
-    "GJ:1f30b72e9613",
-    "GJ:c2d5eb32b27d",
-    "GJ:cc4dad40c7fa",
-    "GJ:3a7ae862a6b0",
-    "GJ:4e3b416a8d58",
-    "GJ:71083587bc5f",
-    "GJ:12830497fabe",
-    "GJ:6a018f500396",
-    "GJ:b18878458aca",
-    "GJ:c315a37b8de0",
-    "GJ:8ca984d3c4de",
-    "GJ:f31c636087bc",
-    "GJ:840c22605d4a",
-    "GJ:6dcbb6ce31ce",
-    "GJ:90c8b5eac323",
-    "GJ:b7b323081b70",
-    "GJ:43da87fc1387",
-    "GJ:16ec14fc306f",
-    "GJ:85b0aee547b6",
-    "GJ:ca6ec0290a6b",
-    "GJ:87df91fa24bc",
-    "GJ:68486309d4ab",
-    "GJ:8c9ec871b482",
-    "GJ:418d38f6ce97",
-    "GJ:fc4e37fc6b15",
-    "GJ:d373bbb255c3",
-    "GJ:8c5bfa15d414",
-    "GJ:e213d76b483d",
-    "GJ:abaca3946f7b",
-    "GJ:953cb8b01427",
-    "GJ:b5c255976fa6",
-    "GJ:9100e35ed70d",
-    "GJ:336c435c1c23",
-    "GJ:35b14c38ebe9",
-    "GJ:7dc24ecfc817",
-    "GJ:989ed6e3cfc1",
-    "GJ:3512b4a13d87",
-    "GJ:dfbf635b5e07",
-    "GJ:fa9909f7bb78",
-    "GJ:c84e2d89b9b1",
-    "GJ:4aee0cc4be3f",
-    "GJ:2622ed1bdc81",
-    "GJ:6c3e4a7ba2da",
-    "GJ:204419aff671",
-    "GJ:3baf7454f413",
     "GJ:7a0382d8541e",
-    "GJ:d1d9e37088c8",
-    "GJ:fe6f5a18a705",
-    "GJ:d47276a7185d",
-    "GJ:51d11695baa7",
-    "GJ:d4b86fa5bc97",
-    "GJ:2795a3895cb5",
-    "GJ:1c1b9a99092e",
-    "GJ:f9231ca07218",
-    "GJ:ea73182c0aa1",
-    "GJ:ac9310a69c39",
-    "GJ:2252cb139026",
-    "GJ:d83d1eccd0d4",
-    "GJ:46f6ed9e69b5",
-    "GJ:4fb7443119aa",
-    "GJ:94488f96b53e",
-    "GJ:5e117257885c",
-    "GJ:893bc91c1c68",
-    "GJ:f3a0e5501203",
+    "GJ:abaca3946f7b",
     "GJ:ae876ba9ded4",
-    "GJ:aa2de69bb46a",
-    "GJ:601010b48801",
-    "GJ:a7cfd5b676a5",
+    "GJ:2622ed1bdc81",
     "GJ:d33cb8885ba7",
-    "GJ:23f4b31b9743",
-    "GJ:07dd3cc04de4",
-    "GJ:9e1abb41c897",
-    "GJ:aea8c2c4a4db",
-    "GJ:c0fc48affdd4",
-    "GJ:5e51f8676539",
+    "GJ:953cb8b01427",
+    "GJ:35b14c38ebe9",
+    "GJ:f3a0e5501203",
+    "GJ:893bc91c1c68",
     "GJ:7cc2b8c4332a",
-    "GJ:d607eb67ab8f",
-    "GJ:747689dd262c",
-    "GJ:d25594ec60a6",
-    "GJ:735df9a003bc",
-    "GJ:4b61722cdae1",
-    "GJ:5432b1b128ba",
+    "GJ:fa9909f7bb78",
+    "GJ:aea8c2c4a4db",
+    "GJ:85b0aee547b6",
+    "GJ:68486309d4ab",
+    "GJ:3512b4a13d87",
+    "GJ:cc4dad40c7fa",
+    "GJ:3cb4d65df95f",
+    "GJ:6c3e4a7ba2da",
+    "GJ:6a018f500396",
+    "GJ:418d38f6ce97",
+    "GJ:8ca984d3c4de",
+    "GJ:f9231ca07218",
+    "GJ:46f6ed9e69b5",
+    "GJ:b7b323081b70",
+    "GJ:25874faac5cc",
+    "GJ:2795a3895cb5",
+    "GJ:c2d5eb32b27d",
+    "GJ:ca6ec0290a6b",
     "GJ:cd7a3dbd4886",
-    "GJ:b506abe56bc5"
+    "GJ:d83d1eccd0d4",
+    "GJ:c315a37b8de0",
+    "GJ:3baf7454f413",
+    "GJ:b5569523b889",
+    "GJ:d25594ec60a6",
+    "GJ:2252cb139026",
+    "GJ:4e3b416a8d58",
+    "GJ:1c1b9a99092e",
+    "GJ:d4b86fa5bc97",
+    "GJ:d373bbb255c3",
+    "GJ:d1d9e37088c8",
+    "GJ:ac9310a69c39",
+    "GJ:c84e2d89b9b1",
+    "GJ:43da87fc1387",
+    "GJ:fe6f5a18a705",
+    "GJ:4fb7443119aa",
+    "GJ:71083587bc5f",
+    "GJ:5e51f8676539",
+    "GJ:e213d76b483d",
+    "GJ:90c8b5eac323",
+    "GJ:f0e301471618",
+    "GJ:18dc042c1fd3",
+    "GJ:bbd58c14f21a",
+    "GJ:601010b48801",
+    "GJ:ea73182c0aa1",
+    "GJ:93f9d34443f6",
+    "GJ:c0fc48affdd4",
+    "GJ:3a7ae862a6b0",
+    "GJ:aa2de69bb46a",
+    "GJ:94488f96b53e",
+    "GJ:b5c255976fa6",
+    "GJ:b506abe56bc5",
+    "GJ:9e1abb41c897",
+    "GJ:dfbf635b5e07",
+    "GJ:989ed6e3cfc1",
+    "GJ:840c22605d4a",
+    "GJ:5432b1b128ba",
+    "GJ:23f4b31b9743",
+    "GJ:87df91fa24bc",
+    "GJ:204419aff671",
+    "GJ:de04f7b2acb7",
+    "GJ:05b2254c889c",
+    "GJ:51d11695baa7",
+    "GJ:4aee0cc4be3f",
+    "GJ:4b61722cdae1",
+    "GJ:735df9a003bc",
+    "GJ:1f30b72e9613",
+    "GJ:16ec14fc306f",
+    "GJ:a7cfd5b676a5",
+    "GJ:f31c636087bc",
+    "GJ:12830497fabe",
+    "GJ:9100e35ed70d",
+    "GJ:d47276a7185d",
+    "GJ:747689dd262c",
+    "GJ:fc4e37fc6b15",
+    "GJ:7dc24ecfc817",
+    "GJ:8c9ec871b482",
+    "GJ:07dd3cc04de4",
+    "GJ:8c5bfa15d414",
+    "GJ:b18878458aca",
+    "GJ:d607eb67ab8f",
+    "GJ:fb8c26866d43",
+    "GJ:336c435c1c23",
+    "GJ:168cf9cfea2d",
+    "GJ:5e117257885c",
+    "GJ:6dcbb6ce31ce"
    ]
   },
   "PB": {
    "name": "Punjab (BFUHS)",
    "url": "https://admission.bfuhsonline.ac.in/mdms/mdms.asp",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 36,
    "order": 8,
    "fails": 0,
    "seen": [
-    "PB:de4ab6b3365e",
-    "PB:512ca164cb89",
-    "PB:72bb06875cb9",
-    "PB:fb714bd03aeb",
-    "PB:a91f0e99c60a",
-    "PB:4813d0d7aea0",
-    "PB:7ebadddcfb5d",
-    "PB:60d879f47dbb",
     "PB:3d1d16ded5a8",
-    "PB:1052986fe1b8",
-    "PB:547a14b42139",
-    "PB:b79b94f19e4d",
-    "PB:c99fb480ba5b",
     "PB:cde1cf1f8bbf",
-    "PB:c585dd2c9f0a",
-    "PB:829bba58bbef",
-    "PB:4552bcb7ae1b",
-    "PB:eeac3291b088",
-    "PB:40c8a4b293d0",
-    "PB:dd59148dada6",
-    "PB:a36c97f4ec0e",
-    "PB:6e45b7a97975",
-    "PB:d330601ec9e4",
-    "PB:6e5d426b1c38",
-    "PB:4ef21ab4227f",
-    "PB:76cab99ce049",
-    "PB:e61ed8398bb4",
     "PB:ff342dcc642a",
-    "PB:94fedae5016d",
+    "PB:6e5d426b1c38",
     "PB:59b5a2123e30",
-    "PB:ce336d93ba3a",
     "PB:94e152f8dc89",
-    "PB:0f1d554bf427",
-    "PB:4ae04b414c22",
+    "PB:9f54fba6c372",
+    "PB:fb714bd03aeb",
+    "PB:6e45b7a97975",
+    "PB:4813d0d7aea0",
+    "PB:ce336d93ba3a",
+    "PB:a36c97f4ec0e",
+    "PB:4552bcb7ae1b",
+    "PB:60d879f47dbb",
+    "PB:829bba58bbef",
     "PB:3c988ececee4",
     "PB:ee639b91eedb",
-    "PB:025be51fd342",
+    "PB:76cab99ce049",
+    "PB:72bb06875cb9",
+    "PB:eeac3291b088",
+    "PB:547a14b42139",
+    "PB:de4ab6b3365e",
+    "PB:0f1d554bf427",
+    "PB:94fedae5016d",
+    "PB:7ebadddcfb5d",
+    "PB:e61ed8398bb4",
     "PB:cae0b9f3a372",
-    "PB:9f54fba6c372"
+    "PB:4ae04b414c22",
+    "PB:dd59148dada6",
+    "PB:c99fb480ba5b",
+    "PB:512ca164cb89",
+    "PB:a91f0e99c60a",
+    "PB:d330601ec9e4",
+    "PB:025be51fd342",
+    "PB:1052986fe1b8",
+    "PB:40c8a4b293d0",
+    "PB:c585dd2c9f0a",
+    "PB:4ef21ab4227f",
+    "PB:b79b94f19e4d"
    ]
   },
   "BR": {
    "name": "Bihar (PGMAC)",
    "url": "https://bceceboard.bihar.gov.in/PGMACIndex.php",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 5,
    "order": 11,
    "fails": 0,
    "seen": [
+    "BR:cb510f15d883",
+    "BR:6bd4c446002c",
     "BR:ff0b8cf4d998",
     "BR:442619e88655",
-    "BR:6bd4c446002c",
-    "BR:cb510f15d883",
-    "BR:cc3c84c838fd",
-    "BR:79cde03f154f"
+    "BR:79cde03f154f",
+    "BR:cc3c84c838fd"
    ]
   },
   "UP": {
    "name": "Uttar Pradesh",
    "url": "https://upneet.gov.in/NewandNotification.aspx",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 57,
    "order": 10,
    "fails": 0,
    "seen": [
-    "UP:32b6b890bdc3",
-    "UP:c144e7e584db",
-    "UP:2d84f07eef37",
-    "UP:e84bb7969c5a",
-    "UP:2e09e8830775",
-    "UP:f342818440b1",
-    "UP:0736fe438627",
-    "UP:44024e8f8e61",
-    "UP:2d5fe99d2189",
-    "UP:0d13c5cc3bd0",
     "UP:95f5bbdb26da",
-    "UP:b15734d110c6",
-    "UP:f2da255ddeca",
-    "UP:6e634c5312fd",
-    "UP:74ecf489cfc6",
-    "UP:d446ccb1366d",
-    "UP:4880b104ddf5",
-    "UP:c92148c381bc",
-    "UP:4242f67e2e69",
-    "UP:d80cae9f2a00",
-    "UP:68382567ee9d",
-    "UP:e0eb1db844ab",
-    "UP:25ac787be05d",
-    "UP:1bb22163de35",
-    "UP:7eadcb733bcf",
-    "UP:fa3d85132a1c",
-    "UP:93db65b0e6a5",
-    "UP:cffa3503ca9c",
-    "UP:cf1ec965d416",
-    "UP:ec607cfda670",
-    "UP:8c529b2f21b3",
-    "UP:2e0b627eaf57",
-    "UP:02a32ae5ef08",
-    "UP:8d4dd071d090",
-    "UP:ffdc86ad93c4",
-    "UP:b35bec86f771",
-    "UP:93d411080b3b",
-    "UP:4edb3bf73747",
-    "UP:a8174a9dd9ec",
-    "UP:7590bbef50ad",
-    "UP:1fa2415bc5a1",
-    "UP:92cb38f35fd5",
-    "UP:6c88e0e7171a",
-    "UP:0473dc983056",
-    "UP:a85205c113d5",
-    "UP:54fc1134d15c",
-    "UP:8fb53015b16f",
-    "UP:c72ca9e0ef38",
-    "UP:a0b9caa4496e",
-    "UP:26a2f92f51c0",
-    "UP:1d300527edc7",
-    "UP:52bcbaddb97d",
-    "UP:a87ff83cc270",
-    "UP:4bd88717a5bd",
-    "UP:eabc7db56607",
-    "UP:951b1c6d6a57",
     "UP:f76556a25e30",
-    "UP:2a713d3887bf",
-    "UP:69162a7d5e52",
+    "UP:288242961e26",
+    "UP:eabc7db56607",
+    "UP:118b5670355a",
+    "UP:68382567ee9d",
+    "UP:6c88e0e7171a",
+    "UP:1bcbce4fb891",
+    "UP:8c529b2f21b3",
+    "UP:a8174a9dd9ec",
+    "UP:44024e8f8e61",
+    "UP:b35bec86f771",
+    "UP:1d300527edc7",
+    "UP:0d13c5cc3bd0",
+    "UP:32b6b890bdc3",
+    "UP:1bb22163de35",
+    "UP:a87ff83cc270",
+    "UP:e0eb1db844ab",
+    "UP:4242f67e2e69",
+    "UP:0736fe438627",
+    "UP:cf1ec965d416",
+    "UP:4880b104ddf5",
+    "UP:02a32ae5ef08",
+    "UP:951b1c6d6a57",
+    "UP:2d5fe99d2189",
+    "UP:8ed33c5ca1f9",
     "UP:e037d77f2af8",
-    "UP:9baaaf73a23b",
-    "UP:dcc09fa6ec3f",
+    "UP:7590bbef50ad",
+    "UP:f2da255ddeca",
+    "UP:2d84f07eef37",
+    "UP:c92148c381bc",
+    "UP:cffa3503ca9c",
     "UP:cbf3a1279316",
+    "UP:25ac787be05d",
     "UP:b18e80d1866c",
     "UP:ce5ba94bf17a",
-    "UP:e1248888ffc6",
-    "UP:dcd2142302c4",
-    "UP:118b5670355a",
-    "UP:7422f273ed66",
-    "UP:fb471508b1f4",
-    "UP:1bcbce4fb891",
-    "UP:7a7864d62d4b",
-    "UP:8ed33c5ca1f9",
-    "UP:bc9a9fa4099f",
-    "UP:eb25df0baaf7",
     "UP:e52fd7442317",
-    "UP:288242961e26",
+    "UP:54fc1134d15c",
+    "UP:a0b9caa4496e",
+    "UP:1fa2415bc5a1",
+    "UP:7422f273ed66",
+    "UP:69162a7d5e52",
+    "UP:a85205c113d5",
+    "UP:d446ccb1366d",
+    "UP:f342818440b1",
+    "UP:e1248888ffc6",
+    "UP:9baaaf73a23b",
+    "UP:fa3d85132a1c",
+    "UP:ffdc86ad93c4",
+    "UP:d80cae9f2a00",
+    "UP:7eadcb733bcf",
+    "UP:2e09e8830775",
+    "UP:6e634c5312fd",
+    "UP:dcd2142302c4",
+    "UP:a8e1315c9f4c",
+    "UP:b15734d110c6",
+    "UP:92cb38f35fd5",
+    "UP:c72ca9e0ef38",
+    "UP:dcc09fa6ec3f",
+    "UP:93db65b0e6a5",
+    "UP:93d411080b3b",
+    "UP:4bd88717a5bd",
     "UP:eb9c89d203d6",
+    "UP:e84bb7969c5a",
+    "UP:8d4dd071d090",
+    "UP:26a2f92f51c0",
+    "UP:0473dc983056",
+    "UP:2e0b627eaf57",
+    "UP:2a713d3887bf",
+    "UP:8fb53015b16f",
+    "UP:ec607cfda670",
+    "UP:c144e7e584db",
+    "UP:4edb3bf73747",
+    "UP:bc9a9fa4099f",
     "UP:d8e69787bef7",
-    "UP:a8e1315c9f4c"
+    "UP:74ecf489cfc6",
+    "UP:eb25df0baaf7",
+    "UP:fb471508b1f4",
+    "UP:7a7864d62d4b",
+    "UP:52bcbaddb97d"
    ]
   },
   "J&K": {
@@ -647,30 +650,30 @@
   "AR": {
    "name": "Arunachal",
    "url": "https://dmetrap.in/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 6,
    "order": 16,
    "fails": 0,
    "seen": [
-    "AR:52d1703ca346",
-    "AR:1327008cfef2",
-    "AR:533c92006a82",
-    "AR:bb4296d91ebb",
-    "AR:d584d50f611d",
-    "AR:e7cff5f6670b",
     "AR:94bf5189e2dd",
-    "AR:8d43d62cc6d2"
+    "AR:1327008cfef2",
+    "AR:bb4296d91ebb",
+    "AR:52d1703ca346",
+    "AR:533c92006a82",
+    "AR:d584d50f611d",
+    "AR:8d43d62cc6d2",
+    "AR:e7cff5f6670b"
    ]
   },
   "SK": {
    "name": "Sikkim (SMU)",
    "url": "https://www.smu.edu.in/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 3,
    "order": 14,
@@ -684,438 +687,443 @@
   "PY": {
    "name": "Puducherry (CENTAC)",
    "url": "https://www.centacpuducherry.in/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 59,
    "order": 15,
    "fails": 0,
    "seen": [
-    "PY:a6657126b919",
-    "PY:a2a75fc43525",
-    "PY:818b7f4b28fb",
-    "PY:67467e5fc527",
-    "PY:de81f48841b3",
-    "PY:54fdb0ebe1e0",
-    "PY:072bb803f466",
-    "PY:063ac481a2e0",
-    "PY:dd17c62dd063",
-    "PY:305b7f1d1640",
-    "PY:42320344f9d4",
-    "PY:a2f33e92b6d7",
-    "PY:1c760402df68",
-    "PY:42c7724d94d3",
-    "PY:a8299110e8f7",
-    "PY:9ba1cba0fdb1",
-    "PY:f263727ca7e6",
-    "PY:d64d05a28a30",
-    "PY:33d4d39e0070",
-    "PY:68aa2b1b3e54",
-    "PY:3e9f33416f4b",
-    "PY:eb19ad06b339",
-    "PY:866aee21c325",
-    "PY:5842c98062be",
-    "PY:f36a447f988c",
-    "PY:b6d695b80214",
-    "PY:c8f37d63639e",
-    "PY:7bc8060d76e6",
-    "PY:74ee03304fc3",
-    "PY:7492efd13633",
-    "PY:e7258649316b",
-    "PY:d9f51fba5586",
-    "PY:3f3cdc1ffad4",
-    "PY:a003ab74fafa",
-    "PY:6567a20056fd",
-    "PY:0686b785f7d9",
-    "PY:c25e769a559b",
-    "PY:6c4dc83acc41",
-    "PY:5380a3e55e61",
-    "PY:a218d4fcf16f",
-    "PY:fa38d50d5bc9",
     "PY:330bd117d511",
     "PY:159d26dc0011",
+    "PY:f263727ca7e6",
+    "PY:063ac481a2e0",
+    "PY:614a1c0ee9cc",
+    "PY:eb19ad06b339",
+    "PY:d45b025a87ef",
+    "PY:a2a75fc43525",
+    "PY:a92fac74e13d",
+    "PY:b8bfa121f92c",
+    "PY:776985e6b38e",
+    "PY:b4cc89236a15",
+    "PY:d5188020ca0f",
+    "PY:42320344f9d4",
+    "PY:5380a3e55e61",
+    "PY:3e9f33416f4b",
+    "PY:e7258649316b",
+    "PY:de81f48841b3",
+    "PY:5842c98062be",
+    "PY:a003ab74fafa",
+    "PY:a332cf6abadd",
+    "PY:1c760402df68",
+    "PY:a1445025d95b",
+    "PY:0686b785f7d9",
+    "PY:c34935cb6b0e",
+    "PY:866aee21c325",
+    "PY:00fd03d6bacc",
+    "PY:cdf3b0a569be",
+    "PY:9ba1cba0fdb1",
+    "PY:85237067b0f2",
+    "PY:e140a5b947db",
+    "PY:d9f51fba5586",
+    "PY:c25e769a559b",
+    "PY:b4540a007cb4",
+    "PY:e44b8e03b2ae",
+    "PY:88565ef5dcd4",
+    "PY:fa38d50d5bc9",
+    "PY:86f172c96c23",
+    "PY:7492efd13633",
+    "PY:5365cfd0b5d9",
+    "PY:a3dbe7116890",
+    "PY:d65053fb10be",
+    "PY:d64d05a28a30",
+    "PY:072bb803f466",
+    "PY:c5a7920c00bb",
+    "PY:9b726bb0b650",
+    "PY:2b0f5ec29657",
+    "PY:a8299110e8f7",
+    "PY:42c7724d94d3",
+    "PY:f9e10761fe9b",
+    "PY:8c07205275a7",
+    "PY:bf80426a61bc",
+    "PY:6e8c3e057d23",
+    "PY:cab4d754dec0",
+    "PY:c52147ef1a80",
+    "PY:e95ce1cdab1a",
+    "PY:a2f33e92b6d7",
+    "PY:808d6dc7bc20",
+    "PY:67467e5fc527",
+    "PY:4376ce29845a",
+    "PY:a218d4fcf16f",
+    "PY:68aa2b1b3e54",
+    "PY:9ec19e88289f",
+    "PY:1381ff0bee3b",
+    "PY:1260e4735e82",
+    "PY:818b7f4b28fb",
+    "PY:7bc8060d76e6",
+    "PY:fa49a0cc8ccc",
+    "PY:76a8dbd1cbfa",
+    "PY:1db3b8e867b0",
+    "PY:33d4d39e0070",
+    "PY:3f3cdc1ffad4",
+    "PY:a6657126b919",
+    "PY:48e76ab3b124",
     "PY:d674949f84c1",
     "PY:27156633877c",
-    "PY:614a1c0ee9cc",
-    "PY:0510a27833ac",
-    "PY:1260e4735e82",
-    "PY:0e4b6c3a94ca",
-    "PY:88565ef5dcd4",
-    "PY:d65053fb10be",
-    "PY:e44b8e03b2ae",
-    "PY:85237067b0f2",
-    "PY:c52147ef1a80",
-    "PY:b4cc89236a15",
-    "PY:d45b025a87ef",
-    "PY:9ec19e88289f",
-    "PY:e95ce1cdab1a",
-    "PY:e140a5b947db",
-    "PY:fbb918b22334",
-    "PY:2b0f5ec29657",
-    "PY:c34935cb6b0e",
-    "PY:9b726bb0b650",
-    "PY:a3dbe7116890",
-    "PY:8c07205275a7",
-    "PY:4376ce29845a",
-    "PY:1381ff0bee3b",
-    "PY:86f172c96c23",
-    "PY:d5188020ca0f",
-    "PY:00fd03d6bacc",
-    "PY:c5a7920c00bb",
     "PY:94a3cc618e97",
-    "PY:b8bfa121f92c",
-    "PY:f33b3dfcec2a",
-    "PY:808d6dc7bc20",
-    "PY:a541d64dabdf",
-    "PY:76a8dbd1cbfa",
-    "PY:776985e6b38e",
-    "PY:bf80426a61bc",
-    "PY:b4540a007cb4",
-    "PY:cab4d754dec0",
-    "PY:a332cf6abadd",
-    "PY:a92fac74e13d",
-    "PY:1db3b8e867b0",
-    "PY:f9e10761fe9b",
-    "PY:48e76ab3b124",
+    "PY:74ee03304fc3",
+    "PY:0510a27833ac",
     "PY:f63e6a76c8d9",
-    "PY:a1445025d95b",
-    "PY:5365cfd0b5d9",
-    "PY:6e8c3e057d23",
-    "PY:fd524c0c7825",
-    "PY:42809a65692e",
+    "PY:fbb918b22334",
+    "PY:54fdb0ebe1e0",
     "PY:304380b02a2b",
-    "PY:fa49a0cc8ccc",
-    "PY:cdf3b0a569be"
+    "PY:42809a65692e",
+    "PY:dd17c62dd063",
+    "PY:a541d64dabdf",
+    "PY:f36a447f988c",
+    "PY:6c4dc83acc41",
+    "PY:fd524c0c7825",
+    "PY:0e4b6c3a94ca",
+    "PY:b6d695b80214",
+    "PY:f33b3dfcec2a",
+    "PY:6567a20056fd",
+    "PY:c8f37d63639e",
+    "PY:305b7f1d1640"
    ]
   },
   "AP": {
    "name": "Andhra Pradesh",
    "url": "https://drntr.uhsap.in/index/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 31,
    "order": 17,
    "fails": 0,
    "seen": [
-    "AP:7608105b633e",
-    "AP:93b638816d5a",
-    "AP:97b2ac533d38",
-    "AP:5afde914cf66",
-    "AP:07bb53dd9641",
-    "AP:734842a52acd",
-    "AP:86b77f898e28",
     "AP:74ef9ee28434",
-    "AP:a6be0208874f",
-    "AP:0c1fb12ebea5",
-    "AP:c7a1dcb21c17",
-    "AP:51b3a4e19cb8",
-    "AP:bd04d6c82a6e",
-    "AP:8ceef7a7f1f8",
-    "AP:1b6f78baf6c0",
-    "AP:0d84617f6a88",
-    "AP:8d798e7be2d8",
-    "AP:3794280fb3be",
-    "AP:5217104c9e4a",
-    "AP:f7a0082ea8b7",
-    "AP:40fcc1d992d9",
-    "AP:d2078e8cb12a",
-    "AP:812759711e62",
-    "AP:4cb5c45f7209",
-    "AP:0070a1579957",
-    "AP:888366594f55",
-    "AP:b03dc42d4b77",
-    "AP:776ecf1cc1b0",
-    "AP:c87f55db5b40",
+    "AP:07bb53dd9641",
+    "AP:9b971fddd24c",
     "AP:fb583936b962",
-    "AP:9b641994e055",
-    "AP:fec5339e9c73",
+    "AP:8ceef7a7f1f8",
     "AP:3728f9344965",
-    "AP:208f6970044d",
-    "AP:85474be45312",
     "AP:f4bccbd0d3b2",
-    "AP:6b793e7c1769",
-    "AP:5b91c1214c78",
-    "AP:7881dd93c269",
-    "AP:61890889f503",
-    "AP:5aebecf61998",
-    "AP:70b60c61c1be",
-    "AP:3b1b631ae64d",
-    "AP:75c78ff50921",
-    "AP:b1b3a7425263",
-    "AP:224e294b5853",
+    "AP:51b3a4e19cb8",
+    "AP:0d84617f6a88",
+    "AP:5afde914cf66",
+    "AP:1b6f78baf6c0",
     "AP:fceb3f4b37d4",
-    "AP:e14c9ed05c4d",
-    "AP:324145884ae1",
+    "AP:0070a1579957",
+    "AP:93b638816d5a",
+    "AP:85474be45312",
+    "AP:0c1fb12ebea5",
+    "AP:812759711e62",
+    "AP:7881dd93c269",
+    "AP:c7a1dcb21c17",
+    "AP:c87f55db5b40",
+    "AP:fc7e0d9b2e40",
+    "AP:bd04d6c82a6e",
+    "AP:f7a0082ea8b7",
+    "AP:734842a52acd",
+    "AP:97b2ac533d38",
+    "AP:fec5339e9c73",
+    "AP:25d540d71874",
+    "AP:208f6970044d",
+    "AP:5217104c9e4a",
+    "AP:86b77f898e28",
+    "AP:9b641994e055",
+    "AP:6b793e7c1769",
+    "AP:888366594f55",
+    "AP:f1bda54e0051",
+    "AP:9efae6773a04",
+    "AP:5b91c1214c78",
     "AP:462cd8720df4",
     "AP:872f1876564d",
-    "AP:59e1f97641c7",
-    "AP:cf2a046fef69",
-    "AP:350f0d9a45ae",
-    "AP:fc7e0d9b2e40",
     "AP:c8ce4bc42f24",
-    "AP:9efae6773a04",
-    "AP:f1bda54e0051",
-    "AP:212820602ed8",
-    "AP:d3611cb3c71e",
     "AP:0e4bb64a901f",
-    "AP:9b971fddd24c",
-    "AP:25d540d71874",
-    "AP:375df6eeab53"
+    "AP:5aebecf61998",
+    "AP:375df6eeab53",
+    "AP:a6be0208874f",
+    "AP:4cb5c45f7209",
+    "AP:7608105b633e",
+    "AP:3794280fb3be",
+    "AP:b1b3a7425263",
+    "AP:40fcc1d992d9",
+    "AP:212820602ed8",
+    "AP:d2078e8cb12a",
+    "AP:224e294b5853",
+    "AP:776ecf1cc1b0",
+    "AP:350f0d9a45ae",
+    "AP:e14c9ed05c4d",
+    "AP:61890889f503",
+    "AP:b03dc42d4b77",
+    "AP:3b1b631ae64d",
+    "AP:324145884ae1",
+    "AP:8d798e7be2d8",
+    "AP:d3611cb3c71e",
+    "AP:75c78ff50921",
+    "AP:70b60c61c1be",
+    "AP:cf2a046fef69",
+    "AP:59e1f97641c7"
    ]
   },
   "MCC": {
    "name": "MCC (All India)",
    "url": "https://mcc.nic.in/pg-medical-counselling/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 28,
    "order": 0,
    "fails": 0,
    "seen": [
-    "MCC:d39ce915ec54",
-    "MCC:6dba8c263326",
-    "MCC:b2cbd43b8292",
-    "MCC:32425db5b35f",
-    "MCC:c89ff5b4147d",
+    "MCC:4a245f909616",
     "MCC:6aa9db071012",
-    "MCC:b1f937fbb934",
-    "MCC:76718b88d31e",
-    "MCC:928488d0fe61",
-    "MCC:f0e5f5809dd9",
-    "MCC:aed10464281c",
-    "MCC:b1138e1a1d20",
-    "MCC:4023d4397212",
-    "MCC:a16928650283",
-    "MCC:28aa4873c9fe",
-    "MCC:7a7141d7e3fe",
-    "MCC:fa4efd9c4e3d",
-    "MCC:2d7c92fb6517",
-    "MCC:18e84d0d2581",
-    "MCC:4557025db12d",
     "MCC:e9f3c67e4260",
-    "MCC:866356daa0ea",
-    "MCC:9ccaa4f9e594",
-    "MCC:8b2867e9f7ac",
-    "MCC:094a7b0c3d31",
-    "MCC:f86f3c292b65",
-    "MCC:9dabbc19c42d",
+    "MCC:fa4efd9c4e3d",
+    "MCC:928488d0fe61",
+    "MCC:c89ff5b4147d",
     "MCC:c9eae958c4e7",
-    "MCC:2c3d3ccb6a53",
-    "MCC:a5260f1aeda0",
-    "MCC:4a11f108cf55",
+    "MCC:8b2867e9f7ac",
     "MCC:efe2181e5081",
-    "MCC:d82a873f7731",
+    "MCC:6dba8c263326",
+    "MCC:f86f3c292b65",
+    "MCC:4557025db12d",
+    "MCC:a5260f1aeda0",
+    "MCC:9ccaa4f9e594",
+    "MCC:f0e5f5809dd9",
+    "MCC:32425db5b35f",
+    "MCC:49bec02e0021",
+    "MCC:b1f937fbb934",
+    "MCC:7a7141d7e3fe",
     "MCC:1b209c591061",
-    "MCC:3d9b4fe8496b",
+    "MCC:4023d4397212",
     "MCC:8c58d74d3f79",
     "MCC:4e56063982b2",
-    "MCC:4a245f909616",
+    "MCC:d39ce915ec54",
+    "MCC:9dabbc19c42d",
+    "MCC:b2cbd43b8292",
+    "MCC:3d9b4fe8496b",
+    "MCC:b1138e1a1d20",
+    "MCC:2c3d3ccb6a53",
+    "MCC:18e84d0d2581",
+    "MCC:aed10464281c",
+    "MCC:094a7b0c3d31",
+    "MCC:ddd91fe80233",
+    "MCC:d82a873f7731",
+    "MCC:a16928650283",
+    "MCC:28aa4873c9fe",
+    "MCC:2d7c92fb6517",
+    "MCC:866356daa0ea",
+    "MCC:4a11f108cf55",
     "MCC:bd9edaa2fe19",
     "MCC:71cd4230bf8a",
-    "MCC:ddd91fe80233",
-    "MCC:49bec02e0021"
+    "MCC:76718b88d31e"
    ]
   },
   "WB": {
    "name": "West Bengal",
    "url": "https://wbmcc.nic.in/pg-medical-counselling/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
-   "count": 9,
+   "count": 14,
    "order": 1,
    "fails": 0,
    "seen": [
-    "WB:36cd4d2a7146",
-    "WB:e0996b07d222",
-    "WB:c26ec35976b0",
-    "WB:d91887015441",
-    "WB:86598a848f62",
-    "WB:671b0aeedf53",
-    "WB:758866a0e346",
-    "WB:6956e10f712a",
-    "WB:691441321ca1",
     "WB:a68df8899662",
-    "WB:6e64c6ad3c60",
+    "WB:671b0aeedf53",
+    "WB:6956e10f712a",
+    "WB:d91887015441",
+    "WB:758866a0e346",
+    "WB:43fc90490520",
+    "WB:86598a848f62",
+    "WB:fe8cc855f51d",
+    "WB:36cd4d2a7146",
     "WB:89476c74ea3b",
-    "WB:43fc90490520"
+    "WB:e0996b07d222",
+    "WB:691441321ca1",
+    "WB:9ce714ae85ee",
+    "WB:c26ec35976b0",
+    "WB:64ea45dfec91",
+    "WB:32dc658614f8",
+    "WB:427ea09040c7",
+    "WB:6e64c6ad3c60"
    ]
   },
   "TN": {
    "name": "Tamil Nadu",
    "url": "https://tnmedicalselection.net/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "initialized": true,
    "count": 116,
    "order": 13,
    "fails": 0,
    "seen": [
-    "TN:76dff2508550",
-    "TN:012bd17c5270",
-    "TN:2582d18320fb",
-    "TN:5dc08ea4bc70",
-    "TN:d8c58a936376",
-    "TN:051ee98f9e64",
-    "TN:7e0eec95cb4f",
-    "TN:309848eb61e9",
-    "TN:0b2bbd0364f6",
-    "TN:35df30d091f7",
-    "TN:a4ff70f5c49c",
-    "TN:6eecb2950779",
-    "TN:2aec084b81a6",
-    "TN:eb3c4c0ade29",
-    "TN:a0f9db6b38d9",
-    "TN:53b26543b067",
-    "TN:d8d6ee86c97e",
-    "TN:d7e248172fc7",
-    "TN:98febfbe6410",
-    "TN:bbdb1774d7df",
-    "TN:e2cc77c26c0c",
-    "TN:5354ac8a246f",
-    "TN:e2519966a78c",
-    "TN:b97e465763f3",
-    "TN:a2a93ca125d9",
-    "TN:a52159978e42",
-    "TN:6c9bfbe5faf4",
-    "TN:be694fca32f9",
-    "TN:6a591c2468f7",
-    "TN:f0853a2c967e",
-    "TN:4bd1e9d205b8",
-    "TN:000e1838a941",
-    "TN:8e39052f2b06",
-    "TN:3c37b0597076",
-    "TN:d6bb4884e3aa",
-    "TN:08d8cebc6c2a",
-    "TN:4420dd1be271",
-    "TN:432d330b64f2",
-    "TN:9742b3843d5d",
-    "TN:a65f7ee54acc",
-    "TN:2c1c8d3288f6",
-    "TN:fa9014da37ec",
-    "TN:df89f8be3e6a",
-    "TN:4c8ebc2cd3cd",
-    "TN:15444501e3b0",
-    "TN:0d9aa89066cb",
-    "TN:f9b1c6837d45",
-    "TN:05202948c07b",
-    "TN:b4ee68571256",
-    "TN:71aba6237b58",
-    "TN:32daf362ce32",
-    "TN:656b0ceb6613",
-    "TN:b2309ae8ed5d",
-    "TN:55f4f5aa1b7d",
-    "TN:6bba32ae1d0d",
-    "TN:4a525fb67654",
-    "TN:a7b2f9afb700",
-    "TN:59f170a02fc6",
-    "TN:ad6097ea4d2e",
-    "TN:df5c0d474171",
-    "TN:ac2af7200256",
-    "TN:c3f13a743c3e",
-    "TN:2ae9ddafef5d",
-    "TN:b434cb2d0291",
-    "TN:d78597cee152",
-    "TN:4883aecadcce",
-    "TN:0b60c6120569",
-    "TN:5c2e7f27a461",
-    "TN:445991d04152",
-    "TN:7ebda82d71a8",
-    "TN:69969484d97c",
-    "TN:d755cb3fa6f6",
-    "TN:6463442949f6",
-    "TN:4f0fde495b27",
-    "TN:4d6cfe47d946",
-    "TN:c5e5c55460c6",
-    "TN:b0153f68e5ab",
-    "TN:5243ec4dac2e",
-    "TN:a3cd5439cbad",
-    "TN:5a3413f8f563",
-    "TN:613367ce6186",
-    "TN:663f2d3d83a5",
-    "TN:d878c7325d75",
-    "TN:7115c6610a4e",
-    "TN:446240c15165",
-    "TN:95a1679d148b",
-    "TN:dfab75ca7b1d",
-    "TN:3df7eaf04b3c",
-    "TN:2d7d70664508",
-    "TN:204d9b10f133",
-    "TN:912f3b21ec92",
-    "TN:0b3efd193d40",
-    "TN:242eb69674cf",
-    "TN:6da2b8dd7ac9",
-    "TN:583a3ee1ab88",
-    "TN:e42c9185fa36",
-    "TN:ff82c1ddaad7",
-    "TN:94e7ea49df6c",
-    "TN:9fe553c927d5",
-    "TN:fa46c5151eb2",
-    "TN:3cb78631018d",
     "TN:22ce76fb21e2",
-    "TN:f407d1b4cb15",
-    "TN:0056243b8c41",
-    "TN:1a730fef87cc",
-    "TN:f9052c758c8b",
-    "TN:19422fd9f339",
-    "TN:65103f2714fc",
-    "TN:8e703546e674",
-    "TN:c77e41373a74",
-    "TN:c1e9a235c3b9",
-    "TN:170cf0a32321",
+    "TN:309848eb61e9",
+    "TN:ac2af7200256",
     "TN:f6172aef5b42",
-    "TN:fe08c8f7c7cd",
-    "TN:30e7163dfe23",
+    "TN:f7c5e4722751",
+    "TN:08d8cebc6c2a",
+    "TN:613367ce6186",
+    "TN:73bf3c71b004",
+    "TN:76dff2508550",
+    "TN:2aec084b81a6",
+    "TN:b2309ae8ed5d",
+    "TN:e42c9185fa36",
+    "TN:c1e9a235c3b9",
+    "TN:2ae9ddafef5d",
+    "TN:d7e248172fc7",
+    "TN:85cae0ab4ede",
+    "TN:df5c0d474171",
+    "TN:6c9bfbe5faf4",
+    "TN:d755cb3fa6f6",
+    "TN:8335cf2357e3",
+    "TN:15444501e3b0",
+    "TN:65103f2714fc",
+    "TN:170cf0a32321",
+    "TN:ad6097ea4d2e",
+    "TN:a0f9db6b38d9",
+    "TN:6121e3951317",
+    "TN:8b3cc351b159",
+    "TN:2c1c8d3288f6",
+    "TN:98febfbe6410",
+    "TN:b4ee68571256",
+    "TN:8e703546e674",
+    "TN:2d7d70664508",
+    "TN:852900549726",
+    "TN:38ab2ffe1084",
+    "TN:2c4bcc409519",
+    "TN:05db9f3427be",
+    "TN:6da2b8dd7ac9",
+    "TN:4d6cfe47d946",
+    "TN:242eb69674cf",
+    "TN:7115c6610a4e",
+    "TN:6bba32ae1d0d",
+    "TN:71aba6237b58",
+    "TN:445991d04152",
+    "TN:0056243b8c41",
+    "TN:d8c58a936376",
+    "TN:1a730fef87cc",
+    "TN:55ee3fce9f48",
+    "TN:4c8ebc2cd3cd",
+    "TN:fa9014da37ec",
+    "TN:5c2e7f27a461",
+    "TN:ff54c0fcf039",
+    "TN:6eecb2950779",
+    "TN:051ee98f9e64",
+    "TN:35df30d091f7",
+    "TN:5a3413f8f563",
+    "TN:69969484d97c",
+    "TN:59f170a02fc6",
+    "TN:a52159978e42",
+    "TN:d878c7325d75",
+    "TN:3df7eaf04b3c",
+    "TN:656b0ceb6613",
+    "TN:a4ff70f5c49c",
+    "TN:4420dd1be271",
     "TN:a5632d7e5d93",
+    "TN:c77e41373a74",
+    "TN:6463442949f6",
+    "TN:3cb78631018d",
+    "TN:4a525fb67654",
+    "TN:9a0ddf7dd1e8",
+    "TN:0a14b6e738f4",
+    "TN:19422fd9f339",
+    "TN:f9052c758c8b",
+    "TN:ea20b31904a0",
+    "TN:dfab75ca7b1d",
+    "TN:53b26543b067",
+    "TN:be694fca32f9",
+    "TN:b97e465763f3",
+    "TN:0b60c6120569",
+    "TN:fa46c5151eb2",
+    "TN:f9b1c6837d45",
+    "TN:000e1838a941",
+    "TN:204d9b10f133",
+    "TN:9df9d64cae42",
+    "TN:0b2bbd0364f6",
+    "TN:0b3efd193d40",
+    "TN:583a3ee1ab88",
+    "TN:663f2d3d83a5",
+    "TN:5243ec4dac2e",
+    "TN:8f89c081781b",
+    "TN:4f3d0e041b38",
+    "TN:05202948c07b",
+    "TN:8e39052f2b06",
+    "TN:30e7163dfe23",
+    "TN:9742b3843d5d",
+    "TN:3c37b0597076",
+    "TN:32daf362ce32",
+    "TN:bbdb1774d7df",
+    "TN:446240c15165",
+    "TN:7ebda82d71a8",
+    "TN:b0153f68e5ab",
+    "TN:c3f13a743c3e",
+    "TN:a2a93ca125d9",
+    "TN:f407d1b4cb15",
+    "TN:e2cc77c26c0c",
+    "TN:e2519966a78c",
+    "TN:9fe553c927d5",
+    "TN:5dc08ea4bc70",
+    "TN:f5db461761d6",
+    "TN:31a45b720502",
+    "TN:d8d6ee86c97e",
+    "TN:eb3c4c0ade29",
+    "TN:2b4082756105",
+    "TN:95a1679d148b",
+    "TN:f0853a2c967e",
+    "TN:4b8b09cbe300",
+    "TN:f63122579b3f",
+    "TN:a7b2f9afb700",
+    "TN:df89f8be3e6a",
+    "TN:94e7ea49df6c",
+    "TN:385c1db4f9ea",
+    "TN:912f3b21ec92",
+    "TN:d6bb4884e3aa",
+    "TN:577aff6aa6b4",
+    "TN:6a591c2468f7",
+    "TN:a65f7ee54acc",
+    "TN:ff82c1ddaad7",
+    "TN:4f0fde495b27",
+    "TN:55f4f5aa1b7d",
+    "TN:7e0eec95cb4f",
+    "TN:c5e5c55460c6",
+    "TN:4883aecadcce",
+    "TN:4bd1e9d205b8",
+    "TN:857170b4b426",
     "TN:3764e6b5605c",
     "TN:9f8786232d48",
-    "TN:55ee3fce9f48",
-    "TN:857170b4b426",
-    "TN:8335cf2357e3",
-    "TN:9df9d64cae42",
-    "TN:c905605c100d",
-    "TN:ff54c0fcf039",
-    "TN:4f3d0e041b38",
-    "TN:f5db461761d6",
-    "TN:f7c5e4722751",
-    "TN:38ab2ffe1084",
-    "TN:85cae0ab4ede",
-    "TN:385c1db4f9ea",
-    "TN:2c4bcc409519",
-    "TN:2b4082756105",
-    "TN:ea20b31904a0",
-    "TN:8b3cc351b159",
-    "TN:73bf3c71b004",
-    "TN:8f89c081781b",
-    "TN:f63122579b3f",
-    "TN:6121e3951317",
-    "TN:4b8b09cbe300",
+    "TN:432d330b64f2",
+    "TN:a3cd5439cbad",
+    "TN:d78597cee152",
+    "TN:b434cb2d0291",
+    "TN:fe08c8f7c7cd",
     "TN:f5eb3e373514",
-    "TN:0a14b6e738f4",
-    "TN:577aff6aa6b4",
-    "TN:05db9f3427be",
-    "TN:9a0ddf7dd1e8",
-    "TN:852900549726",
-    "TN:31a45b720502"
+    "TN:2582d18320fb",
+    "TN:5354ac8a246f",
+    "TN:012bd17c5270",
+    "TN:0d9aa89066cb",
+    "TN:c905605c100d"
    ]
   },
   "AS": {
    "name": "Assam",
    "url": "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew",
-   "last_checked": "2026-11-13T09:30:59+00:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='dme.assam.gov.in', port=443): Max retries exceeded wit",
+   "last_checked": "2026-11-13T09:38:05+00:00",
+   "error": "HTTP 404",
    "last_ok": "2026-10-27T06:20:35+00:00",
    "initialized": true,
    "count": 30,
    "order": 18,
-   "fails": 2511,
+   "fails": 2507,
    "seen": [
     "AS:ae6af0abb1e9",
     "AS:d7e9595b4662",
@@ -1153,217 +1161,499 @@
   "HR": {
    "name": "Haryana",
    "url": "https://hry.online-counselling.co.in/",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "order": 20,
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "fails": 0,
    "initialized": true,
    "seen": [
-    "HR:d5acd0f03a4e",
-    "HR:0700cc1c1db7",
-    "HR:9dd0a21a8d51",
-    "HR:edad9c244f3b",
-    "HR:a845ca804295",
-    "HR:bcad18f4fce1",
-    "HR:60956350e682",
-    "HR:e974e2165ba5",
-    "HR:cb5ad1d0e99b",
-    "HR:edb2ac650380",
-    "HR:96b11f4d41ea",
-    "HR:f4e3d82d9ba9",
-    "HR:e9080384ad64",
-    "HR:60fc81722575",
-    "HR:ed48ad69ade6",
-    "HR:79f9eedebdfd",
-    "HR:e5f2f6dda961",
-    "HR:ea539ce1b6b1",
-    "HR:bf2491f2d5de",
-    "HR:3a0e638a2033",
-    "HR:fc875c4dc342",
-    "HR:4fb232a26ed3",
-    "HR:b6bb822b00a0",
-    "HR:7d2e2d7d478d",
-    "HR:3d22b24fa154",
-    "HR:10b5172c3858",
-    "HR:ad55e8f6fcc5",
-    "HR:10b740a9a35a",
-    "HR:ec842d240f5f",
-    "HR:a99513291643",
-    "HR:0d5f6dfd34dc",
-    "HR:73b8a55cd2cf",
-    "HR:1435e43e9ee9",
-    "HR:d59e0c554ed6",
-    "HR:8f97c3fa6b8f",
-    "HR:7d6db212ce95",
-    "HR:a4b23de3d3f3",
-    "HR:45b51e924c05",
     "HR:ffc7e932fdfc",
-    "HR:c966fa1a1dc4",
-    "HR:1fc825ad6377",
-    "HR:564d8f40e57d",
-    "HR:a41ffa36db63",
-    "HR:ae33608a9e52",
-    "HR:e2e3aeb81e38",
-    "HR:011e4ec06b6b",
-    "HR:1004e3209d5a",
-    "HR:df4455a2c308",
-    "HR:4a44522200f2",
-    "HR:64a242a07632",
-    "HR:815fca4d674a",
-    "HR:fc7cb9ed04cd",
-    "HR:23fd33f1024f",
-    "HR:f88cadd8d349",
-    "HR:d9af2c1ca309",
-    "HR:51bacfd4daf2",
-    "HR:f4d1e01614e9",
-    "HR:3b453016db59",
-    "HR:325044b43307",
-    "HR:97be139b0aa1",
-    "HR:004de3f45048",
-    "HR:153af5afcee6",
-    "HR:d01cb1ef5317",
-    "HR:54e1e1444ffe",
-    "HR:63d500f3f626",
-    "HR:7ec691a97803",
-    "HR:afbfa83f854f",
-    "HR:a4b042318804",
-    "HR:1fb1c81c3b0c",
-    "HR:3284404db52d",
-    "HR:ad7dbc849fdc",
-    "HR:594286b7b570",
-    "HR:b3ad244356e9",
-    "HR:a23dda95b8bb",
-    "HR:7bff55524ad3",
-    "HR:dee5e4753320",
-    "HR:5896c03f7977",
-    "HR:2c746c7379f2",
-    "HR:74f592c4f2f6",
     "HR:ff4d57020ad9",
-    "HR:e92d126f9c0d",
-    "HR:a9983fd82773",
+    "HR:9dd0a21a8d51",
+    "HR:a99513291643",
+    "HR:153af5afcee6",
+    "HR:d59e0c554ed6",
+    "HR:ea539ce1b6b1",
+    "HR:ad55e8f6fcc5",
+    "HR:e9080384ad64",
+    "HR:1004e3209d5a",
+    "HR:54e1e1444ffe",
+    "HR:594286b7b570",
+    "HR:ed48ad69ade6",
+    "HR:8f97c3fa6b8f",
+    "HR:e974e2165ba5",
+    "HR:f4d1e01614e9",
+    "HR:df4455a2c308",
+    "HR:e5f2f6dda961",
     "HR:7323844896df",
-    "HR:8c49b92c4873"
+    "HR:10b5172c3858",
+    "HR:96b11f4d41ea",
+    "HR:afbfa83f854f",
+    "HR:f88cadd8d349",
+    "HR:a4b23de3d3f3",
+    "HR:7d2e2d7d478d",
+    "HR:c966fa1a1dc4",
+    "HR:ec842d240f5f",
+    "HR:815fca4d674a",
+    "HR:edb2ac650380",
+    "HR:60fc81722575",
+    "HR:79f9eedebdfd",
+    "HR:325044b43307",
+    "HR:1fc825ad6377",
+    "HR:0d5f6dfd34dc",
+    "HR:3284404db52d",
+    "HR:1fb1c81c3b0c",
+    "HR:564d8f40e57d",
+    "HR:011e4ec06b6b",
+    "HR:bcad18f4fce1",
+    "HR:2c746c7379f2",
+    "HR:45b51e924c05",
+    "HR:64a242a07632",
+    "HR:e92d126f9c0d",
+    "HR:3d22b24fa154",
+    "HR:cb5ad1d0e99b",
+    "HR:b6bb822b00a0",
+    "HR:60956350e682",
+    "HR:63d500f3f626",
+    "HR:3b453016db59",
+    "HR:7ec691a97803",
+    "HR:4a44522200f2",
+    "HR:23fd33f1024f",
+    "HR:dee5e4753320",
+    "HR:73b8a55cd2cf",
+    "HR:a41ffa36db63",
+    "HR:edad9c244f3b",
+    "HR:a4b042318804",
+    "HR:51bacfd4daf2",
+    "HR:b3ad244356e9",
+    "HR:8c49b92c4873",
+    "HR:bf2491f2d5de",
+    "HR:fc875c4dc342",
+    "HR:f4e3d82d9ba9",
+    "HR:a23dda95b8bb",
+    "HR:ae33608a9e52",
+    "HR:004de3f45048",
+    "HR:0700cc1c1db7",
+    "HR:97be139b0aa1",
+    "HR:10b740a9a35a",
+    "HR:a9983fd82773",
+    "HR:ad7dbc849fdc",
+    "HR:3a0e638a2033",
+    "HR:fc7cb9ed04cd",
+    "HR:a845ca804295",
+    "HR:74f592c4f2f6",
+    "HR:5896c03f7977",
+    "HR:d9af2c1ca309",
+    "HR:d01cb1ef5317",
+    "HR:d5acd0f03a4e",
+    "HR:1435e43e9ee9",
+    "HR:7d6db212ce95",
+    "HR:4fb232a26ed3",
+    "HR:e2e3aeb81e38",
+    "HR:7bff55524ad3"
    ],
    "count": 58
   },
   "CG": {
    "name": "Chhattisgarh",
    "url": "https://cgdme.in/MD-MS-DIPLOMA.php",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "order": 21,
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "fails": 0,
    "initialized": true,
    "seen": [
-    "CG:835cdb3db077",
     "CG:c385f83b38ab",
-    "CG:e207472d77eb",
-    "CG:dfb1a5686e3a",
-    "CG:8e90dba0e4d6",
-    "CG:623458a38754",
-    "CG:303b2bf252e9",
-    "CG:03c4d075a876",
-    "CG:b64b3ebdc607",
-    "CG:49fb17f05d15",
-    "CG:3fe14d36df41",
-    "CG:89614fee54d3",
-    "CG:c08c29df1fc8",
-    "CG:ddb6af1860af",
-    "CG:dca988889b4b",
-    "CG:8cae50c59af0",
-    "CG:1c8b3cfdd05f",
-    "CG:2c510f73fe0e",
-    "CG:3f105526fc17",
-    "CG:b7d4cca68f2e",
-    "CG:a7120e59a04a",
-    "CG:9147698308f4",
-    "CG:4c5b04d34f2d",
-    "CG:e44d6b99b4eb",
-    "CG:d45a3c299e93",
-    "CG:89dd627a3962",
-    "CG:30696229f812",
-    "CG:d3ca110abb6a",
-    "CG:b01c47697f4c",
-    "CG:53abb3269184",
-    "CG:5843e9b40a40",
-    "CG:2f6b3b9f1349",
-    "CG:c3c0eaff05ce",
-    "CG:f6f0b536ccb0",
-    "CG:2c8c403a2b59",
-    "CG:7f38504cdb2f",
-    "CG:a6c70a057195",
-    "CG:c7ae00c3f1ce",
-    "CG:d398b362bfb9",
-    "CG:be8aa90d1208",
-    "CG:86761f068a9f",
-    "CG:72b0a5a09483",
-    "CG:5b9f6cc3afa7",
-    "CG:c2703bc1d1c9",
-    "CG:b48c5937b736",
-    "CG:7a4a15fa6658",
-    "CG:57e4e8031160",
-    "CG:da251ff5a7c9",
-    "CG:f96efe31f8cb",
-    "CG:440c6d2366bc",
-    "CG:e4e7e53759ae",
-    "CG:81e4942e89b2",
-    "CG:9583ce259776",
-    "CG:c81503986792",
-    "CG:87c3a6540940",
-    "CG:da5b5e260714",
-    "CG:47e18f7a1e7c",
-    "CG:2d37e85182fa",
     "CG:7e2f516498d1",
-    "CG:1dd27f1dd842",
+    "CG:7f38504cdb2f",
+    "CG:4c5b04d34f2d",
+    "CG:89dd627a3962",
+    "CG:53abb3269184",
+    "CG:89614fee54d3",
+    "CG:57e4e8031160",
+    "CG:be8aa90d1208",
+    "CG:b7d4cca68f2e",
+    "CG:d398b362bfb9",
+    "CG:c3c0eaff05ce",
+    "CG:7a4a15fa6658",
     "CG:2ec559e338c2",
-    "CG:25a995aa602c",
-    "CG:c811f609431f",
-    "CG:687e479568c0",
-    "CG:4223f2a597e7",
-    "CG:94d6ddf22627",
-    "CG:f4c43a969a06",
-    "CG:341d98940fa7",
+    "CG:a7120e59a04a",
+    "CG:e4e7e53759ae",
     "CG:7d4d132ecfff",
+    "CG:835cdb3db077",
+    "CG:2d37e85182fa",
+    "CG:341d98940fa7",
+    "CG:d3ca110abb6a",
+    "CG:c81503986792",
+    "CG:3fe14d36df41",
+    "CG:d45a3c299e93",
+    "CG:f4c43a969a06",
+    "CG:b64b3ebdc607",
+    "CG:9147698308f4",
+    "CG:81e4942e89b2",
+    "CG:03c4d075a876",
+    "CG:4223f2a597e7",
+    "CG:87c3a6540940",
+    "CG:94d6ddf22627",
+    "CG:72b0a5a09483",
+    "CG:c811f609431f",
+    "CG:c2703bc1d1c9",
+    "CG:86761f068a9f",
     "CG:dfb04f736e3c",
+    "CG:3f105526fc17",
+    "CG:dfb1a5686e3a",
+    "CG:2f6b3b9f1349",
+    "CG:ddb6af1860af",
+    "CG:623458a38754",
+    "CG:f96efe31f8cb",
+    "CG:1dd27f1dd842",
+    "CG:47e18f7a1e7c",
+    "CG:440c6d2366bc",
+    "CG:a6c70a057195",
+    "CG:e44d6b99b4eb",
+    "CG:c08c29df1fc8",
+    "CG:b01c47697f4c",
+    "CG:8a88f9db6c5d",
+    "CG:da5b5e260714",
+    "CG:c7ae00c3f1ce",
+    "CG:49fb17f05d15",
+    "CG:1c8b3cfdd05f",
+    "CG:9583ce259776",
+    "CG:b48c5937b736",
     "CG:123c45026acd",
-    "CG:8a88f9db6c5d"
+    "CG:30696229f812",
+    "CG:f6f0b536ccb0",
+    "CG:dca988889b4b",
+    "CG:5b9f6cc3afa7",
+    "CG:303b2bf252e9",
+    "CG:8e90dba0e4d6",
+    "CG:da251ff5a7c9",
+    "CG:2c8c403a2b59",
+    "CG:2c510f73fe0e",
+    "CG:5843e9b40a40",
+    "CG:e207472d77eb",
+    "CG:8cae50c59af0",
+    "CG:25a995aa602c",
+    "CG:687e479568c0"
    ],
    "count": 72
   },
   "UK": {
    "name": "Uttarakhand",
    "url": "https://meta-secure.com/HNBUMU_MDMS",
-   "last_checked": "2026-11-13T09:30:59+00:00",
+   "last_checked": "2026-11-13T09:38:05+00:00",
    "order": 22,
    "error": null,
-   "last_ok": "2026-11-13T09:30:59+00:00",
+   "last_ok": "2026-11-13T09:38:05+00:00",
    "fails": 0,
    "initialized": true,
    "seen": [
-    "UK:2ea24003868e",
-    "UK:218eef7848c5",
     "UK:8acceb57176c",
-    "UK:f3b379772d85",
-    "UK:1e19111b232c",
-    "UK:ac441219df38",
+    "UK:a51f69e2df85",
     "UK:1da12014c82d",
+    "UK:7de8c168f782",
+    "UK:218eef7848c5",
+    "UK:58037c712e24",
+    "UK:2ea24003868e",
+    "UK:1e19111b232c",
+    "UK:cf23b6d0c333",
+    "UK:cb9a90b6db78",
+    "UK:552ba7707910",
+    "UK:4e5495971f43",
+    "UK:f3b379772d85",
+    "UK:ec1dcbf88134",
+    "UK:ac441219df38",
+    "UK:25fb4493f22d",
     "UK:38041830d926",
     "UK:64e8be61498e",
-    "UK:7de8c168f782",
-    "UK:a51f69e2df85",
-    "UK:4e5495971f43",
-    "UK:231bc0121317",
-    "UK:58037c712e24",
-    "UK:cb9a90b6db78",
     "UK:52a6df10a241",
-    "UK:cf23b6d0c333",
-    "UK:552ba7707910",
-    "UK:25fb4493f22d",
-    "UK:ec1dcbf88134"
+    "UK:231bc0121317"
    ],
    "count": 13
+  },
+  "MZ": {
+   "name": "Mizoram (NEIGRIHMS)",
+   "url": "https://neigrihms.gov.in/examsnotification.html",
+   "last_checked": "2026-11-13T09:38:05+00:00",
+   "order": 27,
+   "error": null,
+   "last_ok": "2026-11-13T09:38:05+00:00",
+   "fails": 0,
+   "initialized": true,
+   "seen": [
+    "MZ:26416a2a3a06",
+    "MZ:542f1bb07a7b",
+    "MZ:2aae42d7d3f7",
+    "MZ:2d0eb16ad030",
+    "MZ:b69f4b8fb02d",
+    "MZ:43525f1f1d2c",
+    "MZ:71d7329e9271",
+    "MZ:e0da5fe2714d",
+    "MZ:e93d18b985e1",
+    "MZ:29400f930c8c",
+    "MZ:9215baf6c441",
+    "MZ:76a1a53466b0",
+    "MZ:2f793c823633",
+    "MZ:982bf27d20d9",
+    "MZ:9fb81dac4e60",
+    "MZ:47c38fdaa6f0",
+    "MZ:ceac120cbd88",
+    "MZ:b526d452a632",
+    "MZ:a43e1b4bea7d",
+    "MZ:b01460be3303",
+    "MZ:8b7e2cb1714c",
+    "MZ:9dc12234d7a9",
+    "MZ:25bc364c9e34",
+    "MZ:70056bc820c7",
+    "MZ:962932d9a434",
+    "MZ:6a0cb9205581",
+    "MZ:4b5e870d143a",
+    "MZ:db56385bc1fb"
+   ],
+   "count": 28
+  },
+  "MN": {
+   "name": "Manipur",
+   "url": "https://manipurhealthdirectorate.mn.gov.in/news/585",
+   "last_checked": "2026-11-13T09:38:05+00:00",
+   "order": 26,
+   "error": null,
+   "last_ok": "2026-11-13T09:38:05+00:00",
+   "fails": 0,
+   "initialized": true,
+   "seen": [
+    "MN:777d08e3672d",
+    "MN:7b4131215304",
+    "MN:5889edea87cf",
+    "MN:cf8ebbafb858",
+    "MN:3f1cc1740e19",
+    "MN:d6128edab7fe",
+    "MN:d7342e642a32",
+    "MN:af823eff94a9",
+    "MN:5fe9cd29d1ed",
+    "MN:536c9ec01f75",
+    "MN:66e03c9b72ab",
+    "MN:3f89bf3a38be",
+    "MN:1f75791ddc6e",
+    "MN:8d7c78608a57",
+    "MN:a6b21ce99f5a",
+    "MN:ef5d4b2e6240",
+    "MN:cb214027c8e6",
+    "MN:9d8802b8a207"
+   ],
+   "count": 18
+  },
+  "OD": {
+   "name": "Odisha",
+   "url": "https://dmetodisha.in/PGMCC_Static/MEDICAL%20COUNSELLING%201/Notifications.html",
+   "last_checked": "2026-11-13T09:38:05+00:00",
+   "order": 23,
+   "error": null,
+   "last_ok": "2026-11-13T09:38:05+00:00",
+   "fails": 0,
+   "initialized": true,
+   "seen": [
+    "OD:5961c3967e00",
+    "OD:a809ec345622",
+    "OD:be51782647ee",
+    "OD:26bad65465cf",
+    "OD:32e859b90ded",
+    "OD:ab6ab366cec3",
+    "OD:ba8e60db06ba",
+    "OD:696381d1b954",
+    "OD:2c264991ca38",
+    "OD:2d7d6cf5eabc",
+    "OD:4a7d937308a3",
+    "OD:1bc6dc6af251",
+    "OD:bc9deb8ce45e",
+    "OD:a2b82427d5ac",
+    "OD:4ce0cf3941df",
+    "OD:87182f269c1b",
+    "OD:58b080a9c97d",
+    "OD:9f80f3dfc7e1",
+    "OD:fb21e38d706e",
+    "OD:a148f19c3bee",
+    "OD:d086e2553604",
+    "OD:d1b6d55ab5b8",
+    "OD:a3b88404898a",
+    "OD:16ce82c15d70",
+    "OD:27f7450411ac",
+    "OD:929bd27ddaa3",
+    "OD:1075fc56711a",
+    "OD:4d5642bb45c1",
+    "OD:1b4646b88dee"
+   ],
+   "count": 29
+  },
+  "RJ": {
+   "name": "Rajasthan",
+   "url": "https://pg.neetrajasthan.com/home",
+   "last_checked": "2026-11-13T09:38:05+00:00",
+   "order": 24,
+   "error": null,
+   "last_ok": "2026-11-13T09:38:05+00:00",
+   "fails": 0,
+   "initialized": true,
+   "seen": [
+    "RJ:9d3ac4447483",
+    "RJ:17f1a7726eee",
+    "RJ:5106a6cdbc0f",
+    "RJ:90769817b04d",
+    "RJ:b3f06696bc4a",
+    "RJ:c8d34d0da493",
+    "RJ:fe6a7fe2f07b",
+    "RJ:b5f71cce4604",
+    "RJ:fabcdd993c1c",
+    "RJ:29447972e9c3",
+    "RJ:d4afdda0b857",
+    "RJ:f6a7b67f7716",
+    "RJ:d42f923eb019"
+   ],
+   "count": 12
+  },
+  "JH": {
+   "name": "Jharkhand",
+   "url": "https://neetpgcet.jceceb.co.in/Public/Home",
+   "last_checked": "2026-11-13T09:38:05+00:00",
+   "order": 25,
+   "error": null,
+   "last_ok": "2026-11-13T09:38:05+00:00",
+   "fails": 0,
+   "initialized": true,
+   "seen": [
+    "JH:1e723f0d5a2b",
+    "JH:5d892b16ab44",
+    "JH:0203ee68430b",
+    "JH:071e41698027",
+    "JH:488c2662a4f5",
+    "JH:0fc2cdd42f2f",
+    "JH:d4414f034845",
+    "JH:fb313fc619b6"
+   ],
+   "count": 8
+  },
+  "HP": {
+   "name": "Himachal Pradesh",
+   "url": "https://amruhp.ac.in/home-general-notifications/",
+   "last_checked": "2026-11-13T09:38:05+00:00",
+   "order": 28,
+   "error": null,
+   "last_ok": "2026-11-13T09:38:05+00:00",
+   "fails": 0,
+   "initialized": true,
+   "seen": [
+    "HP:11917c6fa19b",
+    "HP:6192c8b5aa41",
+    "HP:24a57a388690",
+    "HP:208b8126204f",
+    "HP:818c468ba183",
+    "HP:a83c9ea642c4",
+    "HP:debab7b2b0c8",
+    "HP:4aa70acb8bed",
+    "HP:cb6394832bf1",
+    "HP:a0943d1470a7",
+    "HP:0d4b1ed52936",
+    "HP:68f16a8f1f92",
+    "HP:ae1f2fe8413a",
+    "HP:af838e0284ab",
+    "HP:665483cee56b",
+    "HP:127979d59d33",
+    "HP:fb13c5c4a3f5",
+    "HP:abbceafa1950",
+    "HP:afb7366f1acb",
+    "HP:2ef968e7a7fb",
+    "HP:3add37c5ea13",
+    "HP:17709c801cd8",
+    "HP:d976ce782cb6",
+    "HP:041c6f9390c1",
+    "HP:e3271cf278cb",
+    "HP:169a258997a8",
+    "HP:cd7aa2dffbcc",
+    "HP:989adcdfaab0",
+    "HP:898d83610f73",
+    "HP:b3af3cae6c9e",
+    "HP:7c7bc46b057d",
+    "HP:a92236a46e3c",
+    "HP:2ed6a02a3f6c",
+    "HP:9d7cf8fc942c",
+    "HP:4a94e5a202d9",
+    "HP:840f879e4347",
+    "HP:ae140b7fc1c0",
+    "HP:fd957b0fef00",
+    "HP:d656bbb6d3d3",
+    "HP:dbe76fa76aca",
+    "HP:676ec67843fc",
+    "HP:70685cde4f33",
+    "HP:a876ce8e9963",
+    "HP:afcce2f19b12",
+    "HP:1d6a2a326aee",
+    "HP:ba40d0a1b65e",
+    "HP:4cce794a13cf",
+    "HP:3d13914a677b",
+    "HP:3abab7d5225a",
+    "HP:24127b91e5a6",
+    "HP:02ed7d5f7c93",
+    "HP:f524f0f74eec",
+    "HP:0cf59cf6cb09",
+    "HP:ed361c51d9e9",
+    "HP:110c10a1f49f",
+    "HP:8872547aab87",
+    "HP:e3f532d001e3",
+    "HP:3951dd7f17c1",
+    "HP:0b968b567fd0",
+    "HP:5677a5259b02",
+    "HP:4f14201b8caf",
+    "HP:0ddb3eeef5a8",
+    "HP:ce93ec222973",
+    "HP:8ee6c898176c",
+    "HP:a64d0119c6cb",
+    "HP:caf49d91fba3",
+    "HP:889a47e2e5f8",
+    "HP:fdeacf5581f0",
+    "HP:9b0dba3f7274",
+    "HP:86920b35b112",
+    "HP:6037f2aab3ca",
+    "HP:6114d04afcbc",
+    "HP:86a03eff31ca",
+    "HP:b7bd1b15c17b",
+    "HP:a44849e6a554",
+    "HP:87403b23f6f3",
+    "HP:2c82facd8aa0",
+    "HP:e2d627933b3b",
+    "HP:13a2f51b7f35",
+    "HP:c0787e88d1b6",
+    "HP:31f5b5b0724c",
+    "HP:d5e38e80b6e5",
+    "HP:dcd825de2033",
+    "HP:973b6a1fa0bb",
+    "HP:812ca16ba5c4",
+    "HP:05a8750abf2e",
+    "HP:07c4c5c92ac4",
+    "HP:d665d135765b"
+   ],
+   "count": 88
+  },
+  "GA": {
+   "name": "Goa",
+   "url": "https://dte.goa.gov.in/",
+   "last_checked": "2026-11-13T09:38:05+00:00",
+   "order": 29,
+   "error": null,
+   "last_ok": "2026-11-13T09:38:05+00:00",
+   "fails": 0,
+   "initialized": true,
+   "seen": [
+    "GA:0933ae116003",
+    "GA:5af1d50e973e",
+    "GA:7795c4f857bf",
+    "GA:305a84a98452",
+    "GA:c33bfa911484",
+    "GA:7c02727a70c9",
+    "GA:4ab605f9e07a"
+   ],
+   "count": 7
   }
  },
  "notices": [
@@ -1394,7 +1684,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 117,
+   "rank": 118,
    "source": "BR HOME",
    "id": "BR HOME:a0aae240e44a",
    "first_seen": "2026-10-20T11:45:39",
@@ -1411,7 +1701,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 119,
+   "rank": 120,
    "source": "BR HOME",
    "id": "BR HOME:efdff8f1c3f0",
    "first_seen": "2026-10-20T11:45:39",
@@ -1428,7 +1718,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 120,
+   "rank": 121,
    "source": "BR HOME",
    "id": "BR HOME:538d61eb683d",
    "first_seen": "2026-10-20T11:45:39",
@@ -1445,7 +1735,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 121,
+   "rank": 122,
    "source": "BR HOME",
    "id": "BR HOME:0a6bf9a94759",
    "first_seen": "2026-10-20T11:45:39",
@@ -1462,7 +1752,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 127,
+   "rank": 128,
    "source": "BR HOME",
    "id": "BR HOME:fd142f66bca1",
    "first_seen": "2026-10-20T11:45:39",
@@ -1479,7 +1769,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 144,
+   "rank": 145,
    "source": "BR HOME",
    "id": "BR HOME:19dfdc4c2aa7",
    "first_seen": "2026-10-20T11:45:39",
@@ -1496,7 +1786,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 145,
+   "rank": 146,
    "source": "BR HOME",
    "id": "BR HOME:b4532cbf8da1",
    "first_seen": "2026-10-20T11:45:39",
@@ -1513,7 +1803,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 146,
+   "rank": 147,
    "source": "BR HOME",
    "id": "BR HOME:7d2db4aade1d",
    "first_seen": "2026-10-20T11:45:39",
@@ -1530,7 +1820,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 156,
+   "rank": 157,
    "source": "BR HOME",
    "id": "BR HOME:45505b4058a0",
    "first_seen": "2026-10-20T11:45:39",
@@ -1547,7 +1837,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 159,
+   "rank": 160,
    "source": "BR HOME",
    "id": "BR HOME:f9d89e84cd39",
    "first_seen": "2026-10-20T11:45:39",
@@ -1564,7 +1854,7 @@
    ],
    "date": "2026-10-18",
    "date_src": "page",
-   "rank": 250,
+   "rank": 251,
    "source": "BR HOME",
    "id": "BR HOME:79cde03f154f",
    "first_seen": "2026-10-20T11:45:39",
@@ -1581,7 +1871,7 @@
    ],
    "date": "2026-10-18",
    "date_src": "page",
-   "rank": 251,
+   "rank": 252,
    "source": "BR HOME",
    "id": "BR HOME:ff0b8cf4d998",
    "first_seen": "2026-10-20T11:45:39",
@@ -1598,7 +1888,7 @@
    ],
    "date": "2026-10-02",
    "date_src": "page",
-   "rank": 257,
+   "rank": 258,
    "source": "BR HOME",
    "id": "BR HOME:9073d0e8dec7",
    "first_seen": "2026-10-20T11:45:39",
@@ -1615,7 +1905,7 @@
    ],
    "date": "2026-10-02",
    "date_src": "page",
-   "rank": 258,
+   "rank": 259,
    "source": "BR HOME",
    "id": "BR HOME:e365ba1c3111",
    "first_seen": "2026-10-20T11:45:39",
@@ -1632,7 +1922,7 @@
    ],
    "date": "2026-09-14",
    "date_src": "page",
-   "rank": 272,
+   "rank": 273,
    "source": "BR HOME",
    "id": "BR HOME:a81f4d602e7c",
    "first_seen": "2026-10-20T11:45:39",
@@ -1649,7 +1939,7 @@
    ],
    "date": "2026-08-18",
    "date_src": "page",
-   "rank": 300,
+   "rank": 301,
    "source": "BR HOME",
    "id": "BR HOME:1db910ae044b",
    "first_seen": "2026-10-20T11:45:39",
@@ -1666,7 +1956,7 @@
    ],
    "date": "2026-08-18",
    "date_src": "page",
-   "rank": 301,
+   "rank": 302,
    "source": "BR HOME",
    "id": "BR HOME:43cf67cd0938",
    "first_seen": "2026-10-20T11:45:39",
@@ -1683,7 +1973,7 @@
    ],
    "date": "2026-07-22",
    "date_src": "page",
-   "rank": 320,
+   "rank": 321,
    "source": "BR HOME",
    "id": "BR HOME:b31934ae4ada",
    "first_seen": "2026-10-20T11:45:39",
@@ -1700,7 +1990,7 @@
    ],
    "date": "2026-07-22",
    "date_src": "page",
-   "rank": 321,
+   "rank": 322,
    "source": "BR HOME",
    "id": "BR HOME:991de576d1ba",
    "first_seen": "2026-10-20T11:45:39",
@@ -1717,7 +2007,7 @@
    ],
    "date": "2026-07-07",
    "date_src": "page",
-   "rank": 329,
+   "rank": 330,
    "source": "BR HOME",
    "id": "BR HOME:31b145e7d22e",
    "first_seen": "2026-10-20T11:45:39",
@@ -1734,7 +2024,7 @@
    ],
    "date": "2026-07-07",
    "date_src": "page",
-   "rank": 330,
+   "rank": 331,
    "source": "BR HOME",
    "id": "BR HOME:eb4bf8483ee9",
    "first_seen": "2026-10-20T11:45:39",
@@ -3949,7 +4239,7 @@
    ],
    "date": "2026-10-16",
    "date_src": "page",
-   "rank": 17,
+   "rank": 20,
    "source": "AR",
    "id": "AR:e7cff5f6670b",
    "first_seen": "2026-10-20T11:45:39",
@@ -5186,26 +5476,6 @@
     {
      "label": "– Information Bulletin",
      "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/2026101495338605.pdf"
-    },
-    {
-     "label": "– Participating Institutes",
-     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610311288071097.pdf"
-    },
-    {
-     "label": "– User Manual (Candidate Registration)",
-     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610221404384510.pdf"
-    },
-    {
-     "label": "– User Manual (Choice Filling)",
-     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610301103139553.pdf"
-    },
-    {
-     "label": "– Revised Seat Matrix Round-1",
-     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610311281553132.pdf"
-    },
-    {
-     "label": "– Seat Allotment Result Round-1",
-     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/11/202611041797935242.pdf"
     }
    ],
    "date": "2026-10-14",
@@ -8808,7 +9078,7 @@
    ],
    "date": "2026-10-22",
    "date_src": "file",
-   "rank": 107,
+   "rank": 108,
    "source": "BR HOME",
    "id": "BR HOME:c9ebdaf38211",
    "first_seen": "2026-10-24T09:47:13+00:00",
@@ -8825,7 +9095,7 @@
    ],
    "date": "2026-10-23",
    "date_src": "page",
-   "rank": 244,
+   "rank": 245,
    "source": "BR HOME",
    "id": "BR HOME:2db4bea0889e",
    "first_seen": "2026-10-24T09:47:13+00:00",
@@ -8842,7 +9112,7 @@
    ],
    "date": "2026-10-23",
    "date_src": "page",
-   "rank": 245,
+   "rank": 246,
    "source": "BR HOME",
    "id": "BR HOME:4d54f807679b",
    "first_seen": "2026-10-24T09:47:13+00:00",
@@ -10286,7 +10556,7 @@
    ],
    "date": "2026-10-28",
    "date_src": "file",
-   "rank": 104,
+   "rank": 105,
    "source": "BR HOME",
    "id": "BR HOME:5dfd4252fd3c",
    "first_seen": "2026-10-28T07:50:39+00:00",
@@ -10303,7 +10573,7 @@
    ],
    "date": "2026-10-28",
    "date_src": "file",
-   "rank": 105,
+   "rank": 106,
    "source": "BR HOME",
    "id": "BR HOME:850cabb102ef",
    "first_seen": "2026-10-28T07:50:39+00:00",
@@ -11977,7 +12247,7 @@
    ],
    "date": "2026-11-01",
    "date_src": "page",
-   "rank": 237,
+   "rank": 238,
    "source": "BR HOME",
    "id": "BR HOME:a946b1b295ee",
    "first_seen": "2026-11-01T13:10:35+00:00",
@@ -12117,7 +12387,7 @@
    ],
    "date": "2026-11-02",
    "date_src": "page",
-   "rank": 235,
+   "rank": 236,
    "source": "BR HOME",
    "id": "BR HOME:cb510f15d883",
    "first_seen": "2026-11-02T09:01:26+00:00",
@@ -13621,7 +13891,7 @@
    ],
    "date": "2026-11-06",
    "date_src": "file",
-   "rank": 98,
+   "rank": 99,
    "source": "BR HOME",
    "id": "BR HOME:ec236df5967e",
    "first_seen": "2026-11-06T08:01:19+00:00",
@@ -13638,7 +13908,7 @@
    ],
    "date": "2026-11-06",
    "date_src": "file",
-   "rank": 99,
+   "rank": 100,
    "source": "BR HOME",
    "id": "BR HOME:cc3900161005",
    "first_seen": "2026-11-06T08:01:19+00:00",
@@ -14114,7 +14384,7 @@
    ],
    "date": "2026-11-09",
    "date_src": "page",
-   "rank": 14,
+   "rank": 17,
    "source": "AR",
    "id": "AR:52d1703ca346",
    "first_seen": "2026-11-09T10:40:38+00:00",
@@ -14233,7 +14503,7 @@
    ],
    "date": null,
    "date_src": null,
-   "rank": 68,
+   "rank": 69,
    "source": "BR HOME",
    "id": "BR HOME:e9baea00f92c",
    "first_seen": "2026-11-10T07:31:00+00:00",
@@ -14726,7 +14996,7 @@
    ],
    "date": "2026-11-12",
    "date_src": "file",
-   "rank": 91,
+   "rank": 92,
    "source": "BR HOME",
    "id": "BR HOME:27cda1c9bb45",
    "first_seen": "2026-11-12T08:40:34+00:00",
@@ -14743,7 +15013,7 @@
    ],
    "date": "2026-11-12",
    "date_src": "file",
-   "rank": 92,
+   "rank": 93,
    "source": "BR HOME",
    "id": "BR HOME:ce114eb0028e",
    "first_seen": "2026-11-12T08:40:34+00:00",
@@ -15074,6 +15344,146 @@
    "tag": "Merit / Rank List"
   },
   {
+   "title": "Provisional Allotment letter on completion of 1st Round Post Graduate (MD/MS) Counselling 2026-27 for North East Open and NEIGRIHMS Pass Out Category seats held on 02.11.2026",
+   "links": [
+    {
+     "label": "Provisional Allotment letter on completion of 1st Round Post Graduate (MD/MS) Counselling 2026-27 for North East Open and NEIGRIHMS Pass Out Category seats held on 02.11.2026",
+     "url": "https://neigrihms.gov.in/Latest News/academics/2026/PG/PG 2026-27/Provisional Allotment Letter 1st round 2026-27_0001 (1).pdf"
+    }
+   ],
+   "date": "2026-11-02",
+   "date_src": "page",
+   "rank": 3,
+   "source": "MZ",
+   "id": "MZ:982bf27d20d9",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "List of Candidates applying for Post Graduate (MDMS) Online Admission under North East Open Category and NEIGRIHMS Alumni for the Session 2026-2027",
+   "links": [
+    {
+     "label": "List of Candidates applying for Post Graduate (MDMS) Online Admission under North East Open Category and NEIGRIHMS Alumni for the Session 2026-2027",
+     "url": "https://neigrihms.gov.in/Latest News/academics/2026/PG/PG 2026-27/List of Candidates who applied for the Post Graduate (MDMS) Online Admission under North East Open Category and NEIGRIHMS Alumni for the Session 2026-2027.pdf"
+    }
+   ],
+   "date": "2026-10-21",
+   "date_src": "page",
+   "rank": 5,
+   "source": "MZ",
+   "id": "MZ:e0da5fe2714d",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Prospectus for Counseling and admission to the PG (MD/MS) COURSE 2026-27",
+   "links": [
+    {
+     "label": "Prospectus for Counseling and admission to the PG (MD/MS) COURSE 2026-27",
+     "url": "https://neigrihms.gov.in/Latest News/academics/2026/PG/PG 2026-27/Prospectus PG MD MS 2026-2027.pdf"
+    },
+    {
+     "label": "Link for online application",
+     "url": "https://megedistrict.gov.in/directApply.do?serviceId=1382"
+    }
+   ],
+   "date": "2026-09-28",
+   "date_src": "page",
+   "rank": 8,
+   "source": "MZ",
+   "id": "MZ:ceac120cbd88",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
+  },
+  {
+   "title": "Notice for admission into 3rd Counselling PG (MD,MS) Course",
+   "links": [
+    {
+     "label": "Notice for admission into 3rd Counselling PG (MD,MS) Course",
+     "url": "https://neigrihms.gov.in/Latest News/academics/2024-25/PG (MD-MS)/Notice for admission into 3rd Counselling PG (MD,MS) Course.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 67,
+   "source": "MZ",
+   "id": "MZ:b69f4b8fb02d",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "NOTICE Provisional allotment of PG (MDMS) Seats on completion of 3rd Round NEIGRIHMS Counselling",
+   "links": [
+    {
+     "label": "NOTICE Provisional allotment of PG (MDMS) Seats on completion of 3rd Round NEIGRIHMS Counselling",
+     "url": "https://neigrihms.gov.in/Latest News/academics/2023-24/PG/NOTICE Provisional allotment of PG (MDMS) Seats on completion of 3rd Round NEIGRIHMS Counselling.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 102,
+   "source": "MZ",
+   "id": "MZ:76a1a53466b0",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Extension of Last date for submission of application for PG (MD/MS)",
+   "links": [
+    {
+     "label": "Extension of Last date for submission of application for PG (MD/MS)",
+     "url": "https://neigrihms.gov.in/Latest News/academics/2023-24/PG/PG MD_MS extended.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 133,
+   "source": "MZ",
+   "id": "MZ:b526d452a632",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Notice for Special Stray Vacancy Round Counselling for PG",
+   "links": [
+    {
+     "label": "Notice for Special Stray Vacancy Round Counselling for PG",
+     "url": "https://neigrihms.gov.in/Latest News/academics/2022-23/PG MD-MS 2022-23/Notice for Special Stray Vacancy Round Counselling for PG.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 138,
+   "source": "MZ",
+   "id": "MZ:4b5e870d143a",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "KNRUHS - MEDICAL PG DEGREE DIPLOMA ADMISSIONS UNDER COMPETENT AUTHORITY QUOTA FOR THE AY 2026-27 - SEAT MATRIX - NON MINORITY NON SERVICE NON CLINICAL",
+   "links": [
+    {
+     "label": "View Document",
+     "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20261113084354_KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-SEAT-MATRIX-NON-MINORITY-NON-SERVICE-NON-CLINICAL.pdf"
+    }
+   ],
+   "date": "2026-11-13",
+   "date_src": "page",
+   "rank": 1,
+   "source": "TG",
+   "id": "TG:0939b042c156",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": false,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
    "title": "KNRUHS - MEDICAL PG DEGREE DIPLOMA ADMISSIONS UNDER COMPETENT AUTHORITY QUOTA FOR THE AY 2026-27 - SEAT MATRIX - NON MINORITY SERVICE NON CLINICAL",
    "links": [
     {
@@ -15086,7 +15496,7 @@
    "rank": 2,
    "source": "TG",
    "id": "TG:5c0a6c258a2e",
-   "first_seen": "2026-11-13T08:40:34+00:00",
+   "first_seen": "2026-11-13T08:47:13+00:00",
    "baseline": false,
    "tag": "Seat Matrix / Vacancy"
   },
@@ -15103,7 +15513,7 @@
    "rank": 3,
    "source": "TG",
    "id": "TG:fbb5a43dcfd8",
-   "first_seen": "2026-11-13T08:40:34+00:00",
+   "first_seen": "2026-11-13T08:47:13+00:00",
    "baseline": false,
    "tag": "Seat Matrix / Vacancy"
   },
@@ -15120,7 +15530,7 @@
    "rank": 4,
    "source": "TG",
    "id": "TG:3b3486b66427",
-   "first_seen": "2026-11-13T08:40:34+00:00",
+   "first_seen": "2026-11-13T08:47:13+00:00",
    "baseline": false,
    "tag": "Seat Matrix / Vacancy"
   },
@@ -15137,7 +15547,7 @@
    "rank": 5,
    "source": "TG",
    "id": "TG:fd4a2d0f9423",
-   "first_seen": "2026-11-13T08:40:34+00:00",
+   "first_seen": "2026-11-13T08:47:13+00:00",
    "baseline": false,
    "tag": "Seat Matrix / Vacancy"
   },
@@ -15154,42 +15564,2490 @@
    "rank": 6,
    "source": "TG",
    "id": "TG:ddf97cdd3227",
-   "first_seen": "2026-11-13T08:40:34+00:00",
+   "first_seen": "2026-11-13T08:47:13+00:00",
    "baseline": false,
    "tag": "Seat Matrix / Vacancy"
   },
   {
-   "title": "KNRUHS - MEDICAL PG DEGREE DIPLOMA ADMISSIONS UNDER COMPETENT AUTHORITY QUOTA FOR THE AY 2026-27 - SEAT MATRIX - NON MINORITY NON SERVICE NON CLINICAL",
+   "title": "Corrigendum regarding the revised seat matrix for RIMS, Imphal for round-1 of State-Level Medical PG Counselling",
    "links": [
     {
-     "label": "View Document",
-     "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20261113084354_KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-SEAT-MATRIX-NON-MINORITY-NON-SERVICE-NON-CLINICAL.pdf"
+     "label": "Corrigendum regarding the revised seat matrix for RIMS, Imphal for round-1 of State-Level Medical PG Counselling...",
+     "url": "https://manipurhealthdirectorate.mn.gov.in/news/588"
     }
    ],
-   "date": "2026-11-13",
-   "date_src": "page",
-   "rank": 1,
-   "source": "TG",
-   "id": "TG:0939b042c156",
-   "first_seen": "2026-11-13T08:50:35+00:00",
-   "baseline": false,
+   "date": null,
+   "date_src": null,
+   "rank": 8,
+   "source": "MN",
+   "id": "MN:9d8802b8a207",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Round 1 of State Level Medical PG Counselling 2026",
+   "links": [
+    {
+     "label": "Round 1 of State Level Medical PG Counselling 2026",
+     "url": "https://manipurhealthdirectorate.mn.gov.in/news/586"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 10,
+   "source": "MN",
+   "id": "MN:3f89bf3a38be",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "NEET PG 2026 Notification",
+   "links": [
+    {
+     "label": "NEET PG 2026 Notification",
+     "url": "https://manipurhealthdirectorate.mn.gov.in/news/585"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 11,
+   "source": "MN",
+   "id": "MN:5fe9cd29d1ed",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Memorandum inviting applications from in service NEET MDS 2026 qualified candidates",
+   "links": [
+    {
+     "label": "Memorandum inviting applications from in service NEET MDS 2026 qualified candidates",
+     "url": "https://manipurhealthdirectorate.mn.gov.in/uploads/news/2026/09/07/Memo_inviting_applications_from_in_service_NEET_MDS_2026_qualified_candidates.pdf"
+    }
+   ],
+   "date": "2026-09-07",
+   "date_src": "url",
+   "rank": 36,
+   "source": "MN",
+   "id": "MN:3f1cc1740e19",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "Applications are invited for deputation/sponsorship/nomination against the State reserved seats of Manipur for admission to postgraduate courses at LGBRIMH",
+   "links": [
+    {
+     "label": "Applications are invited for deputation/sponsorship/nomination against the State reserved seats of Manipur for admission to postgraduate courses at LGBRIMH.",
+     "url": "https://manipurhealthdirectorate.mn.gov.in/news/543"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 53,
+   "source": "MN",
+   "id": "MN:a6b21ce99f5a",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
    "tag": "Seat Matrix / Vacancy"
   },
   {
-   "title": "NOTICE : ROUND 1 PROVISIONAL ALLOTMENT LIST FOR PG MEDICAL (M.D./M.S.) COURSES - 2026-2027",
+   "title": "Information Bulletin",
    "links": [
     {
-     "label": "[13-11-2026] - NOTICE : ROUND 1 PROVISIONAL ALLOTMENT LIST FOR PG MEDICAL (M.D./M.S.) COURSES - 2026-2027",
-     "url": "https://drive.google.com/file/d/1IzA8oRixWxKF4P56MN4BRRia610kTpaU/view?usp=sharing"
+     "label": "Information Bulletin",
+     "url": "https://dmetodisha.in/PGMCC_Static/MEDICAL%20COUNSELLING%201/Information Bulletin.html"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 0,
+   "source": "OD",
+   "id": "OD:58b080a9c97d",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
+  },
+  {
+   "title": "Annexure-A (Format for Service Particulars) for In-Service Candidates",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/FORMAT OF SERVICE CERTIFICATE-ANNEXURE-A_09_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "page",
+   "rank": 3,
+   "source": "OD",
+   "id": "OD:d086e2553604",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Tentative Counseliing Schedule-Online Application / Doc Verification",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Tentative Schedule _09_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-09",
+   "date_src": "page",
+   "rank": 4,
+   "source": "OD",
+   "id": "OD:32e859b90ded",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "To claim for inclusion of Name (For State Quota) if not able to Register",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/32-Notice_to_Claim_State_Quota.pdf"
+    }
+   ],
+   "date": "2026-10-10",
+   "date_src": "page",
+   "rank": 5,
+   "source": "OD",
+   "id": "OD:ba8e60db06ba",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Guidelines for valid documents for State Quota Candidates",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/35-Guidelines for valid document.pdf"
+    }
+   ],
+   "date": "2026-10-10",
+   "date_src": "page",
+   "rank": 6,
+   "source": "OD",
+   "id": "OD:be51782647ee",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Documents / Verification"
+  },
+  {
+   "title": "List of Authorised Hospitals for Verification of PwD Candidates",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/List of Primary Medical Assessment Boards for PwD.pdf"
+    }
+   ],
+   "date": "2026-10-10",
+   "date_src": "page",
+   "rank": 7,
+   "source": "OD",
+   "id": "OD:87182f269c1b",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Documents / Verification"
+  },
+  {
+   "title": "Fee Structure for DRIEMS Medical College for 2026",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/PG Fee Structure 2026-27 DRIEMS Medical College.pdf"
+    }
+   ],
+   "date": "2026-10-10",
+   "date_src": "page",
+   "rank": 8,
+   "source": "OD",
+   "id": "OD:696381d1b954",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Fees / Refund"
+  },
+  {
+   "title": "Revised guidelines for valid documents for State Quota Candidates",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/35-Revised Guidelines for valid document.pdf"
+    }
+   ],
+   "date": "2026-10-11",
+   "date_src": "page",
+   "rank": 9,
+   "source": "OD",
+   "id": "OD:4ce0cf3941df",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Notice for date wise document verification",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/36-Notice for Date wise document verification.pdf"
+    }
+   ],
+   "date": "2026-10-11",
+   "date_src": "page",
+   "rank": 10,
+   "source": "OD",
+   "id": "OD:27f7450411ac",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Documents / Verification"
+  },
+  {
+   "title": "Fresh (Revised) Notice for date wise document verification for those who have not verified their documents *Those who have already verified should not come",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/REVISED NOTICE FOR DOCUMENT VERIFICATION_19_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-19",
+   "date_src": "page",
+   "rank": 11,
+   "source": "OD",
+   "id": "OD:5961c3967e00",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Seat Matrix Round-1 (MD/MS)- PG Medical-2026",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/MD AND MS SEAT MATRIX_26_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-26",
+   "date_src": "page",
+   "rank": 12,
+   "source": "OD",
+   "id": "OD:bc9deb8ce45e",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Seat Matrix Round-1 (Post MBBS-DNB)-2026",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/DNB - SEAT MATRIX_26_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-26",
+   "date_src": "page",
+   "rank": 13,
+   "source": "OD",
+   "id": "OD:26bad65465cf",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Seat Matrix Round-1 (Post MBBS-NBEMS-Diploma)- 2026",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/DIPLOMA SEAT MATEIX_26_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-26",
+   "date_src": "page",
+   "rank": 14,
+   "source": "OD",
+   "id": "OD:2c264991ca38",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Notification for subject eligibility for PwD Candidates",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/SUBJECT ELIGIBILITY FOR PwD CANDIDATES_26_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-26",
+   "date_src": "page",
+   "rank": 15,
+   "source": "OD",
+   "id": "OD:1bc6dc6af251",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Documents / Verification"
+  },
+  {
+   "title": "Schedule for Round-1 Counseling for",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/53-SCHEDULE FOR 1ST ROUND PG (MEDICAL) COUNSELLING 2026-27_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-27",
+   "date_src": "page",
+   "rank": 16,
+   "source": "OD",
+   "id": "OD:1b4646b88dee",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Provisional Merit List Round-1 (MD/MS/DNB/Post MBBS-NBEMS-Diploma)- 2026",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/MERIT LIST DIR_INS_PMN_DIPLOMA_REJECTED_CANDIDATES_PUBLISH_28_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-28",
+   "date_src": "page",
+   "rank": 17,
+   "source": "OD",
+   "id": "OD:4a7d937308a3",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Final Seat Matrix Round-1 (MD/MS)- PG Medical-2026",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Revised MD and MS Seat Matrix_30_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-30",
+   "date_src": "page",
+   "rank": 18,
+   "source": "OD",
+   "id": "OD:929bd27ddaa3",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Final Seat Matrix Round-1 (Post MBBS-DNB)-2026",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Revised DNB Seat Matrix_30_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-30",
+   "date_src": "page",
+   "rank": 19,
+   "source": "OD",
+   "id": "OD:2d7d6cf5eabc",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Final Seat Matrix Round-1 (Post MBBS-NBEMS-Diploma)- 2026",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Revised Diploma Seat Matrix_30_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-30",
+   "date_src": "page",
+   "rank": 20,
+   "source": "OD",
+   "id": "OD:a809ec345622",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Final Merit List Round-1 (MD/MS/DNB/Post MBBS-NBEMS-Diploma)- 2026",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/REVISED FINAL MERIT LIST PUBLISHED_30_10_2026.pdf"
+    }
+   ],
+   "date": "2026-10-30",
+   "date_src": "page",
+   "rank": 21,
+   "source": "OD",
+   "id": "OD:9f80f3dfc7e1",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Revised Final Seat Matrix Round-1 (MD/MS)- PG Medical-2026",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Revised Provisional Seat Matrix 31-10-2026.pdf"
+    }
+   ],
+   "date": "2026-10-31",
+   "date_src": "page",
+   "rank": 22,
+   "source": "OD",
+   "id": "OD:a148f19c3bee",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Information regarding Upgraded Round-1 allotment",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/56- - Information regarding Upgraded Round - 1_03_11_2026.pdf"
+    }
+   ],
+   "date": "2026-11-03",
+   "date_src": "page",
+   "rank": 23,
+   "source": "OD",
+   "id": "OD:a2b82427d5ac",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Bond format to be submitted at the time of admission (MD/MS/DNB/Diploma)",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Modified Bond PG SS_32988 9.12.2021.pdf"
+    }
+   ],
+   "date": "2026-11-03",
+   "date_src": "page",
+   "rank": 24,
+   "source": "OD",
+   "id": "OD:ab6ab366cec3",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Common Allotment of Direct / In-Service Candidates Round-1 (MD/MS/DNB)",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/PG MEDICAL ALLOTMENT 1ST ROUND 2026 _PUBLISH WEB_04_11_2026.pdf"
+    }
+   ],
+   "date": "2026-11-04",
+   "date_src": "page",
+   "rank": 25,
+   "source": "OD",
+   "id": "OD:d1b6d55ab5b8",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Notice for Round-1 Admission/Reporting at Convener Off and Admision Fees",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/69 - Reporting beofore Convenor for 1st Round PG (Medical) Coun_03_11_2024.pdf"
+    }
+   ],
+   "date": "2026-11-04",
+   "date_src": "page",
+   "rank": 26,
+   "source": "OD",
+   "id": "OD:fb21e38d706e",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Fees / Refund"
+  },
+  {
+   "title": "Information regarding Payment of Admission Fees",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/81- INFORMATION REGARDING PAYMENT OF ADMISSION FEES.pdf"
+    }
+   ],
+   "date": "2026-11-04",
+   "date_src": "page",
+   "rank": 27,
+   "source": "OD",
+   "id": "OD:4d5642bb45c1",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Fees / Refund"
+  },
+  {
+   "title": "Tentative Counseliing Schedule- Round-2",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Round 2 tentative schedule_07_11_2026.pdf"
+    }
+   ],
+   "date": "2026-11-07",
+   "date_src": "page",
+   "rank": 28,
+   "source": "OD",
+   "id": "OD:a3b88404898a",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "08 Nov-202 Revised Upgraded Round-1 Allottment with Status of Admission/Allotment Round-1 ** Candidates (a) Upgraded with Change in College /Subject/ allotted Category (b) Not upgraded but did not get admitted on 6th and 7th of Round-1 need to report on",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/REVISED ROUND-1_UPGRADED_ALLOTMENT_PUBLISH_08_11_2026.pdf"
+    }
+   ],
+   "date": "2026-11-10",
+   "date_src": "page",
+   "rank": 29,
+   "source": "OD",
+   "id": "OD:16ce82c15d70",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "10 Nov-202 Notice for document verification of newly registered candidates",
+   "links": [
+    {
+     "label": "View PDF",
+     "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/DOCUMENT VERIFICATION NOTICE FOR NEWLY REGISTERED CAMDIDATES_10_11_2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 30,
+   "source": "OD",
+   "id": "OD:1075fc56711a",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Documents / Verification"
+  },
+  {
+   "title": "Participating Institutes",
+   "links": [
+    {
+     "label": "– Participating Institutes",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610311288071097.pdf"
+    }
+   ],
+   "date": "2026-10-31",
+   "date_src": "url",
+   "rank": 10,
+   "source": "WB",
+   "id": "WB:32dc658614f8",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": false,
+   "tag": "Notice"
+  },
+  {
+   "title": "User Manual (Candidate Registration)",
+   "links": [
+    {
+     "label": "– User Manual (Candidate Registration)",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610221404384510.pdf"
+    }
+   ],
+   "date": "2026-10-22",
+   "date_src": "url",
+   "rank": 11,
+   "source": "WB",
+   "id": "WB:fe8cc855f51d",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "User Manual (Choice Filling)",
+   "links": [
+    {
+     "label": "– User Manual (Choice Filling)",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610301103139553.pdf"
+    }
+   ],
+   "date": "2026-10-30",
+   "date_src": "url",
+   "rank": 12,
+   "source": "WB",
+   "id": "WB:427ea09040c7",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": false,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "Revised Seat Matrix Round-1",
+   "links": [
+    {
+     "label": "– Revised Seat Matrix Round-1",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610311281553132.pdf"
+    }
+   ],
+   "date": "2026-10-31",
+   "date_src": "url",
+   "rank": 13,
+   "source": "WB",
+   "id": "WB:9ce714ae85ee",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": false,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Seat Allotment Result Round-1",
+   "links": [
+    {
+     "label": "– Seat Allotment Result Round-1",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/11/202611041797935242.pdf"
+    }
+   ],
+   "date": "2026-11-04",
+   "date_src": "url",
+   "rank": 14,
+   "source": "WB",
+   "id": "WB:64ea45dfec91",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": false,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "PG Round 2 Schedule",
+   "date": "2026-11-12",
+   "date_src": "page",
+   "rank": 0,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1794476765296.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:b5f71cce4604",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Provisional result Round-1 PG MS/MS/Dip/DNB Allotments 02.11.2026",
+   "date": "2026-11-02",
+   "date_src": "page",
+   "rank": 1,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1793607772653.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:d4afdda0b857",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Revised Provisional State Merit list PG Allotments (Round-1) 28.10.2026",
+   "date": "2026-10-28",
+   "date_src": "page",
+   "rank": 2,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1793190366735.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:b3f06696bc4a",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Service bond format for study/extraordinary leave (in-service candidates)",
+   "date": "2026-10-28",
+   "date_src": "page",
+   "rank": 3,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1793177158489.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:9d3ac4447483",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "PG Surety Bond",
+   "date": "2026-10-28",
+   "date_src": "page",
+   "rank": 4,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1793177119981.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:90769817b04d",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Fee details- Government, RajMES Medical Collges & RUHS-CMS",
+   "date": "2026-10-27",
+   "date_src": "page",
+   "rank": 5,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1793106426210.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:d42f923eb019",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Fees / Refund"
+  },
+  {
+   "title": "Service and Surety Bond for PG Non-Service Candidates",
+   "date": "2026-10-27",
+   "date_src": "page",
+   "rank": 6,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1793083845404.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:fabcdd993c1c",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Fee structure for all available branches and other fee with Hostel Accomodation fee - PRIVATE MEDICAL COLLEGES",
+   "date": "2026-10-22",
+   "date_src": "page",
+   "rank": 7,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1792689067505.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:c8d34d0da493",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Fees / Refund"
+  },
+  {
+   "title": "Post MBBS DIPLOMA/DNB MATRIX (Round-1) 18.10.26 (only for Regular in-service candidates)",
+   "date": "2026-10-19",
+   "date_src": "page",
+   "rank": 8,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1792388184520.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:fe6a7fe2f07b",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "MD/MS Seat Matrix (Round-1) 18.10.2026",
+   "date": "2026-10-19",
+   "date_src": "page",
+   "rank": 9,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1792388159259.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:29447972e9c3",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Round 1 Seat Matrix 18.10.2026",
+   "date": "2026-10-18",
+   "date_src": "page",
+   "rank": 10,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1792316785007.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:17f1a7726eee",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "PG Round 1 Scheduler",
+   "date": "2026-10-17",
+   "date_src": "page",
+   "rank": 11,
+   "links": [
+    {
+     "label": "Open PDF",
+     "url": "https://pg.neetrajasthan.com/notifications/1792241714632.pdf"
+    }
+   ],
+   "source": "RJ",
+   "id": "RJ:f6a7b67f7716",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Revised Final State Merit List of NEET (PG) -2026 on the basis of NEET (PG) - 2026 Result for 1st Round of Online Counselling for Admission to State Quota PG Medical (Degree/Diploma/DNB) Seats in Academic Year-2026-27 Date: 28.10.2026",
+   "links": [
+    {
+     "label": "Revised Final State Merit List of NEET (PG) -2026 on the basis of NEET (PG) - 2026 Result for 1st Round of Online Counselling for Admission to State Quota PG Medical (Degree/Diploma/DNB) Seats in Academic Year-2026-27 Date: 28.10.2026",
+     "url": "https://blobstorage2.blob.core.windows.net/jceceb/notifications/2271.pdf"
+    }
+   ],
+   "date": "2026-10-28",
+   "date_src": "page",
+   "rank": 0,
+   "source": "JH",
+   "id": "JH:0203ee68430b",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Final State Merit List of NEET (PG) -2026 on the basis of NEET (PG) - 2026 Result for 1st Round of Online Counselling for Admission to State Quota PG Medical (Degree/Diploma/DNB) Seats in Academic Year-2026-27 Date: 28.10.2026",
+   "links": [
+    {
+     "label": "Final State Merit List of NEET (PG) -2026 on the basis of NEET (PG) - 2026 Result for 1st Round of Online Counselling for Admission to State Quota PG Medical (Degree/Diploma/DNB) Seats in Academic Year-2026-27 Date: 28.10.2026",
+     "url": "https://blobstorage2.blob.core.windows.net/jceceb/notifications/2269.pdf"
+    }
+   ],
+   "date": "2026-10-28",
+   "date_src": "page",
+   "rank": 1,
+   "source": "JH",
+   "id": "JH:1e723f0d5a2b",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Advt. No. 115 dated-27.10.2026 Important Notice regarding correction in Provisional State Merit List Based on NEET (PG)-2026 Result for 1st Round of Online Counselling",
+   "links": [
+    {
+     "label": "Advt. No. 115 dated-27.10.2026 Important Notice regarding correction in Provisional State Merit List Based on NEET (PG)-2026 Result for 1st Round of Online Counselling",
+     "url": "https://blobstorage2.blob.core.windows.net/jceceb/notifications/1453.pdf"
+    }
+   ],
+   "date": "2026-10-27",
+   "date_src": "page",
+   "rank": 2,
+   "source": "JH",
+   "id": "JH:488c2662a4f5",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Provisional Not Eligible List of NEET (PG) - 2026 on the basis of NEET (PG) - 2026 Result for 1st Round of Online Counselling for Admission to State Quota PG Medical (Degree/Diploma/DNB) Seats in Academic Year-2026-27 Date: 27.10.2026",
+   "links": [
+    {
+     "label": "Provisional Not Eligible List of NEET (PG) - 2026 on the basis of NEET (PG) - 2026 Result for 1st Round of Online Counselling for Admission to State Quota PG Medical (Degree/Diploma/DNB) Seats in Academic Year-2026-27 Date: 27.10.2026",
+     "url": "https://blobstorage2.blob.core.windows.net/jceceb/notifications/2266.pdf"
+    }
+   ],
+   "date": "2026-10-27",
+   "date_src": "page",
+   "rank": 3,
+   "source": "JH",
+   "id": "JH:0fc2cdd42f2f",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Provisional State Merit List of NEET (PG) -2026 on the basis of NEET (PG) - 2026 Result for 1st Round of Online Counselling for Admission to State Quota PG Medical (Degree/Diploma/DNB) Seats in Academic Year-2026-27 Date: 27.10.2026",
+   "links": [
+    {
+     "label": "Provisional State Merit List of NEET (PG) -2026 on the basis of NEET (PG) - 2026 Result for 1st Round of Online Counselling for Admission to State Quota PG Medical (Degree/Diploma/DNB) Seats in Academic Year-2026-27 Date: 27.10.2026",
+     "url": "https://blobstorage2.blob.core.windows.net/jceceb/notifications/2267.pdf"
+    }
+   ],
+   "date": "2026-10-27",
+   "date_src": "page",
+   "rank": 4,
+   "source": "JH",
+   "id": "JH:5d892b16ab44",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Advisory Guidelines",
+   "links": [
+    {
+     "label": "Advisory Guidelines",
+     "url": "https://blobstorage2.blob.core.windows.net/jceceb/notifications/Advisory Guidelines.jpeg"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 5,
+   "source": "JH",
+   "id": "JH:fb313fc619b6",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
+  },
+  {
+   "title": "Advt. No. 103 Dated- 16.10.2026 {Notice regarding Online counselling for Post Graduate Medical (MD/MS/Diploma & DNB) State Quota seats on the basis of NEET-PG-2026 Result}",
+   "links": [
+    {
+     "label": "Advt. No. 103 Dated- 16.10.2026 {Notice regarding Online counselling for Post Graduate Medical (MD/MS/Diploma & DNB) State Quota seats on the basis of NEET-PG-2026 Result}",
+     "url": "https://blobstorage2.blob.core.windows.net/jceceb/notifications/PGCET schedule.pdf"
+    }
+   ],
+   "date": "2026-10-16",
+   "date_src": "page",
+   "rank": 6,
+   "source": "JH",
+   "id": "JH:071e41698027",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "https://neetpg.jceceb.co.in/Public/Home",
+   "links": [
+    {
+     "label": "https://neetpg.jceceb.co.in/Public/Home",
+     "url": "https://neetpg.jceceb.co.in/Public/Home"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 14,
+   "source": "JH",
+   "id": "JH:d4414f034845",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Provisional Seat Allocation of MDS 3rd round Counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/11/Provisional-Seat-Allocation-of-MDS-3rd-round-Counselling-2026-merged.pdf"
     }
    ],
    "date": "2026-11-13",
+   "date_src": "file",
+   "rank": 0,
+   "source": "HP",
+   "id": "HP:13a2f51b7f35",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "Revised Final merit list of MD MS DNB 1st round Counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/11/Revised-Final-merit-list-of-MD-MS-DNB-1st-round-Counselling-2026-merged.pdf"
+    }
+   ],
+   "date": "2026-11-12",
+   "date_src": "file",
+   "rank": 2,
+   "source": "HP",
+   "id": "HP:127979d59d33",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "PG MD/MS Category wise/Quota wise Seat matrix for counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/11/Seat-matrix-for-PG-MD-MS-counselling-2026.pdf"
+    }
+   ],
+   "date": "2026-11-10",
+   "date_src": "file",
+   "rank": 4,
+   "source": "HP",
+   "id": "HP:e3f532d001e3",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Final Merit list of MD/MS/DNB 1st round Counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/11/Final-Merit-list-of-MD-MS-DNB-1st-round-Counselling-2026-merged.pdf"
+    }
+   ],
+   "date": "2026-11-10",
+   "date_src": "file",
+   "rank": 6,
+   "source": "HP",
+   "id": "HP:87403b23f6f3",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Revised Schedule for MD/MS/DNB 1st round Counselling 2026-27 (Choice filling – to )",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/11/Revised-Schedule-forMD-MS-DNB-1ST-round-Counselling-2026-10.11.2026.pdf"
+    }
+   ],
+   "date": "2026-11-10",
    "date_src": "page",
-   "rank": 1,
-   "source": "PY",
-   "id": "PY:a92fac74e13d",
-   "first_seen": "2026-11-13T09:01:12+00:00",
+   "rank": 7,
+   "source": "HP",
+   "id": "HP:9b0dba3f7274",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Provisional Merit list of MD MS DNB 1st round Counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/11/Provisional-Merit-list-of-MD-MS-DNB-1st-round-Counselling-2026-merged.pdf"
+    }
+   ],
+   "date": "2026-11-07",
+   "date_src": "file",
+   "rank": 13,
+   "source": "HP",
+   "id": "HP:abbceafa1950",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Schedule for Retotalling of MD/ MS (Medical) held in the month of August ,2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/11/MD-MS-Retotalling-notification-.pdf"
+    }
+   ],
+   "date": "2026-11-06",
+   "date_src": "file",
+   "rank": 20,
+   "source": "HP",
+   "id": "HP:665483cee56b",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Notice for MD/MS/DNB counselling 2026 Job Trainees in view of the amendment in the PG/SS Policy by the Government of Himachal Pradesh vide Notification No. HFW-B(F) -II-L dated",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/11/MD-MS-PG-2026.pdf"
+    }
+   ],
+   "date": "2026-11-02",
+   "date_src": "page",
+   "rank": 25,
+   "source": "HP",
+   "id": "HP:f524f0f74eec",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Notice for Job Trainees and extend the last date for submission of online application forms for the 1st Round of State Common/Centralized Counselling for admission to PG (MD/MS/DNB) Courses for the Academic Session 2026-27 has been extended up to UPTO 11:00 AM",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Notice-for-Job-Trainees-and-extend.pdf"
+    }
+   ],
+   "date": "2026-11-02",
+   "date_src": "page",
+   "rank": 32,
+   "source": "HP",
+   "id": "HP:0ddb3eeef5a8",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Regarding Extension of Last Date for Online Application for MD/MS/DNB Counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Extend-20.10.2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 37,
+   "source": "HP",
+   "id": "HP:989adcdfaab0",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Date sheet of MD/MS Ayu. Final Year Examination",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Datesheet-PG-Ayu.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 38,
+   "source": "HP",
+   "id": "HP:7c7bc46b057d",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Schedule of MD/MS Ayu. Final Year Examination",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Schedule-PG-Ayu.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 39,
+   "source": "HP",
+   "id": "HP:169a258997a8",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Extension of Last Date for Submission of Online Application Form for 1st Round of MD/MS/DNB Counselling 2026–27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Extend.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 47,
+   "source": "HP",
+   "id": "HP:3abab7d5225a",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Result Notification of MDS Part II University Annual Examination (Batch 2023) held in the month of August, 2026 [Date of Result: ]",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/MDS-Part-2-University-Annual-Examination.pdf"
+    }
+   ],
+   "date": "2026-10-24",
+   "date_src": "page",
+   "rank": 52,
+   "source": "HP",
+   "id": "HP:e3271cf278cb",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Schedule for MD/MS/DNB 1st round Counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Schedule-for-MD-MS-DNB-1st-round-Counselling-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 58,
+   "source": "HP",
+   "id": "HP:6192c8b5aa41",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Click here for registration PG MD/MS/DNB 1st round of counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://erpamruhp.in/applicantLoginEntReg.htm?EntrReg=EntrReg&link=e412b200c74e6ab7b014faae028024a9"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 65,
+   "source": "HP",
+   "id": "HP:68f16a8f1f92",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "PG MD/MS/DNB Prospectus 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Final-Merged-PG-MD-MS-DNB-Prospectus-2026-22-10-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 66,
+   "source": "HP",
+   "id": "HP:86a03eff31ca",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
+  },
+  {
+   "title": "Result Notification of MDS Part- I Annual Examination held in August ,2026 (Batch 2025) [Date of result- ]",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/MDS-Part-I-Result-notification.pdf"
+    }
+   ],
+   "date": "2026-10-22",
+   "date_src": "page",
+   "rank": 69,
+   "source": "HP",
+   "id": "HP:898d83610f73",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Extension of last Date for Choice Filling – MDS 3rd Round Counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Extension-of-last-Date-for-Choice-Filling-–-MDS-3rd-Round-Counselling-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 71,
+   "source": "HP",
+   "id": "HP:86920b35b112",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Final Revised Merit list of MDS 3rd Round Counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/ilovepdf_merged-2.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 80,
+   "source": "HP",
+   "id": "HP:889a47e2e5f8",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Provisional Seat vacancy for 3rd round MDS counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Provisional-Seat-vacancy-for-3rd-round-MDS-counselling-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 85,
+   "source": "HP",
+   "id": "HP:6114d04afcbc",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "REVISED MDS COUNSELLING SCHEDULE 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/REVISED-MDS-COUNSELLING-SCHEDULE-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 86,
+   "source": "HP",
+   "id": "HP:dbe76fa76aca",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Revised MDS 3rd Round Counselling Merit List 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Revised-MDS-14.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 99,
+   "source": "HP",
+   "id": "HP:3d13914a677b",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Result Notification of MD/MS Final Year Examination held in August ,2026 (Batch 2022 & 2023) [Date of result – ]",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/MD-MS-result-notification.pdf"
+    }
+   ],
+   "date": "2026-10-06",
+   "date_src": "page",
+   "rank": 111,
+   "source": "HP",
+   "id": "HP:02ed7d5f7c93",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Counselling Schedule for 3rd Round of MDS Counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Schedule-for-MDS-3rd-round-Counselling-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 112,
+   "source": "HP",
+   "id": "HP:041c6f9390c1",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Final Seat Allocation of MDS 2nd Round Counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/09/Final-Seat-Allocation-of-MDS-2nd-Round-Counselling-2026-merged.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 130,
+   "source": "HP",
+   "id": "HP:ce93ec222973",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "MDS Provisional seat allocation 2026-27 Round II",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/09/MDS-PROVISIONAL-SEAT-ALLOCATION-2ND-ROUND-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 133,
+   "source": "HP",
+   "id": "HP:ae1f2fe8413a",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "Notice for extend the last date for submission/filling of preference/choice of Quota/College(s) for the 2nd Round of MDS Counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/09/Choice-filling-extend-notice.docx.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 152,
+   "source": "HP",
+   "id": "HP:208b8126204f",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "Provisional Seat vacancy for MDS 2nd Round Counselling 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/09/Provisional-Seat-vacancy-of-MDS-for-2nd-Round-Counselling-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 155,
+   "source": "HP",
+   "id": "HP:8872547aab87",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Merit list of MDS 2nd Round Counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/09/Merit-list-of-MDS-2nd-Round-Counselling-2026-merged.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 168,
+   "source": "HP",
+   "id": "HP:d665d135765b",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Schedule for MDS 2nd Round online Counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/09/MDS-2nd-round-Schedule-of-MDS-counselling-2026-signed.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 194,
+   "source": "HP",
+   "id": "HP:11917c6fa19b",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Final Seat Allocation of MDS 1st Round Counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/09/Final-Seat-Allocation-of-MDS-1st-Round-Counselling-2026-merged.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 201,
+   "source": "HP",
+   "id": "HP:fd957b0fef00",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "Revised Provisional Seat allocation of MDS 1st round Counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/09/Revised-Provisional-Seat-Allocation-of-MDS-2nd-round-Counselling-2026-merged.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 202,
+   "source": "HP",
+   "id": "HP:a44849e6a554",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Provisional Seat Allocation of MDS 1st Round Counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/09/Provisional-Seat-Allocation-of-MDS-1st-round-Counselling-2026-merged.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 216,
+   "source": "HP",
+   "id": "HP:ae140b7fc1c0",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "Provisional Merit list of MDS 1st round counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/08/Provisional-Merit-list-of-MDS-1st-round-Counselling-2026-merged-n.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 240,
+   "source": "HP",
+   "id": "HP:d5e38e80b6e5",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "NOTICE REGARDING STATE COMMON/CENTERALIZED ONLINE COUNSELLING FOR PG (MD/MS) COURSES FOR THE SESSION 2026-2027 INCENTIVE/NOC CERTIFICATE THEREOF IN R/O IN-SERVCE GDO (M.O.)",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/08/NEE-PG-NOC-Notice-for-inservice-candidate-merged-file.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 248,
+   "source": "HP",
+   "id": "HP:d976ce782cb6",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "Click here for Apply for online Application for PG MDS 1st Round of Counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://erpamruhp.in/applicantLoginEntReg.htm?EntrReg=EntrReg&link=353b6268187a34bf16ce0023ae5c2757"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 250,
+   "source": "HP",
+   "id": "HP:840f879e4347",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "Notice for PG MDS Counselling and Admission for Academic session 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/08/Notice-for-MDS-counselling-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 252,
+   "source": "HP",
+   "id": "HP:d656bbb6d3d3",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "NOTICE REGARDING STATE COMMON/CENTERALIZED ONLINE COUNSELLING FOR PG (MDS) COURSES FOR THE SESSION 2026-2027 INCENTIVE/NOC CERTIFICATE THEREOF IN WO IN-SERVCE GDO (M.O.)",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/06/MDS-incentyive-NOC-certificate-of-IN-service-GDO-candidates.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 332,
+   "source": "HP",
+   "id": "HP:3add37c5ea13",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "Result Gazette Notification of MD MS University Supplementary Examination held on February 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/03/Result-Gazette-Notification-of-MDMS-University-Supplementary-Examination-held-on-February-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 372,
+   "source": "HP",
+   "id": "HP:2c82facd8aa0",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Result Gazette Notification of MDS Part-I University Supplementary Examination Held on March 2026 Batch 2024",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/03/MDS-Part-1-University-Supplementary-Examination.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 374,
+   "source": "HP",
+   "id": "HP:a0943d1470a7",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Click here for fresh registration for PG MD/MS/DNB for 2nd stray round counselling",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://erpamruhp.in/applicantLoginEntReg.htm?EntrReg=EntrReg&link=ad9ced88027ca03da53921b082c8e0f2"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 401,
+   "source": "HP",
+   "id": "HP:9d7cf8fc942c",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "Click here to apply MDS 2nd Stray round counselling (only for those candidate who are not scussfully register or complete their application form in earlier rounds) )",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://erpamruhp.in/applicantLoginEntReg.htm?EntrReg=EntrReg&link=491ef913dda99a783e000780eeb67bc5"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 712,
+   "source": "HP",
+   "id": "HP:c0787e88d1b6",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "MDS Catagory wise /Quota wise merit list for 3rd round counselling",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2025/08/Quota-catagory-wiseMDS-merit-list-for-3rd-round-counselling-2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 786,
+   "source": "HP",
+   "id": "HP:24a57a388690",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "MDS Overall merit list for MDS 3rd round counselling",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2025/08/Overall-MDS-merit-list-for-3rd-round-counselling-2025.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 787,
+   "source": "HP",
+   "id": "HP:24127b91e5a6",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Click here for Fresh Registration for MDS 2nd Round Counselling (Only for candidates who were not successfully registered in the 1st Round Counselling)",
+   "links": [
+    {
+     "label": "View",
+     "url": "http://test.juno.org.in:8028/applicantLoginEntReg.htm?EntrReg=EntrReg&link=491ef913dda99a783e000780eeb67bc5"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 837,
+   "source": "HP",
+   "id": "HP:b7bd1b15c17b",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "Click here to apply/fresh registration for PG MD/MS 3rd Round Counselling",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://erpamruhp.in/applicantLoginEntReg.htm?EntrReg=EntrReg&link=f2ec025acc4027d6b3818b786583f17b"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1018,
+   "source": "HP",
+   "id": "HP:afcce2f19b12",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "Notice for invite fresh applications for PG MD/MS Counselling upto 02:00 PM",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2025/01/pg-md-ms-notice-for-fresh-application.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1019,
+   "source": "HP",
+   "id": "HP:af838e0284ab",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Registration / Apply"
+  },
+  {
+   "title": "Notice for extend last date for submission of online application form for PG MD/MSCourses counseling is extended till 11:00 AM on",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2024/10/PG-MD-MS-date-extend-notice-with-incentive-for-website.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1097,
+   "source": "HP",
+   "id": "HP:fb13c5c4a3f5",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "List of applicants for PG MD MS DNB ( Any Query in the applicant list may be immediately informed on counselling.amruhp@gmail.com upto 12:00 Noon of . )",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2024/09/PG-MDMS-APPLICANT-LIST.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1168,
+   "source": "HP",
+   "id": "HP:812ca16ba5c4",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Notice for the last date for submission of online application form for PG MD/MS/DNB Courses counseling is extended till 3:00 PM",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2024/09/Date-extend-pg-mds-ms-notice.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1171,
+   "source": "HP",
+   "id": "HP:a83c9ea642c4",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Revised / Extended"
+  },
+  {
+   "title": "Leave and Minimum Attendance Rules for PG Medical and Dental students",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2024/07/Leave-and-Minimum-Attendance-Rules-for-PG-Med-Dent.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1343,
+   "source": "HP",
+   "id": "HP:ba40d0a1b65e",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
+  },
+  {
+   "title": "MDS seat allocation list for stray round counselling",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2023/10/mds-final-Seat-allocation-with-notice.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1514,
+   "source": "HP",
+   "id": "HP:2ef968e7a7fb",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Notice for MD/MS/DNB candidates",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2023/09/seat-vacant-notice-for-md-ms-2023.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1588,
+   "source": "HP",
+   "id": "HP:b3af3cae6c9e",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Filling of NRI MD/MS Seats in MMMC, Solan",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2023/09/MD-MS-Notice-.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1615,
+   "source": "HP",
+   "id": "HP:cd7aa2dffbcc",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Online examination form schedule for MDS 1st year annual examination scaled",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2023/08/Online-examination-form-schedule-for-MDS-1st-year-annual-examination-scaled.jpg"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1670,
+   "source": "HP",
+   "id": "HP:8ee6c898176c",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Datesheet for MDS 1st year annual examination",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2023/08/Datesheet-for-MDS-1st-year-annual-examination-scaled.jpg"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1673,
+   "source": "HP",
+   "id": "HP:973b6a1fa0bb",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Reconstitution of PG Board of Studies in for Anatomy, Biochemistry, ENT, General Surgery, OBG, Psychiatry",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2023/05/Notification_AnatomyBiochemistryENT_GenSur_OBG_Psychiatry2023.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1787,
+   "source": "HP",
+   "id": "HP:110c10a1f49f",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "MDS 1st Year Result",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2022/12/MDS-1st-Year-Result.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1897,
+   "source": "HP",
+   "id": "HP:818c468ba183",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "Notice Regarding NRI MD/MS seats of MM Medical College Solan",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2022/11/MD-MS-NRI-Seat-notice-mm-college.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1905,
+   "source": "HP",
+   "id": "HP:fdeacf5581f0",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Seat Matrix / Vacancy"
+  },
+  {
+   "title": "Final Seat allocation of MDS counselling 1st round",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2022/10/Final-Seat-Allocation-for-MDS-counselling-of-1st-round-2022-web.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1998,
+   "source": "HP",
+   "id": "HP:e2d627933b3b",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "Provisional Seat allocation for MDS counselling of 1st round",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2022/10/Provisional-Seat-Allocation-for-MDS-counselling-of-1st-round-2022.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 2000,
+   "source": "HP",
+   "id": "HP:17709c801cd8",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "Prospectus for MDS counselling",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2022/09/mds-prospectus-with-notice.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 2027,
+   "source": "HP",
+   "id": "HP:31f5b5b0724c",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
+  },
+  {
+   "title": "Letter of Recognition of UG and PG Teachers",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2021/09/Recognition-of-UG-and-PG-Teachers.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 2171,
+   "source": "HP",
+   "id": "HP:2ed6a02a3f6c",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Final Merit list of MDS 1st round of Counselling 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/08/Final-Merit-list-of-MDS-1st-round-Counselling-2026-merged.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 2340,
+   "source": "HP",
+   "id": "HP:a64d0119c6cb",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "Notice in pursuant to the notification dated issued by this office vide no. AMRU/(COE)-Admission-129/2026-2027 PG (MD/MS)6681-6684 dated shall stands withdrawn",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/11/PG-MD-MS-withdraw-notice.pdf"
+    }
+   ],
+   "date": "2026-10-28",
+   "date_src": "page",
+   "rank": 3116,
+   "source": "HP",
+   "id": "HP:07c4c5c92ac4",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Commencement of Postgraduate Classes for MDS Courses for the Academic Session 2026-27",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/10/Commencement-of-MDS-classes-for-AY-2026-27.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3433,
+   "source": "HP",
+   "id": "HP:70685cde4f33",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Date Sheet of MDS Part-I (batch 2025-26) annual university examination to be held in August, 2026.-1",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/06/Date-Sheet-of-MDS-Part-I-batch-2025-26-annual-university-examination-to-be-held-in-August-2026.-1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3808,
+   "source": "HP",
+   "id": "HP:a92236a46e3c",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Date Sheet of MDS Part-II (batch 2023-24) annual university examination to be held in August, 2026.-1 (1)",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/06/Date-Sheet-of-MDS-Part-II-batch-2023-24-annual-university-examination-to-be-held-in-August-2026.-1-1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3809,
+   "source": "HP",
+   "id": "HP:debab7b2b0c8",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Date sheet of PG Super Specialty M.Ch. ( CTVS) Final Annual_Supplementary Examinations (Batch 2021-22) to be held in May, 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/05/Date-sheet-of-PG-Super-Specialty-M.Ch_.-CTVS-Final-Annual_Supplementary-Examinations-Batch-2021-22-to-be-held-in-May-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3814,
+   "source": "HP",
+   "id": "HP:05a8750abf2e",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Date Sheet of MDS Part-II (batch 2023-24) annual university examination to be held in August, 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/02/Date-Sheet-of-MDS-Part-II-batch-2023-24-annual-university-examination-to-be-held-in-August-2026-1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3822,
+   "source": "HP",
+   "id": "HP:caf49d91fba3",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Date Sheet of MDS Part-I (batch 2025-26) annual university examination to be held in August, 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/02/Date-Sheet-of-MDS-Part-I-batch-2025-26-annual-university-examination-to-be-held-in-August-2026-1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3823,
+   "source": "HP",
+   "id": "HP:ed361c51d9e9",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "DateSheet of MDMS Supplementary Examination to be held in February-2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/01/Date-Sheet-of-MD_MS-supplementary-examination-to-be-held-in-February-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3829,
+   "source": "HP",
+   "id": "HP:0d4b1ed52936",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "Form Filling up Schedule for MDS Part-II (batch 2023-24) annual university examination to be held in August, 2026.-1",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/06/Form-Filling-up-Schedule-for-MDS-Part-II-batch-2023-24-annual-university-examination-to-be-held-in-August-2026.-1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3930,
+   "source": "HP",
+   "id": "HP:4f14201b8caf",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Form Filling up Schedule for MDS Part-I (batch 2025-26) annual university examination to be held in August, 2026.-1",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/06/Form-Filling-up-Schedule-for-MDS-Part-I-batch-2025-26-annual-university-examination-to-be-held-in-August-2026.-1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3931,
+   "source": "HP",
+   "id": "HP:dcd825de2033",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Form Filling up Schedule of PG Super Specialty M.Ch. ( CTVS) Final Annual_Supplementary Examinations (Batch 2021-22) to be held in May, 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/05/Form-Filling-up-Schedule-of-PG-Super-Specialty-M.Ch_.-CTVS-Final-Annual_Supplementary-Examinations-Batch-2021-22-to-be-held-in-May-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3940,
+   "source": "HP",
+   "id": "HP:676ec67843fc",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Form Filling up Schedule for MDS Part-II (batch 2023-24) annual university examination to be held in August, 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/02/Form-Filling-up-Schedule-for-MDS-Part-II-batch-2023-24-annual-university-examination-to-be-held-in-August-2026-1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3955,
+   "source": "HP",
+   "id": "HP:4cce794a13cf",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "Form Filling up Schedule for MDS Part-I (batch 2025-26) annual university examination to be held in August, 2026",
+   "links": [
+    {
+     "label": "View",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/02/Form-Filling-up-Schedule-for-MDS-Part-I-batch-2025-26-annual-university-examination-to-be-held-in-August-2026-1.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3956,
+   "source": "HP",
+   "id": "HP:cb6394832bf1",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Schedule"
+  },
+  {
+   "title": "MDS course",
+   "links": [
+    {
+     "label": "MDS course",
+     "url": "https://amruhp.ac.in/wp-content/uploads/2026/08/Final-Merged-Prospectus-MDS-2026-18-08-2026.pdf"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 4146,
+   "source": "HP",
+   "id": "HP:3951dd7f17c1",
+   "first_seen": "2026-11-13T08:47:13+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "PG (Medical) CQ 2026-27 - MRC List of In-service Phase-I",
+   "links": [
+    {
+     "label": "PG (Medical) CQ 2026-27 - MRC List of In-service Phase-I",
+     "url": "https://drntr.uhsap.in/index/notification/20261113144233847.pdf"
+    }
+   ],
+   "date": "2026-11-13",
+   "date_src": "url",
+   "rank": 82,
+   "source": "AP",
+   "id": "AP:0e4bb64a901f",
+   "first_seen": "2026-11-13T09:38:05+00:00",
    "baseline": false,
+   "tag": "Merit / Rank List"
+  },
+  {
+   "title": "PG Medical 2nd Round Notice",
+   "links": [
+    {
+     "label": "PG Medical 2nd Round Notice",
+     "url": "https://dte.goa.gov.in/pg-medical-2nd-round-notice-0"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 1,
+   "source": "GA",
+   "id": "GA:0933ae116003",
+   "first_seen": "2026-11-13T09:38:05+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "PG Medical 2nd Round Option Form",
+   "links": [
+    {
+     "label": "PG Medical 2nd Round Option Form",
+     "url": "https://dte.goa.gov.in/pg-medical-2nd-round-option-form-0"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 3,
+   "source": "GA",
+   "id": "GA:7795c4f857bf",
+   "first_seen": "2026-11-13T09:38:05+00:00",
+   "baseline": true,
+   "tag": "Counselling Update"
+  },
+  {
+   "title": "PG Medical Round 1 Allotment List",
+   "links": [
+    {
+     "label": "PG Medical Round 1 Allotment List",
+     "url": "https://dte.goa.gov.in/pg-medical-round-1-allotment-list"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 7,
+   "source": "GA",
+   "id": "GA:5af1d50e973e",
+   "first_seen": "2026-11-13T09:38:05+00:00",
+   "baseline": true,
+   "tag": "Result / Allotment"
+  },
+  {
+   "title": "PG Medical Rules 2026",
+   "links": [
+    {
+     "label": "PG Medical Rules 2026",
+     "url": "https://dte.goa.gov.in/pg-medical-rules-2026"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 9,
+   "source": "GA",
+   "id": "GA:c33bfa911484",
+   "first_seen": "2026-11-13T09:38:05+00:00",
+   "baseline": true,
+   "tag": "Guidelines / Bulletin"
+  },
+  {
+   "title": "PG Medical Form 2026",
+   "links": [
+    {
+     "label": "PG Medical Form 2026",
+     "url": "https://dte.goa.gov.in/pg-medical-form-2026"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 11,
+   "source": "GA",
+   "id": "GA:4ab605f9e07a",
+   "first_seen": "2026-11-13T09:38:05+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "PG Medical Distribution 2026",
+   "links": [
+    {
+     "label": "PG Medical Distribution 2026",
+     "url": "https://dte.goa.gov.in/pg-medical-distribution-2026"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 13,
+   "source": "GA",
+   "id": "GA:7c02727a70c9",
+   "first_seen": "2026-11-13T09:38:05+00:00",
+   "baseline": true,
+   "tag": "Notice"
+  },
+  {
+   "title": "DIPLOMA RESULTS",
+   "links": [
+    {
+     "label": "DIPLOMA RESULTS",
+     "url": "https://dte.goa.gov.in/board-of-technical-education/diploma-results"
+    }
+   ],
+   "date": null,
+   "date_src": null,
+   "rank": 30,
+   "source": "GA",
+   "id": "GA:305a84a98452",
+   "first_seen": "2026-11-13T09:38:05+00:00",
+   "baseline": true,
    "tag": "Result / Allotment"
   },
   {
@@ -15205,28 +18063,28 @@
    "rank": 0,
    "source": "PY",
    "id": "PY:bf80426a61bc",
-   "first_seen": "2026-11-13T09:10:36+00:00",
+   "first_seen": "2026-11-13T09:38:05+00:00",
    "baseline": false,
    "tag": "Result / Allotment"
   },
   {
-   "title": "PG (Medical) CQ 2026-27 - MRC List of In-service Phase-I",
+   "title": "NOTICE : ROUND 1 PROVISIONAL ALLOTMENT LIST FOR PG MEDICAL (M.D./M.S.) COURSES - 2026-2027",
    "links": [
     {
-     "label": "PG (Medical) CQ 2026-27 - MRC List of In-service Phase-I",
-     "url": "https://drntr.uhsap.in/index/notification/20261113144233847.pdf"
+     "label": "[13-11-2026] - NOTICE : ROUND 1 PROVISIONAL ALLOTMENT LIST FOR PG MEDICAL (M.D./M.S.) COURSES - 2026-2027",
+     "url": "https://drive.google.com/file/d/1IzA8oRixWxKF4P56MN4BRRia610kTpaU/view?usp=sharing"
     }
    ],
    "date": "2026-11-13",
-   "date_src": "url",
-   "rank": 82,
-   "source": "AP",
-   "id": "AP:0e4bb64a901f",
-   "first_seen": "2026-11-13T09:20:36+00:00",
+   "date_src": "page",
+   "rank": 1,
+   "source": "PY",
+   "id": "PY:a92fac74e13d",
+   "first_seen": "2026-11-13T09:38:05+00:00",
    "baseline": false,
-   "tag": "Merit / Rank List"
+   "tag": "Result / Allotment"
   }
  ],
- "last_run": "2026-11-13T09:30:59+00:00",
- "last_run_utc": "2026-11-13T09:31:27"
+ "last_run": "2026-11-13T09:38:05+00:00",
+ "last_run_utc": "2026-11-13T09:38:59"
 }

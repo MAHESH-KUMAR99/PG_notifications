@@ -193,6 +193,66 @@
       "urls": [
         "https://meta-secure.com/HNBUMU_MDMS"
       ]
+    },
+    {
+      "id": "OD",
+      "name": "Odisha",
+      "urls": [
+        "https://dmetodisha.in/PGMCC_Static/MEDICAL%20COUNSELLING%201/Notifications.html"
+      ]
+    },
+    {
+      "id": "RJ",
+      "name": "Rajasthan",
+      "urls": [
+        "https://pg.neetrajasthan.com/home"
+      ],
+      "api": "https://pg.neetrajasthan.com/api/v1/user/getAllNotifications",
+      "site": "https://pg.neetrajasthan.com",
+      "api_kind": "rj"
+    },
+    {
+      "id": "JH",
+      "name": "Jharkhand",
+      "urls": [
+        "https://neetpgcet.jceceb.co.in/Public/Home"
+      ]
+    },
+    {
+      "id": "MN",
+      "name": "Manipur",
+      "urls": [
+        "https://manipurhealthdirectorate.mn.gov.in/news/585"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "MZ",
+      "name": "Mizoram (NEIGRIHMS)",
+      "urls": [
+        "https://neigrihms.gov.in/examsnotification.html"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "HP",
+      "name": "Himachal Pradesh",
+      "urls": [
+        "https://amruhp.ac.in/home-general-notifications/"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+    },
+    {
+      "id": "GA",
+      "name": "Goa",
+      "urls": [
+        "https://dte.goa.gov.in/"
+      ],
+      "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
     }
   ]
 }

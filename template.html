@@ -33,6 +33,7 @@ main{flex:1;min-width:0;padding:6px 16px 60px}
 .tabs button.on,.tabs .pick.on{color:var(--ink);font-weight:650;border-bottom-color:var(--accent)}
 .tabs b{font-weight:700;color:var(--new)}
 .tabs input{border:0;background:none;color:inherit;font:inherit;font-size:13px;cursor:pointer;color-scheme:light dark}
+.alertbtn{background:none;border:1px solid var(--line);border-radius:6px;padding:7px 11px;color:var(--mute);font:inherit;font-size:13.5px;cursor:pointer}.alertbtn.on{color:var(--ink);border-color:var(--accent)}.alertbtn:hover{color:var(--ink)}
 header input[type=search]{margin-left:auto}
 header select{padding:7px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit;font-size:13.5px}
 .bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
@@ -66,6 +67,7 @@ h2.day.new{color:var(--new)}h2.day.today{color:var(--accent)}h2.day{font-size:12
     <label class="pick" title="Pick any date">Date <input type="date" id="pick"></label>
   </nav>
   <select id="tag" title="Filter by type"><option value="">All types</option></select>
+  <button id="alerts" class="alertbtn" title="Play a sound and show a pop-up when a new notice arrives (keep this tab open)"></button>
   <input type="search" id="q" placeholder="Search notices or state...">
 </header>
 <div class="wrap">
@@ -166,6 +168,35 @@ $("#copyall").onclick=function(){
   copyText(m.trim(),this);
 };
 $("#tag").addEventListener("input",e=>{tagsel=e.target.value;render()});
+const store={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}}};
+let alertsOn=store.get("pg_alerts")==="1",unread=0,actx=null;
+function ting(){try{
+  actx=actx||new (window.AudioContext||window.webkitAudioContext)();if(actx.state==="suspended")actx.resume();
+  const t0=actx.currentTime;
+  [[880,0],[1318.5,0.15]].forEach(([f,d])=>{const o=actx.createOscillator(),g=actx.createGain();o.type="sine";o.frequency.value=f;
+    g.gain.setValueAtTime(0.0001,t0+d);g.gain.exponentialRampToValueAtTime(0.3,t0+d+0.02);g.gain.exponentialRampToValueAtTime(0.0001,t0+d+0.5);
+    o.connect(g);g.connect(actx.destination);o.start(t0+d);o.stop(t0+d+0.55)});
+}catch(e){}}
+function announce(list){
+  if(!alertsOn)return;
+  ting();
+  if("Notification" in window&&Notification.permission==="granted"){
+    list.slice(0,3).forEach(n=>{try{const x=new Notification("New · "+nameOf(n),{body:n.title,tag:n.id});x.onclick=()=>{window.focus();x.close()}}catch(e){}});
+    if(list.length>3){try{new Notification("PG Notices",{body:"+"+(list.length-3)+" more new notices",tag:"pg-more"})}catch(e){}}
+  }
+  unread+=list.length;document.title="("+unread+") PG Notices Desk";
+}
+function paintAlerts(){const b=$("#alerts");b.textContent=alertsOn?"Alerts on":"Alerts off";b.classList.toggle("on",alertsOn)}
+$("#alerts").onclick=async()=>{
+  if(!alertsOn){
+    if("Notification" in window&&Notification.permission==="default"){try{await Notification.requestPermission()}catch(e){}}
+    alertsOn=true;ting();store.set("pg_alerts","1");
+  }else{alertsOn=false;store.set("pg_alerts","0")}
+  paintAlerts();
+};
+window.addEventListener("focus",()=>{unread=0;document.title="PG Notices Desk"});
+document.addEventListener("click",()=>{if(actx&&actx.state==="suspended")actx.resume()});
+paintAlerts();
 const lc=Object.values(srcs).map(s=>s.last_checked).sort().pop();
 $("#gen").textContent="Last check: "+ago(lc);
 document.querySelectorAll("#seg button").forEach(b=>b.onclick=()=>{dsel=b.dataset.d;$("#pick").value="";render()});
@@ -175,9 +206,13 @@ render();
 // when served from a website, quietly re-fetch fresh data every 2 minutes
 if(location.protocol.startsWith("http")){
   const refresh=()=>fetch("notices.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{
-    if(!d||!d.notices)return;srcs=d.sources;all=d.notices;now=Date.now();
+    if(!d||!d.notices)return;
+    const before=new Set(all.map(n=>n.id));
+    srcs=d.sources;all=d.notices;now=Date.now();
+    const arrived=all.filter(n=>!n.baseline&&!before.has(n.id));
+    if(arrived.length)announce(arrived);
     const lc2=Object.values(srcs).map(s=>s.last_checked).sort().pop();$("#gen").textContent="Last check: "+ago(lc2);render()}).catch(()=>{});
-  setInterval(refresh,120000);refresh();
+  window.pgRefresh=refresh;setInterval(refresh,60000);refresh();
 }
 </script>
 </body>
