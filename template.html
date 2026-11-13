@@ -197,26 +197,27 @@ let voiceOn=store.get("pg_voice")!=="0";
 try{const q=new URLSearchParams(location.search).get("name");if(q!==null)store.set("pg_name",q.trim())}catch(e){}
 const voiceName=()=>{const n=(store.get("pg_name")||"").trim();return /^mansi$/i.test(n)?"मानसी":n};
 function hindiVoice(){const vs=("speechSynthesis" in window&&speechSynthesis.getVoices())||[];return vs.find(v=>/^hi/i.test(v.lang))||null}
-function speak(hi,en){
+// a short, loud "angry" call-out (no state name): fast, low pitch, full volume, said twice
+function shout(){
   if(!("speechSynthesis" in window))return;
   try{
-    const v=hindiVoice(),nm=voiceName(),u=new SpeechSynthesisUtterance((nm?(v?nm:(store.get("pg_name")||"").trim())+", ":"")+(v?hi:en));
-    if(v){u.voice=v;u.lang=v.lang}else u.lang="en-IN";
-    u.rate=0.95;speechSynthesis.cancel();speechSynthesis.speak(u);
+    const v=hindiVoice(),raw=(store.get("pg_name")||"").trim(),nm=voiceName();
+    const line=v?((nm?nm+"! ":"")+"नोटिस आ गया!"):((raw?raw+"! ":"")+"Notice has come!");
+    speechSynthesis.cancel();
+    for(let i=0;i<2;i++){
+      const u=new SpeechSynthesisUtterance(line);
+      if(v){u.voice=v;u.lang=v.lang}else u.lang="en-IN";
+      u.pitch=0.6;u.rate=1.25;u.volume=1;speechSynthesis.speak(u);
+    }
   }catch(e){}
 }
-function speakNew(list){
-  const ids=[];list.forEach(n=>{if(!ids.includes(n.source))ids.push(n.source)});
-  const hi=id=>(srcs[id]&&(srcs[id].hi||srcs[id].name))||id,en=id=>(srcs[id]&&srcs[id].name)||id;
-  if(list.length===1)speak(hi(ids[0])+" का नया नोटिस आया है","new notice from "+en(ids[0]));
-  else{const s=ids.slice(0,4);speak(list.length+" नए नोटिस आए हैं: "+s.map(hi).join(", "),list.length+" new notices: "+s.map(en).join(", "))}
-}
+function speakNew(list){shout()}
 function paintVoice(){const b=$("#voice");b.textContent=voiceOn?"Voice on":"Voice off";b.classList.toggle("on",voiceOn)}
 $("#voice").onclick=()=>{
   voiceOn=!voiceOn;store.set("pg_voice",voiceOn?"1":"0");paintVoice();
   if(voiceOn){
     if(store.get("pg_name")===null){try{const n=prompt("Whose name should the voice say? (optional, leave empty to skip)","");store.set("pg_name",(n||"").trim())}catch(e){}}
-    speak("आवाज़ चालू है","voice is on");
+    shout();  // play it once so you hear how it sounds
   }
 };
 if("speechSynthesis" in window){speechSynthesis.getVoices();speechSynthesis.onvoiceschanged=()=>{}}
