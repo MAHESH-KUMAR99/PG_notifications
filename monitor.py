@@ -389,6 +389,7 @@ def load_merged():
             for s in json.load(f)["sources"]:
                 if s["id"] in a["sources"]:
                     a["sources"][s["id"]]["manual"] = bool(s.get("manual"))
+                    a["sources"][s["id"]]["reason"] = s.get("reason", "")
                     a["sources"][s["id"]]["url"] = s.get("view_url") or s["urls"][0]
     except (OSError, ValueError, KeyError):
         pass

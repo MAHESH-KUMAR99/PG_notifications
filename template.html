@@ -39,7 +39,8 @@ header select{padding:7px 8px;border:1px solid var(--line);border-radius:6px;bac
 .bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .bar button,.n .cp{background:none;border:0;color:var(--accent);font:inherit;font-size:13px;cursor:pointer;padding:0}
 .bar button:hover,.n .cp:hover{text-decoration:underline}
-.n .m span{margin-right:12px}.manual{display:none;margin:12px 0 0;padding-left:12px;border-left:3px solid var(--warn);color:var(--ink);font-size:14px}.manual a{color:var(--accent);text-decoration:none;white-space:nowrap}.manual a:hover{text-decoration:underline}
+.n .m span{margin-right:12px}.topnote{display:none;background:var(--panel);border-bottom:1px solid var(--line);border-left:4px solid var(--warn);padding:10px 16px;font-size:14px;line-height:1.55}.topnote b{font-weight:650}.topnote a{color:var(--accent);text-decoration:none;white-space:nowrap}.topnote a:hover{text-decoration:underline}.topnote .why{color:var(--mute)}.topnote .it{display:inline-block;margin-right:14px}
+.manual{display:none;margin:12px 0 0;padding-left:12px;border-left:3px solid var(--warn);color:var(--ink);font-size:14px}.manual a{color:var(--accent);text-decoration:none;white-space:nowrap}.manual a:hover{text-decoration:underline}
 .n .tag{color:var(--mute)}
 *{scrollbar-width:thin;scrollbar-color:var(--line) transparent}
 ::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}::-webkit-scrollbar-thumb:hover{background:var(--mute)}::-webkit-scrollbar-track{background:transparent}
@@ -70,6 +71,7 @@ h2.day.new{color:var(--new)}h2.day.today{color:var(--accent)}h2.day{font-size:12
   <button id="alerts" class="alertbtn" title="Play a sound and show a pop-up when a new notice arrives (keep this tab open)"></button>
   <input type="search" id="q" placeholder="Search notices or state...">
 </header>
+<div id="topnote" class="topnote"></div>
 <div class="wrap">
   <aside id="side"></aside>
   <main><div class="status bar" id="statusbar"><span id="status"></span><button id="copyall" title="Copies the list below as a WhatsApp-ready message">Copy for WhatsApp</button><a id="feed" href="feed.xml" style="color:var(--accent);font-size:13px">RSS feed</a></div><div id="manual" class="manual"></div><div id="list"></div></main>
@@ -140,7 +142,9 @@ function render(){
   const link=id=>`<a href="${esc(srcs[id].url)}" target="_blank" rel="noopener">${esc(srcs[id].name)} ↗</a>`;
   const man=Object.keys(srcs).sort((a,b)=>(srcs[a].order??99)-(srcs[b].order??99)).filter(needsManual);
   let warn="";
-  if(cur=="ALL"&&man.length)warn=`Auto-update is not available for ${man.length} site${man.length>1?"s":""}. Please check the official website for the latest notices: ${man.map(link).join(" · ")}`;
+  const why=id=>srcs[id].reason||((srcs[id].fails||0)>=3||!srcs[id].manual?"the website is not reachable right now":"the website cannot be read automatically");
+  $("#topnote").innerHTML=man.length?`<b>${man.length} website${man.length>1?"s are":" is"} not updating automatically right now, so please check ${man.length>1?"them":"it"} directly on the official site:</b><br>`+man.map(id=>`<span class="it"><a href="${esc(srcs[id].url)}" target="_blank" rel="noopener">${esc(srcs[id].name)} ↗</a> <span class="why">(${esc(why(id))})</span></span>`).join(""):"";
+  $("#topnote").style.display=man.length?"block":"none";
   if(cur!="ALL"&&needsManual(cur))warn=`Auto-update is not available for this site right now. Please check the official website for the latest notices: ${link(cur)}. The notices below are the last ones saved and may be outdated.`;
   $("#manual").innerHTML=warn;$("#manual").style.display=warn?"block":"none";
   $("#status").innerHTML=st;
