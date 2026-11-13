@@ -163,7 +163,9 @@
         "https://dme.assam.gov.in/document-details/educational-notice-0"
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "manual": true,
+      "reason": "the website only opens from India, our server is abroad"
     },
     {
       "id": "KL",
