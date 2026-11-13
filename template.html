@@ -68,6 +68,7 @@ h2.day.new{color:var(--new)}h2.day.today{color:var(--accent)}h2.day{font-size:12
     <label class="pick" title="Pick any date">Date <input type="date" id="pick"></label>
   </nav>
   <select id="tag" title="Filter by type"><option value="">All types</option></select>
+  <button id="voice" class="alertbtn" title="Say the state name out loud when a new notice arrives"></button>
   <button id="alerts" class="alertbtn" title="Play a sound and show a pop-up when a new notice arrives (keep this tab open)"></button>
   <input type="search" id="q" placeholder="Search notices or state...">
 </header>
@@ -184,12 +185,41 @@ function ting(){try{
 function announce(list){
   if(!alertsOn)return;
   ting();
+  if(voiceOn)setTimeout(()=>speakNew(list),650);
   if("Notification" in window&&Notification.permission==="granted"){
     list.slice(0,3).forEach(n=>{try{const x=new Notification("New · "+nameOf(n),{body:n.title,tag:n.id});x.onclick=()=>{window.focus();x.close()}}catch(e){}});
     if(list.length>3){try{new Notification("PG Notices",{body:"+"+(list.length-3)+" more new notices",tag:"pg-more"})}catch(e){}}
   }
   unread+=list.length;document.title="("+unread+") PG Notices Desk";
 }
+let voiceOn=store.get("pg_voice")!=="0";
+// the voice can greet someone by name: open the page once as ...?name=Mansi
+try{const q=new URLSearchParams(location.search).get("name");if(q!==null)store.set("pg_name",q.trim())}catch(e){}
+const voiceName=()=>{const n=(store.get("pg_name")||"").trim();return /^mansi$/i.test(n)?"मानसी":n};
+function hindiVoice(){const vs=("speechSynthesis" in window&&speechSynthesis.getVoices())||[];return vs.find(v=>/^hi/i.test(v.lang))||null}
+function speak(hi,en){
+  if(!("speechSynthesis" in window))return;
+  try{
+    const v=hindiVoice(),nm=voiceName(),u=new SpeechSynthesisUtterance((nm?(v?nm:(store.get("pg_name")||"").trim())+", ":"")+(v?hi:en));
+    if(v){u.voice=v;u.lang=v.lang}else u.lang="en-IN";
+    u.rate=0.95;speechSynthesis.cancel();speechSynthesis.speak(u);
+  }catch(e){}
+}
+function speakNew(list){
+  const ids=[];list.forEach(n=>{if(!ids.includes(n.source))ids.push(n.source)});
+  const hi=id=>(srcs[id]&&(srcs[id].hi||srcs[id].name))||id,en=id=>(srcs[id]&&srcs[id].name)||id;
+  if(list.length===1)speak(hi(ids[0])+" का नया नोटिस आया है","new notice from "+en(ids[0]));
+  else{const s=ids.slice(0,4);speak(list.length+" नए नोटिस आए हैं: "+s.map(hi).join(", "),list.length+" new notices: "+s.map(en).join(", "))}
+}
+function paintVoice(){const b=$("#voice");b.textContent=voiceOn?"Voice on":"Voice off";b.classList.toggle("on",voiceOn)}
+$("#voice").onclick=()=>{
+  voiceOn=!voiceOn;store.set("pg_voice",voiceOn?"1":"0");paintVoice();
+  if(voiceOn){
+    if(store.get("pg_name")===null){try{const n=prompt("Whose name should the voice say? (optional, leave empty to skip)","");store.set("pg_name",(n||"").trim())}catch(e){}}
+    speak("आवाज़ चालू है","voice is on");
+  }
+};
+if("speechSynthesis" in window){speechSynthesis.getVoices();speechSynthesis.onvoiceschanged=()=>{}}
 function paintAlerts(){const b=$("#alerts");b.textContent=alertsOn?"Alerts on":"Alerts off";b.classList.toggle("on",alertsOn)}
 $("#alerts").onclick=async()=>{
   if(!alertsOn){
@@ -200,7 +230,7 @@ $("#alerts").onclick=async()=>{
 };
 window.addEventListener("focus",()=>{unread=0;document.title="PG Notices Desk"});
 document.addEventListener("click",()=>{if(actx&&actx.state==="suspended")actx.resume()});
-paintAlerts();
+paintAlerts();paintVoice();
 const lc=Object.values(srcs).map(s=>s.last_checked).sort().pop();
 $("#gen").textContent="Last check: "+ago(lc);
 document.querySelectorAll("#seg button").forEach(b=>b.onclick=()=>{dsel=b.dataset.d;$("#pick").value="";render()});

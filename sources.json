@@ -9,14 +9,16 @@
         "https://mcc.nic.in/current-events-pg/",
         "https://mcc.nic.in/news-events-pg/",
         "https://mcc.nic.in/eservices-schedule-pg/"
-      ]
+      ],
+      "hi": "एमसीसी, ऑल इंडिया"
     },
     {
       "id": "WB",
       "name": "West Bengal",
       "urls": [
         "https://wbmcc.nic.in/pg-medical-counselling/"
-      ]
+      ],
+      "hi": "पश्चिम बंगाल"
     },
     {
       "id": "KEA",
@@ -26,7 +28,8 @@
       ],
       "via": "pc",
       "manual": true,
-      "reason": "the website only opens from India, our server is abroad"
+      "reason": "the website only opens from India, our server is abroad",
+      "hi": "कर्नाटक"
     },
     {
       "id": "J&K",
@@ -38,7 +41,8 @@
       "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
       "via": "pc",
       "manual": true,
-      "reason": "the website only opens from India, our server is abroad"
+      "reason": "the website only opens from India, our server is abroad",
+      "hi": "जम्मू और कश्मीर"
     },
     {
       "id": "TG",
@@ -47,42 +51,48 @@
         "https://www.knruhs.telangana.gov.in/all-notifications/"
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "hi": "तेलंगाना"
     },
     {
       "id": "MP",
       "name": "Madhya Pradesh",
       "urls": [
         "https://dme.mponline.gov.in/portal/services/dmemp/DMEPG/Profile/ProfileLoginHome.aspx?Counstype=rfZR9zLVYzySY17sU9L9gA%3d%3d"
-      ]
+      ],
+      "hi": "मध्य प्रदेश"
     },
     {
       "id": "TR",
       "name": "Tripura",
       "urls": [
         "https://trmcc.admissions.nic.in/pg-counselling/"
-      ]
+      ],
+      "hi": "त्रिपुरा"
     },
     {
       "id": "GJ",
       "name": "Gujarat",
       "urls": [
         "https://www.medadmgujarat.org/pg/home.aspx"
-      ]
+      ],
+      "hi": "गुजरात"
     },
     {
       "id": "PB",
       "name": "Punjab (BFUHS)",
       "urls": [
         "https://admission.bfuhsonline.ac.in/mdms/mdms.asp"
-      ]
+      ],
+      "hi": "पंजाब"
     },
     {
       "id": "MH",
       "name": "Maharashtra",
       "urls": [
         "https://medical2026.mahacet.org/NEET-PGM-2026/login"
-      ]
+      ],
+      "hi": "महाराष्ट्र"
     },
     {
       "id": "UP",
@@ -92,14 +102,16 @@
       ],
       "view_url": "https://upneet.gov.in/NewandNotification.aspx",
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "hi": "उत्तर प्रदेश"
     },
     {
       "id": "BR",
       "name": "Bihar (PGMAC)",
       "urls": [
         "https://bceceboard.bihar.gov.in/PGMACIndex.php"
-      ]
+      ],
+      "hi": "बिहार"
     },
     {
       "id": "BR HOME",
@@ -108,7 +120,8 @@
         "https://bceceboard.bihar.gov.in/index.php/"
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "hi": "बिहार"
     },
     {
       "id": "TN",
@@ -117,7 +130,8 @@
         "https://tnmedicalselection.net/"
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "hi": "तमिलनाडु"
     },
     {
       "id": "SK",
@@ -126,7 +140,8 @@
         "https://www.smu.edu.in/"
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "hi": "सिक्किम"
     },
     {
       "id": "PY",
@@ -135,7 +150,8 @@
         "https://www.centacpuducherry.in/"
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "hi": "पुडुचेरी"
     },
     {
       "id": "AR",
@@ -145,7 +161,8 @@
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
       "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
-      "fetch_via": "jina"
+      "fetch_via": "jina",
+      "hi": "अरुणाचल प्रदेश"
     },
     {
       "id": "AP",
@@ -154,7 +171,8 @@
         "https://drntr.uhsap.in/index/"
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "hi": "आंध्र प्रदेश"
     },
     {
       "id": "AS",
@@ -165,14 +183,16 @@
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
       "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
       "manual": true,
-      "reason": "the website only opens from India, our server is abroad"
+      "reason": "the website only opens from India, our server is abroad",
+      "hi": "असम"
     },
     {
       "id": "KL",
       "name": "Kerala (CEE)",
       "urls": [
         "https://cee.kerala.gov.in/pgm2026/notification"
-      ]
+      ],
+      "hi": "केरल"
     },
     {
       "id": "HR",
@@ -181,7 +201,8 @@
         "https://hry.online-counselling.co.in/"
       ],
       "api": "https://hryapi.online-counselling.co.in/v1/api/notifications",
-      "site": "https://hry.online-counselling.co.in"
+      "site": "https://hry.online-counselling.co.in",
+      "hi": "हरियाणा"
     },
     {
       "id": "CG",
@@ -189,21 +210,24 @@
       "urls": [
         "https://cgdme.in/MD-MS-DIPLOMA.php"
       ],
-      "more_is_link": true
+      "more_is_link": true,
+      "hi": "छत्तीसगढ़"
     },
     {
       "id": "UK",
       "name": "Uttarakhand",
       "urls": [
         "https://meta-secure.com/HNBUMU_MDMS"
-      ]
+      ],
+      "hi": "उत्तराखंड"
     },
     {
       "id": "OD",
       "name": "Odisha",
       "urls": [
         "https://dmetodisha.in/PGMCC_Static/MEDICAL%20COUNSELLING%201/Notifications.html"
-      ]
+      ],
+      "hi": "ओडिशा"
     },
     {
       "id": "RJ",
@@ -213,14 +237,16 @@
       ],
       "api": "https://pg.neetrajasthan.com/api/v1/user/getAllNotifications",
       "site": "https://pg.neetrajasthan.com",
-      "api_kind": "rj"
+      "api_kind": "rj",
+      "hi": "राजस्थान"
     },
     {
       "id": "JH",
       "name": "Jharkhand",
       "urls": [
         "https://neetpgcet.jceceb.co.in/Public/Home"
-      ]
+      ],
+      "hi": "झारखंड"
     },
     {
       "id": "MN",
@@ -229,7 +255,8 @@
         "https://manipurhealthdirectorate.mn.gov.in/news/585"
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "hi": "मणिपुर"
     },
     {
       "id": "MZ",
@@ -238,7 +265,8 @@
         "https://neigrihms.gov.in/examsnotification.html"
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "hi": "मिज़ोरम"
     },
     {
       "id": "HP",
@@ -247,7 +275,8 @@
         "https://amruhp.ac.in/home-general-notifications/"
       ],
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
-      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)"
+      "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
+      "hi": "हिमाचल प्रदेश"
     },
     {
       "id": "GA",
@@ -258,7 +287,8 @@
       "keep": "\\bPG\\b|NEET[ -]?PG|post[ -]?graduate|\\bMD\\b|\\bMS\\b|MD/MS|MDMS|\\bMDS\\b|\\bDNB\\b|PGMAC|PGPAC|PGDAC|PGET|diploma|super ?speciality|\\bSS\\b",
       "drop": "ayush|homoeo|homeo|unani|ayurved|\\bBAMS\\b|\\bBHMS\\b|\\bBUMS\\b|\\bBNYS\\b|nursing|pharm|\\bB\\.?\\s?Ed\\b|paramedical|allied|veterinary|B\\.?V\\.?Sc|\\bBSc\\b|\\bBPT\\b|\\bMPT\\b|physiotherapy|dissertation|examinations?\\b.*(part|summative|supplementary)",
       "manual": true,
-      "reason": "the website refuses automated access from our server"
+      "reason": "the website refuses automated access from our server",
+      "hi": "गोवा"
     }
   ]
 }
