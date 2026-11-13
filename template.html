@@ -174,7 +174,7 @@ $("#copyall").onclick=function(){
 };
 $("#tag").addEventListener("input",e=>{tagsel=e.target.value;render()});
 const store={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}}};
-let alertsOn=store.get("pg_alerts")==="1",unread=0,actx=null;
+let unlocked=false,pending=false,alertsOn=store.get("pg_alerts")==="1",unread=0,actx=null;
 function ting(){try{
   actx=actx||new (window.AudioContext||window.webkitAudioContext)();if(actx.state==="suspended")actx.resume();
   const t0=actx.currentTime;
@@ -184,8 +184,7 @@ function ting(){try{
 }catch(e){}}
 function announce(list){
   if(!alertsOn)return;
-  ting();
-  if(voiceOn)setTimeout(()=>speakNew(list),650);
+  if(unlocked){ting();if(voiceOn)setTimeout(()=>speakNew(list),650)}else pending=true;
   if("Notification" in window&&Notification.permission==="granted"){
     list.slice(0,3).forEach(n=>{try{const x=new Notification("New · "+nameOf(n),{body:n.title,tag:n.id});x.onclick=()=>{window.focus();x.close()}}catch(e){}});
     if(list.length>3){try{new Notification("PG Notices",{body:"+"+(list.length-3)+" more new notices",tag:"pg-more"})}catch(e){}}
@@ -221,7 +220,19 @@ $("#voice").onclick=()=>{
   }
 };
 if("speechSynthesis" in window){speechSynthesis.getVoices();speechSynthesis.onvoiceschanged=()=>{}}
-function paintAlerts(){const b=$("#alerts");b.textContent=alertsOn?"Alerts on":"Alerts off";b.classList.toggle("on",alertsOn)}
+function paintAlerts(){const b=$("#alerts");b.textContent=alertsOn?(unlocked?"Alerts on":"Alerts on · tap once to wake sound"):"Alerts off";b.classList.toggle("on",alertsOn);b.title=alertsOn&&!unlocked?"Your settings are saved. After a reload the browser needs one click anywhere on the page before it allows sound and voice.":"Play a sound and show a pop-up when a new notice arrives (keep this tab open)"}
+function unlock(){
+  if(unlocked)return;unlocked=true;
+  try{actx=actx||new (window.AudioContext||window.webkitAudioContext)();actx.resume()}catch(e){}
+  try{if("speechSynthesis" in window){const u=new SpeechSynthesisUtterance(" ");u.volume=0;speechSynthesis.speak(u)}}catch(e){}
+  if(pending&&alertsOn){pending=false;ting();if(voiceOn)setTimeout(shout,650)}
+  paintAlerts();
+}
+["pointerdown","keydown","touchstart"].forEach(ev=>document.addEventListener(ev,unlock,{passive:true}));
+// remember which notices were already shown, so ones that arrived while the page was closed alert on the next visit
+let seenSet=null;try{const s=JSON.parse(store.get("pg_seen")||"null");if(Array.isArray(s))seenSet=new Set(s)}catch(e){}
+function markSeen(){seenSet=new Set([...(seenSet||[]),...all.map(n=>n.id)]);store.set("pg_seen",JSON.stringify([...seenSet].slice(-4000)))}
+function newSinceSeen(){return seenSet?all.filter(n=>!n.baseline&&!seenSet.has(n.id)):[]}
 $("#alerts").onclick=async()=>{
   if(!alertsOn){
     if("Notification" in window&&Notification.permission==="default"){try{await Notification.requestPermission()}catch(e){}}
@@ -232,6 +243,7 @@ $("#alerts").onclick=async()=>{
 window.addEventListener("focus",()=>{unread=0;document.title="PG Notices Desk"});
 document.addEventListener("click",()=>{if(actx&&actx.state==="suspended")actx.resume()});
 paintAlerts();paintVoice();
+{const away=newSinceSeen();if(away.length)announce(away);markSeen()}
 const lc=Object.values(srcs).map(s=>s.last_checked).sort().pop();
 $("#gen").textContent="Last check: "+ago(lc);
 document.querySelectorAll("#seg button").forEach(b=>b.onclick=()=>{dsel=b.dataset.d;$("#pick").value="";render()});
@@ -244,8 +256,9 @@ if(location.protocol.startsWith("http")){
     if(!d||!d.notices)return;
     const before=new Set(all.map(n=>n.id));
     srcs=d.sources;all=d.notices;now=Date.now();
-    const arrived=all.filter(n=>!n.baseline&&!before.has(n.id));
+    const arrived=newSinceSeen();
     if(arrived.length)announce(arrived);
+    markSeen();
     const lc2=Object.values(srcs).map(s=>s.last_checked).sort().pop();$("#gen").textContent="Last check: "+ago(lc2);render()}).catch(()=>{});
   window.pgRefresh=refresh;setInterval(refresh,60000);refresh();
 }
