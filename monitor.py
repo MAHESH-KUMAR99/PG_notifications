@@ -415,6 +415,22 @@ def note_failure(cfg, s, st):
         notify(cfg, f"DOWN: {s['name']} failing for 3 checks in a row\n{st.get('error')}\n{st.get('url')}")
 
 
+def push_ntfy(cfg, state_name, title, url):
+    """Phone push through ntfy.sh (free, no account). Only used when NTFY_TOPIC is set."""
+    topic = cfg.get("ntfy_topic")
+    if not topic:
+        return
+    if cfg.get("_pushed", 0) >= 8:  # a burst of notices becomes one summary line instead of a flood
+        cfg["_skipped"] = cfg.get("_skipped", 0) + 1
+        return
+    cfg["_pushed"] = cfg.get("_pushed", 0) + 1
+    try:
+        requests.post("https://ntfy.sh/", json={"topic": topic, "title": f"New notice · {state_name}",
+                      "message": title[:300], "priority": 4, "tags": ["bell"], "click": url}, timeout=20)
+    except Exception as e:  # noqa: BLE001
+        print("ntfy failed:", e)
+
+
 def notify(cfg, text):
     if not cfg.get("bot_token") or not cfg.get("chat_id"):
         return
@@ -431,6 +447,7 @@ def run(only):
     cfg = json.load(open(CFG_FILE)) if os.path.exists(CFG_FILE) else {}
     cfg.setdefault("bot_token", os.environ.get("TG_BOT_TOKEN", ""))
     cfg.setdefault("chat_id", os.environ.get("TG_CHAT_ID", ""))
+    cfg.setdefault("ntfy_topic", os.environ.get("NTFY_TOPIC", ""))
     min_date = conf.get("min_date", "2026-07-01")
     data = load()
     for n in data["notices"]:  # bring older stored titles to the current normal form (ids follow the title)
@@ -538,6 +555,7 @@ def run(only):
                     new += 1
                     d = n["date"] or "date n/a"
                     notify(cfg, f"NEW | {s['name']} | {tag_of(n['title'])}\n{n['title']}\n{d}\n{n['links'][0]['url']}")
+                    push_ntfy(cfg, s["name"], n["title"], n["links"][0]["url"])
             st["initialized"] = True
             st["seen"] = list(seen | seen_ids)[:5000]
             st["count"] = len(seen_ids)
@@ -563,6 +581,12 @@ def run(only):
     data["notices"] = kept
     for n in data["notices"]:
         n["tag"] = tag_of(n["title"])
+    if cfg.get("_skipped"):
+        try:
+            requests.post("https://ntfy.sh/", json={"topic": cfg["ntfy_topic"], "title": "More new notices",
+                          "message": f"+{cfg['_skipped']} more new notices, open the page", "priority": 3}, timeout=20)
+        except Exception as e:  # noqa: BLE001
+            print("ntfy failed:", e)
     data["last_run"] = now
     data["last_run_utc"] = datetime.now(timezone.utc).replace(tzinfo=None).isoformat(timespec="seconds")
     save(data)

@@ -39,7 +39,9 @@ header select{padding:7px 8px;border:1px solid var(--line);border-radius:6px;bac
 .bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .bar button,.n .cp{background:none;border:0;color:var(--accent);font:inherit;font-size:13px;cursor:pointer;padding:0}
 .bar button:hover,.n .cp:hover{text-decoration:underline}
-.n .m span{margin-right:12px}.topnote{display:none;background:var(--panel);border-bottom:1px solid var(--line);border-left:4px solid var(--warn);padding:10px 16px;font-size:14px;line-height:1.55}.topnote b{font-weight:650}.topnote a{color:var(--accent);text-decoration:none;white-space:nowrap}.topnote a:hover{text-decoration:underline}.topnote .why{color:var(--mute)}.topnote .it{display:inline-block;margin-right:14px}
+.n .m span{margin-right:12px}.wake{display:none;background:var(--accent);color:#fff;text-align:center;padding:11px 16px;font-size:15px;font-weight:650;cursor:pointer}
+.away{display:none;background:var(--panel);border-bottom:1px solid var(--line);border-left:4px solid var(--new);padding:10px 16px;font-size:14px;line-height:1.55}.away button{margin-left:10px;background:none;border:0;color:var(--accent);font:inherit;cursor:pointer;padding:0}
+.topnote{display:none;background:var(--panel);border-bottom:1px solid var(--line);border-left:4px solid var(--warn);padding:10px 16px;font-size:14px;line-height:1.55}.topnote b{font-weight:650}.topnote a{color:var(--accent);text-decoration:none;white-space:nowrap}.topnote a:hover{text-decoration:underline}.topnote .why{color:var(--mute)}.topnote .it{display:inline-block;margin-right:14px}
 .manual{display:none;margin:12px 0 0;padding-left:12px;border-left:3px solid var(--warn);color:var(--ink);font-size:14px}.manual a{color:var(--accent);text-decoration:none;white-space:nowrap}.manual a:hover{text-decoration:underline}
 .n .tag{color:var(--mute)}
 *{scrollbar-width:thin;scrollbar-color:var(--line) transparent}
@@ -72,6 +74,8 @@ h2.day.new{color:var(--new)}h2.day.today{color:var(--accent)}h2.day{font-size:12
   <button id="alerts" class="alertbtn" title="Play a sound and show a pop-up when a new notice arrives (keep this tab open)"></button>
   <input type="search" id="q" placeholder="Search notices or state...">
 </header>
+<div id="wake" class="wake"></div>
+<div id="away" class="away"></div>
 <div id="topnote" class="topnote"></div>
 <div class="wrap">
   <aside id="side"></aside>
@@ -220,7 +224,16 @@ $("#voice").onclick=()=>{
   }
 };
 if("speechSynthesis" in window){speechSynthesis.getVoices();speechSynthesis.onvoiceschanged=()=>{}}
-function paintAlerts(){const b=$("#alerts");b.textContent=alertsOn?(unlocked?"Alerts on":"Alerts on · tap once to wake sound"):"Alerts off";b.classList.toggle("on",alertsOn);b.title=alertsOn&&!unlocked?"Your settings are saved. After a reload the browser needs one click anywhere on the page before it allows sound and voice.":"Play a sound and show a pop-up when a new notice arrives (keep this tab open)"}
+function paintWake(){const w=$("#wake"),show=alertsOn&&!unlocked;w.style.display=show?"block":"none";w.textContent=show?"Alerts are on, but your browser needs one click to turn the sound on. Click here.":""}
+let awayAll=[],polled=false;
+function showAway(add){
+  awayAll=awayAll.concat(add.filter(n=>!awayAll.some(x=>x.id===n.id)));const list=awayAll;
+  const el=$("#away"),top=list.slice(0,3).map(n=>nameOf(n)+": "+n.title).join(" · ");
+  el.innerHTML="<b>"+list.length+" new notice"+(list.length>1?"s":"")+" since your last visit.</b> "+esc(top)+(list.length>3?" … and "+(list.length-3)+" more":"")+' <button id="awayx">Dismiss</button>';
+  el.style.display="block";$("#awayx").onclick=()=>{el.style.display="none"};
+}
+$("#wake").onclick=unlock;
+function paintAlerts(){paintWake();const b=$("#alerts");b.textContent=alertsOn?(unlocked?"Alerts on":"Alerts on · tap once to wake sound"):"Alerts off";b.classList.toggle("on",alertsOn);b.title=alertsOn&&!unlocked?"Your settings are saved. After a reload the browser needs one click anywhere on the page before it allows sound and voice.":"Play a sound and show a pop-up when a new notice arrives (keep this tab open)"}
 function unlock(){
   if(unlocked)return;unlocked=true;
   try{actx=actx||new (window.AudioContext||window.webkitAudioContext)();actx.resume()}catch(e){}
@@ -243,7 +256,7 @@ $("#alerts").onclick=async()=>{
 window.addEventListener("focus",()=>{unread=0;document.title="PG Notices Desk"});
 document.addEventListener("click",()=>{if(actx&&actx.state==="suspended")actx.resume()});
 paintAlerts();paintVoice();
-{const away=newSinceSeen();if(away.length)announce(away);markSeen()}
+{const away=newSinceSeen();if(away.length){announce(away);showAway(away)}markSeen()}
 const lc=Object.values(srcs).map(s=>s.last_checked).sort().pop();
 $("#gen").textContent="Last check: "+ago(lc);
 document.querySelectorAll("#seg button").forEach(b=>b.onclick=()=>{dsel=b.dataset.d;$("#pick").value="";render()});
@@ -257,8 +270,8 @@ if(location.protocol.startsWith("http")){
     const before=new Set(all.map(n=>n.id));
     srcs=d.sources;all=d.notices;now=Date.now();
     const arrived=newSinceSeen();
-    if(arrived.length)announce(arrived);
-    markSeen();
+    if(arrived.length){announce(arrived);if(!polled)showAway(arrived)}
+    polled=true;markSeen();
     const lc2=Object.values(srcs).map(s=>s.last_checked).sort().pop();$("#gen").textContent="Last check: "+ago(lc2);render()}).catch(()=>{});
   window.pgRefresh=refresh;setInterval(refresh,60000);refresh();
 }
